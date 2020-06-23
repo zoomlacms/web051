@@ -1,0 +1,167 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="utf-8">
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+</head>
+<body class="blog2015">
+<div class="relative">
+<div class="navbar navbar-default" role="navigation" id="home_scolls">
+<div class="container blog2015_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/skin/2010/images/logo.jpg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/blog/products/">产品管锥</a></li>
+<li><a href="/blog/eye/">观点碰撞</a></li>
+<li><a href="/blog/techs/">技术问道</a></li>
+<li><a href="/blog/ren/">那人那事</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<DIV class="blog2015_banner2" style="background-image: url({SField sid="栏目信息数据源" FD="NodePicUrl" page="0"/});">
+<DIV class="container">
+<h2 class="ZoomlaXingtiJ3"><i class="fa  fa-slideshare"></i>{ZL.Label id="根据ID输出节点名称" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}<abbr>--Zoomla!逐浪CMS官方博客</abbr></h2>
+</div>
+</div>
+
+<div class="container margintop10">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / {ZL.Label id="三级智能节点导航" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}
+</ol>
+</div>
+
+<div class="container  blog2015_con">
+<div class="container" id="Content">
+<h1>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+
+<div id="container paddin10">
+<p class="text-center">
+作者：{SField sid="文章模型数据源标签" FD="author" page="0"/} 发布时间：{ZL:FormatDate({SField sid="文章模型数据源标签" FD="UpDateTime" page="0"/},yyyy-MM-dd)/}   来源:{SField sid="文章模型数据源标签" FD="source" page="0"/}  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}"></SCRIPT>  <a href="http://demo.z01.com/Class_100/NodePage.aspx?t={SField sid="文章模型数据源标签" FD="Title" page="0"/}-来自{$SiteName/}&urls={$SiteURL/}/item/{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<h3>{ZL.Label id="博客内容页_抽取头像和签名" UserName="{SField sid="文章模型数据源标签" FD="author" page="0"/}" /}</h3>
+<div id="Content_txt">
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='{$UploadDir/}"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('{SField sid="文章模型数据源标签" FD="Defaultpic"/}');
+showimg('');
+</script>
+</div>
+<div id="T_page">{ZL.Page id="2009版内容分页" num="{SField sid="文章模型数据源标签" FD="F_page" page="0"/}"/}</div>
+<br/><br/><br/>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：{ZL.Label id="编辑_信息中心通用"/} &nbsp;<a href="/user/content/addtofav.aspx?infoid={SField sid="文章模型数据源标签" FD="GENERALID"/}" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}" target="_blank">点此参与评论</a>>></div>
+<br/>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<br/><br/>
+<div class="artInfo">{ZL.Label id="2012点击复制网址代码"/}</div>
+<br/>
+<div class="Contnet_old">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}     下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+<!-- 内容主体结束 --></div>
+
+</div>
+
+
+<!--中部主体结束 -->
+{ZL.Label id="响应式网站底部"/}
+</body>
+</html>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+$(function () {
+	$("#tabs1 a").mouseover(function (e) {
+		$(this).tab('show');
+	});
+ });
+$ID = function(el){
+	return document.getElementById(el);
+};
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script>

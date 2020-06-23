@@ -1,0 +1,549 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>社区门户解决方案_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="" />
+<meta name="Description" content="社区门户解决方案">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" >
+<link href="/Template/office/style/2014.css?v=20170402" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<style>
+.Home_server { margin-top:0;}
+.menu .softList { top:0;}
+</style>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style/images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0"> 
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_Product"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_shop"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_case"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_Project"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_down" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_demo"><a href="/demo/" target="_blank">体验中心</a></li>
+	<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+
+<div class="project_banner"><a href="/Project/">我们提供全网最卓越的WEB与移动软件解决方案</a></div>
+
+<div class="container project_main">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="project_main_l">
+<div class="project_main_lt">解决方案</div>
+<ul>
+<li id="pj131"><a href="/Project/131.shtml">教育网站解决方案</a></li><li id="pj132"><a href="/Project/132.shtml">交友网站解决方案</a></li><li id="pj133"><a href="/Project/133.shtml">企业网站解决方案</a></li><li id="pj134"><a href="/Project/134.shtml">社区门户解决方案</a></li><li id="pj135"><a href="/Project/135.shtml">无线网站解决方案</a></li><li id="pj136"><a href="/Project/136.shtml">政府网站解决方案 </a></li><li id="pj137"><a href="/Project/137.shtml">文献网站解决方案</a></li><li id="pj138"><a href="/Project/138.shtml">行业门户解决方案</a></li><li id="pj166"><a href="/Project/166.shtml">网上商城解决方案</a></li><li id="pj213"><a href="/Project/213.shtml">个人网站解决方案</a></li><li id="pj399"><a href="/Project/399.shtml">门户网站群解决方案</a></li><li id="pj475"><a href="/Project/475.shtml">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/">更多解决方案+</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 project_main_r">
+<div class="mySite">
+<ol class="breadcrumb">
+<li>当前位置：<a href="/">首页</a></li>
+<li><a href="/Project/">解决方案</a></li>
+<li class="active">社区门户解决方案</li>
+</ol>
+</div>
+
+<div class="hidden"><SCRIPT language=javascript src="/Common/GetHits.aspx?id=134"></SCRIPT></div>
+<div class="project_cont">
+<div class="project_cont_t">
+<h1>社区门户解决方案</h1>
+</div>
+<div role="tabpanel">
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#project_1" aria-controls="project_1" role="tab" data-toggle="tab">背景</a></li>
+<li role="presentation"><a href="#project_2" aria-controls="project_2" role="tab" data-toggle="tab">优势</a></li>
+<li role="presentation"><a href="#project_3" aria-controls="project_3" role="tab" data-toggle="tab">细节</a></li>
+<li role="presentation"><a href="#project_4" aria-controls="project_4" role="tab" data-toggle="tab">应用</a></li>
+<li role="presentation"><a href="#project_5" aria-controls="project_5" role="tab" data-toggle="tab">成就</a></li>
+<li role="presentation"><a href="#project_6" aria-controls="project_6" role="tab" data-toggle="tab">案例</a></li>
+<li role="presentation"><a href="#project_7" aria-controls="project_7" role="tab" data-toggle="tab">体验逐浪专业化的解决方案</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="project_1">
+<h4>解决方案背景</h4>
+<div class="project_cont_c">
+<p>&nbsp;</p><p><img style="padding-bottom: 5px; padding-left: 5px; padding-right: 5px; margin-right: 5px; padding-top: 5px" border="2" alt="" align="left" src="/uploadfiles/Project/jpg/2008/8/200808210023345050.jpg"/>构成人类交流的管道不是孤立的，而是基于社区间的网络关系构成的一个人际关系网络。</p><p>在这个信息膨胀的时代，谁掌握了社区内最有效的资源，谁就能占据竞争的最有利资源，赢得未来竞争的优势。</p><p>无论是facebook、myspace，还是youtube，甚至是微软公司的LIVE策略，都是面对社区关系网络发力，构建出世界互联网下一个经济增长点，您当然不容错过！</p><p>&nbsp;</p>
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">进一步了解逐浪CMS于本解决方案的优势分析 <i class="fa fa-angle-right"></i></button>
+<a href="/UploadFiles/Project/pdf/2008/10/200810151739343688.pdf" target="_blank" >下载PDF版解决方案文献</a>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_2">
+<h4>逐浪CMS解决方案的优势</h4>
+<div class="project_cont_c">
+<p>&nbsp;</p><p>Zoomla!逐浪CMS团队，拥有专业的SNS开发团队。</p><p>作为国内领先社区网络开发团队，集成在数据库开发、运算、传统商务网站开发、智能社区交互网络等领域的研发，我们具备：</p><p>■&nbsp;十年的网站开发服务经验；</p><p>■&nbsp;自主知识产权的产品；</p><p>■&nbsp;专业的SNS开发团队；</p><p>■&nbsp;专业的项目工程师全程跟进；</p><p>■&nbsp;国内首屈一指的Oracle数据库开发团队；</p><p>■&nbsp;领军中国的品牌力量。</p>
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">进一步查看本解决方案细节 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_3">
+<h4>本案实施细节与亮点披露</h4>
+<div class="project_cont_c">
+<p><strong>1、&nbsp;内核系统</strong><br/>逐浪CMS采用Microsoft .net2.0架构，基于Microsoft Visual Studio 2005平台开发。微软公司的.net策略实施以来，经过多年的耕耘，取得了卓越的成果。其成熟的商业化应用，不仅可以减少最终用户的商业支出，更重要的是能够提高用户的效率。<br/>数据库内核采用Microsoft SQL Server2000平台，同时兼容包括Microsoft SQL2005和最新发布的Microsoft SQL2008。系统内置了扩展接口，在未来的版本中，还将支持包括DB2、Oracle等数据库，甚至包括Mysql这样的开源数据库。<br/>而外在表现层完全采用W3C标准规范来构建，完全支持智能导入导出操作，为用户提供了自由便利。<br/>逐浪CMS内核采用多层开发，使得庞大的开发工程，在后期维护中非常简单便捷易用。模块化设计保证了项目的运行效率。<br/><strong>2、&nbsp;数据计算<br/></strong>有一个故事，说的是中国某电信公司的老总某次澡，结果澡没洗好，一路上都是收费，处处设卡，如果软件开发也是这样，那显然是没有前途的。<br/>作为通用软件，商业化是其生存的基本条件，但软件开发者需要明确的是，所有的一切设计都应该以造福用户为己任，而不是完全以收费为目的。<br/>当前CMS行业有一些厂商，完全以设计化开发设计为目的，结果造成整个程序运行效率低。非人性的收费模块设置，造成用户使用的层层受阻，并且受恶意广告的干扰，严重影响站点功能与计算速度。这就好比一个武功高手时时想着独霸武林，而真正的武术是学无止境的，只有专注于技术的侠者，才能领会真正的武学精华。<br/>逐浪CMS从设计之初即确定了&amp;ldquo;以功能、效率和运算来打动用户&amp;rdquo;的发展理念，摒弃了华丽的外观、粗糙的外表、为商业收费而设置的非人性脚本干扰、商业化防破解设置等，完全面向功能设计，确保程序运行的效率，完全面向客户需求设计，以保证CMS的应用效能。<br/>随着处理器内核的不断发展，CMS应用将朝着矩阵式服务器的趋势进化。在分布式运算中，如何处理好各个阵列的数据交互、功能切换、API接口间的对话，将是CMS应用的关键功能。逐浪CMS利用华夏互联（<a href="http://www.hx008.cn">www.hx008.cn</a>）的矩阵服务器优势和HP服务器合作伙伴的资质，进行了丰富的测试与研发，为CMS的云计算打下了良好的基础，带领中国CMS开发进入&amp;ldquo;云&amp;rdquo;时代。<br/>不少CMS强调自身功能强大，但对硬件要求高，即使在通用环境下也不能正常使用，而需要为其配备专门的大型服务器来使用，甚至于后台响应时间慢、过多的JavaScript调用，造成计算效率低，甚至于暴露出安全隐患。<br/>逐浪CMS<br/><strong>3、&nbsp;表现层兼容</strong><br/>独创中文标题作为生成格式提供了卓越的SEO功能<br/>对于大型门户与推广型网站而言，搜索引擎优化（SEO）质量决定了一个网站的生存能力，逐浪CMS支持面向HTM、HTML、SHTML、SHTM的静态生成发布功能，支持指定栏目目录，使站点结构更加优化，方便搜索引擎收录。<br/>同时，独创的&amp;ldquo;中文标题+后缀&amp;rdquo;生成的形式，更能为SEO优化提供卓越的优化效果。如果当你某天访问到一条<a href="http://www.zoomla.cn/news/2008">http://www.zoomla.cn/news/2008</a>年特价商品热卖.html时，请不必惊讶，这正是源自Zoomla! CMS的卓越贡献。<br/><strong>4、&nbsp;人性化访问</strong><br/>作为网站，浏览器是将站点内容传递到用户表现层的重要管道，CMS系统对浏览器的兼容性一定程序上可以反映出该CMS的可用性与应用能力。<br/>作为业内浏览器市场的事实主宰者，微软公司IE6发布近三年没有一次更新，而IE7.0版本浏览器发布不到半年，就发布了IE8 beta版，由此足见IE8策略的重要。<br/>逐浪CMS系统从一开始就确定了高起点的研发策略，并以IE8为研发标准，同时确保兼容Firefox等主流浏览器。<br/>兼容最新标准的CMS，从根本上杜绝了不少客户一年一改版以适应新版浏览器规则的烦恼。完全支持W3C标准为中国网站的标准之路铺垫基础<br/>中国走向世界、世界了解中国。<br/>未来的网络化传播之道，国际化是其重要趋势，信息时代的文明终将造就地球村内的每一处居民便捷的交互信息。<br/>逐浪CMS系统采用国际标准UTF8语言作为表现层核心语言，从而使网站能够轻松应变国际，避免在不同的语言环境下的编码冲突，在任何国家、地域都能正确呈现网站内容！<br/><strong>5、&nbsp;个性化应用</strong><br/>逐浪CMS系统经过近一年的开发，总投入超过近百元人民币的研发资金，此次发布的逐浪CMS系统包括独有的自定义模型与节点功能、独创的项目管理系统（Zoomla! Projects）为传统B2B企业提供了卓越的功能支持、独创中文标题作为生成格式提供了卓越的SEO功能、集成逐浪SNS等多项专有技术、独有的在线纠错功能，经过业内专业人士测评后，均给予高度赞赏和肯定。<br/>独创的项目管理系统（Zoomla! Projects）为传统B2B企业提供了卓越的功能支持<br/>未来中国互联网市场中坚在哪里？中小企业和传统生产、贸易、实业型企业显然是重要的一枝力量。普通的CMS系统提供的&amp;ldquo;网上商城&amp;rdquo;型应用，显然不能满足这类企业的需求，因为我们的客户不仅仅是将实物产品通过网络商城卖出去这么简单，更多的形式是以诸如订单订制、协同开发、流程委托、研发外包、过程监控等形式进行商业的运营。<br/>逐浪CMS内建的项目管理系统(Zoomla! Projects)，专门为传统的实业型、研发型、贸易型和精密协同开发型企业设计，用户可以自由的通过后台建立项目、初始化项目进程、定义项目节点权限、管理项目满意度、并编辑丰富翔实的项目流程与过程监控体系，通过丰富的项目流来管理项目，基于国际互联网的平台交互，为传统企业插上腾飞的翅膀。<br/><strong>6、&nbsp;集成逐浪SNS，为社区化运营铺就通途</strong><br/>SNS（人际关系网络）是WEB2.0最重要的核心理念，它揭示了商业与人际关系网络产生关系的核心。逐浪SNS开发团队从2007年组建，到目前为止已经推出了其第一个版本，伴随逐浪CMS1.0的发布，已经能够做到无缝整合，让传统的网站不再是一个信息孤岛，而是用户时时访问的社区型平台，让访客成为真正的流量与效益。<br/><strong>7、&nbsp;二次开发支持</strong><br/>逐浪CMS在业内首次提出了&amp;ldquo;箱子&amp;rdquo;理念，即所有的应用都是可拆卸的，不同的用户可以打开&amp;ldquo;箱子&amp;rdquo;的不同展面，以满足其应用。<br/>其于卓越开发平台研发的逐浪CMS，为适应未来站点发展的需要，独创的模型设计理念与无限节点功能，用户可以根据自己的网站需要建立各类模型，从而满足个性化开发的需要，不再限于传统的&amp;ldquo;内容管理系统&amp;rdquo;只能简单的进行界面修改和设计而已。<br/>开箱即得的设计理念，源于逐浪软件开发组对用户和市场的深刻研究认知。逐浪CMS前期通过近万名用户数据的调查分析，发现大多数CMS开发者都把其应用者归属为同一类型的用户，从而使研发出来的产品出来缺少灵魂，即使是众口难调，但为每一个层级、不同应用需求的用户提供相应的支持，则是必不可少的。于是，逐浪首次提出了&amp;ldquo;开箱即得&amp;rdquo;的CMS开发理念，让不同的用户都能在逐浪CMS的应用与二次开发上找到准确的座标。<br/>逐浪CMS内置自主开发的模板引擎，支持用户自由定义界面、风格与设计，采用XML编程，大大加快了计算速度，模板与程序分离，无论是安全性还是易用性上都是先人一筹。<br/>为了更好的对外部数据进行对接，逐浪CMS同时开放API接口，任何符合逐浪CMS用户API接口规范的外部程序（如论坛、博客），都可以自由整合，也可随时定义开放整合，或关闭整合。<br/><strong>8、&nbsp;更新与技术支持</strong><br/>我在雷德蒙工作时，曾有个兄弟团队的资深软件开发工程师干过这样一件事。产品开发进入修补漏洞的后期，在这个阶段只有重要的漏洞才能去修补，而且代码提交前要经过伙伴测试（Buddy Test），这样做的目的是要保持产品质量的稳定性，可他过于自信了，在没有经过伙伴测试就把代码提交了。结果他的提交使第二天的每日构建（Daily Build）通不过多个重要的测试用例，兄弟团队也没法儿用它进行其它测试，白白浪费了一天时间。<br/>--微软中国研发集团服务器与开发工具事业部部门经理 徐鹏阳</p><p>徐鹏阳先生作为中国程序员界的知名人物，其上述案例揭示了安全维护与更新的重要性。作为基于WEB访问的程序，安全性是其首要任务，国内有一些CMS团队开发的CMS安全性严重存在问题，以致于不断更新，甚至于在用户后台置入强制的更新模块、干扰用户操作选择&amp;mdash;这样的流氓行为将严重妨碍用户使用。<br/>逐浪CMS从一诞生起，就非常注意安全性与更新支持，我们的更新不采用强制行为，而是采用人性化的推送，通过开发者社区、定向邮件、准告短信和专业工程师上门更新、远程协作等方式进行安全维护，注重用户的使用体验和隐私保证，构建专业的安全防护体系。<br/>网络上危机无处不在，作为企业形象的网站，在运营过程中会遇到各种安全问题，如：<br/>&amp;bull;黑客会通过各种SQL注入漏洞对网站进行攻击。<br/>&amp;bull;黑客通过文件和图片上传功能上传一些木马程序取得网站甚至服务器的控制权。<br/>&amp;bull;黑客可能会采集恶意刷新某些页面使服务器当机。<br/>&amp;bull;黑客可能会通过暴力破解或Cookie欺骗等手段来获取管理员的密码，从而达到控制网站的目的。<br/>逐浪CMS的解决方案中通过以下的各种安全手段来保证网站的最大安全：<br/>&amp;bull;周密的安全策略和攻击防护，全面防止各种攻击手段，有效保证网站的安全。系统在用户资料存储和传递中，对密码全部进行 MD5 不可逆加密处理，有效保证系统及用户资料的安全。为脆弱页面专门设计了防刷新系统，自动阻止恶意访问和攻击；安全检查应用于每一处代码中，每个提交到系统查询语句中的变量都经过过滤，可自动屏蔽恶意攻击代码，从而全面防止SQL注入攻击、密码猜解、上传木马等各种攻击手段，最大程度地保证了系统的安全和稳定。独有的全程操作记录功能，完整详细的记录了系统的各种运行情况，让管理员对网站运行情况随时有据可查。即使管理员也无法删除两天内的记录，使得日志记录模块犹如黑匣子般为系统提供最可靠的安全保证。<br/>&amp;bull;逐浪CMS内置安全屏蔽体系，可以屏蔽特定的攻击。系统编写了单独的上传组件，上传文件的黑名单类型达到26种，确保不可能直接上传这些文件。对上传文件的扩展名做了严格限制，只允许26个英文字母＋10个数字。上传至主机中的文件名由系统生成，确保黑客不可能通过各种方式在上传过程中出现非法之类的可执行文件。在利用系统上传功能上传文件后，系统会对当前上传目录进行扫描，一旦发现26个黑名单类型中的文件则立即自动删除，布下了最后一道不可能突破的关口，以保证黑客不能通过上传的方式入侵网站系统。<br/>&amp;bull;系统提供安全的管理认证码设置功能，可使管理员进入后台时除了输入用户名、密码、验证码外，还要输入设置存放在文件中自定义的安全管理认证码。除非攻击者拥有了FTP或者得到WebShell权限（可以通过Web查看、修改、删除服务器上的文件），否则攻击者不可能得到管理认证码，以确保网站系统的安全。<br/>&amp;bull;管理员登录、黑客攻击、越权操作、日常操作等都记录在案，并提供给超级管理员查询。逐浪CMS拥有完善的日志管理机制，除特定管理员删除、清空叁天前的日志外，其它日志谁都不能删除，以方便网站管理员及时通过日志找到问题原因。为防止盗用密码和猜破密码，后台管理员登录界面的密码输入框可选使用软键盘，增强了密码的安全性。<br/><strong>9、&nbsp;开发者联盟</strong><br/>逐浪软件作为CSDN核心合作伙伴、CSDN外包全球TOP首邀金牌（唯一）合作伙伴，与包括CSDN在内的专业技术平台结为合作，面向专业开发者开放，打造卓越的网站内核管理系统。同时，逐浪CMS采用面向最终用户免费、向开发者开源的策略，所有用户只要填写一个简单的申请表格（未来还将开通在线版本申请表）申请加入&amp;ldquo;逐浪CMS开发者俱乐部&amp;rdquo;，即可拥有相应的源码查看与使用权。<br/><strong>10、&nbsp;成功者俱乐部</strong><br/>我们认识到，在本土企业与商业应用环境中，缺少的并非是优秀的程序与技术，而很多时候往往因为整体解决方案与应用层架构的不理想，造成IT投资的极大浪费。逐浪软件携业内专业互联网解决方案服务商华夏互联（<a href="http://www.hx008.cn">www.hx008.cn</a>）、中国营销策划界翘楚华夏营销网（<a href="http://www.hx008.com">www.hx008.com</a>）打造金三角增值值体系，所以成为逐浪CMS商业用户，均有权享受此项服务。</p><p><img alt="" src="/UploadFiles/pic/200810/20081015110937163593.gif"/></p>
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">点击查看本案可实施的具体范围定义 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_4">
+<h4>可应用范围</h4>
+<div class="project_cont_c">
+<p>&nbsp;</p><p>逐浪CMS作为基于B/S架构的WEB应用软件，应用方便、功能强、计算效率等是其关键，同时我们深知软件的生命力最终取决于用户的认同，我们建立了起一整套的面向用户开发机制，以唯符合用户期待。</p><p>首先，逐浪CMS是一套完全免费的网站内核管理系统，商业版本与免费版本的区别仅仅在于获取到的服务不同，而功能与程序则是一样的。所有的用户都可以将其使用感受、问题、BUG提交到逐浪论坛（bbs.zoomla.cn），开发团队第一时间获取用户信息，改进产品。</p><p>其次，逐浪CMS由具备十年网站开发与服务经验的华夏互联团队亲自开发，多年的服务经验，我们知识客户真正的所需&amp;mdash;大多企业用户所关注不仅仅是功能强大，更重要的是易用性、扩展支持和稳定性，而这些方面恰恰是逐浪CMS所具备的。</p><p>其次，结盟CSDN、英特尔软件开发计划、HP硬件服务计划、微软开发计划，使逐浪CMS一开始就具备了国际化的视野，我们不仅向国内企业学习，同时定期组织学习国外同行的先进经验，努力使产品保证与当今世界一流的商务应用系统水平一致。</p><p>再次，逐浪CMS致力于成为开源领域的卓越研发团队，并组建&amp;ldquo;开发者俱乐部&amp;rdquo;。逐浪CMS采用面向最终用户免费、向开发者开源的策略，所有用户只要填写一个简单的申请表格（未来还将开通在线版本申请表），并邮寄（传真）到逐浪软件项目组，即可拥有相应的源码查看与使用权、并可开发相应的插件。让所有的人群都参与到逐浪CMS的应用开发中来，这是我们的发展理念。</p><p>最后，打造专注的客服团队，目前逐浪CMS团队的7&amp;times;24&amp;times;365的不间断Call Center服务、中国境内所有地区的上门服务，努力打造最优秀的服务团队，让每一个客户都能因此得到收益，利用互联网走上全新的商界版图。</p>
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">点击关注逐浪CMS在本案中取得的成就报告 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_5">
+<h4>已取得成就</h4>
+<div class="project_cont_c">
+<p>&nbsp;</p><p><strong>　　优势一、独有的自定义模型与节点功能</strong></p><p>　　逐浪CMS在业内首次提出了&amp;ldquo;箱子&amp;rdquo;理念，即所有的应用都是可拆卸的，不同的用户可以打开&amp;ldquo;箱子&amp;rdquo;的不同展面，以满足其应用。</p><p>　　其于卓越开发平台研发的逐浪CMS，为适应未来站点发展的需要，独创的模型设计理念与无限节点功能，用户可以根据自己的网站需要建立各类模型，从而满足个性化开发的需要，不再限于传统的&amp;ldquo;内容管理系统&amp;rdquo;只能简单的进行界面修改和设计而已。</p><p>&nbsp;</p><p><strong>　　优势二：独创的项目管理系统为B2B</strong><strong>企业提供卓越功能支持</strong></p><p>　　未来中国互联网市场中坚在哪里?中小企业和传统生产、贸易、实业型企业显然是重要的一枝力量。普通的CMS系统提供的&amp;ldquo;网上商城&amp;rdquo;型应用，显然不能满足这类企业的需求，因为我们的客户不仅仅是将实物产品通过网络商城卖出去这么简单，更多的形式是以诸如订单订制、协同开发、流程委托、研发外包、过程监控等形式进行商业的运营。</p><p>　　逐浪CMS内建的项目管理系统(Zoomla! Projects)，专门为传统的实业型、研发型、贸易型和精密协同开发型企业设计，用户可以自由的通过后台建立项目、初始化项目进程、定义项目节点权限、管理项目满意度、并编辑丰富翔实的项目流程与过程监控体系，通过丰富的项目流来管理项目，基于国际互联网的平台交互，为传统企业插上腾飞的翅膀。</p><p>&nbsp;</p><p><strong>　　优势三：独创中文标题生成格式提供卓越SEO</strong><strong>功能</strong></p><p>　　对于大型门户与推广型网站而言，搜索引擎优化(SEO)质量决定了一个网站的生存能力，逐浪CMS支持面向HTM、HTML、SHTML、SHTM的静态生成发布功能，支持指定栏目目录，使站点结构更加优化，方便搜索引擎收录。</p><p>　　同时，独创的&amp;ldquo;中文标题+后缀&amp;rdquo;生成的形式，更能为SEO优化提供卓越的优化效果。如果当你某天访问到一条http://www.zoomla.cn/news/2008年特价商品热卖.html时，请不必惊讶，这正是源自Zoomla! CMS的卓越贡献。</p><p>&nbsp;</p><p><strong>　　优势四：首个完全支持IE8</strong><strong>标准的CMS</strong><strong>系统</strong></p><p>　　作为网站，浏览器是将站点内容传递到用户表现层的重要管道，CMS系统对浏览器的兼容性一定程序上可以反映出该CMS的可用性与应用能力。</p><p>　　作为业内浏览器市场的事实主宰者，微软公司IE6发布近三年没有一次更新，而IE7.0版本浏览器发布不到半年，就发布了IE8 beta版，由此足见IE8策略的重要。</p><p>　　逐浪CMS系统从一开始就确定了高起点的研发策略，并以IE8为研发标准，同时确保兼容Firefox等主流浏览器。兼容最新标准的CMS，从根本上杜绝了不少客户一年一改版以适应新版浏览器规则的烦恼。</p><p>&nbsp;</p><p><strong>　　优势五：完全支持W3C</strong><strong>标准为网站标准之路铺垫基础</strong></p><p>　　中国走向世界、世界了解中国。未来的网络化传播之道，国际化是其重要趋势，信息时代的文明终将造就地球村内的每一处居民便捷的交互信息。逐浪CMS系统采用国际标准UTF8语言作为表现层核心语言，从而使网站能够轻松应变国际，避免在不同的语言环境下的编码冲突，在任何国家、地域都能正确呈现网站内容!</p><p>&nbsp;</p><p><strong>　　优势六：集成逐浪SNS</strong><strong>，为社区化运营铺就通途</strong></p><p>　　SNS(人际关系网络)是WEB2.0最重要的核心理念，它揭示了商业与人际关系网络产生关系的核心。逐浪SNS开发团队从2007年组建，到目前为止已经推出了其第一个版本，伴随逐浪CMS1.0的发布，已经能够做到无缝整合，让传统的网站不再是一个信息孤岛，而是用户时时访问的社区型平台，让访客成为真正的流量与效益。</p><p>&nbsp;</p><p><strong>　　优势七：营销策划一体化的解决方案</strong></p><p>　　我们认识到，在本土企业与商业应用环境中，缺少的并非是优秀的程序与技术，而很多时候往往因为整体解决方案与应用层架构的不理想，造成IT投资的极大浪费。</p><p>　　逐浪软件携业内专业互联网解决方案服务商华夏互联、中国营销策划界翘楚华夏营销网打造金三角增值值体系，所以成为逐浪CMS商业用户，均有权享受此项服务。</p><p>&nbsp;</p><p><strong>　　优势八：独有开发者俱乐部、面向专业开发者提供支持</strong></p><p>　　逐浪软件作为CSDN核心合作伙伴、CSDN外包全球TOP首邀金牌(唯一)合作伙伴，与包括CSDN在内的专业技术平台结为合作，面向专业开发者开放，打造卓越的网站内核管理系统。同时，逐浪CMS采用面向最终用户免费、向开发者开源的策略，所有用户只要填写一个简单的申请表格(未来还将开通在线版本申请表)申请加入&amp;ldquo;逐浪CMS开发者俱乐部&amp;rdquo;，即可拥有相应的源码查看与使用权。</p><p>URL：http://tech.sina.com.cn/roll/2008-08-15/1400770139.shtml</p>
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">查看逐浪CMS提供的实施案例 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_6">
+<h4>本案曾实施的案例精选推荐</h4>
+<div class="project_cont_c">
+<p>&nbsp;</p><p><br/>1. 网行贵州<br/>网行贵州是一个大型区域门户网站，站点集新闻、旅游、社区、黄页、交友等为一体，同时结合在线地图功能，站点规则打造成一个中南地区最大的社区服务类门户。项目立项之初，项目甲方将其定位为&amp;ldquo;集口碑网、我要点评网、饭桶网和芒果网为一体的大型综合合门户&amp;rdquo;，同时为用户提供论坛、博客、圈子等功能。<br/>逐浪项目组承接此项目后，确定了&amp;ldquo;高标准、高起点、高运算效率&amp;rdquo;的三高开发理念，采用工厂开发模式和多层架构开发，经过近半年的研发，成功完成了项目，赢得了客户的好评，并成为当地网友首选的地方门户。<br/>2. 我要队伍网<br/>我要队伍网是由北京恒言公司委托逐浪CMS团队开发的网游类门户，站点主要为游戏一族提供帐号交易、游戏点卡交易、队伍交流的门户网站。<br/>站点除了传统的商业贸易功能外，同时还集成了短信、SNS等功能，为客户商业赢利提供了夯实的基础。该站点采用逐浪CMS开发团队最新研发成果，集成了SNS、在线交易、大型信息发布系统、论坛系统、博客系统、在线充值系统，成为了年轻一族热捧的时尚门户。<br/>3. 3K壁纸网<br/>3K壁纸网是基于图片共享的大型门户，用户可以自由上传图片、换取积分、自由交流。站点要求可以实现用户上传图片、断点续传、自动打包、根据会员级别的提供下载权限，访客可自由评论，用户间无缝的交流，系统并根据这套评论系统可对用户上传资料进行评级、打分，从而提高上传资源的利用效率。<br/>这样的站点对于数据交互、服务器性能、优化计算、客户端与服务器数据流处理都有较高要求，而逐浪CMS本身就具备会员级别、角色设计、上传管理等诸多功能，客户导入逐浪CMS的成熟开发，不仅成本得到了降低，更重要的是缩短了开发成本，赢得了宝贵的市场商机。<br/>4. 摇头DJ网<br/>摇头DJ网是ALEXA全球排名10万的娱乐门户，在接触逐浪CMS项目前，站点运行效率低、速度慢、服务器经常宕机&amp;mdash;摇头DJ网这种案例是较具普遍性的，不少客户都有过IT投资、并建有网站，在采用逐浪CMS前都会担心诸如之前开发是否会前功尽弃、是否会有导入困难的问题。<br/>虽然摇头DJ网旧版也是采用.net架构开发，但由于其技术内核其于是.net1.1，不能符合当前的主流应用，同时没有正规的管理后台、模板管理、界面开发、节点与模型等功能，维护成本巨大，并缺乏灵活性。导入正规的CMS开发对其来说显得尤为重要。<br/>逐浪CMS为摇头DJ网导入了平滑升级方案，采用了自主数据迁移程序，将原有数据平滑升级到逐浪CMS商业版，并融入AJAX开发、优化计算（升级后的运行效率比旧平台提升了近200%）。同时，逐浪CMS新版人性化的后台、专业的管理工具，为项目管理提供了强有力的支持，网站运营如虎添翼，为广大DJ爱好者提供了更好的应用。</p><p>◎更多案例欢迎访问<a href="http://www.hx008.cn/case/">http://www.hx008.cn/case/</a>查看</p>
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">立即体验逐浪CMS专业服务 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_7">
+<h4>体验逐浪CMS卓越服务</h4>
+<div class="project_cont_c">
+<p>　　Zoomla!逐浪CMS项目定制服务由软件定制与模板定制组成。软件定制服务是由Zoomla!逐浪CMS开发人员根据客户网站运营的实际功能需求，对Zoomla!逐浪CMS系列软件产品进行产品功能定制开发的服务。Zoomla!逐浪CMS开发人员具有丰富的WEB应用程序设计开发经验，将助您以少量的投入创造出最大价值。<br/>　　Zoomla!逐浪CMS模板定制服务是由逐浪官方推出的模板定制服务。依托于我们强大的技术后盾，由众多具有多年广告、网站规划设计经验的优秀网页设计师组成的高资质设计团队，将以专业的精神和态度，全力协助客户构建个性化网络业务平台。</p>
+</div>
+<div class="text-center">
+<a href="/corp/about/83.shtml" class="btn btn-info">对《社区门户解决方案》感兴趣吗？您可以点击立即联系专业逐浪工程师会话洽谈！ <i class="fa fa-angle-right"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<script type="text/javascript" src="https://seal.geotrust.com/getgeotrustsslseal?host_name=www.z01.com&amp;size=M&amp;lang=en"></script>
+<a href="http://www.geotrust.com/ssl/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px;"></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:" target="_blank">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:" target="_blank">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:" target="_blank">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:" target="_blank">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:" target="_blank">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:" target="_blank">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+$().ready(function(e) {
+    $("#menu_Project").addClass("active");
+});
+
+//搜索关键字
+function setEmpty(obj) { if (obj.value == "全站检索") obj.value = "";}
+function settxt(obj) { if (obj.value == "") obj.value = "全站检索";}
+
+$().ready(function(e) {
+    $(".project_cont_b a:last-child").addClass("btn btn-danger").html("<i class='fa fa-download'></i> "+$(".project_cont_b a:last-child").html())
+	$('#pj134').addClass("active");
+});
+$(".project_cont_b .btn-info").click(function(e){
+	var num=$(this).parent().parent().index()+1;
+	$(".project_cont ul.nav-tabs li:eq("+num+")").addClass("active").siblings("li").removeClass("active");
+	$(".project_cont .tab-content .tab-pane:eq("+num+")").addClass("active").siblings("div").removeClass("active");
+})
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script>

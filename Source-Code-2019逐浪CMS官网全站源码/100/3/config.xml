@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "cn.convage.vchat.mobile"
+	version 	= "1.0.2">
+
+	<name>佰奇网</name><!-- 注释：应用名称，显示在移动终端桌面上和应用Logo一起 -->
+
+	<description><!-- 注释：应用描述 -->
+		佰奇网手机客户端
+	</description>
+
+	<author href="http://www.8757.com"
+		email="xlg@convage.cn">
+		Convage Inc.
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+	<icon src="assets/images/icon.png" gap:role="default" />
+	<gap:splash src="assets/images/splash.png"/>
+	
+<!--
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	sample preference specification
+	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
+</widget>

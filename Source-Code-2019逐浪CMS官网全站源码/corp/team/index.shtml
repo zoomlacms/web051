@@ -1,0 +1,179 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高管团队专注为你-逐浪专注研发|打造世界级网站内核管理系统与WEB软件服务体系</title>
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css" rel="stylesheet" />
+<style>
+html, body, .section{height:100%;}
+.arrow-up { width:0;   height:0;  border-left:90px solid transparent; border-right:90px solid transparent;border-bottom:90px solid #fff;}
+.arrow-down { width:0; height:0;  border-left:40px solid transparent; border-right:40px solid transparent;border-top:40px solid #0066cc;} /*箭头向下*/
+.user_mimenu{ position:relative; z-index:100010;}
+.user_mimenu #mimenu_btn{ position:relative; margin-top:10px; margin-left:10px; padding-bottom:10px; background:none; z-index:10002;} 
+.user_mimenu #mimenu_btn span{ display:block; width:20px; height:6px; border-bottom:1px solid #eee;} 
+.user_home_mimenu #mimenu_btn{ background:rgba(8,201,12,1); }
+.user_home_mimenu .navbar{ width:150px;}
+.user_mimenu_left{ position:fixed; left:0; top:0; bottom:0; padding-top:50px; width:0; background:rgba(0,0,0,0.7); box-shadow:1px 0 3px rgba(0,0,0,0.9); overflow:hidden; z-index:10001;}  
+.user_mimenu_left ul{ display:none; padding-top:20px; border-top:1px solid #666;} 
+.user_mimenu_left li a{ display:block; padding-left:30px; height:3em; line-height:3em; font-family:"微软雅黑"; font-size:1.2em; z-index:999; color:#fff;} 
+.user_mimenu_left li a:hover,.user_mimenu_left li a:focus{ background:rgba(255,255,255,0.3); outline:none; text-decoration:none;}
+</style>
+</head>
+<body class="team2015">
+<div class="user_mimenu">
+<div class="navbar navbar-fixed-top" role="navigation">
+<button type="button" class="btn btn-default" id="mimenu_btn">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="user_mimenu_left">
+<ul class="list-unstyled">
+<li><a href="/" target="_blank">全站首页</a></li>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/mb/" target="_blank">模板中心</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/corp/listpage.shtml" target="_blank">关于公司</a></li>
+<li><a href="/blog/" target="_blank">团队博客</a></li>
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/history/" target="_blank">发展历程</a></li>
+<li><a href="/server/" target="_blank">联系我们</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">高管信息</a></li>
+</ul>
+</div>
+<div class="navbar-header">
+<button class="navbar-toggle in" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">移动下拉</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+</div> 
+</div>
+
+<div class="section home">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width:100%;">
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+</ol>
+<div class="carousel-inner" role="listbox" style="height:100%;">
+<div class="item active team2015bg1" >
+<div class="container">
+<div class="" style="margin-top:50%;">
+<div class="team2015txt1" style=" padding-left:30px; height:110px;background:none; border:1px solid #EB1216; color:#EB1216; font-size:4em;">
+<i class="fa  fa-trophy"></i>
+<strong>洞悉</strong>
+<p style="font-size:12px; color:#ccc;"><a href="/corp/team/2439.shtml" target="_blank">穿越千年的故事和网络世界的筋骨...<i class="fa fa-play-circle"></i></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item team2015bg2">
+<div class="container">
+<div style="margin-top:50%; font-size:4em;">
+<div style="height:38px;color:#EB1216; font-size:1em; line-height:48px;">
+<span style="float:left;">{</span>
+<strong style="float:left;font-size:28px;">服务</strong>
+<p style="float:left; padding-left:8px;font-size:14px;"><a href="/corp/team/2440.shtml" target="_blank">唾面自干|荜路蓝缕再加脚比路更长的跋涉...</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item team2015bg3">
+<div class="container">
+<div style="margin-top:50%;">
+<div class="team2015txt_ran"></div>
+<div class="team2015txt1">
+<strong style="font-size:3em; padding-left:5px;">执行</strong>
+三体距太阳系4光年|却需要200年的时间才能登陆地球...<i class="fa fa-paper-plane-o"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="item team2015bg4">
+<div class="container">
+<div class="text-centr" style="margin-top:60%; width:360px;border:1px solid #ccc;">
+<h2 class="text-center">思考</h2>
+<p class="text-center">竭尽每一分精力为客户谋发展...<i class="fa fa-play-circle"></i></p>
+</div>
+</div>
+</div>
+<div class="item team2015bg5">
+<div class="container">
+<div class="text-center" style="width:100px; padding-top:50%;">
+<strong style="font-size:3em;">实施</strong><br/>
+<span>比针细，比海深</span>
+<div style=" width: 0;height: 0;border-left: 50px solid transparent; border-right: 50px solid transparent;border-top: 100px solid red;"></div>
+</div>
+</div>
+</div>
+<div class="item team2015bg6">
+<div class="container">
+<div class="arrow-up" style="margin-top:50%;"></div>
+<div class="arrow-down"></div>
+<h2>不平凡 </h2>
+<p>只知道卓尔不群，从不知何为平凡...<br/>
+<i class="fa fa-thumbs-o-up"></i>自信自然源自卓凡！</p>
+</div>
+</div>
+<div class="item team2015bg7">
+<div class="container" style="padding-top:30%;">
+<div class="team2015bg7_c">
+<h2><i class="fa fa-universal-access"></i> 精准</h2>
+<p>有效开发直达痛点</p>
+</div>
+<div class="team2015bg7_r"></div>
+</div>
+</div>
+</div>
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+</body>
+</html>
+<script>
+$("#mimenu_btn").click(function(e) { 
+ if($(".user_mimenu_left").width()>0){ 
+   $(".user_mimenu_left ul").fadeOut(100);
+  $(".user_mimenu_left").animate({width:0},200);  
+ }
+ else{ 
+  $(".user_mimenu_left").animate({width:150},300); 
+  $(".user_mimenu_left ul").fadeIn();
+ }
+});
+</script>

@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>500</LabelID>
+    <LabelName>更新记录_非分页列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>列表分页导航</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,1,节点ID|ShowNum,20,1,分页显示数|TitleNum,50,1,标题长度</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_updata on ZL_CommonModel.ItemID=ZL_C_updata.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.Title,ZL_CommonModel.Titlecolor,ZL_C_updata.leis,updates</LabelField>
+    <LabelWhere>nodeid in(select nodeid from zl_node
+where parentid=@NodeID or nodeid=@NodeID or parentid in (select nodeid from zl_node where 
+parentid=@NodeID)  or  parentid in (select nodeid  from zl_node 
+where parentid in (select nodeid from zl_node where parentid=@NodeID))
+) and status=99</LabelWhere>
+    <LabelOrder>updates DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li&gt;&lt;b&gt;[{Field="leis"/}]&lt;/b&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" style="color:{Field="Titlecolor"/}" target="_blank"&gt;{ZL:CutText({Field="Title"/},@TitleNum,...)/}&lt;/a&gt;&lt;span class=""&gt;{ZL:FormatDate({Field="updates"/},yyyy/MM/dd)/}&lt;/span&gt;&lt;/li&gt;
+{/Repeate}
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":"ZL_C_updata"}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam>{"PureT1":"ZL_CommonModel","PureT2":"ZL_C_updata","T1":"zoomla_cn.dbo.ZL_CommonModel","T2":"zoomla_cn.dbo.ZL_C_updata","JoinType":"left join","OnField1":"ItemID","OnField2":"ID"}</ProceParam>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>416</LabelID>
+    <LabelName>博客内容页_抽取头像和签名</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>内容页</LabelCate>
+    <LabelDesc />
+    <LabelParam>UserName,,1,用户名</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_User left join {table1}.dbo.ZL_UserBase on {table1}.dbo.ZL_User.UserID={table1}.dbo.ZL_UserBase.UserID</LabelTable>
+    <LabelField>{table1}.dbo.ZL_User.UserName,{table1}.dbo.ZL_UserBase.Sign,{table1}.dbo.ZL_UserBase.UserFace</LabelField>
+    <LabelWhere>ZL_User.UserName='@UserName'</LabelWhere>
+    <LabelOrder />
+    <LabelContent>&lt;div class="pull-left"&gt;&lt;a href="/NodeNews.aspx?NodeID=30&amp;n={$GetUrlencode({Field="UserName"/})$}"&gt;&lt;Img src="{Field="UserFace"/}" alt="{Field="UserName"/}" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;博主：&lt;/span&gt;&lt;a href="/NodeNews.aspx?NodeID=30&amp;n={$GetUrlencode({Field="UserName"/})$}"&gt;{Field="UserName"/}&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+个人座右铭：&lt;/span&gt;{Field="Sign"/}
+&lt;/p&gt;
+</LabelContent>
+    <LabelCount>10</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>zoomla_cn</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

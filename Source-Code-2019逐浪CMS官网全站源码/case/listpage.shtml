@@ -1,0 +1,783 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>案例中心-Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="案例,精品,逐浪项目">
+<meta name="Description" content="采用Zoomla!逐浪CMS构建的网站案例精选">
+<link href="/skin/2010/css/global.css?version=V201312" rel="stylesheet" type="text/css" />
+<link href="/template/office/style/2012.css?version=V201312" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+<link href="/skin/2010/css/case.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+function getObject(objectId) {
+if(document.getElementById && document.getElementById(objectId)) {
+// W3C DOM
+return document.getElementById(objectId);
+} else if (document.all && document.all(objectId)) {
+// MSIE 4 DOM
+return document.all(objectId);
+} else if (document.layers && document.layers[objectId]) {
+// NN 4 DOM.. note: this won't find nested layers
+return document.layers[objectId];
+} else {
+return false;
+}
+}
+function show_kehu(n){
+for (i = 1; i<6; i++) {
+	if(n==i){
+		getObject("hy" + n).className="index_kehu1";
+		getObject("kehu" + n).style.display= ""
+	}	
+	else {
+		getObject("hy" + i).className="index_kehu";
+		getObject("kehu" + i).style.display= "none"
+	}
+}
+}
+</script>
+<!--[if IE]>
+   <script src="/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="header_x">
+<script type="text/javascript" src="/AD//201205/14.js"></script>
+<h1>
+<a href=/>
+<img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/skin/2010/images/logo.jpg'" /></a>
+<SCRIPT >
+   today = new Date();//取当前日期
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT>
+</h1>
+</div>
+<p>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号：<script type="text/javascript" src="/AD//201003/8.js"></script>[免费下载]</a>
+<iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="186px" height="24px"></iframe>
+</p>
+</div>
+</div>
+</div>
+<!--header_x end -->
+
+<div class="naver">
+<div id="nav_x">
+<div id="menus">
+<div id="menuNav">
+<ul>
+<strong>开启WEB云计算内核之门：</strong>
+<li class="on"><a href="/" target="_blank">网站首页</a></li>
+<li><a href="/product/" target="_blank">走进逐浪</a></li>
+<li><a href="/shop/" target="_blank">产品中心</a></li>
+<li class="scuess"><img src="/template/office/style/images/hot.gif" class="hot"><a href="/case/" target="_blank">成功案例</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/mb/" target="_blank">模板中心</a></li>
+<li><a href="/pub/" target="_blank">下载产品</a></li>
+<li><a href="/demo/" target="_blank">体验中心</a></li>
+<li><a href="http://club.zoomla.cn/" target="_blank">技术社区</a></li>
+</ul>
+</div>
+<div class="menu">
+	<div class="mainBg">
+	  <div class="part1">
+	    <div class="version">
+          <div class="padder">
+			<h2 onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" class="normal"><div><span><em>快速便捷导航</em></span></div></h2>
+              <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+              	<a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+                <div class="qq">
+           	    <h3>网站内核产品线</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Project/475.shtml">虚拟3D系统</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                    </ul>
+                </div>
+                <div class="others">
+                	<div class="left">
+						<h3>解决方案</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/Project/213.shtml" target="_blank">面向个人</a></li>
+                            <li><a onclick="hidingMenu()" href="/Project/133.shtml" target="_blank">面向企业</a></li>
+                            <li><a onclick="hidingMenu()" href="/Project/136.shtml" target="_blank">面向政府</a></li>
+                            <li><a onclick="hidingMenu()" href="/Project/131.shtml" target="_blank">面向教育</a></li>
+                        </ul>
+                        <h3>使用教程</h3>
+                        <ul class="last">
+                            <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                            <li><a onclick="hidingMenu()" href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+                            <li><a onclick="hidingMenu()" href="/other/497.shtml" target="_blank">DW插件</a></li>
+                            <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                    	<h3>官方推荐</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        </ul>
+                        <h3>论坛导航</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-24.aspx" target="_blank">程序发布</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-25.aspx" target="_blank">技术讨论</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-26.aspx" target="_blank">模板交流</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-27.aspx" target="_blank">教程发布</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+		
+  </div>
+</div>
+</div>
+</div>
+<!--nav_x end -->
+
+</div>
+<!--头部固定-->
+<div id="i_nav">
+<p>
+<a href="/try/" target="_blank">软件选型:如何选择合适的CMS系统</a>
+<a href="/try/cmsnews/" target="_blank">行业纵横:中国CMS行业动态及名单</a>
+</p>
+<ul>
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+</div>
+<!--小导航菜单结束 -->
+<!--顶部结束 -->
+
+
+<div id="banner"><script type="text/javascript" src="/AD//200903/4.js"></script></div>
+
+
+<div id="main">
+<!--中左结束 -->
+
+<div class="left725">
+<div id="site"><a href="/">当前位置： 首页</a>  >  <a href="/case/index.shtml">案例中心</a> > 信息列表</div>
+
+<div id="article_right">
+<div id="test" style="margin-top:2px;">
+	<div class="A10175right_1">
+    	<div class="A10175right_11">
+			<div id="hy1" onMouseOver="show_kehu(1)" class="index_kehu1"><a href="/case/gov/" title="点击查看更多案例">政府客户</a></div>
+    		<div id="hy2" onMouseOver="show_kehu(2)" class="index_kehu"><a href="/case/edu/" title="点击查看更多案例">教育客户</a></div>
+    		<div id="hy3" onMouseOver="show_kehu(3)" class="index_kehu"><a href="/case/qiye/" title="点击查看更多案例">企业客户</a></div>
+    		<div id="hy4" onMouseOver="show_kehu(4)" class="index_kehu"><a href="/case/en/" title="点击查看更多案例">外文客户</a></div>
+    		<div id="hy5" onMouseOver="show_kehu(5)" class="index_kehu"><a href="/case/other/" title="点击查看更多案例">其它类型</a></div><br />
+	</div><br />
+</div>
+<!--定义滑动菜单结束 -->
+
+<div class="A10175right_top" id="kehu1" >
+<div class="case_title"><span class="A10175right_title"><span class="A10175right_22">权威资质：服务政府军工</span></span></div>
+<br />
+
+<div class="A10175right_3">政府客户的网站应用与WEB开发需要卓越的功能支持，并助在安全性、稳定性以及可扩展性达到一定的高度。<br />
+　　Zoomla!逐浪CMS提供的坚强内核下，为包括军区、陆军学院、国税、电信、邮政等系统提供了卓越的门户网络解决方案。专业的服务、高品质的产品、严谨的流程管理、技术精淇之团队、领先的的专利软件、卓越的硬件支持。<br />
+　　逐浪软件倾心、尽心之理念，矢志成为最优秀的政府解决方案服务商。</div>
+<br />
+
+<div class="case_title"><span class="A10175right_title">推荐政府客户成功案例</span></div>
+<div class="case_show">
+<ul>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/Item/3134.aspx"><img src="/UploadFiles/system/temp/20170309/20170309090731anwe.jpg" alt="西藏林芝地委（林芝新闻网）" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/Item/3134.aspx">西藏林芝地委（林芝新闻网）</a></h2>
+西藏自治区地委门户与OA系统系统项目，体现了逐浪软件人脚比路更长的理念，长达半年的现场异地实施，包括高安全机房、核心OA、门户站群、旅游平台的建设，尽心尽职，实现卓越。
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/Item/3133.aspx"><img src="/UploadFiles/system/temp/20170309/20170309085838bget.jpg" alt="上海经济开发区" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/Item/3133.aspx">上海经济开发区</a></h2>
+
+
+上海海港综合经济开发区，是上海市奉贤区区委、区府为更好地实施和推进“东西南北，两点一线”的区域经济发展战略，并积极有效地接受上海国际航运中心洋山深水港和浦东国际机场航空港的“两港”辐射，而于2003年4月批准设立的区级开发区。
+
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/Item/3132.aspx"><img src="/UploadFiles/system/temp/20170308/2017030822101930tq.jpg" alt="南京陆军学院" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/Item/3132.aspx">南京陆军学院</a></h2>
+南京陆军指挥学院是陆军中级合成指挥院校。担负着为全军培养合成军队中级军政指挥干部、省军区系统人武指挥干部任务。学院前身是总参高级步兵学校，成立于1952年5月2日，隶属中央军委……
+</div>
+<div class="clear"></div>
+</li>
+
+</ul>
+</div>
+
+<table  width="100%" height="30" border="1px" align="center" cellpadding="1" cellspacing="0" bordercolor="#E3E3E3" style=" border-collapse:collapse;lineheight:20px;">
+  <tr>
+    <td width="33%" height="28" align="center" valign="middle"><a href="/pub/" target="_blank"><img src="/skin/default/down_button.jpg" width="158" height="40" alt="免费下载功能强大的Zoomla!逐浪CMS" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/corp/about/151.shtml" target="_blank"><img src="/skin/default/buy_button.jpg" width="158" height="40"  alt="商业授权给您更加贴心的服务" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/Project/"><img src="/skin/default/project_button.jpg" width="158" height="40" alt="查看Zoomla!逐浪CMS的专业化解决方案" /></a></td>
+    <td width="191" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/case/gov/" target="_blank"><img src="/skin/default/morecase_button.jpg" width="158" height="40"  alt="点击查看更多" /></a></td>
+  </tr>
+</table>
+
+<br>
+
+</div>
+
+<!--教育行业 style="display:none" -->
+<div class="A10175right_top" id="kehu2" style="display:none"  >
+ <div class="case_title"><span class="A10175right_title"> 传播知识：构建新时期知识门户</span></div>
+ <br />
+    <div class="A10175right_3">教育行业的应用因其需求的特殊、负载要求较高等特征，一直是众多软件厂商的角逐高地。逐浪CMS的开发体系中，集多年专业软件解决方案、品牌优势、强壮内核，为国内教育机构、学校以及知识门户提供最高性价比的解决方案。<br>
+超前技术、超前产业、超前设计、超前满意--精心耕耘、收获无限，逐浪CMS引领中国教育门户进入全新时代。</div>
+<br />
+<div class="case_title"><span class="A10175right_title"> 推荐教育行业成功案例</span></div>
+<div class="case_show">
+<ul>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/edu/860.shtml"><img src="/UploadFiles/system/temp/20170308/201703081637175rh4.jpg" alt="上海对外贸易学院" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/edu/860.shtml">上海对外贸易学院</a></h2>
+上海对外贸易学院建立于1960年。原为国家对外贸易经济合作部直属高校，1994年划转由上海市人民政府领导。
+上海对外贸易学院为华东地区唯一的一所涉外商科大学，具有从事国际商务高等教育的悠久历史、鲜明特色和传统优势。
+上海对外贸易学院拥有一支国际商务专业理论功底深厚、与国内外商务界有密切联系、教学经验丰富的师资队伍。
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/edu/767.shtml"><img src="/UploadFiles/system/temp/20170316/20170316235851z8fr.jpg" alt="武汉法学院" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/edu/767.shtml">武汉法学院</a></h2>
+武汉大学法学院于2003年获批国家首批法学一级学科博士学位授权点，拥有11个硕士点、6个博士点，1个博士后流动站，2个国家级重点学科、3个省级重点学科、1个国家“211工程”重点建设学科、2个教育部人文社会科学重点研究基地。
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/edu/500.shtml"><img src="/UploadFiles/system/temp/20170308/20170308163844prbu.jpg" alt="江西科技师范理工学院" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/edu/500.shtml">江西科技师范理工学院</a></h2>
+江西科技师范学院理工学院是由江西科技师范学院于 （国标代码：13440）2001年报经省教育厅和省计划委员会批准（赣教计字[2001]197号）、国家教育部首批确认的（教发函[2003]543号），融理、工、文、管和艺术等学科于一体的全日制本科独立学院，学院自2001年起招生，现有在校学生2300余人。
+</div>
+<div class="clear"></div>
+</li>
+
+</ul>
+</div>
+
+<table  width="100%" height="30" border="1px" align="center" cellpadding="1" cellspacing="0" bordercolor="#E3E3E3" style=" border-collapse:collapse;lineheight:20px;">
+  <tr>
+    <td width="33%" height="28" align="center" valign="middle"><a href="/Class_23/Default.aspx" target="_blank"><img src="/skin/default/down_button.jpg" width="158" height="40" alt="免费下载功能强大的Zoomla!逐浪CMS" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/corp/about/151.shtml" target="_blank"><img src="/skin/default/buy_button.jpg" width="158" height="40"  alt="商业授权给您更加贴心的服务" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/Project/"><img src="/skin/default/project_button.jpg" width="158" height="40" alt="查看Zoomla!逐浪CMS的专业化解决方案" /></a></td>
+    <td width="191" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/case/edu/" target="_blank"><img src="/skin/default/morecase_button.jpg" width="158" height="40"  alt="点击查看更多" /></a></td>
+  </tr>
+</table>
+<br />
+
+</div>
+
+<!--企业客户 -->
+<div class="A10175right_top" id="kehu3"  style="display:none" >
+   <div class="case_title"><span class="A10175right_title">营销与功能双致胜：为企业导入一体的是电子商务运营体系</span></div> 
+   <br />
+    <div class="A10175right_3">　　导入电子商务、掀起信息革命、革新管理流程、拓展经营新篇、构建全新品牌与形象传播体系、提升企业运行效率。<br>
+　　所有的一切，就在短短的10天--Zoomla!逐浪CMS导入企业的高效与强大，为企业带来了卓越的网站门户，更为经营者们打开了全新的蓝色海洋！</div>
+    <br />
+
+<div class="case_title"><span class="A10175right_title">推荐企业客户成功案例</span></div>
+<div class="case_show">
+<ul>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/qiye/3140.shtml"><img src="/UploadFiles/system/temp/20170309/20170309105622hywi.jpg" alt="瑞信集团企业群" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/qiye/3140.shtml">瑞信集团企业群</a></h2>
+瑞信集团是以瑞信投资有限公司为母体组成，以实业经营和投资为主的企业集团。1988年创建以来，先后涉足消防工程、智能化工程、建筑建材、健康养老和投资等领域。无论从经济效益、品牌影响力、社会美誉度还是企业文化等都颇有建树，深受各方好评。
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/qiye/3131.shtml"><img src="/UploadFiles/system/temp/20170308/20170308220724lva2.jpg" alt="金陵软件集团" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/qiye/3131.shtml">金陵软件集团</a></h2>
+江苏金陵科技集团有限公司公司位于江苏省南京市，始创于1984年。历经近30年的发展，公司已成为集销售、研发、生产和服务于一体的现代高科技企业，拥有北京、深圳等多家子公司，构筑了面向全国的经营和服务网络，技术方向涉及云计算、数据处理、信息安全等，业务领域涵盖行业应用开发、行业信息化、智能化系统、系统集成服务等。
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/qiye/2039.shtml"><img src="/UploadFiles/nopic.gif" alt="江西中川建材科技有限公司" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/qiye/2039.shtml">江西中川建材科技有限公司</a></h2>
+
+</div>
+<div class="clear"></div>
+</li>
+
+</ul>
+</div>
+
+<table  width="100%" height="30" border="1px" align="center" cellpadding="1" cellspacing="0" bordercolor="#E3E3E3" style=" border-collapse:collapse;lineheight:20px;">
+  <tr>
+    <td width="33%" height="28" align="center" valign="middle"><a href="/Class_23/Default.aspx" target="_blank"><img src="/skin/default/down_button.jpg" width="158" height="40" alt="免费下载功能强大的Zoomla!逐浪CMS" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/corp/about/151.shtml" target="_blank"><img src="/skin/default/buy_button.jpg" width="158" height="40"  alt="商业授权给您更加贴心的服务" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/Project/"><img src="/skin/default/project_button.jpg" width="158" height="40" alt="查看Zoomla!逐浪CMS的专业化解决方案" /></a></td>
+    <td width="191" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/case/corp/" target="_blank"><img src="/skin/default/morecase_button.jpg" width="158" height="40"  alt="点击查看更多" /></a></td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+<!--外文客户 -->
+<div class="A10175right_top" id="kehu4" style="display:none" >
+    <div class="case_title"><span class="A10175right_title"> 中国的VS世界的：打开中文网站的世界之门</span></div>
+    <div class="A10175right_3">你读不懂世界？那让世界来读懂你！<br>
+　　革新的UTF8语境，跳跃出了传统国产CMS软件的语言局限；完全支持W3C标准的软件内核，让所有的访客都能体验到全新的浏览感观；在功能强大的内核支持下，畅通无阻的客户访问层，为全新的“中国世界”开僻新途。无论是中国企业走向外国，还是外国企业走进中国，我们都做好了一切准备。</div>
+    <br />
+<div class="case_title"><span class="A10175right_title"> 推荐外文客户服务案例</span></div>
+<div class="case_show">
+<ul>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/Item/3141.aspx"><img src="/UploadFiles/system/temp/20170309/2017030911054635s6.jpg" alt="Zciu" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/Item/3141.aspx">Zciu</a></h2>
+   China Environmental Project Tech Inc. (CEPT) founded in 1994, was the earliest professional company for FGD in China. In 2006, The Engineering Research Center for Power Plant FGD set up  in CEPT.
+	    The successful course of CEPT was the development of institutionalized desulfurization in China.The first two projects at the beginning of institutionalized desulfurization in China  in the Ninth Five-Years Plan used the NSW(Natuer Sea Water)-FGD technology R&D by CEPT.
+	     In Mar. 1999,the NSW-FGD project of Mawan (Western) power plant of Shenzhen (6×300MW),  the 2# unit put into product...
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/Item/3139.aspx"><img src="/UploadFiles/system/temp/20170309/20170309104911grts.jpg" alt="Cecc-tech" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/Item/3139.aspx">Cecc-tech</a></h2>
+Shanghai Bi Ke Clean Energy Technology Company Ltd. (Clean Energy Commercialization Company, CECC) is an emerging company focused on developing a global, value-added manufacturing chain to feed a wide range of industrial needs.  Combining the assets and capabilities of China’s leading research institution with the commercialization know-how of a management team with deep experience, CECC is poised to revolutionize the global methanol industry.
+
+Founded in 2008, CECC is a mixed ownership corporation with Chinese Academy of Science Holdings holding majority ownership, and Double Green Bridge ...
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/EN/195.shtml"><img src="/UploadFiles/system/temp/20170308/20170308165350ynyg.jpg" alt="美国globe tracker公司" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/EN/195.shtml">美国globe tracker公司</a></h2>
+Globe Tracker是完全由Key West Technologies LLC公司出资组建。2007年1月，在美国的特拉华州组建公司--Globe Tracker，并在圣何塞、加里福尼亚、美国、中国北京和冰岛雷克雅末都设有办事处。
+</div>
+<div class="clear"></div>
+</li>
+
+</ul>
+</div>
+
+<table  width="100%" height="30" border="1px" align="center" cellpadding="1" cellspacing="0" bordercolor="#E3E3E3" style=" border-collapse:collapse;lineheight:20px;">
+  <tr>
+    <td width="33%" height="28" align="center" valign="middle"><a href="//Class_23/Default.aspx" target="_blank"><img src="/skin/default/down_button.jpg" width="158" height="40" alt="免费下载功能强大的Zoomla!逐浪CMS" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/corp/about/151.shtml" target="_blank"><img src="/skin/default/buy_button.jpg" width="158" height="40"  alt="商业授权给您更加贴心的服务" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/Project/"><img src="/skin/default/project_button.jpg" width="158" height="40" alt="查看Zoomla!逐浪CMS的专业化解决方案" /></a></td>
+    <td width="191" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/case/EN/" target="_blank"><img src="/skin/default/morecase_button.jpg" width="158" height="40"  alt="点击查看更多" /></a></td>
+  </tr>
+</table>
+<br />
+
+</div>
+
+<!--其它类型 -->
+<div class="A10175right_top" id="kehu5" style="display:none;" >
+<div class="case_title"><span class="A10175right_title">融汇贯通：为所有的网站提供强壮的内核与成功驱动力！</span></div>
+    <div class="A10175right_3">万物无疆，生生不息--互联网上的创新精神从不曾停止。<br />
+　　Zoomla!逐浪CMS秉承开放理念，为站长的创新提供了强有力的支持，无论您是个人，还是企业，或者是团队，都能在逐浪CMS的软件中找到自己的定位，开启你的门户！
+      </div>
+    <br />
+
+<div class="case_title"><span class="A10175right_title"> 其它精品案例展示</span></div>
+<div class="case_show">
+<ul>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/other/3143.shtml"><img src="/UploadFiles/system/temp/20170309/20170309112817olxx.jpg" alt="江西商报企业与软件体系" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/other/3143.shtml">江西商报企业与软件体系</a></h2>
+《江西商报》是江西省供销社主办的一份财经商务周报。采用特殊瘦型报彩色印刷，目标读者是党政机关、从事现代商务活动以及关心商务活动的都市主流人群。
+
+按照市场规律办报，引依据读者需要采编稿件，确定了综合类都市报的定位，提出全心全意为市民服务的办报方针和嫁接各类畅销报优势的办报思路。经过多年的发展，《江西商报》已经成为江西地区深受都市白领欢迎的报纸。
+
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/other/3142.shtml"><img src="/UploadFiles/system/temp/20170309/20170309111311mn7e.jpg" alt="信息日报社" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/other/3142.shtml">信息日报社</a></h2>
+《信息日报》是江西日报报业集团下属子报，创办于1984年10月1日，是全国第一张以深度经济信息、百姓生活资讯为主的综合信息类日报，开创了我国信息类报刊之先河。《信息日报》日发行量现已达35万份左右(含自办发行)，主要覆盖江西省内各地市、县。其中南昌地区13万份左右；地区17万份左右；省外发行量5万份左右。读者文化程度较高，经济收入、消费能力较强，主要以企事业单位公务员、城市白领、中等收入家庭、私营企业管理者、中层干部为主。由于信息量大、内容丰富，《信息日报》深受商界人士、专家学者和广大市民的信赖与关注，读者忠诚度、主动阅读率、传阅率均高于省内其它媒体。
+</div>
+<div class="clear"></div>
+</li>
+
+<li>
+<div class="case_show_l"><a href=""><a href="/case/other/1585.shtml"><img src="/UploadFiles/system/temp/20170308/20170308165514rm0j.jpg" alt="江西礼品网" /></a></a></div>
+<div class="case_show_r">
+<h2><a href="/case/other/1585.shtml">江西礼品网</a></h2>
+江西礼品网是中国专业的广告礼品订购礼品公司,为国内外企事业单位提供各类广告礼品.作为一家专业的广告礼品公司,企业培养了一批专业的操作人员,我们的目标就是打造中国第一的广告礼品订购平台,成为国内第一的礼品公司.本公司主要经营各种广告礼品， 促销赠品，商务礼品等十几大类200多个小类。真诚欢迎各地广告公司、礼品公...
+</div>
+<div class="clear"></div>
+</li>
+
+</ul>
+</div>
+
+<table  width="100%" height="30" border="1px" align="center" cellpadding="1" cellspacing="0" bordercolor="#E3E3E3" style=" border-collapse:collapse;lineheight:20px;">
+  <tr>
+    <td width="33%" height="28" align="center" valign="middle"><a href="/Class_23/Default.aspx" target="_blank"><img src="/skin/default/down_button.jpg" width="158" height="40" alt="免费下载功能强大的Zoomla!逐浪CMS" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/corp/about/151.shtml" target="_blank"><img src="/skin/default/buy_button.jpg" width="158" height="40"  alt="商业授权给您更加贴心的服务" /></a></td>
+    <td width="33%" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/Project/"><img src="/skin/default/project_button.jpg" width="158" height="40" alt="查看Zoomla!逐浪CMS的专业化解决方案" /></a></td>
+    <td width="191" align="center" valign="middle" bgcolor="#FFFFFF"><a href="/case/other/" target="_blank"><img src="/skin/default/morecase_button.jpg" width="158" height="40"  alt="点击查看更多" /></a></td>
+  </tr>
+</table>
+<br />
+
+</div>
+</div>
+
+</div>
+<!--中右结束 -->
+
+
+<div class="r238">
+<div class="n_title"><p><a href="/Article/news/" target="_blank">官方动态</a></p></div>
+<ul>
+
+<li><a href="/blog/products/3121.shtml" target="_blank" title="逐浪技术堂：FarmVet Systems 使用 SQL Server 与 Visual Studio 开发移动数据应用，提升农场兽医效率" style="">逐浪技术堂：FarmVet Systems 使用 S</a></li>
+
+<li><a href="/Article/news/3120.shtml" target="_blank" title="2017公益助学-逐浪软件团队在路上" style="">2017公益助学-逐浪软件团队在路上</a></li>
+
+<li><a href="/blog/ren/3119.shtml" target="_blank" title="想不到这10大技术背后全是女性-祝福天下女性节日快乐~ " style="">想不到这10大技术背后全是女性-祝福</a></li>
+
+<li><a href="/down/3116.shtml" target="_blank" title="版本管理+微建站+头条号接入-Zoomla!逐浪CMS2 x3.9.0发布" style="color:rgb(255, 0, 0);background:initial;">版本管理+微建站+头条号接入-Zoomla!</a></li>
+
+<li><a href="/pub/3106.shtml" target="_blank" title="逐浪CMS2 x3.9功能展示：超级按钮随心管理就是好" style="">逐浪CMS2 x3.9功能展示：超级按钮随</a></li>
+
+<li><a href="/pub/3110.shtml" target="_blank" title="新春第六波：《今日头条》推荐-小程序极速开发用逐浪、高端CMS用真棒" style="">新春第六波：《今日头条》推荐-小程</a></li>
+
+
+</ul>
+<div class="n_title"><p><a href="/case/" target="_blank">最新案例</a></p></div>
+<ul>
+
+<li><a href="/case/other/3143.shtml" title="江西商报企业与软件体系" target="_blank">江西商报企业与软件体系</a></li>
+
+<li><a href="/case/other/3142.shtml" title="信息日报社" target="_blank">信息日报社</a></li>
+
+<li><a href="/Item/3139.aspx" title="Cecc-tech" target="_blank">Cecc-tech</a></li>
+
+<li><a href="/case/health/3137.shtml" title="宏信医疗投资产业集团" target="_blank">宏信医疗投资产业集团</a></li>
+
+<li><a href="/case/B2c/3136.shtml" title="中煤站群" target="_blank">中煤站群</a></li>
+
+<li><a href="/case/recommend/3135.shtml" title="华为企业站群" target="_blank">华为企业站群</a></li>
+
+
+</ul>
+<div class="n_title"><p><a href="/corp/media/" target="_blank">媒体报道</a></p></div>
+<ul>
+
+<li><a href="/corp/media/3077.shtml" title="cnbeta:首个基于MVC的.NET CMS - Zoomla!逐浪CMS2 x3.8发布" target="_blank">cnbeta:首个基于MVC的.NET CMS - Zoo</a></li>
+
+<li><a href="/Item/3073.aspx" title="中国江西网:借助逐浪CMS强大功能打造卓越门户建途网" target="_blank">中国江西网:借助逐浪CMS强大功能打造</a></li>
+
+<li><a href="/corp/media/3076.shtml" title="今日头条：建途网全面上线见证逐浪软件团队卓越能力" target="_blank">今日头条：建途网全面上线见证逐浪软</a></li>
+
+<li><a href="/corp/media/3031.shtml" title="CB：耗资百万-逐浪软件启用全新国际域名z01.com" target="_blank">CB：耗资百万-逐浪软件启用全新国际</a></li>
+
+<li><a href="/corp/media/3032.shtml" title="今日头条:耗资百万-逐浪软件启用全新国际域名z01.com" target="_blank">今日头条:耗资百万-逐浪软件启用全新</a></li>
+
+<li><a href="/corp/media/2995.shtml" title="中新网:Zoomla不是joomla—走近国产逐浪CMS系统研发团队背后" target="_blank">中新网:Zoomla不是joomla—走近国产</a></li>
+
+
+</ul>
+<div class="n_title"><p><a href="/Project/" target="_blank">专业解决方案</a></p></div>
+<ul>
+
+<li><a href="/corp/media/3077.shtml" title="cnbeta:首个基于MVC的.NET CMS - Zoomla!逐浪CMS2 x3.8发布" target="_blank">cnbeta:首个基于MVC的.NET CMS - Zoo</a></li>
+
+<li><a href="/Item/3073.aspx" title="中国江西网:借助逐浪CMS强大功能打造卓越门户建途网" target="_blank">中国江西网:借助逐浪CMS强大功能打造</a></li>
+
+<li><a href="/corp/media/3076.shtml" title="今日头条：建途网全面上线见证逐浪软件团队卓越能力" target="_blank">今日头条：建途网全面上线见证逐浪软</a></li>
+
+<li><a href="/corp/media/3031.shtml" title="CB：耗资百万-逐浪软件启用全新国际域名z01.com" target="_blank">CB：耗资百万-逐浪软件启用全新国际</a></li>
+
+<li><a href="/corp/media/3032.shtml" title="今日头条:耗资百万-逐浪软件启用全新国际域名z01.com" target="_blank">今日头条:耗资百万-逐浪软件启用全新</a></li>
+
+<li><a href="/corp/media/2995.shtml" title="中新网:Zoomla不是joomla—走近国产逐浪CMS系统研发团队背后" target="_blank">中新网:Zoomla不是joomla—走近国产</a></li>
+
+
+</ul>
+<Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" size=1 name=select8>
+<Option  selected>友情链接站点</Option>
+
+<Option value="http://www.hx008.com">→ 华夏互联</Option>
+
+<Option value="http://duba.duba.net/">→ 金山毒霸</Option>
+
+<Option value="http://www.jecat.cn/">→ JeCat Tec</Option>
+
+<Option value="http://www.saitseo.com/">→ 阳光安吉</Option>
+
+<Option value="http://www.sjtzj.com">→ 瘦金体之家</Option>
+
+<Option value="http://www.ziti163.com">→ 中国字体网</Option>
+
+<Option value="http://product.yesky.com/mobilephone/bbk/">→ 步步高手机</Option>
+
+<Option value="http://down.admin5.com/">→ A5源码</Option>
+
+<Option value="http://www.admin5.com">→ A5站长网</Option>
+
+<Option value="http://www.dtcedu.com/">→ DTC设计训练营-靠谱设计师的摇篮</Option>
+
+<Option value="http://www.in1797.com/">→ 重器网</Option>
+
+<Option value="http://www.bendim.com">→ 本地网</Option>
+
+<Option value="http://www.magicalit.cn/">→ 神奇IT</Option>
+
+</Select>
+</div>
+<!--right end -->
+
+
+</div>
+
+</div>
+<!--中部主体结束 -->
+
+
+
+<div id="foot_x">
+<div id="Home_server">
+<div id="Home_server_l">
+<strong>什么是CMS软件？</strong>
+<p>
+CMS（Content Management System）是网站内容管理系统的统称，
+互联网上每个网站后台都是专业内容管理系统支撑-无论多大网站都不离开CMS作用。
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范，专注底层内核心技术研发，以云技术、创新精神构建行业新成就！
+</p>
+  
+  
+<ul class="Home_server_li">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/Class_91/Default.aspx" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="http://www.z01.com/demo/" target="_blank">产品演示</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">购买指南</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>产品导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/blog/product/626.shtml" target="_blank">门户优化</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心与高端计算</a></li>
+<li><a href="/Article/server/470.shtml" target="_blank">订制中心</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>研发计划</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/Article/news/1902.shtml" target="_blank">豚计划</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="">教育研发</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="">RIA客户端体验</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/product/pub/1932.shtml" target="_blank">院校合作</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://www.020data.com/" target="_blank">大数据存储及修复</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.z01.com/','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/Article/join/106.shtml" target="_blank">加盟代理</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A>
+ <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+  <DIV id=divFloatToolsView class=floatR style="display:none;">
+    <DIV class=tp></DIV>
+    <DIV class=cn>
+      <UL>
+        <LI class=top>
+          <H3 class=titZx>QQ咨询</H3>
+        </LI>
+        <!--<LI><SPAN class=icoZx>在线咨询</SPAN> </LI>-->
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=228388629&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+        <LI class=bot><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1579153275&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+      </UL>
+      <UL class=webZx>
+        <LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+      </UL>
+      <UL>
+        <LI>
+          <H3 class=titDh>电话咨询</H3>
+        </LI>
+        <LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+        <LI class=bot>
+          <H3 class=titDc><A href="/pub/" target="_blank">免费下载逐浪CMS</A></H3>
+        </LI>
+      </UL>
+    </DIV>
+  </DIV>
+</DIV>
+<div class="Micro">
+  <div class="Micro_r"> <img src="/Template/office/style/images/Micro.gif"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+  <div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+    <div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+    <div class="Mic_r">
+      <ul>
+        <li>打开微信:</li>
+        <li>1.或选择魔术棒,扫一扫</li>
+        <li>2.或选择"朋友们",扫一扫</li>
+        <li>3.或查找微信号:逐浪CMS</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script> 

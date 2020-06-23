@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="robots" content="index,follow">
+<title>天津贵金属交易所-首 页</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<script type="text/javascript" src="http://www.tjpme.com//data/js/jquery/jquery.js"></script>
+   </head>
+ <body   style="margin:auto;">
+ 
+    <div class="bhindex" style="width:665px;overflow:hidden;height:145px;background:url(http://www.tjpme.com//data/skins/chinese/img/ttd.jpg) no-repeat;">
+      <h3 style="line-height:26px;"><b>交易实时行情</b></h3>
+      <table width="657" border="0" align="center" cellpadding="0" cellspacing="0" id="timebuys">
+        <tr>
+          <td width="124" height="28" align="center" valign="middle" class="biti">商品名称</td>
+          <td width="110" height="28" align="center" valign="middle" class="biti">最新价</td>
+          <td width="94" height="28" align="center" valign="middle" class="biti">涨跌</td>
+          <td width="109" height="28" align="center" valign="middle" class="biti">涨跌幅</td>
+          <td width="109" height="28" align="center" valign="middle" class="biti">最高价</td>
+          <td width="111" height="28" align="center" valign="middle" class="biti">最低价</td>
+        </tr>
+      </table>
+    </div>
+ 
+<script> 
+	window.onload=function(){
+		gettimebuy();
+		setInterval(gettimebuy,5000);
+ 
+	}
+	
+	//显示flash之上的文字
+	function gettimebuy()
+	{
+		var myDate=new Date();
+		//alert(11212);
+ 
+		$.get("http://www.tjpme.com//mytest.php?rand="+myDate.getTime(),function (datas){
+			
+ 
+			//alert(datas);
+			var json = eval("("+datas+")");
+			if(json!='')
+			{
+				//alert(json[0].all);
+				$("#timebuy").remove();
+				$("#timebuys").append(json[0].all);
+				 
+			}
+	 },"JSON");
+ 
+ 
+ 
+ 
+	}
+</script>
+ 
+ 
+ 
+ 
+  </body>
+</html>
+ 
+ 
+ 
+ 
+

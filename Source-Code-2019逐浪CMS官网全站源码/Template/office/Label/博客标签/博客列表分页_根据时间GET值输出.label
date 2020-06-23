@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Table>
+    <LabelID>425</LabelID>
+    <LabelName>博客列表分页_根据时间GET值输出</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>博客标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,1,节点ID|ShowNum,20,1,分页显示数|TitleNum,60,1,标题长度|length,80,1,长度|data,0,1,时间值</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_CommonModel left join {table1}.dbo.ZL_C_Article on {table1}.dbo.ZL_CommonModel.ItemID={table1}.dbo.ZL_C_Article.ID</LabelTable>
+    <LabelField>CreateTime,GeneralID,Hits,NodeID,Title,author,synopsis,UpdateTime,Defaultpic</LabelField>
+    <LabelWhere>(FirstNodeID=@NodeID or NodeID=@NodeID) and Status=99 and (CONVERT(varchar(100),CreateTime,23)=CONVERT(varchar(100),CONVERT(datetime,'@data'),23))</LabelWhere>
+    <LabelOrder>CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="day"&gt;
+&lt;div class="b_title"&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;&lt;span&gt;{ZL:FormatDate({Field="CreateTime"/},yyyy年MM月dd日)/}&lt;/span&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/a&gt;&lt;/div&gt;
+&lt;div class="abbr"&gt;
+{ZL.Label id="读出指定文章缩略图_必带图" Gid="{Field="GeneralID"/}" /}
+摘要：{ZL:CutText({Field="synopsis"/},@length,...)/}&lt;span&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;阅读全文&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class="day_post"&gt;Update @  {ZL:FormatDate({Field="UpdateTime"/},yyyy-MM-dd HH:mm)/} \ &lt;a href="/NodeNews.aspx?NodeID=30&amp;n={$GetUrlencode({Field="author"/})$}"&gt;{Field="author"/}&lt;/a&gt; \ 阅读({Field="Hits"/}) \ 评论(1) \  归类：{ZL.Label id="根据ID输出节点名称与链接" NodeID="{Field="NodeID"/}" /}&lt;/div&gt;
+&lt;/div&gt;
+
+{/Repeate}
+
+{ZL.Page/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</DocumentElement>

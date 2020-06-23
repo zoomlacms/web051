@@ -1,0 +1,195 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}-{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css" rel="stylesheet" />
+<script src="{$CssDir/}js/jquery.stamper.js"></script>
+<style>
+.navbar-default .navbar-nav > li  a { font-size:1.7em;}
+.navbar-default .navbar-nav > li  a { font-size:1.1em;}
+.helpCent_foot { margin-top:0;}
+.MYbottom { display:none;}
+.div2 { display:none;}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default biz_nav" role="navigation">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="{$CssDir/}images/logo.svg" alt="{$SiteName/}" /></a>
+<h1><a href="/biz/">认证中心</a></h1>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li><a href="{ZL:GetNodeLinkUrl(58)/}"> <i class="fa fa-rotate-left "></i> 重新查询</a></li>
+</ul>
+<div class="pull-right"><a href="javascript:window.print()" title="打印保存证书"><img src="/skin/2009/print.jpg" alt="打印保存证书" style=" padding:1em 6em 0 0;" /></a></div>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-10 col-md-10 col-lg-offset-1 col-md-offset-1">
+<div class="biz_jg">
+<div class="biz_jg_top">
+<img src="{$CssDir/}images/biz_pic1.png" alt="" />
+</div>
+<div class="biz_jg_center">
+<div class="biz_jg_center1">
+<h3>{ZL.Label id="输出指定认证等级" ym="{$GetUrldecode({$GetRequest(ym)$})$}" bm="{$GetUrldecode({$GetRequest(bm)$})$}" /}</h3>
+<h2> <span>授权证书</span></h2>
+<div class="biz_svg">
+<p>证书生成时间:{ZL:DateNow()/}</p>
+<div class="biz_svg1">
+</div>
+<div class="div2" style="z-index:111111; position:absolute; top:-40px; right:5em; margin-left:-104px;"><img src="/skin/2009/zib_z.gif" alt=""/></div>
+</div>
+</div>
+{ZL.Label id="输出指定内容_认证中心" ym="{$GetRequest(ym)$}" bm="{$GetRequest(bm)$}" /}
+<div class="biz_jg_center3">
+<h3>授权说明</h3>
+<p>(以下说明与本证书主文一起构成本证书统一整体，不可分割)<br/>
+1．本证书表明证书上列出的组织或个人是所列出对应软件合法被授权人，可将逐浪软件用于任何商业范围所允许的部署、实施。<br />
+2．本证书并不表明逐浪软件旗下两大运营公司上海逐一软件科技有限公司、江西逐浪软件科技有限公司对本证书所列软件是否贬斥、侵害或毁损任何第三人之合法权利或利益作出任何明示或默示之评判、确认、担保，或作出其它任何形式之意思。软件授权方亦无任何责任或义务作出上述之评判、确认、担保，或作出其它任何形式之意思表示。<br />
+3．因本证书中所列产品服务或使用而可能引发与任何第三人之纠纷或冲突,均由软件被授权或实际使用人承担，软件开发商与授权商不承担任何法律责任、亦不在此类纠纷或冲突中充当证人、调停人或其它形式之参与人。<br />
+4．请确认本页为 z01.com域名开头形式并不能用于非法目的，字库产品授权时间少于1年或非整年，统一显示为1年授权。<br/>
+5、如有其它问题请联系Zoomla!逐浪软件官网，或发送举报邮件到：<a href="mailto:web@z01.com">web@z01.com</a>
+</p>
+</div>
+</div>
+<div class="biz_jg_bottom">
+<img src="{$CssDir/}images/biz_pic2.png" alt="" />
+</div>
+</div>
+</div>
+</div>
+
+<div class="biz_none">
+<div class="alert alert- text-center"><p> <i class="fa fa-info-circle fa-2x"></i> 该网站域名/字库尚未获得授权,点此 <a href="/biz/" class="btn btn-default">重新查询</a>，或进入官方商城<a href="/Shop">购买商业授权 ></a></p></div>
+</div>
+</div>
+
+<div class="container biz_u">
+<div class="row">
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+<div class="biz_u1">
+<a href="/pub" target="_blank"><i class="fa fa-cloud-download"></i></a>
+<h3><a href="/pub" target="_blank">下载逐浪</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+<div class="biz_u1">
+<a href="http://v.z01.com/jz/" target="_blank"><i class="fa fa-television"></i></a>
+<h3><a href="http://v.z01.com/jz/" target="_blank">免费建站</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+<div class="biz_u1">
+<a href="http://v.z01.com/h5/" target="_blank"><i class="fa fa-tablet"></i></a>
+<h3><a href="http://v.z01.com/h5/" target="_blank">H5场景开发</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+<div class="biz_u1">
+<a href="http://v.z01.com/mb/" target="_blank"><i class="fa fa-bookmark"></i></a>
+<h3><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+<div class="biz_u1">
+<a href="/shop" target="_blank"><i class="fa fa-shopping-cart"></i></a>
+<h3><a href="/shop" target="_blank">购买授权</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
+<div class="biz_u1">
+<a href="http://www.ziti163.com/" style="background:#a00;" target="_blank"><i class="fa fa-font"></i></a>
+<h3><a href="http://www.ziti163.com/" target="_blank">逐浪字库</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="helpCent_foot">
+{ZL.Label id="响应式网站底部"/}
+</div>
+y
+</body>
+</html>
+<script>
+$().ready(function(e) {
+	var ym='{ZL.Label id="认证中心检索结果_域名" /}';
+	var bm='{ZL.Label id="认证中心检索结果_编码" /}';
+	console.log(ym+","+bm);
+	if(ym=='' && bm==''){
+		$(".biz_jg").hide();
+		$(".biz_none").show();
+	}
+	else if (bm == 1148 && ym == ''){    //编码值为空时会输出1148固定值遂赋此值为固定数字并输出无此结果的方法
+		$(".biz_jg").hide();
+		$(".biz_none").show();
+	}
+	else if (bm > 1148 && ym == ''){      //当查询结果大于1148时，则是有效值，应予显示 
+		$(".biz_jg").show();
+		$(".biz_none").hide();
+	}
+		else {
+		$(".biz_none").hide();
+		$(".biz_svg>p").stamper({
+			id:"img_m",
+			image:"/skin/2009/zib_z.gif",
+			scale:3,
+			speed:800
+		});
+	};
+});
+
+var $div = $(".div2");
+/* 绑定鼠标左键按住事件 */
+$div.bind("mousedown",function(event){
+/* 获取需要拖动节点的坐标 */
+var offset_x = $(this)[0].offsetLeft;//x坐标
+var offset_y = $(this)[0].offsetTop;//y坐标
+/* 获取当前鼠标的坐标 */
+var mouse_x = event.pageX;
+var mouse_y = event.pageY;
+/* 绑定拖动事件 */
+/* 由于拖动时，可能鼠标会移出元素，所以应该使用全局（document）元素 */
+$(document).bind("mousemove",function(ev){
+	/* 计算鼠标移动了的位置 */
+	var _x = ev.pageX - mouse_x;
+	var _y = ev.pageY - mouse_y;
+	/* 设置移动后的元素坐标 */
+	var now_x = (offset_x + _x ) + "px";
+	var now_y = (offset_y + _y ) + "px";
+	/* 改变目标元素的位置 */
+	$div.css({
+		top:now_y,
+		left:now_x
+	});
+});
+});
+/* 当鼠标左键松开，接触事件绑定 */
+$(document).bind("mouseup",function(){
+$(this).unbind("mousemove");
+});
+setTimeout("moves()",800);
+function moves(){
+	$(".div2").show();
+	$("#img_m").hide()
+}
+</script>

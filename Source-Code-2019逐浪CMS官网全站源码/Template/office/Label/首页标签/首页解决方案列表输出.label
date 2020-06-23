@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>398</LabelID>
+    <LabelName>首页解决方案列表输出</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>首页标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,10,1,父节点ID|ShowNum,10,1,调用信息数|titleNum,30,1,标题长度</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_prj on ZL_CommonModel.ItemID=ZL_C_prj.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.Title,ZL_C_prj.lite_pic</LabelField>
+    <LabelWhere>(NodeID = @NodeID or NodeID in (select NodeID from ZL_Node where ParentID=@NodeID)) And ZL_CommonModel.Status=99 and ZL_C_prj.lite_pic &lt;&gt;''</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="{ZL:GetInfoOpen({Field="NodeID"/})/}"&gt;&lt;img src="{ZL:GetPicUrl({Field="lite_pic"/})/}" width="90px" height="85px" /&gt;&lt;/a&gt;
+&lt;span&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="_blank"&gt;{ZL:CutText({Field="Title"/},@titleNum,)/}&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

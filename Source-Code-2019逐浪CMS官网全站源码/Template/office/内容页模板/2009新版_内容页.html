@@ -1,0 +1,112 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}">
+<meta name="Description" content="{SField sid="文章模型数据源标签" FD="Title" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/pub.js"></script>
+</head>
+<body>
+{ZL.Label id="2016响应式网站头部"/}
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / {ZL.Label id="三级智能节点导航" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}
+</ol>
+   
+<div id="Content">
+<h1>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:{SField sid="文章模型数据源标签" FD="author" page="0"/} 发布时间:{ZL:FormatDate({SField sid="文章模型数据源标签" FD="UpDateTime" page="0"/},yyyy-MM-dd)/}  来源:{SField sid="文章模型数据源标签" FD="source" page="0"/}   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t={SField sid="文章模型数据源标签" FD="Title" page="0"/}-来自{$SiteName/}&urls={$SiteURL/}/item/{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='{$UploadDir/}"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('{SField sid="文章模型数据源标签" FD="Defaultpic"/}');
+showimg('');
+</script>
+</div>
+<div id="T_page">{ZL.Page id="2009版内容分页" num="{SField sid="文章模型数据源标签" FD="F_page" page="0"/}"/}</div>
+{ZL:CopyRight({SField sid="文章模型数据源标签" FD="GeneralID" page="0"/})/}
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：{ZL.Label id="编辑_信息中心通用"/} &nbsp;<a href="/user/content/addtofav.aspx?infoid={SField sid="文章模型数据源标签" FD="GENERALID"/}" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">{ZL.Label id="响应式点击复制网址"/}</div>
+<div class="Contnet_old">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+<div class="Contnet_old">下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+{ZL.Label id="响应式右侧导航"/}
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

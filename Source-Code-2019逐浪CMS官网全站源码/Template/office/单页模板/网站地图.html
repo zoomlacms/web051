@@ -1,0 +1,299 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteTitle/}</title>
+{ZL:Boot()/}
+<meta name="Keywords" content="网站地图,逐浪导航,逐浪网站快速浏览">
+<link rel="stylesheet" href="{$CssDir/}2014.css?Version={ZL.Label id="前端样式版本号"/}" />
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<style>
+.biz_nav .navbar-nav>li.sitemap_down a { background:rgb(204,204,204); border-radius:30px; color:#fff;}
+.biz_nav .navbar-nav>li.sitemap_down a:hover{background:rgba(102,153,204,0.8);}
+.biz_nav .navbar-nav>li.sitemap_search { position:relative;}
+.biz_nav .navbar-nav>li.sitemap_search form { position:absolute; top:4.5em;  display:none;}
+.biz_nav .navbar-nav>li .navbar-form { position:relative; margin-top:0;}
+.biz_nav .navbar-nav>li .navbar-form  button { position:absolute; top:0; right:1em; background:none; border:none;}
+.case_footer { margin-top:10em;}
+</style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+<nav class="navbar navbar-default biz_nav" role="navigation">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="{$CssDir/}images/logo.svg" alt="{$SiteName/}"></a>
+<h1><a href="{ZL:GetNodeLinkUrl(54)/}">网站地图</a></h1>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="/">首页</a></li>
+<li><a href="/product/" target="_blank">纵览</a></li>
+<li><a href="/shop/" target="_blank">产品</a></li>
+<li><a href="/case/" target="_blank">案例</a></li>
+<li><a href="/Project/" target="_blank">方案</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板</a></li>
+<li><a href="/demo/" target="_blank">体验</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术</a></li>
+<li><a href="http://v.z01.com/h5/" target="_blank">H5</a></li>
+<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+<li class="sitemap_down"><a href="/pub/" target="_blank">下载逐浪CMS</a></li>
+<li class="sitemap_search">
+<a onClick="iSearch()"><i class="fa fa-search"></i></a>
+<form class="navbar-form navbar-left" role="search" action="/Search/SearchList" target="_blank">
+<input type="text" class="form-control" placeholder="输入关键字搜索" name="keyword"/>
+<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+</form>
+</li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<div class="sitemap_banner">
+<div>
+<img src="{$CssDir/}images/sitemap_banner.png" alt="{$SiteName/}" />
+<a href="/pub/"></a>
+</div>
+</div>
+
+<div class="case_top_bt">
+<div class="container">
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">快速导航</a></li>
+<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">开发工具</a></li>
+</ul>
+</div>
+</div>
+<div class="container case_top_bc">
+<!-- Tab panes -->
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="home">
+<ul>
+<li><a href="/product/FuncList/" target="_blank"><i class="fa fa-building fa-3x"></i><br/>产品功能清单</a></li>
+<li><a href="/demo/" target="_blank"><i class="fa fa-send fa-3x"></i><br/>体验中心</a></li>
+<li><a href="/yun/" target="_blank"><i class="fa fa-skyatlas fa-3x"></i><br/>逐浪云</a></li>
+<li><a href="/updata/" target="_blank"><i class="fa fa-cog fa-3x"></i><br/>更新通报</a></li>
+<li><a href="/m/" target="_blank"><i class="fa fa-mobile fa-3x"></i><br/>移动平台</a></li>
+<li><a href="http://www.ziti163.com/Class_16/NodePage.aspx" target="_blank"><i class="fa fa-font fa-3x"></i><br/>逐浪字库</a></li>
+<li><a href="/corp/video/" target="_blank"><i class="fa fa-tv fa-3x"></i><br/>官方视频</a></li>
+<li><a href="/corp/music/" target="_blank"><i class="fa fa-music fa-3x"></i><br/>企业歌曲</a></li>
+</ul>
+</div>
+<div role="tabpanel" class="tab-pane fade out" id="profile">
+<ul>
+<li><a href="http://wei.z01.com" target="_blank"><i class="fa fa-mobile fa-3x"></i><br/>微首页</a></li>
+<li><a href="/tool" target="_blank"><i class="fa fa-cog fa-3x"></i><br/>站长工具</a></li>
+<li><a href="http://www.ziti163.com/webfont/" target="_blank"><i class="fa fa-font fa-3x"></i><br/>WebFont</a></li>
+<li><a href="http://ad.z01.com" target="_blank"><i class="fa fa-picture-o fa-3x"></i><br/>广告源码</a></li>
+<li><a href="http://code.z01.com" target="_blank"><i class="fa fa-laptop fa-3x"></i><br/>响应式工具</a></li>
+<li><a href="/pub" target="_blank"><i class="fa fa-download fa-3x"></i><br/>下载逐浪CMS</a></li>
+<li><a href="http://bbs.z01.com/index" target="_blank"><i class="fa fa-users fa-3x"></i><br/>技术社区</a></li>
+<li><a href="https://www.z01.com/blog/techs/2975.shtml" target="_blank"><i class="fa fa-child fa-3x"></i><br/>Emmet</a></li></ul>
+</div>
+</div>
+</div>
+
+<div class="container" style="margin-top:1em;">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 hidden-xs">
+<div class="sitemap_list_l">
+<nav id="myScrollspy">
+<ul class="nav nav-pills nav-stacked">
+<li class="active"><a href="#sitemap_list1">软件产品</a></li>
+<li><a href="#sitemap_list2">移动开发</a></li>
+<li><a href="#sitemap_list3">逐浪字库</a></li>
+<li><a href="#sitemap_list4">优质服务</a></li>
+<li><a href="#sitemap_list5">云计算</a></li>
+<li><a href="#sitemap_list6">动力逐浪</a></li>
+<li><a href="#sitemap_list7">学习资源</a></li>
+<li><a href="#sitemap_list8">关于公司</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 sitemap_con">
+<h2 id="sitemap_list1"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 软件产品</h2>
+<ul>
+<li><a href="/pub/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/pub/" target="_blank">下载Zoomla!逐浪CMS</a></span>快速下载最新Zoomla!逐浪CMS。</li>
+<li><a href="/product/FuncList/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/product/FuncList/" target="_blank">功能大全</a></span>逐浪CMS的各项功能详细说明。</li>
+<li><a href="/pub/listpage.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/pub/listpage.shtml" target="_blank">产品介绍</a></span>各个功能的详细说明。</li>
+<li><a href="/demo/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/demo/" target="_blank">体验中心</a></span>快速免费体验逐浪CMS。</li>
+<li><a href="/Project/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/Project/" target="_blank">解决方案</a></span>专业的解决方案。</li>
+<li><a href="http://v.z01.com/mb" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com/mb" target="_blank">模板中心</a></span>免费下载逐浪云模板用于快速开发。</li>
+<li><a href="/updata/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/updata/" target="_blank">功能更新</a></span>最新的逐浪CMS功能动态播报。</li>
+<li><a href="/shop/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/shop/" target="_blank">商业版本</a></span>详细的商业版本和购买链接。</li>
+<li><a href="/corp/about/151.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/about/151.shtml" target="_blank">版本对比</a></span>逐浪各商业版本对比。</li>
+<li><a href="/corp/about/listpage.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/about/listpage.shtml" target="_blank">价格清单</a></span>商业版本价格。</li>
+<li><a href="/OAS" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/OAS" target="_blank">OA办公套件</a></span>基于逐浪内核的OA产品线。</li>
+<li><a href="/other/2400.shtm" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/other/2400.shtm" target="_blank">快发工具</a></span>快速的网站内容摘取工具。</li>
+<li><a href="http://www.1th.cn" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.1th.cn" target="_blank">一特办公</a></span>基于云的办公平台。</li>
+<li><a href="http://v.z01.com" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com" target="_blank">动力逐浪</a></span>免下载三分种极速建站。</li>
+</ul>
+<!--软件产品end--->
+
+<h2 id="sitemap_list2"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 移动开发</h2>
+<ul>
+<li><a href="http://v.z01.com/h5/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com/h5/" target="_blank">H5</a></span>高端H5快速制作平台与解决方案。</li>
+<li><a href="http://app.z01.com/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://app.z01.com/" target="_blank">微逐浪</a></span>基于移动的APP生成功能。</li>
+<li><a href="/m/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/m/" target="_blank">移动框架</a></span>逐浪移动框架。</li>
+<li><a href="/Article/news/3071.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/Article/news/3071.shtml" target="_blank">公众号</a></span>1分钟极速接入公众号。</li>
+<li><a href="/phoneGap/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/phoneGap/" target="_blank">PhoneGAP</a></span>全球领先的移动开发框架。</li>
+<li><a href="https://itunes.apple.com/us/app/%E4%B8%80%E7%89%B9%E5%8A%9E%E5%85%AC/id1037297440?l=zh&ls=1&mt=8" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="https://itunes.apple.com/us/app/%E4%B8%80%E7%89%B9%E5%8A%9E%E5%85%AC/id1037297440?l=zh&ls=1&mt=8" target="_blank">一特办公</a></span>一特办公的IOS移动版本。</li>
+<li><a href="https://itunes.apple.com/us/app/zoomla-%E9%80%90%E6%B5%AAcms/id1039647863?l=zh&ls=1&mt=8" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="https://itunes.apple.com/us/app/zoomla-%E9%80%90%E6%B5%AAcms/id1039647863?l=zh&ls=1&mt=8" target="_blank">逐浪CMS移动客户端</a></span>逐浪办公的IOS移动版本。</li>
+<li><a href="https://itunes.apple.com/us/app/%E7%98%A6%E9%87%91%E4%BD%93%E4%B9%8B%E5%AE%B6/id1018646242?l=zh&ls=1&mt=8" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="https://itunes.apple.com/us/app/%E7%98%A6%E9%87%91%E4%BD%93%E4%B9%8B%E5%AE%B6/id1018646242?l=zh&ls=1&mt=8" target="_blank">瘦金体之家</a></span>瘦金体之家官方IOS移动版本。</li>
+</ul>
+<!--移动开发end-->
+
+<h2 id="sitemap_list3"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 逐浪字库</h2>
+<ul>
+<li><a href="http://www.ziti163.com/Class_1/Default.aspx" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/Class_1/Default.aspx" target="_blank">字体新闻</a></span>最新的字体新闻与研究动态。</li>
+<li><a href="http://www.ziti163.com/Down/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/Down/" target="_blank">字体资源</a></span>最完整的字体中心，快速查找以及免费下载。</li>
+<li><a href="http://www.ziti163.com/Class_11/Default.aspx" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/Class_11/Default.aspx" target="_blank">字体学院</a></span>如何生成字体以及创造字库。</li>
+<li><a href="http://www.ziti163.com/Class_16/NodePage.aspx" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/Class_16/NodePage.aspx" target="_blank">逐浪字库</a></span>逐浪官方精品字库。</li>
+<li><a href="http://www.ziti163.com/webfont" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/webfont" target="_blank">WebFont</a></span>基地网页技术的字体，开放下载自由创作。</li>
+<li><a href="http://www.ziti163.com/photo/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/photo/" target="_blank">字体墙</a></span>各字体创意大集激发你的灵感。</li>
+<li><a href="http://www.sjtzj.com" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.sjtzj.com" target="_blank">瘦金体</a></span>天下最美的书法，瘦金体为宋徽宗赵佶所创，极具个性，前无古人、后无来者的书法高峰。</li>
+<li><a href="http://www.ziti163.com/Class_24/Default.aspx" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/Class_24/Default.aspx" target="_blank">字体管家</a></span>完全免费的字体管理软件，管理PC上的字体并第一时间获得字体网ziti163.com更新。</li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">字体团队</a></span>逐浪字库团队展示，菁英风采、飒爽英姿。</li>
+</ul>
+<!--逐浪字库end-->
+
+<h2 id="sitemap_list4"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 优质服务</h2>
+<ul>
+<li><a href="/help" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/help" target="_blank">帮助中心</a></span>基于移动。</li>
+<li><a href="http://help.z01.com" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://help.z01.com" target="_blank">使用手册</a></span>官方发布的Zoomla!逐浪CMS应用帮助和指导文档。</li>
+<li><a href="/mtv" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/mtv" target="_blank">视频教程</a></span>下载实际操作的视频教程，跟着发哥和逐浪学院中的老师学用逐浪。</li>
+<li><a href="/biz" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/biz" target="_blank">认证中心</a></span>商业认证凭据与证书检索。</li>
+<li><a href="/help/https/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/help/https/" target="_blank">SSL安全加密技术</a></span>中国首家基于SSL安全加密技术的CMS以及相关知识。</li>
+<li><a href="http://ad.z01.com" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://ad.z01.com" target="_blank">广告源码</a></span>海量广告源码自由下载分享。</li>
+<li><a href="http://code.z01.com" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://code.z01.com" target="_blank">响应式框架</a></span>BootStrap中国镜像站点。</li>
+<li><a href="/tool/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/tool/" target="_blank">IIS工具</a></span>快速管理IIS的逐浪官方团队工具。</li>
+<li><a href="/case" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/case" target="_blank">案例中心</a></span>官方推荐案例赏析。</li>
+<li><a href="{ZL:GetNodeUrl(28)/}" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="{ZL:GetNodeUrl(28)/}" target="_blank">加盟代理</a></span>购买批量授权、以个人或企业身份加入逐浪CMS的分销代理，以优质服务共享市场。</li>
+<li><a href="{ZL:GetNodeUrl(8)/}" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="{ZL:GetNodeUrl(8)/}" target="_blank">客户感言</a></span>点滴感言，汇聚成逐浪软件成长路上欢声笑语和汗水苦泪，执着、专注、严谨、务实，还有客户的喜悦...</li>
+</ul>
+<!--优质服务end--->
+
+
+<h2 id="sitemap_list5"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 云计算</h2>
+<ul>
+<li><a href="/yun" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/yun" target="_blank">逐浪云</a></span>高端云主机，使企业级平台跑在云上，构建专业的应用，为Zoomla!逐浪CMS全生态出力。</li>
+<li><a href="http://v.hx008.com/web.php" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.hx008.com/web.php" target="_blank">虚拟主机</a></span>超值的虚拟主机服务。</li>
+<li><a href="http://v.hx008.com/index.php" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.hx008.com/index.php" target="_blank">域名注册</a></span>中国互联网老牌域名服务商。</li>
+<li><a href="http://www.hx008.com/mail/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.hx008.com/mail/" target="_blank">企业邮局</a></span>稳定卓越的电子邮局系统服务。</li>
+<li><a href="http://www.hx008.com/bang" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://www.hx008.com/bang" target="_blank">IDC排行榜</a></span>以江西市场为样本研究网站推广和IT业界，鲜活解剖中国IT成长之道。</li>
+</ul>
+<!--云计算end--->
+
+<h2 id="sitemap_list6"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 动力逐浪</h2>
+<ul>
+<li><a href="http://v.z01.com/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com//" target="_blank">精品展示</a></span>基于逐浪CMS的卓越作品展示。</li>
+<li><a href="http://v.z01.com/jz/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com/jz/" target="_blank">免费建站</a></span>快速建站如此方便，完全拖拽式建站真舒爽。</li>
+<li><a href="http://v.z01.com/h5/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com/h5/" target="_blank">H5创作</a></span>高效创作，收听微信还能极速手机建站和做场景开发。</li>
+<li><a href="http://v.z01.com/mb/h5" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com/mb/h5" target="_blank">模板资源</a></span>通过模板一健生成H5、相册、调查和问券。</li>
+<li><a href="http://doc.z01.com/help/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://doc.z01.com/help/" target="_blank">动力教程</a></span>动力逐浪的使用教程。</li>
+<li><a href="http://v.z01.com/Class_13/Default.aspx" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://v.z01.com/Class_13/Default.aspx" target="_blank">应用商店</a></span>基于动力逐浪的在线商店，用于场景等支持。</li>
+</ul>
+<!--动力逐浪end-->
+
+<h2 id="sitemap_list7"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 学习资源</h2>
+<ul>
+<li><a href="http://bbs.z01.com/index" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://bbs.z01.com/index" target="_blank">开发社区</a></span>官方论坛，有关开发的一切问题可在此发帖，有高手出没。</li>
+<li><a href="/blog/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/blog/" target="_blank">官方博客</a></span>Zoomla!逐浪CMS官方团队博客，有关技术的分享问题。</li>
+<li><a href="http://doc.z01.com/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://doc.z01.com/" target="_blank">开发者中心</a></span>一些开发者文档。</li>
+<li><a href="https://github.com/zoomla" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="https://github.com/zoomla" target="_blank">Github逐浪开源站</a></span>来全球最大的男程序猿交友网站勾搭一下吧。</li>
+<li><a href="http://help.z01.com/Database/cgxxb/571.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="http://help.z01.com/Database/cgxxb/571.shtml" target="_blank">数据字典</a></span>逐浪CMS开发所需要的字典说明文件线上版。</li>
+<li><a href="/learn/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/learn/" target="_blank">文档下载</a></span>各类帮助文档的下载。</li>
+<li><a href="/other/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/other/" target="_blank">升级程序</a></span>官方升级工具下载。</li>
+</ul>
+<!--学习资源end-->
+
+<h2 id="sitemap_list8"><i class="fa fa-hand-pointer-o fa-rotate-180"></i> 关于公司</h2>
+<ul>
+<li><a href="/corp" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp" target="_blank">关于公司</a></span>关于公司的详尽介绍。</li>
+<li><a href="/corp/music" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/music" target="_blank">企业歌曲</a></span>《大江》-汇聚入海，欣赏我们的优秀企业歌曲。</li>
+<li><a href="/corp/video/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/video/" target="_blank">官方视频</a></span>基于移动。</li>
+<li><a href="/corp/team/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/team/" target="_blank">团队风采</a></span>高管团队与您同行。</li>
+<li><a href="/photo/ltd/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/photo/ltd/" target="_blank">参观公司</a></span>公司图库与相册。</li>
+<li><a href="/server/" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/server/" target="_blank">服务中心</a></span>官方服务的中心。</li>
+<li><a href="/corp/job" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/job" target="_blank">求贤纳士</a></span>周公吐哺，诚聘精英，欢迎有识之士加入逐浪。</li>
+<li><a href="/corp/media" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/media" target="_blank">媒体报道</a></span>媒体对我们报道的摘抄。</li>
+<li><a href="/corp/about/83.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/about/83.shtml" target="_blank">联系我们</a></span>官方团队的联系方式。</li>
+<li><a href="/corp/video/1839.shtml" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/corp/video/1839.shtml" target="_blank">体感研究</a></span>基于高端的VR与AR研究。</li>
+<li><a href="/y10" class="btn btn-info  btn-sm"><i class="fa fa-external-link"></i> 快速浏览</a><span><a href="/y10" target="_blank">10周年</a></span>十余年研发，专注中国互联网与生产力软件产业发展。</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="case_footer">
+<div class="container case_footer_t">
+<a href="/pub/" target="_blank" class="btn btn-info">免费下载逐浪CMS开发门户与移动应用</a> <a href="/case/listpage.shtml" target="_blank"><i class="fa fa-exclamation-circle"></i></a>
+<a href="http://v.z01.com" target="_blank" class="btn btn-link">不想下载？我们还有基于云技术的动力逐浪速建站+|></a>
+</div>
+</div>
+
+<div class="helpCent_foot case_bottom">
+{ZL.Label id="响应式网站底部"/}</div>
+</body>
+</html>
+<script>
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+//检测固顶事件
+var IO=document.getElementById('myScrollspy'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+function iSearch(){
+	if($(".navbar-form").is(":hidden")){
+		$(".navbar-form").fadeIn(250);
+	}else{
+		$(".navbar-form").fadeOut(250);
+	}
+};
+
+/*检测鼠标在页面上的坐标，偏移图片的位置*/
+$(document).mousemove(function (e) {
+    $(".sitemap_banner div").css({"margin-top":-(e.pageY*0.02)+"px","margin-left":-(e.pageX*0.02)+"px"});
+})
+</script>

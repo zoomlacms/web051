@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>29</LabelID>
+    <LabelName>通用型栏目分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>分页标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,2,节点ID|ShowNum,20,1,每页分页显示数</LabelParam>
+    <LabelTable>ZL_CommonModel</LabelTable>
+    <LabelField>GeneralID,Title,CreateTime</LabelField>
+    <LabelWhere>(NodeID=@NodeID or FirstNodeID=@NodeID) and Status=99</LabelWhere>
+    <LabelOrder>CreateTime Desc</LabelOrder>
+    <LabelContent>&lt;ul&gt;{Repeate}
+&lt;li&gt;&lt;span&gt;{ZL:FormatDate({Field="CreateTime"/},yyyy-MM-dd  HH:mm)/}&lt;/span&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="_blank" title="{Field="Title"/}"&gt; {Field="Title"/}&lt;/a&gt;&lt;/li&gt;{/Repeate}
+&lt;/ul&gt;
+{ZL.Page/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>大于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>zoomla_cn</DataSourceType>
+    <ConnectString />
+  </Table>
+</NewDataSet>

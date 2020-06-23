@@ -1,0 +1,659 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>2012年南昌公司冬游撷影_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="2012|南昌|冬游|撷影">
+<meta name="Description" content="2012年南昌公司冬游撷影">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+</head>
+<body class="blog2015">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="home_scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="Zoomla!逐浪CMS官网" src="/Template/office/style/images/logo1.png" /></a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/">网站首页</a></li>
+<li><a href="/product/">走进逐浪</a></li>
+<li><a href="/shop/">产品中心</a></li>
+<li><a href="/case/">成功案例</a></li>
+<li><a href="/project/">解决方案</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/demo/">体验中心</a></li>
+<li><a href="http://club.z01.com/" target="_blank">技术社区</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登录</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+<li class="nav_down"><a href="/pub/" target="_blank">下载逐浪CMS</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div style="height:77px"></div>
+<div class="pics_conbg"><h1>公司图库</h1></div>
+<div class="container mtv_main">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 mtv_main_l">
+<div class="mtv_main_lt">
+<div class="main_l_title">官方推荐</div>
+<div style=" margin-left:1px"><script type="text/javascript" src="/AD/201008/9.js"></script></div>
+<div class="main_l_btitle"><a href="/Class_5/Default.aspx" target="_blank">官方更新</a></div>
+<div class="main_l_news">
+<ul class="list-unstyled">
+
+<li><a href="/Article/news/3043.shtml" target="_blank" title="逐浪云模板全面更新-千款模板1秒建门户时代到来" style="">逐浪云模板全面更新-</a></li>
+
+<li><a href="/Article/news/3041.shtml" target="_blank" title="年度最重磅:极速手机建站做场景-动力逐浪全新发布" style="font-size:15px;color:rgb(255, 0, 0);background:initial;font-weight:bold;">年度最重磅:极速手机</a></li>
+
+<li><a href="/Article/news/3040.shtml" target="_blank" title="业界首创:3分钟用手机就能创建微站-动力逐浪H5全面上线" style="">业界首创:3分钟用手机</a></li>
+
+<li><a href="/Article/news/3038.shtml" target="_blank" title="红八月逐浪CMS买商业授权有惊喜-Surface电脑等您拿" style="">红八月逐浪CMS买商业</a></li>
+
+<li><a href="/Article/news/3037.shtml" target="_blank" title="京东上千页面搭建基石——CMS前后端分离演进史" style="">京东上千页面搭建基石</a></li>
+
+
+</ul>
+</div>
+<div class="main_l_btitle"><a href="/case/index.shtml" target="_blank">最新案例</a></div>
+<div class="main_l_news">
+<ul class="list-unstyled">
+
+<li><a href="/Item/2039.aspx" title="江西中川建材科技有限公司" target="_blank">江西中川建材科技有限</a></li>
+
+<li><a href="/Item/1998.aspx" title="WOODMARK企业网站" target="_blank">WOODMARK企业网站</a></li>
+
+<li><a href="/Item/1586.aspx" title="美途网" target="_blank">美途网</a></li>
+
+<li><a href="/Item/1585.aspx" title="江西礼品网" target="_blank">江西礼品网</a></li>
+
+<li><a href="/Item/1584.aspx" title="钢铁168社区" target="_blank">钢铁168社区</a></li>
+
+
+</ul>
+</div>
+<div class="main_l_btitle"><a href="/Class_21/Default.aspx" target="_blank">媒体报道</a></div>
+<div class="main_l_news">
+<ul class="list-unstyled">
+
+<li><a href="/corp/media/3031.shtml" title="CB：耗资百万-逐浪软件启用全新国际域名z01.com" target="_blank">CB：耗资百万-逐浪软</a></li>
+
+<li><a href="/corp/media/3032.shtml" title="今日头条:耗资百万-逐浪软件启用全新国际域名z01.com" target="_blank">今日头条:耗资百万-逐</a></li>
+
+<li><a href="/corp/media/2995.shtml" title="中新网:Zoomla不是joomla—走近国产逐浪CMS系统研发团队背后" target="_blank">中新网:Zoomla不是joo</a></li>
+
+<li><a href="/corp/media/3030.shtml" title="中新网：Zoomla!系列字体之逐浪粗宋字体通过版权认证" target="_blank">中新网：Zoomla!系列</a></li>
+
+<li><a href="/corp/media/2448.shtml" title="今日头条：南昌大学二附院借助逐浪CMS打造高端门户" target="_blank">今日头条：南昌大学二</a></li>
+
+
+</ul>
+</div>
+</div>
+<div class="mtv_main_lb">
+<div class="main_l_title" style="text-align:left;padding-left:10px; padding-right:10px;"><span><a href="/Project/index.shtml">更多>></a></span>专业解决方案</div>
+<p>Zoomla!逐浪CMS专业解决方案提供了丰富的案例信息和PDF文档下载，欢迎您点击访问</p>
+</div>
+<div class="mtv_main_ls">
+<Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" class="form-control" size="1" name="select8">
+<Option  selected>友情链接站点</Option>
+
+<Option value="http://www.hx008.com">→ 华夏互联</Option>
+
+<Option value="http://duba.duba.net/">→ 金山毒霸</Option>
+
+<Option value="http://www.jecat.cn/">→ JeCat Tec</Option>
+
+<Option value="http://demo.2008.hx008.cn/">→ 东营车管所</Option>
+
+<Option value="http://www.saitseo.com/">→ 阳光安吉</Option>
+
+<Option value="http://www.sjtzj.com">→ 瘦金体之家</Option>
+
+<Option value="http://www.ziti163.com">→ 中国字体网</Option>
+
+<Option value="http://nc.fangqq.com/">→ 南昌房地产</Option>
+
+<Option value="http://product.yesky.com/mobilephone/bbk/">→ 步步高手机</Option>
+
+<Option value="http://down.admin5.com/">→ A5源码</Option>
+
+<Option value="http://www.admin5.com">→ A5站长网</Option>
+
+<Option value="http://www.dtcedu.com/">→ DTC设计训练营-靠谱设计师的摇篮</Option>
+
+<Option value="http://www.in1797.com/">→ 重器网</Option>
+
+<Option value="http://www.bendim.com">→ 本地网</Option>
+
+<Option value="http://www.magicalit.cn/">→ 神奇IT</Option>
+
+</Select>
+</div>
+<div class="mtv_main_lad"><script type="text/javascript" src="/AD/201009/10.js"></script></div>
+</div>
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 pics_main_r">
+
+<ol class="breadcrumb">
+<li>当前位置：<a href="/">首页</a></li>
+<li><a href="/photo/ltd/">参观公司</a></li>
+<li class="active">2012年南昌公司冬游撷影</li>
+</ol>
+
+
+<!--弹出层开始-->
+<!--播放到第一张图的提示-->
+<div class="modal fade" id="firsttop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<h4 class="modal-title" id="myModalLabel">图片播放完了</h4>
+</div>
+<div class="modal-body">上一个：<a href="/photo/ltd/1355.shtml" id="pre_pic">2011年华夏互联与逐浪CMS站长大会</a></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+</div>
+</div>
+</div>
+</div>
+<!--播放到最后一张图的提示-->
+<div class="modal fade" id="endtop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+<h4 class="modal-title" id="myModalLabel">图片播放完了</h4>
+</div>
+<div class="modal-body">下一个：<a href="/photo/ltd/1960.shtml" id="next_pic" data-target="/photo/ltd/1960.shtml">美女与战士-2012年踏春之旅与真人CS大战</a></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+</div>
+</div>
+</div>
+</div>
+<!--弹出层结束--> 
+<!--图片特效内容开始-->
+<div class="piccontext">
+<h2 class="text-center">2012年南昌公司冬游撷影</h2>
+<h4 class="text-center">作者： 发布时间：2011-12-10  来源:本站原创  点击数：<script language=javascript src='/Common/GetHits.aspx?id=1644'></script></h4>
+<!--大图展示-->
+<div class="picshow">
+<div class="picshowtop">
+<a href="/"><img id="pic1" curindex="0" /></a>
+<a id="preArrow" href="javascript:void(0)" class="contextDiv" title="上一张"><span id="preArrow_A"></span></a>
+<a id="nextArrow" href="javascript:void(0)" class="contextDiv" title="下一张"><span id="nextArrow_A"></span></a>
+</div>
+<div class="picshowtxt" style="margin-top:20px;">
+<div class="picshowtxt_left"><span>1</span>/<i>12</i></div>
+<div class="picshowtxt_right"></div>
+<div class="clearfix"></div>
+</div>
+<div class="picshowlist"> 
+<div class="picshowlist_mid">
+<div class="picmidmid row" id="picmidmid"><ul class="list-unstyled"></ul></div>
+</div>
+</div>
+</div>
+<!--列表展示-->
+<div class="piclistshow row" id="piclistshow"><ul class="list-unstyled padding10"></ul></div>
+<div id="content_synopsis">
+<p>
+	2011年12月3日，南昌公司冬游撷影，地点：南昌宝葫芦旅游城，冬天里的幸福自然流淌在乡间的路上与若大的宝葫芦中~</p>
+
+</div>
+<div class="bdsharebuttonbox"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://dn-iyz-file.qbox.me/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/2441.shtml" style="color:">访客行为跟踪与互动系统上线交付商用</a><span class="">2015/09/16</span></li>
+
+<li><b>[改进]</b><a href="/updata/2419.shtml" style="color:">更正后台Safri浏览器兼容性缺陷</a><span class="">2015/07/01</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+var siteurl="/UploadFiles//";
+var firstpho="";
+var photos='图片地址1|ltd/jpg/2011/12/2011121011353206250.jpg$图片地址2|ltd/jpg/2011/12/2011121011353270631.jpg$图片地址3|ltd/jpg/2011/12/2011121011353254152.jpg$图片地址4|ltd/jpg/2011/12/2011121011353254153.jpg$图片地址5|ltd/jpg/2011/12/2011121011420840300.jpg$图片地址6|ltd/jpg/2011/12/2011121011420887541.jpg$图片地址7|ltd/jpg/2011/12/2011121011420861062.jpg$图片地址8|ltd/jpg/2011/12/2011121011420861063.jpg$图片地址9|ltd/jpg/2011/12/2011121011420861064.jpg$图片地址10|ltd/jpg/2011/12/2011121011420835355.jpg$图片地址11|ltd/jpg/2011/12/2011121011420835356.jpg$图片地址12|ltd/jpg/2011/12/2011121011420835357.jpg$图片地址13|ltd/jpg/2011/12/2011121011420829878.jpg';
+var pho=photos.split("$");
+var arrUrlName=new Array();
+var arrUrl=new Array();
+var str="";
+var str1="";
+for(i=0;i<pho.length;i++)
+{
+	
+	arrUrlName[i]=pho[i].split("|")[0];
+	if(pho[i].split("|")[1].indexOf("http://")==-1)
+	{
+		arrUrl[i]=siteurl+pho[i].split("|")[1];
+	}
+	else
+	{
+		arrUrl[i]=pho[i].split("|")[1];
+	}
+	str1+="<li class=\"col-lg-3 col-md-3 col-sm-3 col-xs-4 padding5\"><div class=\"picimg\"><img src=\""+arrUrl[i]+"\" alt=\""+arrUrlName[i]+"\" /></div><div class=\"pictxt\"><h3>"+arrUrlName[i]+"<span>("+(parseInt(i)+1)+"/"+pho.length+")</span></h3></div></li>";
+	str+="<li class=\"col-lg-1 col-md-2 col-sm-2 col-xs-3\"><a href=\"javascript:void(0);\"><img src=\""+arrUrl[i]+"\" alt=\""+arrUrlName[i]+"\" bigimg=\""+arrUrl[i]+"\" text=\""+arrUrlName[i]+"\" /></a></li>";
+}
+$("#pic1").attr("src",arrUrl[0]);
+$("#pic1").attr("alt",arrUrlName[0]);
+$("#piclistshow ul").html(str1);
+$("#picmidmid ul").html(str);
+$(".picshowtxt_left i").html(pho.length);
+$().ready(function(e) {
+   $(function() {
+	$(".piclistshow li").hover(function() {
+		$(this).css("background", "#FAFAFA")
+	},
+	function() {
+		$(this).css("background", "white")
+	});
+	$(".piclistshow li").last().css("border-bottom", "none");
+	$(".piclistshow li").each(function() {
+		var curindex = $(this).index(".piclistshow li") + 1;
+		if (curindex % 4 == 0) {
+			
+		}
+	});
+	$(document).keydown(function(event) {
+		var key = event.keyCode;
+		var firstdisplay = $("#firsttop").css("display");
+		var enddisplay = $("#endtop").css("display");
+		if (firstdisplay == "none" && enddisplay == "none") {
+			if (key == 37) {
+				preclick()
+			} else {
+				if (key == 39) {
+					nextclick()
+				}
+			}
+		} else {
+			if (key == 27) {
+				$("#firsttop").css("display", "none");
+				$("#bodymodal").css("display", "none");
+				$("#endtop").css("display", "none")
+			}
+		}
+	});
+
+	var firstpic = $(".picmidmid ul li").first().find("img");
+	var firstsrc = firstpic.attr("bigimg");
+	var firsttxt = firstpic.attr("text");
+	$("#pic1").attr("src", firstsrc);
+	firstpic.addClass("selectpic");
+	$(".picshowtxt_right").text(firsttxt);
+	$("#preArrow").hover(function() {
+		$("#preArrow_A").css("display", "block")
+	},
+	function() {
+		$("#preArrow_A").css("display", "none")
+	});
+	$("#nextArrow").hover(function() {
+		$("#nextArrow_A").css("display", "block")
+	},
+	function() {
+		$("#nextArrow_A").css("display", "none")
+	});
+	var getli = $(".picmidmid ul li");
+	function nextclick() {
+		var currrentindex = parseFloat($("#pic1").attr("curindex"));
+		var length = getli.length;
+		if (currrentindex != (length - 1)) {
+			var curli = getli.eq(currrentindex);
+			
+			var curnextli = getli.eq(currrentindex + 1);
+			var curnextsrc = curnextli.find("img").attr("bigimg");
+			var curnexttxt = curnextli.find("img").attr("text");
+			curli.find("img").removeClass("selectpic");
+			curnextli.find("img").addClass("selectpic");
+			$("#pic1").attr("src", curnextsrc);
+			$("#pic1").attr("curindex", currrentindex + 1);
+			$(".picshowtxt_right").text(curnexttxt);
+			$(".picshowtxt_left span").text(currrentindex + 2)
+		} else {
+			$("#endtop").modal("show");
+		}
+	}
+	$("#nextArrow_B").click(function() {
+		nextclick()
+	});
+	$("#nextArrow").click(function() {
+		nextclick()
+	});
+	function preclick() {
+		var currrentindex = parseFloat($("#pic1").attr("curindex"));
+		if (currrentindex != 0) {
+			var curli = getli.eq(currrentindex);
+			var length = getli.length;
+			var curnextli = getli.eq(currrentindex - 1);
+			var curnextsrc = curnextli.find("img").attr("bigimg");
+			var curnexttxt = curnextli.find("img").attr("text");
+			curli.find("img").removeClass("selectpic");
+			curnextli.find("img").addClass("selectpic");
+			$("#pic1").attr("src", curnextsrc);
+			$(".picshowtxt_right").text(curnexttxt);
+			$("#pic1").attr("curindex", currrentindex - 1);
+			$(".picshowtxt_left span").text(currrentindex)
+		} else {
+			$("#firsttop").modal("show");
+		}
+	}
+	$("#preArrow_B").click(function() {
+		preclick()
+	});
+	$("#preArrow").click(function() {
+		preclick()
+	});
+	getli.click(function() {
+		var currentliindex = $(this).index(".picmidmid ul li");
+		$(".picmidmid ul li img[class='selectpic']").removeClass("selectpic");
+		var currentli = getli.eq(currentliindex);
+		currentli.find("img").addClass("selectpic");
+		var bigimgsrc = currentli.find("img").attr("bigimg");
+		var curnexttxt = currentli.find("img").attr("text");
+		$("#pic1").attr("src", bigimgsrc);
+		$("#pic1").attr("curindex", currentliindex);
+		$(".picshowtxt_right").text(curnexttxt);
+		$(".picshowtxt_left span").text(currentliindex + 1)
+	});
+	$(".piclistshow li").click(function() {
+		var curli = $(this).index(".piclistshow li");
+		showgaoqing();
+		$(".picmidmid ul li img[class='selectpic']").removeClass("selectpic");
+		var currentli = getli.eq(curli);
+		currentli.find("img").addClass("selectpic");
+		var bigimgsrc = currentli.find("img").attr("bigimg");
+		var curnexttxt = currentli.find("img").attr("text");
+		$("#pic1").attr("src", bigimgsrc);
+		$("#pic1").attr("curindex", curli);
+		$(".picshowtxt_right").text(curnexttxt);
+		$(".picshowtxt_left span").text(curli + 1);
+		$(".picmidmid li").css("display", "block");
+	});
+	$(".list").click(function() {
+		$(".picshow").css("display", "none");
+		$(".piclistshow").css("display", "block");
+		$(".source_right").css("display", "none");
+		$(".source_right1").css("display", "block")
+	});
+	$(".gaoqing").click(function() {
+		showgaoqing();
+	});
+	function showgaoqing() {
+		$(".picshow").css("display", "block");
+		$(".piclistshow").css("display", "none");
+		$(".source_right").css("display", "block");
+		$(".source_right1").css("display", "none")
+	}	
+});
+});
+</script>

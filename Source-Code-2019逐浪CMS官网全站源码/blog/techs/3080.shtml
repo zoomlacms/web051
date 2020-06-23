@@ -1,0 +1,438 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>码农与产品经理看过来-教你用Adobe Xd轻松做原型设计^_^_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="过来,产品,原型,经理,设计">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20161128" rel="stylesheet" />
+</head>
+<body class="blog2015">
+<div class="relative">
+<div class="navbar navbar-default" role="navigation" id="home_scolls">
+<div class="container blog2015_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/skin/2010/images/logo.jpg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/blog/products/">产品管锥</a></li>
+<li><a href="/blog/eye/">观点碰撞</a></li>
+<li><a href="/blog/techs/">技术问道</a></li>
+<li><a href="/blog/ren/">那人那事</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<DIV class="blog2015_banner2" style="background-image: url({SField sid="栏目信息数据源" FD="NodePicUrl" page="0"/});">
+<DIV class="container">
+<h2 class="ZoomlaXingtiJ3"><i class="fa  fa-slideshare"></i>逐浪技术<abbr>--Zoomla!逐浪CMS官方博客</abbr></h2>
+</div>
+</div>
+
+<div class="container margintop10">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/blog/index.shtml">官方博客</a> / 
+<a href="/blog/techs/index.shtml">逐浪技术</a> / 
+</ol>
+</div>
+
+<div class="container  blog2015_con">
+<div class="container" id="Content">
+<h1>码农与产品经理看过来-教你用Adobe Xd轻松做原型设计^_^</h1>
+
+<div id="container paddin10">
+<p class="text-center">
+作者：浪花 发布时间：2016-11-27   来源:本站原创  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3080"></SCRIPT>  <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=码农与产品经理看过来-教你用Adobe Xd轻松做原型设计^_^-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3080.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<h3><div class="pull-left"><a href="/NodeNews.aspx?NodeID=30&n=[ERR:未定义的系统标签(GetUrlencode(浪花)$}"><Img src="/Images/userface/9.gif" alt="浪花" /></a></div>
+<p>
+<strong>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=GetUrlencode(浪花)$}">浪花</a></strong><br />
+个人座右铭：</span>似水的年华，谱写青春的歌曲，还有一起奋斗的同事，以及激情的浪花~！
+</p>
+</h3>
+<div id="Content_txt">
+<p><em><br/></em></p><p><em>提示：这是一篇纯技术干文，通篇读懂至少需要40分钟。</em></p><p>&nbsp;</p><p><img title="1.jpg" alt="1.jpg" src="/UploadFiles/Image/20161127/6361588591251072863723720.jpg"/></p><p>&nbsp;</p><p>Adobe Experience Design (XD)，是adobe公司推出的一款原型设计工具。</p><p>这个项目最早披露是在2015年，Adobe在当年的Max大会上推出了全新的桌面端UX原型工具Project Comet，这是新一代网页与移动应用的UX设计工具。</p><p>2016年，Adobe将Project Comet改名为Experience Design（XD），目前已经开放了MAC和WIN平台的使用（国内可能锁区影响，Win平台还没得到开放）。</p><p>&nbsp;</p><p><img title="2.png" alt="2.png" src="/UploadFiles/Image/20161127/6361588612787661588364694.png"/></p><p>&nbsp;</p><p>实际上，当前已经有诸多设计应用的工具，Adobe将XD更多地定位成直接与Sketch竞争。XD不仅可用于设计画板（artboard），而且还可用于原型设计。XD支持现有的工程类型，如web、iPhone、iPad或自定义尺寸设计，另外也有预设的UI Kit包。用户可从iOS、谷歌的Material Design或Windows来选择。XD还能展示最近的文件，这样进入原型设计工作也更方便。</p><p>&nbsp;</p><p>XD一个亮点在于对多工程和更大工程的支持，多个画板可成批切换，并且是独立的元素。如果要显示多用户的查看方式，XD也能给每个用户一个独立的名字，而不是每次都显示相同的名字。通过进行分组，也可对多余文本元素的字体和字号进行更方便的修改。</p><p>&nbsp;</p><p><img title="屏幕快照 2016-11-28 上午12.00.33.png" alt="屏幕快照 2016-11-28 上午12.00.33.png" src="/UploadFiles/Image/20161128/6361588811584479092329503.png"/></p><p>&nbsp;</p><p class="am-article-lead" style="background: rgb(249, 249, 249); list-style: none; margin: 0px 0px 1.6rem; padding: 10px; border-radius: 2px; border: 1px solid rgb(222, 222, 222); border-image: none; color: rgb(102, 102, 102); text-transform: none; line-height: 1.5; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 1.4rem; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">Adobe Experience Design CC是基于矢量用于WEB、移动应用设计和原型的用户体验设计的工具。集线框图，视觉设计，交互设计，原型制作，预览和共享轻松切换于一体的一个强大的工具。</p><p><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"></span><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　 2016年5月24日Adobe Experience Design CC 迎来V0.5.4版本更新（截止本文发布时最新版本是V0.6.2.7)，我们已经可以在adobe creative cloud中下载/更新了，让我们来看看有哪些新特性。</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　V.0.5.4版本更新主要有一下几点：</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　色板颜色选择器更新；</span></p><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>文本的改进：可修改的字间距；</p></li><li><p>原型功能可滚动区域；</p></li><li><p>选择多个画板和网格调整；</p></li><li><p>单个相对于画板对齐；</p></li><li><p>全屏网络原型</p></li></ul><p><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　下面我们看详细信息：</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　01.色板颜色选择器更新：</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　　　从零开始构建任何应用程序涉及建立一个坚实的基础,其次是所有的基本工具。这需要时间！不仅实现需要时间,还有很多工作:研究、同情、头脑风暴、原型、测试和验证,以及迭代。重复这个过程之后，现在ADdobe Xd为我们带来了新的色板颜色选择器。使用它，只需选择一个矢量形状，点击颜色框，选择一个颜色。可以使用HSB(色调、饱和度、亮度)值或滑块来调整颜色和透明度(alpha通道),以及通过单击+图标保存我们最喜爱的色板。</span></p><p><img title="1.gif" alt="1.gif" src="/UploadFiles/Image/20161127/6361588692483853816386710.gif"/></p><p><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　02.文本的改进：可修改的字间距</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　　　现在可以选择文本的一部分,改变它的字体,大小和字符间距了。选择文本的范围和使用属性检查器来改变其属性。官方表示改变文本的颜色的子区间也即将更新。</span></p><p><img title="2.gif" alt="2.gif" src="/UploadFiles/Image/20161127/6361588693310324514993706.gif"/></p><p><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　03.选择多个画板和网格调整</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　　　作为工作的一部分,在画板上,现在可以品牌选择多个画板或单击其标题按住shift键,然后激活编辑网格使用右边的属性检查器调整。</span></p><p><img title="3.gif" alt="3.gif" src="/UploadFiles/Image/20161127/6361588694278789127301700.gif"/></p><p><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　04.单个相对于画板对齐</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　　　Adobe XD之前发布的版本，可以使用对齐来对齐对象相互的关系。现在,如果你选择一个对象或一组对象,您可以使用相同的对齐工具来调整相对于画板的对齐。如果你选择多个画板，可以调整和分配。</span></p><p><img title="4.gif" alt="4.gif" src="/UploadFiles/Image/20161127/6361588695427715433092474.gif"/></p><p><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　05.原型功能可滚动区域</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　　　作为第一步使滚动内容原型的创建，现在您可以滚动长画板。要使用该功能，就创建一个画板使用预设模板（如iPhone，iPad的或网页1920,要么从一开始就从显示的列表中屏幕或当使用画板工具)和扩展它的高度。你将会看到一个虚线代表了褶皱。如果你测试原型使用预览窗口或网页原型，你将能够滚动，调整折叠，固定元素和水平滚动通过滚动视窗还在进行中。</span></p><p>&nbsp;<img src="/UploadFiles/Image/xd5.gif"/></p><p><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　06.全屏网络原型</span><br style="list-style: none; margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"/><span style="color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: &quot;Segoe UI&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, &quot;Microsoft YaHei&quot;, FreeSans, Arimo, &quot;Droid Sans&quot;, &quot;wenquanyi micro hei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, FontAwesome, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">　　　　有时你需要展示或测试原型没有分心。为此，Adobe增加了全屏网络原型。要启用它，只需点击全屏图标在右上角。退出，只是按ESC。</span></p><p><img title="6.gif" alt="6.gif" src="/UploadFiles/Image/20161127/6361588698803666305010904.gif"/></p><p>&nbsp;</p><p>&nbsp;</p><p>下面我们以实际案例，来详细讲解如何用该软件轻松做原型。为了让大家更好的理解，首先从两个非常简单的界面开始入手。<br style="box-sizing: border-box;"/></p><p><span style="color: rgb(89, 89, 89);">1、以iPhone 6尺寸大小创建一个文档，然后使用快捷键A，插入一个相同尺寸的画板，界面上有两个iPhone 6尺寸画板了，如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="1.jpg" alt="1.jpg" src="/UploadFiles/Image/20161127/6361588648296133829215344.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">2、将第一个画板填充为黄色，第二个画板填充为蓝色，如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="2.jpg" alt="2.jpg" src="/UploadFiles/Image/20161127/6361588648930647946909255.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">3、选择Protype板块，任意选中一个画板，可以看到被选中的画板左上角有一个房子的图标，单击该图标，图标变成蓝色，则表示将该画板设置为封面，这个的功能在后文中效果预览和分享中会介绍到。然后在选中画板的右侧有个蓝色小箭头。如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="3.jpg" alt="3.jpg" src="/UploadFiles/Image/20161127/6361588649591788258991196.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">4、按住此处的蓝色小箭头，并拖动鼠标，可以看到会产生一条带箭头的曲线，用于连接跳转到的界面，释放鼠标，则会创建两个界面间的连接线，并弹出对话框，如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="4.jpg" alt="4.jpg" src="/UploadFiles/Image/20161127/6361588650351176966969892.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">5、对话框可以设置跳转的属性，第一个是Taget，用于设置跳转到的目标图层。第二个是Segue用于设置跳转的方式，如下图所示，可以设置从左滑、右滑、上滑、下滑和溶解效果。第三个是Easing可以设置缓动曲线类型，最后一个是Duration，用于设置跳转时间，根据被人的经验，交互动效的时间一般最长不应超过1秒钟。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="5.jpg" alt="5.jpg" src="/UploadFiles/Image/20161127/6361588650988880052122293.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">6、设置好第一个后，然后选中第二个画板，按住右侧的曲线并拖动到第一个，这样就形成了一个交互的闭环，进行交互设计很重要的一点就是让界面的跳转形成闭环，用户必须可以从任何界面跳转到任意界面并能跳回到任何界面。如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="6.jpg" alt="6.jpg" src="/UploadFiles/Image/20161127/6361588651725875641102523.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">设置好界面之间的跳转，一般需要实时进行预览，一方面看看设置的跳转效果和时间是否合理，另外一方面也是为了检查跳转的设置是否已经闭环。Xd提供了非常方便的预览功能，大家可以看到在Xd的共更能选择栏的右侧，有一个播放按钮，单击该按钮即可打开预览界面，如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="66.jpg" alt="66.jpg" src="/UploadFiles/Image/20161127/6361588652434289783341715.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">此时我们看到预览打开后默认界面是蓝色画板，如果我们需要将默认界面设置为黄色画板，只需要选中黄色画板，然后单击左上角的房子图标，即可。这也是前面提到的这个图标的功能。如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="666.jpg" alt="666.jpg" src="/UploadFiles/Image/20161127/6361588653221300584235858.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">在预览界面可以看到右上角有个Record的按钮，单击该按钮即可录下交互过程，此时Record变成时间，鼠标指针变成触摸样式，要结束录制只需要再次单击右上角，会弹出对话框，选择保存的位置，即可将刚才的操作过程录制为MOV格式视频。如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="6666.jpg" alt="6666.jpg" src="/UploadFiles/Image/20161127/6361588653943706383029118.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">在设计完成后，往往需要将交互原型移交给其他同事，最常见的移交方法是讲Xd文档保存后发给对方，但是这种方法要求对方电脑上也装有Xd软件。除了这种方法，Xd提供了更为便利的方式进行分享。在预览按钮的右侧，可以找到分享的图标，单击该按钮，弹出如下图所示对话框。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="1.jpg" alt="1.jpg" src="/UploadFiles/Image/20161127/6361588659731151976314647.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">可以看到这种方式是上传到网络后生成网址进行分享。其中Tittle处设置改文档的标题，下方的正方形虚线处可以设置一个图像，直接从Finder处拖入图片即可，用于设置头像。然后下方的Start at这里取决于设置的首页的画板名。设置完成后，单击Create Link，即可上传并生成链接，如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="2.jpg" alt="2.jpg" src="/UploadFiles/Image/20161127/6361588660457156295795643.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">上传成功后界面上会显示一个网址，将该网址发给同事，同事即可通过该网址查看到原型，并且点击进行交互。因为是上传到互联网，所以对方也无需跟你在同一个局域网内。单击左下角的Copy Link即可对链接进行复制，通过网址访问到的界面如下图所示。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="3.jpg" alt="3.jpg" src="/UploadFiles/Image/20161127/6361588661105356639447278.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">可以看到使用Xd做简单的交互原型是非常方便的，但是目前Xd做复杂的交互动效还有相当大的难度，Xd要真正成为有PS那样影响力的软件还需要走很长的路，好处是其与Adobe家族软件完美配全，包括在全新的adobe CC 2017套装中，AI、PSD文件直接拖进，完全不是问题。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">在Xd提供的示范文档里，也同样可以看到该文档进行的交互设计指南，大家可以根据上面的指南进行测试。如下图所示，在此不做展开。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><img title="4.jpg" alt="4.jpg" src="/UploadFiles/Image/20161127/6361588661807173733471317.jpg"/></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">关于Xd的急速入门教程就为大家介绍到这里，随着Xd软件后续的升级，本教程可能会同步进行更多更能的介绍，在此感谢大家对本教程的关注。</span></p><p><span style="color: rgb(89, 89, 89);"><br/></span></p><p><span style="color: rgb(89, 89, 89);">如果对该软件有更多兴趣的话，大家可以加入</span><span style="color: rgb(255, 0, 0);"><strong>QQ群：117942452&nbsp;&nbsp;</strong></span><span style="color: rgb(89, 89, 89);">参与讨论，并提供更加丰富的逐浪CMS高端门户与移动开发教程。</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;补充阅读：</p><p>Adobe XD打开的五种方式-Adobe Experience Design CC</p><p><a href="/help/web/3081.shtml" target="_blank" textvalue="http://www.z01.com/help/web/3081.shtml">http://www.z01.com/help/web/3081.shtml</a></p><p><br/></p><p>&nbsp;</p><p>-----------------------------------------------<br/></p><p>如果你足够懒，还可以用XD来做LOGO，附：</p><p>首个Adobe XD教程丨如何用Adobe Experience Design (XD)快速设计图标</p><p><a href="https://bbs.z01.com/PItem?id=14888" target="_blank" textvalue="https://bbs.z01.com/PItem?id=14888">https://bbs.z01.com/PItem?id=14888</a></p>
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='UploadDir)请检查标签名是否正确]"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<br/><br/><br/>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3080" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3080" target="_blank">点此参与评论</a>>></div>
+<br/>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">码农与产品经理看过来-教你用Adobe Xd轻松做原型设计^_^</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<br/><br/>
+<div class="artInfo"><p calss="pull-left">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" width=\"380\"  value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="pull-right"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址" class="img-responsive text-center" /></a></p></div>
+<br/>
+<div class="Contnet_old">上一篇文章：<a href="/blog/techs/3061.shtml" title="Bootstrap维护者宣布停止v3版本的更新(附逐浪官方镜像)">Bootstrap维护者宣布停止v3版本的更新(附逐浪官方镜像)</a>     下一篇文章：</div>
+<!-- 内容主体结束 --></div>
+
+
+
+</div>
+
+
+<!--中部主体结束 -->
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<script type="text/javascript" src="https://seal.geotrust.com/getgeotrustsslseal?host_name=www.z01.com&amp;size=M&amp;lang=en"></script>
+<a href="http://www.geotrust.com/ssl/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 7px verdana,sans-serif; letter-spacing:.5px;"></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+$(function () {
+	$("#tabs1 a").mouseover(function (e) {
+		$(this).tab('show');
+	});
+   
+});
+$ID = function(el){
+	return document.getElementById(el);
+};
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+
+</script>

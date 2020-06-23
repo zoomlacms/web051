@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<title>Zoomla!逐浪新云主机-企业成长的高级利器+大数据平台成长之道~</title>
+<meta name="Keywords" content="云服务器,服务器,虚拟主机,虚拟主机购买,虚拟主机价格" />
+<meta name="Description" content="逐浪新云主机是企业级应用开发最优平台,中国顶级的虚拟主机服务商,10年行业服务经验,7×24小时专业技术支持." />
+<link href="jquery.fullPage.css" rel="stylesheet">
+<link href="yunShow.css" rel="stylesheet">
+<script src="jquery-1.8.3.min.js"></script>
+<script src="jquery-ui-1.10.3.min.js"></script>
+<script src="jquery.fullPage.min.js"></script> 
+<script>
+$(window).resize(function(){
+if(document.documentElement.clientHeight  < 700){
+$('.zt_nav').attr("style","position:absolute");
+}else{
+$('.zt_nav').attr("style","position:fixed");
+}
+});
+$(document).ready(function() {
+var version = 0;
+if($.browser.msie && $.browser.version < 10){
+version = $.browser.version;
+$('body').addClass('ltie9');
+}
+
+if(document.documentElement.clientHeight  < 700){
+$('.zt_nav').attr("style","position:absolute");
+}
+$.fn.fullpage({
+slidesColor: ['#fff', '#fff', '#343B58', '#1F305B', '#42414F'],
+anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+navigation: true,
+loopBottom: true,
+afterRender : function(){
+  if(version == 0){
+    fnSectionLoad1();
+  }
+},
+afterLoad : function(anchorLink, index){
+  if(index == 1){
+    if(version == 0){
+      fnSectionLoad1();
+    }
+  }
+},
+onLeave : function(index, nextIndex, direction){
+  if($.browser.version == 10){
+    $('.text-imgbox').find('.text-img').attr('style','display:none');
+    $('.text1img').attr('style','display:block');
+  }else{
+    $('.text-imgbox').find('.text-img').hide();
+    $('.text1img').show();
+  }
+  $('.text-box').find('a').removeClass('on');
+  $('.text-box .text1').addClass('on');
+  $('.section4').find('.content').find('div').removeAttr('style');
+  if(index == 1){
+      if(version == 0){
+      $('.section1').find('.icon').each(function(index, els) {
+             var i = index+1;
+             $('.section1').find('.icon'+i).each(function(index2, el) {
+               var $rel = $(el).attr('rel');
+               var $arr = $rel.split(',');
+               $(el).animate({
+                   left: $arr[0]+'%',
+                   top: $arr[1]+'%',
+                   opacity: 0},0);
+             });
+      });
+      $('.section1').find('.bottom-block').each(function(index, el) {
+          var $rel = $(el).attr('rel');
+          var $arr = $rel.split(',');
+          $(el).animate({
+            left: $arr[0]+'%',
+            top: $arr[1]+'%',
+            opacity: 0},0);
+        });
+        $('.section1').find('.linellae').each(function(index, el) {
+          var $rel = $(el).attr('rel');
+          var $arr = $rel.split(',');
+          $(el).animate({
+            left: $arr[0]+'%',
+            top: $arr[1]+'%',
+            opacity: 0},0);
+      });
+      }
+   }
+}
+
+});
+
+/*第四屏 begin*/
+$('.left-triangle').hover(function(){
+$(this).css('transition-delay','0s').addClass('hover');
+$(this).siblings('.right-triangle').css('transition-delay','0s').removeClass('hover');
+$(this).siblings('.circle-content').find('.right-content').removeClass('on');
+$(this).siblings('.circle-content').find('.left-content').addClass('on');
+});
+
+$('.right-triangle').hover(function(){
+$(this).css('transition-delay','0s').addClass('hover');
+$(this).siblings('.left-triangle').css('transition-delay','0s').removeClass('hover');
+$(this).siblings('.circle-content').find('.left-content').removeClass('on');
+$(this).siblings('.circle-content').find('.right-content').addClass('on');
+});
+/*第四屏 end*/
+/*第三屏 begin*/
+$('.text-box a').mouseover(function(){
+   if($(this).hasClass('on')){
+     return
+   }else{
+     var a_index = $(this).index();
+     $(this).parents('.text-box').find('a').removeClass('on').eq(a_index).addClass('on');
+     $('.text-imgbox').find('.text-img').fadeOut().eq(a_index).fadeIn();
+   }
+ });
+/*第三屏 end*/
+
+/*第五屏 begin*/
+$('.ck-radio').click(function(event) {
+      /* Act on the event */
+      $(this).parent().addClass('c-ff4').siblings().removeClass('c-ff4');
+});
+/*第五屏 end*/
+});
+function fnSectionLoad1(){ 
+$('.section1').find('.icon').each(function(index, els) {
+var i = index+1;
+$('.section1').find('.icon'+i).each(function(index2, el) {
+ var $rel = $(el).attr('rel');
+ var $arr = $rel.split(',');
+ $(el).animate({
+     left: $arr[2]+'%',
+     top: $arr[3]+'%',
+     opacity: 1},0);
+});
+});
+$('.section1').find('.bottom-block').each(function(index, el) {
+var $rel = $(el).attr('rel');
+var $arr = $rel.split(',');
+$(el).animate({
+left: $arr[2]+'%',
+top: $arr[3]+'%',
+opacity: 1},0);
+});
+$('.section1').find('.linellae').each(function(index, el) {
+var $rel = $(el).attr('rel');
+var $arr = $rel.split(',');
+$(el).animate({
+left: $arr[2]+'%',
+top: $arr[3]+'%',
+opacity: 1},0);
+});
+};
+</script>
+</head>
+<body>
+<div class="zt_nav">
+<div class="zt_content">
+  <h1 class="zt_logo"><a href="http://www.hx008.com/" target="_blank"></a></h1>
+  <ul class="zt_nav_list">
+        <li class="active"><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li><a href="/Article/news/2357.shtml" class="on">主机详情</a></li>
+        <li><a href="/pub/listpage.shtml" target="_blank">走进逐浪</a></li>
+        <li><a href="/shop/" target="_blank">购买逐浪</a></li>
+        <li><a href="/Project/" target="_blank">解决方案</a></li>
+        <li><a href="/mb/" target="_blank">模板中心</a></li>
+        <li><a href="/pub/" target="_blank">下载逐浪</a></li>
+        <li><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://club.zoomla.cn/" target="_blank">技术社区</a></li>
+  </ul>
+</div>
+</div>
+<div class="section section1">
+<div class="bg bg1">
+<div class="content">
+  <h2 class="title"></h2>
+  <div class="text"></div>
+  <div class="bottom-block" rel="50,-10,50,58"></div>
+  <div class="linellae" rel="48,100,48,38"></div>
+  <div class="icon icon1" rel="50,50,26,57"><div class="light light1"></div></div>
+  <div class="icon icon2" rel="50,50,40,52.5"><div class="light light2"></div></div>
+  <div class="icon icon3" rel="50,50,52.5,48.5"><div class="light light3"></div></div>
+  <div class="icon icon4" rel="50,50,62,46"><div class="light light4"></div></div>
+  <div class="icon icon5" rel="50,50,70.5,43.5"><div class="light light5"></div></div>
+</div>
+<div class="bottom-arrows">
+    <a href="#page2" class="fn-click">全新云主机</a>
+</div>
+</div>
+</div>
+<div class="section section2">
+<div class="bg bg2">
+<div class="content">
+  <h2 class="title"></h2>
+  <h3 class="title2"></h3>
+  <div class="text"></div>
+  <div class="linellae"></div>
+  <div class="max-block"></div>
+  <div class="min-block"></div>
+  <div class="icon1"></div>
+  <div class="icon2"></div>
+  <div class="icon3"></div>
+  <div class="icon4"></div>
+  <div class="clouds"></div>
+</div>
+<div class="bottom-arrows">
+    <a href="#page3" class="fn-click">为逐浪而生</a>
+</div>
+</div>
+</div>
+<div class="section section3">
+<div class="bg bg3">
+<div class="content" style="top: 40%;">
+  <h2 class="title"></h2>
+  <div class="text"></div>
+  <div class="text-box">
+    <a href="javascript:;" class="text1 on"><span><b></b><i></i></span></a>
+    <a href="javascript:;" class="text2"><span><b></b><i></i></span></a>
+    <a href="javascript:;" class="text3"><span><b></b><i></i></span></a>
+    <a href="javascript:;" class="text4"><span><b></b><i></i></span></a>
+    <a href="javascript:;" class="text5"><span><b></b><i></i></span></a>
+    <a href="javascript:;" class="text6"><span><b></b><i></i></span></a>
+  </div>
+  <div class="text-imgbox">
+    <div class="bottom-block"></div>
+    <div class="text-img text1img" style="display:block;"></div>
+    <div class="text-img text2img"></div>
+    <div class="text-img text3img"></div>
+    <div class="text-img text4img"></div>
+    <div class="text-img text5img"></div>
+    <div class="text-img text6img"></div>
+  </div>
+</div>
+<div class="bottom-arrows">
+    <a href="#page4" class="fn-click">五百强夸赞</a>
+</div>
+</div>
+</div>
+<div class="section section4">
+<div class="bg bg4">
+<div class="content">
+<h2 class="title"></h2>
+<div class="linellae"></div>
+<div class="circle"></div>
+<div class="circle-content">
+<div class="left-content on">
+<h3 class="title3">
+中化集团<br/><span>网站运营宣传中心 副总经理 刘先生</span>
+</h3>
+<div class="text">
+对于大型国有企业，网站的访问速度、稳定性和安全性是我们最关注的，
+从第一次部署Zoomla!逐浪CMS到现在组建站群，逐浪软件和华夏互联的技术品质值得信赖，尤其是24小时实时服务，<br/>
+同时还能畅享配套的逐浪软件商业服务以及建站工具，我信赖！
+</div>
+</div>
+<div class="right-content">
+<h3 class="title2">
+中科院海外事业部<br/><span>冯先生：</span>
+</h3>
+<div class="text">
+逐浪云主机“软硬”俱优、优势不言而喻，这是普通主机商所不具备的，每季的Update投递包、每年的技术大会、实时上门的服务，<br/>
+从逐浪软件的网站、电商、OA、门户、站群、微站和供应链接事完美结合，把网站放在华夏互联的主机上很稳定，也很让人放心，
+为我们海外业务拓展提供了扎实的基础！
+</div>
+</div>
+</div>
+<div class="bottom-block"></div>
+<div class="solid-block"></div>
+<div class="left-triangle hover"></div>
+<div class="right-triangle"></div>
+</div>
+</div>
+<div class="bottom-arrows">
+    <a href="#page5" class="fn-click">快速购买开通</a>
+</div>
+</div>
+<div class="section section5">
+<div class="bg bg5">
+<div class="content">
+<h2 class="title"></h2>
+
+<div class="text-content lst">
+<div class="lst-left">
+<p class="fonts28">逐浪新云主机-入门型</p>
+<p class="mt15"><label class="w90">操作系统：</label>
+  <label class="fonts18 c-ff4" for="win2012"> Windows 2012R2</label>(支持win2016升级)</p>
+  <p><label class="w90">参数性能：</label><span class="fonts18">双核4G内存/200G超大空间容量</span></p>
+  <p><label class="w90">扩展支持：</label><span class="fonts18">可以自由部署任意个站点，可随时升级扩容</span></p>
+  <p><label class="w90">支持语言：</label><span class="fonts18">Html/Shtml/Asp/Asp.net/PHP5x/独立CGI-bin</span></p>
+  <p><label class="w90">机房平台：</label><span class="fonts18">完美支持Zoomla!逐浪CMS2新站群和云部署功能</span></p>
+  <div class="price"></div>
+  <a href="http://v.hx008.com/viewproduct.php?product_id=184" target="_blank" class="f-btn btn1">立即开通</a>
+</div>
+
+<div class="lst-right">
+<p class="fonts28">逐浪新云主机-企业型</p>
+<p class="mt15"><label class="w90">操作系统：</label>
+  <label class="fonts18 c-ff4" for="win2012"> Windows 2012R2</label>(支持win2016升级)</p>
+  <p><label class="w90">参数性能：</label><span class="fonts18">双核6G内存/500G超大空间容量</span></p>
+  <p><label class="w90">扩展支持：</label><span class="fonts18">可以自由部署任意个站点，可随时升级扩容</span></p>
+  <p><label class="w90">支持语言：</label><span class="fonts18">Html/Shtml/Asp/Asp.net/PHP5x/独立CGI-bin</span></p>
+  <p><label class="w90">机房平台：</label><span class="fonts18">完美支持Zoomla!逐浪CMS2新站群和云部署功能</span></p>
+  <p><label class="w90">尊贵馈赠：</label><span class="fonts18">全套域名赠送、响应式全网支持高端模板订制一套</span></p>
+  <div class="price2"></div>
+  <a href="http://v.hx008.com/viewproduct.php?product_id=185" target="_blank" class="f-btn btn1">立即开通</a>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+</body>

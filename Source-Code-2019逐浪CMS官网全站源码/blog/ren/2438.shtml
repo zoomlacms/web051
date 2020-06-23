@@ -1,0 +1,436 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>H5发展现状：2015将有80%的App基于HTML5_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+</head>
+<body class="blog2015">
+<div class="relative">
+<div class="navbar navbar-default" role="navigation" id="home_scolls">
+<div class="container blog2015_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/skin/2010/images/logo.jpg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/blog/products/">产品管锥</a></li>
+<li><a href="/blog/eye/">观点碰撞</a></li>
+<li><a href="/blog/techs/">技术问道</a></li>
+<li><a href="/blog/ren/">那人那事</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<DIV class="blog2015_banner2" style="background-image: url({SField sid="栏目信息数据源" FD="NodePicUrl" page="0"/});">
+<DIV class="container">
+<h2 class="ZoomlaXingtiJ3"><i class="fa  fa-slideshare"></i>那人那事<abbr>--Zoomla!逐浪CMS官方博客</abbr></h2>
+</div>
+</div>
+
+<div class="container margintop10">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/blog/index.shtml">官方博客</a> / 
+<a href="/Class_79/Default.aspx">那人那事</a> / 
+</ol>
+</div>
+
+<div class="container  blog2015_con">
+<div class="container" id="Content">
+<h1>H5发展现状：2015将有80%的App基于HTML5</h1>
+
+<div id="container paddin10">
+<p class="text-center">
+作者：lotos 发布时间：2015-09-22   来源:本站原创  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=2438"></SCRIPT>  <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=H5发展现状：2015将有80%的App基于HTML5-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/2438.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<h3><div class="pull-left"><a href="/NodeNews.aspx?NodeID=30&n=lotos"><Img src="/Images/userface/4.gif" alt="lotos" /></a></div>
+<p>
+<strong>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=lotos">lotos</a></strong><br />
+个人座右铭：</span>鄱阳湖畔千钧立业、井冈山下扬帆起航、黄浦江上谱写新章、东方明珠逐浪来。
+</p>
+</h3>
+<div id="Content_txt">
+<p><strong>前言：作为web研发者，Zoomla!逐浪CMS一直走在HTML5开发前沿。</strong></p><p><strong><br/></strong></p><p><strong>关于H5的发展，分享几个最近看到的惊人数据和新闻：</strong></p><p>1、截至2015，有80%的App将全部或部分基于HTML5。这意味着大部分App的内容都将是以网页的形式呈现，典型的例子包括微信、Facebook、Twitter等。(数据来源：国际科技媒体 ReadWriteWeb，2015)</p><p>	2、浏览量最高的1000个H5作品中，42%是心灵鸡汤，最高17,358,480 uv;27%是测试题，最高49,940,339 uv;15%是社交互动游戏，最高2,892,047 uv; 5%是大型品牌宣传，最高551,195 uv。(数据来源：在线h5工具平台ih5.cn，2015.9)</p><p>	3、谷歌浏览器于9月1日起不再自动播放Flash。 亚马逊宣布旗下网络(包括Amazon.com门户在内)的所有广告将不再使用Flash。在可预见的未来，Flash广告将被HTML5广告所替代。</p><p style="text-align: center;"><img alt="H5发展现状：2015年将有80%的App基于HTML5" src="/UploadFiles/Image/20150922/6357852903105842824387587.jpg"/> </p><p>4、朋友圈广告上线，据传起投20万， CPM 40元。详情外链的H5页面可以用微信提供的模板，也可以自行定制。</p><p>	注：本文提到的H5特指基于HTML5技术的动态交互页面。</p><p>	以上的信息反映了H5在内容营销的应用潜力。出于好奇，笔者又调研了国内外的几个社交平台。目前支持H5分享的平台：国内的微信、微博，国外有Facebook、Twitter、LinkedIn，当然每个平台分享的形式略有差异，以下是笔者对同一个内容分享后的对比：</p><p style="text-align: center;"><img alt="H5发展现状：2015年将有80%的App基于HTML5" src="/UploadFiles/Image/20150922/6357852903116762843886820.jpg"/> </p><p>	可以看到，各大主流社交平台对H5分享的支持都是比较友好的，只不过每个平台的分享接口都需要单独的定制。当然这也在暗示HTML5的推广渠道其实可以更加多元化，并且其在内容营销中有着极大的应用潜力。</p><p>	然而最近笔者观察到一些现象：一方面，企业对H5的需求一直在增加;另一方面，定制化H5的价格居高不下。从事Marketing的朋友，一边觉得H5反胃，一边又忙着找靠谱便宜的供应商。</p><p>	事实上随着技术的成熟和各种H5工具的涌现，H5制作已经渐渐走向标准化，成本问题也随着一些工具的出现有了极大的改善。或许H5技术的发展已经超出你的想象，很多问题已经有了不错的解决方案。</p><p>	以下仅从大家比较关注的H5制作和推广两方面给出一些行业调研结果和具体建议，其实那些百万千万级PV的H5也有一定的规律可循，希望能对大家有所帮助：</p><p><strong>一、如何找到靠谱不贵的 H5 供应商</strong> </p><p>	我们调研了国内几类供应商和各大品牌主，希望能给大家在选择H5供应商方面提供参考。从成本、资源平台到适用场景，可参考一二：</p><p>1. 整合营销类</p><p>	这类公司一般只做全案型的服务，很少会单独做H5开发，当然如果你的品牌名气够大并且预算够多也是可以的，量级30万+，包含策划、设计、开发、推广，也可能会有一些附加服务。</p><p style="text-align: center;"><img alt="H5发展现状：2015年将有80%的App基于HTML5" src="/UploadFiles/Image/20150922/6357852903126122864858636.jpg"/> </p><p>	典型案例：W 《NewBalance系列》《大众点评系列》;时趣互动《潘婷系列》</p><p>	适用条件：预算、时间充足，30万+、周期一个月以上</p><p>	资源渠道：金投赏、艾菲奖、金鼠标，麦迪逊邦、成功营销、Social Talent Circle、SocialBeta等</p><p><br/></p><p><strong>2. 强技术型</strong> </p><p>	这样的公司在国内并不多见，笔者比较认可的就W、未来应用、NPLUS、LXU这几家，其中W和LXU比较多元，其内容营销形式不限于H5，而W也在之前透露不再接纯H5开发的业务，目前已专于全案型。当然，除了以上几家，如果大家觉得更好的也可以推荐给我们。</p><p style="text-align: center;"><img alt="H5发展现状：2015年将有80%的App基于HTML5" src="/UploadFiles/Image/20150922/6357852903137042884357869.jpg"/> </p><p>	典型案例：LXU 《京东系列》《玩转进化论》;未来应用《神造七天》</p><p>	适用条件：预算10万+，开发周期半个月到1个月</p><p>	资源渠道：就那么几家，需要可以跟笔者联系，but，供不应求，排队!</p><p><br/></p><p><br/></p><p><strong>3、 各种小团队</strong> </p><p>	一年前H5的火爆伴随而来的是百花齐放的H5定制化公司，有的是看到H5的“钱景”投身红海，有的是营销圈内人看到机会而创业。同样分为两类：集策划、设计、开发一身的互动营销初创公司，以及以设计、技术见长的技术型小团队。</p><p>	这些公司往往水平不一，虽不乏优秀者，但各种滥竽充数，选择这类供应商的时候建议细心考察。这里分享几点经验：</p><p>	一定要看对方的历史作品，从作品加载速度、流畅度、交互丰富度(是否用到复杂Canvas动画、CSS3D、微信高级接口等)这些方面评估，至少要有3个以上比较好的作品，做过H5游戏并交互流畅为佳。</p><p>	对接人最好是产品经理，不能是那种一点不懂技术的所谓项目经理，一个是沟通非常麻烦，基本是个传话筒，没有什么卵用，另一个是会影响整个H5开发的进度。</p><p>	可能的话去一趟项目团队工作的场所，能做好项目的公司从办公室氛围就能看出来，而且还能防止那种外包N次的情况，花一天看看还是值得的。</p><p>	适用条件：预算2万~5万，开发周期1~3周</p><p>	资源渠道：Social Talent Circle、数英、H5说等</p><p><br/></p><p><br/></p><p><strong>4、专业工具平台</strong> </p><p>	托微信的福，H5的庞大市场需求推动了技术的阶跃式发展，一年前需要花几万大洋外包给一个技术团队做的事，现在依靠一个不懂代码的设计师和一个工具就能搞定。</p><p>	专业在线工具的出现，对很多技术型的H5小团队而言是一个非常大的冲击，原因主要在于工具效率的提升以及相应人力成本的下降。同样复杂度H5的技术实现，一个设计师用工具大概在两天左右，最多一周内能完成，而技术外包往往需要两周左右，甚至更长。</p><p>	算一笔账，高级设计师人工大概是500~1500 RMB/天，两天的工时加上各种临时需求，大概成本是1500~5000，这是用工具开发的成本;如果找技术外包：按低配计算，前端(500/天)，后端(500/天)，设计(500/天)，按10天开发周期算，加上各种服务器和测试，成本在2万以上。</p><p>	所以如果不是要找全案策划，对效果的要求也没到W、LXU那种复杂程度，建议用工具实现H5，无论从效率还是资金成本看来都是最优的。</p><p>	事实上，一些工具在H5技术实现上已经超过了大部分技术开发团队，类似ih5.cn这样的工具已经能实现像3D动效、时间轴动画、H5弹幕、多屏现场投票、微信登录、数据查询这样的高级H5效果和数据应用。</p><p>	除此之外，工具的好处是复用性，相信很多人都曾想象把别人家的H5改一改自己用，这种情景就是工具能解决的问题。ih5.cn有一个比较有趣的功能是复制案例，你可以复制别人的H5并更改素材自行定制!当然前提是作者愿意公开分享作品使用权。</p><p>	这种高效的H5制作模式，笔者觉得具备极大的颠覆性，当然对品牌而言也是好事，不用再花一堆钱生产本来就有的东西。</p><p>	以下也推荐一个比较实用的东西，它是一个移动端的H5轻应用商店，上面有很多高级定制的H5可供复制和使用，都是一些作者公开分享的优秀H5作品，除了常见的邀请函、微官网以外，还有像砍价、集赞、好友PK、H5弹幕、会议签到、多屏互动这种结合社交和数据的免费H5应用模板，由STC、澎湃新闻、SocialBeta、首席品牌官、3W咖啡等专业媒体联合ih5.cn推出，识别二维码可以进入，也可以点击“阅读原文”：</p><p>	好吧，我承认有点像在做广告，但确实是很有价值的东西，以后Marketing的童鞋就不用担心成本和开发问题了，这种只需要更改素材就可以制作高级“定制化”H5的事情，简直是千千万万手握千元预算的品牌经理的福音→_→</p><p><br/></p><p><br/></p><p><strong>二、H5的推广方式?如何提高传播量?</strong> </p><p>首先，影响H5传播量还有两大重要因素：转发率(内容)和打开率(标题和转发文案)。</p><p>	转发率取决于内容，除了内容要贴合受众场景，要有创意之外，最重要的是参与感。在ih5.cn统计的排名前1000个作品当中，传播最广的几类：心灵鸡汤、测试题、社交互动。前十名都在百万以上，最高达5000万传播。鸡汤能产生共鸣，测试题反馈结果，社交互动跟好友PK，这些都是参与感的体现。</p><p>	打开率是非常重要的因素，但同时也是最难把控的。因为决定打开率的，就是短短几十个字的标题和转发文案，往往只能凭感觉而定。</p><p>	以下提出一个解决思路，通过末位淘汰选出最佳H5转发文案：</p><p>Step1 同一个H5设定5组标题和转发文案，让用户每次转发都等概率的出现一组文案。</p><p>Step2 每次用户打开H5都记录来源于哪种文案，在推广开始一段时间后通过后台数据监测，将浏览量来源最低的文案去掉。</p><p>Step3 每隔一段时间执行第二步操作，直到只剩下一组文案为止。</p><p>(备注：由于几组文案都是同一个H5链接，只是参数不同。也就是说所有H5内容一样，转发率相同，而且每次转发出现的文案是等概率的，因此浏览量就能确切反映打开率的高低。通过逐步淘汰低浏览量的方案就能得到最优方案。以上需要一点数学能力理解→_→)</p><p>整个过程需要一定复杂度的技术实现，不过已经被验证可行。下次你可以让你的供应商尝试这样的方法，另外，ih5.cn也计划把该自动优化转发文案的功能集成到工具中，用户可自行定义几组文案和淘汰处理时间间隔，系统自动帮你优化。</p><p>	关于自动优化文案的功能，ih5.cn将于10月底开放内测资格，有意者请访问链接报名。</p><p>	除了提升H5本身的转发率和打开率，渠道也是影响传播的重大因素。</p><p>	据不完全统计，H5推广的方式有这些：微信公众号、朋友圈、微信群、微信广告、微博、LinkedIn、QQ群、QQ空间、新闻客户端、App广告、广点通、线下海报……</p><p>其中效率最高的是微信群、朋友圈，公众号效果取决于内容。</p><p>	微信群推广有几点建议：</p><p>	一般以工作属性居多，适合贴近工作场景的H5推广，比如一些2B产品的推广。</p><p>	内部员工是性价比最高的群渠道，设立一定的激励机制，从内部拓展精准KOL是不错的方法。</p><p>	内容要好，频率不宜过高，集中火力一次爆发。</p><p>	朋友圈推广则是生活属性为主，有趣、好玩，有参与感是关键，据统计朋友圈分享最多的H5类型是测试题，排名前三的测试游戏(案例&amp;数据来源：ih5.cn)：</p><p>	算算你是靠什么吃饭的? UV 49,955,986</p><p>测测二战中你能当什么兵? UV 7,358,480</p><p>测测你的新年运势? UV 4,032,529</p><p>	ih5.cn/idea/mcase，有兴趣的同学可以手动复制到微信浏览器打开，本文推荐的百万千万级案例都在这里，看看他们长啥样。</p><p>	公众号没什么好说的，看文案水平，不过可以告诉你的一个数据是，公众号平均一个阅读是1.2元，阅读原文转化是10%，H5只能挂阅读原文链接或者二维码，所以一个UV大概是12元!当然，如果内容很好，平均阅读价格可以无限低，原文转化可以提高到20%，加上公众号一般都是精准人群，所以效果也是可以很好滴。通常2B企业会更适合这种方式，因为一般客单价大，对人群精准度要求较高。</p><p><br/></p><p><br/></p><p><strong>三、H5 的未来?品牌营销的理性回归?</strong> </p><p>说实话，H5“砰”的一声让很多营销人乱了阵脚，毕竟它自带新兴技术的光环，而且在某种程度上也暴露了很多营销人在技术知识上的缺憾，以致于整个H5的供需市场处于一个无序和效率低下的状态。</p><p>	有几个原因：H5太新，没有定价标准，只能靠市场供需调节，但由于市场非透明，加上技术本身并不成熟，最终市场调节的结果也只能在一定范围内波动。相信这篇文章的读者也会有很多被忽悠被坑的经历。各种乙方未按时上线、甲方不认账。</p><p>	现在很多品牌方会渐渐思考这样的问题：做一个H5的投入怎样是合理的?如何分配制作和推广预算?对我的业务/用户增长有什么作用?</p><p>笔者认为，类似H5这样的技术正应该是为品牌解决这些问题，而不是给从事营销的人带来“枷锁”。</p><p>	事实上，技术是需求驱动的，之所以有H5，是因为消费者喜欢更丰富的信息表达方式。其实无论是国内还是国外，基于HTML5的富媒体内容形式，都是一个大趋势，只是微信提前走了一步，并推动了这一技术在营销中的应用罢了。</p><p>	所以，如果我们从内容载体的角度去理解H5，可以发现，其实H5应该是深入到品牌与消费者整个生命周期中的信息载体和连接点，目的是促进业务和提升体验，并且由于其本身所具备的传播特性，又能带来节点的广播效应，从而带来更多的流量。</p><p>	因此，H5在品牌营销中的应用将成为需求导向、业务导向的“连接型产品”，服务于具体市场和运营的目标，带来业务的促进，这是正在发生的理性回归。</p><p>&nbsp;</p>
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<br/><br/><br/>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=2438" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=2438" target="_blank">点此参与评论</a>>></div>
+<br/>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">H5发展现状：2015将有80%的App基于HTML5</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<br/><br/>
+<div class="artInfo"><p calss="pull-left">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" width=\"380\"  value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="pull-right"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址" class="img-responsive text-center" /></a></p></div>
+<br/>
+<div class="Contnet_old">上一篇文章：<a href="/blog/ren/909.shtml" title="销售工作感受-用户体验">销售工作感受-用户体验</a>     下一篇文章：<a href="/blog/ren/1078.shtml" title="环保探源-逐浪CMS环保越野团精彩撷影">环保探源-逐浪CMS环保越野团精彩撷影</a></div>
+<!-- 内容主体结束 --></div>
+
+
+
+</div>
+
+
+<!--中部主体结束 -->
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/2441.shtml" style="color:">访客行为跟踪与互动系统上线交付商用</a><span class="">2015/09/16</span></li>
+
+<li><b>[改进]</b><a href="/updata/2419.shtml" style="color:">更正后台Safri浏览器兼容性缺陷</a><span class="">2015/07/01</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+$(function () {
+	$("#tabs1 a").mouseover(function (e) {
+		$(this).tab('show');
+	});
+   
+});
+$ID = function(el){
+	return document.getElementById(el);
+};
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+
+</script>

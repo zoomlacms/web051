@@ -1,0 +1,648 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>企业监控与信息管理的强大助手-逐浪舆情系统交付商用_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="">
+<meta name="Description" content="企业监控与信息管理的强大助手-逐浪舆情系统交付商用">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script src="http://code.zoomla.cn/jquery/jquery-1.11.1.min.js"></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/template/office/style/js/openwin.js"></script> 
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/skin/2010/images/logo.jpg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0"> 
+<form action="/search/SearchList.aspx" method="get">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算内核之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li class="active"><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li><a href="/pub/listpage.shtml" target="_blank">走进逐浪</a></li>
+        <li><a href="/shop/" target="_blank">产品中心</a></li>
+        <li><a href="/case/" target="_blank">成功案例</a></li>
+        <li><a href="/Project/" target="_blank">解决方案</a></li>
+        <li><a href="/mb/" target="_blank">模板中心</a></li>
+        <li class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://club.zoomla.cn/" target="_blank">技术社区</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-24.aspx" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-25.aspx" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-26.aspx" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-27.aspx" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+ <div class="container margintop10">
+<div class="row">
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+  <ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">位置:首页</a> / 
+<a href="/Article/index.shtml">信息中心</a> / 
+<a href="/Class_5/Default.aspx">公司新闻</a> / 
+
+</ol>
+   
+<div id="Content">
+ <h1>企业监控与信息管理的强大助手-逐浪舆情系统交付商用</h1>
+ <hr/>
+
+<div id="Content_Info">
+
+<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12 text-right">作者:本站编辑 发布时间:2015-06-30  来源:本站原创   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=2415"></SCRIPT></p>
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style col-lg-5 col-md-5 col-sm-12 col-xs-12 text-left">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share?uid=1870470" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1870470" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p>逐浪</p><p><br/></p><p><br/></p><p><img src="/UploadFiles/Image/20150701/6357135886580110293566857.jpg" style="" title="a2.jpg"/></p><p><img src="/UploadFiles/Image/20150701/6357135886566070272310961.jpg" style="" title="a3.jpg"/></p><p><img src="/UploadFiles/Image/20150701/6357135887856192539591766.jpg" title="a3.jpg" alt="a3.jpg"/></p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=2415" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=2415" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">企业监控与信息管理的强大助手-逐浪舆情系统交付商用</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="artInfo">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/Article/news/2410.shtml" title="微逐浪-精彩内测wei.zoomla.cn">微逐浪-精彩内测wei.zoomla.cn</a></div>
+<div class="Contnet_old">下一篇文章：</div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+         解决方案
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+     <div class="panel-body padding0">
+ <ul class="panel_li">
+    <li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+  <li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+  <li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+  <li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+  <li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+  <li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+  <li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+  <li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+  <li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+  <li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+  <li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+  <li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+  <li><a href="/Project/" target="_blank">+方案中心>></a></li>
+  
+  </ul>
+       </div>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        产品中心
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/pub/" target="_blank">免费下载</a></li>
+  <li><a href="/mtv" target="_blank">在线视频</a></li>
+  <li><a href="/help/" target="_blank">帮助中心</a></li>
+  <li><a href="http://edu.zoomla.cn" target="_blank">建站学院</a></li>
+  <li><a href="/updata/" target="_blank">更新历史</a></li>
+  <li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+  </ul>      </div>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapseThree">
+          商业合作
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/shop/" target="_blank">在线购买</a></li>
+  <li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+  <li><a href="/article/join/">代理加盟</a></li>
+  <li><a href="/biz/" target="_blank">正版查询</a></li>
+  <li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsefour">
+         关于公司
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefour" class="panel-collapse collapse">
+     <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/" target="_blank">企业介绍</a></li>
+  <li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+  <li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+  <li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+  <li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+  <li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsefive">
+      企业文化
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefive" class="panel-collapse collapse">
+        <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+  <li><a href="/blog/" target="_blank">官方博客</a></li>
+  <li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+  <li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+  <li><a href="http://gongyi.zoomla.cn/" target="_blank">慈善公益</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+    创新学院
+        </a>
+      </h4>
+    </div>
+    <div id="collapsesix" class="panel-collapse collapse">
+    <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/video/1839.shtml">体感研究</a></li>
+  <li><a href="/pub/1932.shtml">院校合作</a></li>
+  <li><a href="/corp/about/472.shtml">电子杂志</a></li>
+  <li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+  <li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-xs-12">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站后台都是专业内容管理系统支撑-无论多大网站都不离开CMS的驱动。
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就！
+</p>
+
+ <ul class="Home_server_li">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/Class_91/Default.aspx" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.zoomla.cn" target="_blank">东方红慈善基金</a></li>
+<li><a href="http://www.zoomla.cn/demo/" target="_blank">产品演示</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">购买指南</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul class="Home_server_li">
+<h4>产品导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="/Shop/12.aspx" target="_blank">模板设计</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/blog/product/626.shtml" target="_blank">门户优化</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心与高端计算</a></li>
+<li><a href="/login5.5.html" target="_blank">云计算</a></li>
+<li><a href="/Shop/16.aspx" target="_blank">整合优化</a></li>
+<li><a href="/Article/server/470.shtml" target="_blank">订制中心</a></li>
+<li><a href="http://help.zoomla.cn" target="_blank">用户手册</a></li>
+<li><a href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/Shop/28.aspx" target="_blank">纪念品</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/mb/" target="_blank">模板中心</a></li>
+<li><a href="http://bbs.zoomla.cn" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>研发计划</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/Article/news/1902.shtml" target="_blank">豚计划</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="">教育研发</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="">RIA客户端体验</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/product/pub/1932.shtml" target="_blank">院校合作</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/guest/">接入申请</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.zoomla.cn/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.zoomla.cn/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://www.020data.com/" target="_blank">大数据存储及修复</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn/','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/Article/join/106.shtml" target="_blank">加盟代理</a></li>
+<li><a href="#">订阅本站</a></li>
+<li><a href="#">纠错报告</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+    <p>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Corpright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件zoomla.cn版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script>本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a><script src="http://www.anquan.org/static/outer/js/anquan_authen_83x30.js"></script> </p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-default navbar-fixed-bottom MYbottom" role="navigation">
+<div class="container BottomLink">
+<div class="col-lg-7 col-md-6 col-xs-12">
+<ul>
+<li><a href="pub/listpage.shtml">Zoomla!逐浪CMS内核</a></li>
+<li><a href="m">Z-Mobile智能移动手机应用开发</a></li>
+<li><a href="#" Onclick="javaScript:alert('抱歉当前仅对商业用户开放')">RIA交互体验与桌面智能软件</a></li>
+</ul>
+</div>
+<div class="col-lg-5 col-md-6 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+
+ 
+
+
+
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A>
+ <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+  <DIV id=divFloatToolsView class=floatR style="display:none;">
+    <DIV class=tp></DIV>
+    <DIV class=cn>
+      <UL>
+        <LI class=top>
+          <H3 class=titZx>QQ咨询</H3>
+        </LI>
+        <!--<LI><SPAN class=icoZx>在线咨询</SPAN> </LI>-->
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=228388629&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+        <LI class=bot><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1579153275&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+      </UL>
+      <UL class=webZx>
+        <LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+      </UL>
+      <UL>
+        <LI>
+          <H3 class=titDh>电话咨询</H3>
+        </LI>
+        <LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+        <LI class=bot>
+          <H3 class=titDc><A href="/pub/" target="_blank">免费下载逐浪CMS</A></H3>
+        </LI>
+      </UL>
+    </DIV>
+  </DIV>
+</DIV>
+<div class="Micro">
+  <div class="Micro_r"> <img src="/Template/office/style/images/Micro.gif"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+  <div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+    <div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+    <div class="Mic_r">
+      <ul>
+        <li>打开微信:</li>
+        <li>1.或选择魔术棒,扫一扫</li>
+        <li>2.或选择"朋友们",扫一扫</li>
+        <li>3.或查找微信号:逐浪CMS</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script> 

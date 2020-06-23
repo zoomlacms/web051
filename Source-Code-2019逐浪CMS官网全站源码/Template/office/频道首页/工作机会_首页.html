@@ -1,0 +1,107 @@
+{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>加入我们创辉煌_{$SiteTitle/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<style>
+</style>
+</head>
+<body>
+{ZL.Label id="2016响应式网站头部"/}
+
+<div class="job2017">
+<div class="container home_nav">
+<div class="row">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+<a href="/try/index.shtml" target="_blank">软件选型:如何选择合适的CMS系统</a>
+<a href="/try/cmsnews/" target="_blank">行业纵横:中国CMS行业动态及名单</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<ul class="list-unstyled">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="rss_log"><a href="pub/listpage.shtml" target="_blank">功能播报</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log">{ZL:Big5()/}</li>
+</ul>
+</div>
+</div>
+</div><!--小导航菜单结束 -->
+
+<div class="container">
+<div class="job2017_bt">
+<ul>
+<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="/corp/job/449.shtml" title="用人观点">用人观点</a></li>
+<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="/corp/job/154.shtml" title="人才福利">人才福利</a></li>
+<li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="/corp/job/153.shtml" title="招聘职位">招聘职位</a></li>
+</ul><div class="clearfix"></div>
+</div>
+
+<div class="job2017_about">
+<strong><a href="/corp/job/1979.shtml">Duang~Zoomla!逐浪CMS新版上线与发布视频</a></strong><br/>
+<p>
+我们的事业正在迅猛发展，诚邀和我们一样有梦想、有激情的职人加盟，共创未来。<br/>
+我们有着求贤若渴的心态与谦虚务实的风格，<br/>
+赛马不相马-<br/>
+<a href="/corp/job/153.shtml">欢迎有志之士加入我们>></a><br/>
+投递简历:<a href="mailto:web@z01.com">web@z01.com</a><br/></p>
+</div>
+</div>
+</div>
+<!--job2017 end -->
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/pub.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/2015.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/materialMenu.js"></script>
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+ 
+ 
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000)
+</script>

@@ -1,0 +1,107 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteTitle/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+
+<div id="banner2014" style=""><img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" /></div>
+
+<div class="container margintop10">
+<div class="breadcrumb">
+<a href="/">逐浪CMS官网</a> /{ZL.Label id="三级智能节点导航" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" /}<li class="active">列表</li>
+</div>
+</div>
+
+<div id="main" class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+<div id="Content">
+<div id="Class_txt">
+{ZL.Label id="最新一个下载_列表专用" NodeID="23" ShowNum="1" /}
+<div class="clearfix"></div>
+<abbr>历史发布:</abbr>
+{ZL.Label id="通用型栏目分页" ShowNum="20" /}
+</div>
+
+</div>
+</div>
+<!--中右结束 -->
+
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+{ZL.Label id="响应式右侧导航"/}
+</div>
+
+<!--右部结束-->
+</div>
+</div>
+</div>
+<!--中部主体结束 -->
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/} 
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$(".down_text li a").addClass("btn btn-success btn-lg");
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000)
+</script> 

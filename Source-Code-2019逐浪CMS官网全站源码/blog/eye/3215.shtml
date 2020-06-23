@@ -1,0 +1,438 @@
+﻿
+<!DOCTYPE HTML>
+<html><head>
+<meta charset="utf-8">
+<title>基于Algolia的NoSQL技术实践及与逐浪CMS的集成分享_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="实践,分享,技术,基于,集成">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20170901" rel="stylesheet" />
+</head>
+<body class="blog2015">
+<div class="relative">
+<div class="navbar navbar-default" role="navigation" id="home_scolls">
+<div class="container blog2015_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/skin/2010/images/logo.jpg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/blog/products/">产品管锥</a></li>
+<li><a href="/blog/eye/">观点碰撞</a></li>
+<li><a href="/blog/techs/">技术问道</a></li>
+<li><a href="/blog/ren/">那人那事</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<DIV class="blog2015_banner2" style="background-image: url({SField sid="栏目信息数据源" FD="NodePicUrl" page="0"/});">
+<DIV class="container">
+<h2 class="ZoomlaXingtiJ3"><i class="fa  fa-slideshare"></i>观点碰撞<abbr>--Zoomla!逐浪CMS官方博客</abbr></h2>
+</div>
+</div>
+
+<div class="container margintop10">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/blog/index.shtml">官方博客</a> / 
+<a href="/blog/eye/index.shtml">观点碰撞</a> / 
+</ol>
+</div>
+
+<div class="container  blog2015_con">
+<div class="container" id="Content">
+<h1>基于Algolia的NoSQL技术实践及与逐浪CMS的集成分享</h1>
+
+<div id="container paddin10">
+<p class="text-center">
+作者：浪花 发布时间：2017-11-12   来源:佚名  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3215"></SCRIPT>  <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=基于Algolia的NoSQL技术实践及与逐浪CMS的集成分享-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3215.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<h3><div class="pull-left"><a href="/NodeNews.aspx?NodeID=30&n=%e6%b5%aa%e8%8a%b1"><Img src="/Images/userface/9.gif" alt="浪花" /></a></div>
+<p>
+<strong>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e6%b5%aa%e8%8a%b1">浪花</a></strong><br />
+个人座右铭：</span>似水的年华，谱写青春的歌曲，还有一起奋斗的同事，以及激情的浪花~！
+</p>
+</h3>
+<div id="Content_txt">
+<p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><h1>事件缘起<br/></h1><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">有网友注意到了，最近上线之由逐浪CMS官方团队维护的全新bootstrap v4.0中文镜像与使用手册（网址<a href="http://code.z01.com/v4">http://code.z01.com/v4</a> ）的搜索非常快，而且调用的是一个外部搜索文件（search.js），支持全文检索，这是一种什么样的技术？</span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">事实上，这就是当前流行NoSQL技术的应用一则。</span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><img title="aa.png" alt="aa.png" src="/UploadFiles/Image/20171112/6364607497560614468601737.png"/><br/>（上图：在逐浪CMS中部署NoSQL服务指引）</span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"></span></p><hr/><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><h1>技术背景</h1><p>&nbsp;</p><p>人们一直觉得NoSQL其实很容易理解的，我本身也已经对NoSQL有了非常深入的研究，但是在最近准备YunTable的Chart的时候，发现NoSQL不仅非常博大精深，而且我个人对NoSQL的理解也只是皮毛而已，但我还算是一个“知耻而后勇”的人，所以经过一段时间的学习之后，从本系列第六篇开始，就将和大家聊聊NoSQL，而本篇将主要给大家做一下NoSQL数据库的综述。&nbsp;<br/>首先将和大家聊聊为什么NoSQL会在关系型数据库已经非常普及的情况下异军突起?</p><p style="margin: 0.8em 0px; padding: 0px; color: rgb(85, 85, 85); line-height: 35px; font-family: &quot;microsoft yahei&quot;; font-weight: 100;">诞生的原因</p><p>随着互联网的不断发展，各种类型的应用层出不穷，所以导致在这个云计算的时代，对技术提出了更多的需求，主要体现在下面这四个方面：&nbsp;<br/>1. 低延迟的读写速度：应用快速地反应能极大地提升用户的满意度;&nbsp;<br/>2. 支撑海量的数据和流量：对于搜索这样大型应用而言，需要利用PB级别的数据和能应对百万级的流量;&nbsp;<br/>3. 大规模集群的管理：系统管理员希望分布式应用能更简单的部署和管理;</p><p>庞大运营成本的考量：IT经理们希望在硬件成本、软件成本和人力成本能够有大幅度地降低;</p><p>目前世界上主流的存储系统大部分还是采用了关系型数据库，其主要有一下优点：</p><p>1.事务处理—保持数据的一致性；</p><p>2.由于以标准化为前提，数据更新的开销很小（相同的字段基本上只有一处）；</p><p>3.可以进行Join等复杂查询。</p><p>虽然关系型数据库已经在业界的数据存储方面占据不可动摇的地位，但是由于其天生的几个限制，使其很难满足上面这几个需求：&nbsp;<br/>1. 扩展困难：由于存在类似Join这样多表查询机制，使得数据库在扩展方面很艰难;&nbsp;<br/>2. 读写慢：这种情况主要发生在数据量达到一定规模时由于关系型数据库的系统逻辑非常复杂，使得其非常容易发生死锁等的并发问题，所以导致其读写速度下滑非常严重;&nbsp;<br/>3. 成本高：企业级数据库的License价格很惊人，并且随着系统的规模，而不断上升;&nbsp;<br/>4. 有限的支撑容量：现有关系型解决方案还无法支撑Google这样海量的数据存储;&nbsp;<br/>业界为了解决上面提到的几个需求，推出了多款新类型的数据库，并且由于它们在设计上和传统的NoSQL数据库相比有很大的不同，所以被统称为“NoSQL”系列数据库。总的来说，在设计上，它们非常关注对数据高并发地读写和对海量数据的存储等，与关系型数据库相比，它们在架构和数据模型方量面做了“减法”，而在扩展和并发等方面做了“加法”。现在主流的NoSQL数据库有BigTable、HBase、Cassandra、SimpleDB、CouchDB、MongoDB和Redis等。接下来，将关注NoSQL数据库到底存在哪些优缺点。</p><p>优缺点</p><p>在优势方面，主要体现在下面这三点：&nbsp;<br/>1. 简单的扩展：典型例子是Cassandra，由于其架构是类似于经典的P2P，所以能通过轻松地添加新的节点来扩展这个集群;&nbsp;<br/>2. 快速的读写：主要例子有Redis，由于其逻辑简单，而且纯内存操作，使得其性能非常出色，单节点每秒可以处理超过10万次读写操作;&nbsp;<br/>3. 低廉的成本：这是大多数分布式数据库共有的特点，因为主要都是开源软件，没有昂贵的License成本;&nbsp;<br/>4.&nbsp;<br/>但瑕不掩瑜，NoSQL数据库还存在着很多的不足，常见主要有下面这几个：&nbsp;<br/>1. 不提供对SQL的支持：如果不支持SQL这样的工业标准，将会对用户产生一定的学习和应用迁移成本;&nbsp;<br/>2. 支持的特性不够丰富：现有产品所提供的功能都比较有限，大多数NoSQL数据库都不支持事务，也不像MS SQL Server和Oracle那样能提供各种附加功能，比如BI和报表等;&nbsp;<br/>3. 现有产品的不够成熟：大多数产品都还处于初创期，和关系型数据库几十年的完善不可同日而语;&nbsp;<br/>上面NoSQL产品的优缺点都是些比较共通的，在实际情况下，每个产品都会根据自己所遵从的数据模型和CAP理念而有所不同，接下来，将给大家介绍NoSQL两个最重要的概念：数据模型和CAP理念，并在本文最后，对主流的NoSQL数据库进行分类。</p><p>Naresh Kumar是位软件工程师与热情的博主，对于编程与新事物拥有极大的兴趣，非常乐于与其他开发者和程序员分享技术上的研究成果。近日，Naresh撰文比较了NoSQL与RDBMS，并详细介绍了他们各自的特点与适用的场景。</p><p>NoSQL并不是关系型数据库管理系统，本文将会介绍NoSQL数据库与关系型数据库之间的差别，同时还会讨论在何种场景下应该使用NoSQL，何种场景下不应该使用。由于NoSQL还是个相对较新的技术，因此它还面临着很多挑战。</p><p>时至今日，互联网上有数以亿计的用户。大数据与云计算已经成为很多主要的互联网应用都在使用或是准备使用的技术，这是因为互联网用户每天都在不断增长，数据也变得越来越复杂，而且有很多非结构化的数据存在，这是很难通过传统的关系型数据库管理系统来处理的。NoSQL技术则能比较好地解决这个问题，它主要用于非结构化的大数据与云计算上。从这个角度来看，NoSQL是一种全新的数据库思维方式。</p><p><br/></p><p><span style="color: rgb(38, 38, 38); font-family: PingFang SC;"><br/></span></p><hr/><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><h1>技术选型</h1><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"></span></p><p><br/></p><p>那么如何部署NoSQL技术模型呢？</p><p>一般说来有两种方法，一是自主部署NoSQL数据库（环境）软件，一是采用第三方云计算公司提供的NoSQL服务。</p><p>后者无疑是最方便的部署方式。</p><p>由Algolia提供的搜索服务，即是其中的杰的代表（官网：<a href="http://www.algolia.com/" target="_blank">http://www.algolia.com/</a>）<br/></p><p><br/></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">关于Algolia的基本认识：</span></p><p>&nbsp;</p><ul class=" list-paddingleft-2"><li><p>法国一家初创公司(现在已经是业界搜索技术的主流供应商了），类似于存储云服务，计算云服务，提供的是<strong>搜索云服务</strong>，用户建立应用，接着通过sdk推送数据，然后通过sdk就可以搜索了。</p></li><li><p>目前QPS（query per second）保持在1万以上，最近一年内融资将近2亿元。</p></li><li><p>基础架构采用物理隔离，单应用单cluster，多个小应用可能共享一个cluster。</p></li><li><p>不会存储应用的原始数据。应用数据进入后，直接建立索引。</p></li><li><p>同一应用数据全球多地部署，其中只有一个master，其他都是slave，master负责建立索引，然后通过文件形式同步到其他机房。</p></li><li><p>同一cluster内部多个副本，采用multi-write方式，保证最终一致性。</p></li><li><p>应用数据都是通过sdk推送进来后，直接通过实时系统建立了索引，然后就可以立即查询了。所以，时效性非常高。</p></li></ul><p>&nbsp;</p><p>&nbsp;</p><hr/><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><h1>实施过程</h1><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><p><br/></p><p>在网站开发中，很重要的一个功能那就是搜索了。对于一个访问量很大的网站来说，对于所有的搜索请求直接读取数据库来完成将会造成非常大的负荷。两种办法可以有效地解决以上问题，第一种就是缓存，<code>memcached</code>,<code>redis</code>等都很有名气，在这里就不予赘述了。</p><p>那么第二种就是使用云搜索。什么是云搜索？类似于<code>CDN</code>，我们把数据库内可以用于被搜索的信息推送至云端，然后用户在我们的网站进行搜索时，实际上搜索请求并没有发送给我们的服务器，而是被传递到云服务器进行搜索，并返回相应的结果。这样的解决方案可以大大降低网站的延迟，并提高应用的性能。现在比较有名的<code>Algolia</code>就提供了云搜索的服务。</p><p>具体办法是我们将数据库的信息以<code>JSON</code>的格式上传到<code>Algolia</code>服务器，然后通过相应的API进行搜索。搜索既可以是实时的（采用<code>Javascript</code>调用<code>Algolia API</code>），也可以是后端的（使用<code>PHP</code>调用<code>Algolia API</code>）。</p><p>&nbsp;</p><p>&nbsp;<img title="11.jpg" alt="11.jpg" src="/UploadFiles/Image/20171112/6364607531806892377556657.jpg"/></p><p>&nbsp;图片中可以看到，我使用了<code>javascript</code>实现了前端实时搜索，这样不仅高效，而且对用户友好。<code>Algolia</code>的免费许可允许上传<code>10,000</code>条<code>JSON</code>数据，每月允许<code>100,000</code>次操作（包括上传和搜索），还是相当不错的。今天我们将要使用Javascript来实现<code>Algolia</code>的实时搜索功能，框架我选用的是最新的<code>jQuery</code>。好了，那我们这就开始。首先前往<code>Algolia</code>官网：<a href="http://www.algolia.com" target="_blank">http://www.algolia.com</a>注册好之后，我们就可以登录<code>dashboard</code>控制和管理我们的数据了。</p><p>&nbsp;</p><p><img title="2.jpg" alt="2.jpg" src="/UploadFiles/Image/20171112/6364607534918460853165520.jpg"/>注意，我们在上图中左边第三个钥匙按钮中，可以找到我们需要的<code>API Keys</code>：</p><p><img title="3.jpg" alt="3.jpg" src="/UploadFiles/Image/20171112/6364607535949493235215133.jpg"/></p><p>&nbsp;</p><p>我们需要的是<code>Application ID</code>，<code>Search-Only API Key</code>和<code>Admin API Key</code>。<strong>注意：</strong><code>Admin API KEY</code>一定不要放在<code>js</code>里，因为这个<code>key</code>是用来上传，删除和操作我们的云端数据的，所以一定要保管好。</p><p>有了key之后，当然就要着手开始上传我们的数据了。一个很简单的方法就是先把我们数据库数据导出成<code>JSON</code>文件后，使用<code>algolia API</code>的上传功能，直接上传至服务器。不过如果数据进行了更新，并不能实时反应在搜索中。我将会在另一篇文章中介绍如何使用<code>Laravel Scout</code>来进行数据的实时上传与更新。</p><p>首先我们需要把数据库的数据<code>push</code>到云端服务器。假设我们的数据库里有一个叫<code>contacts</code>的<code>table</code>，包含了客户联系人的数据，我们已经将这个<code>table</code>导出成<code>JSON</code>形式的文件：<code>contacts.json</code>。有了这个<code>JSON</code>文件后，我们就可以着手开始<code>push</code>数据到云端了。现在我们新建一个<code>js</code>文件，并填入以下代码：</p><pre class="prettyprint">var&nbsp;index&nbsp;=&nbsp;client.initIndex(&#39;contacts&#39;);var&nbsp;contactsJSON&nbsp;=&nbsp;require(&#39;./contacts.json&#39;);index.addObjects(contactsJSON,&nbsp;function(err,&nbsp;content)&nbsp;{
+&nbsp;&nbsp;if&nbsp;(err)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;console.error(err);
+&nbsp;&nbsp;}});12345678</pre><p>可以看到，以上的代码中，我们要建立一个叫<code>contacts</code>的索引，这个索引名称将在以后的搜索中使用到，每次搜索<code>contacts table</code>中的数据时，我们都需要先<code>call</code>一次<code>client.initIndex(&#39;contacts&#39;)</code>。 <br/> 剩余的代码就是将我们的<code>JSON</code>文件上传到<code>algolia</code>服务器。</p><p>好了，数据库的数据我们已经上传到服务器端了，现在我们就可以开始搜索了！首先我们需要引入<code>algolia</code>的<code>js</code>库：</p><pre class="prettyprint">&lt;script&nbsp;src=&quot;https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js&quot;&gt;&lt;/script&gt;1</pre><p>接着我们新建一个叫<code>instant-search</code>的<code>js</code>文件，然后添加以下代码：</p><pre class="prettyprint">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;client&nbsp;=&nbsp;algoliasearch(&quot;Application&nbsp;ID&quot;,&nbsp;&#39;Search-Only&nbsp;API&nbsp;Key&#39;);&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;contact_index&nbsp;=&nbsp;client.initIndex(&#39;contacts&#39;);&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;search_input_string&nbsp;=&nbsp;&#39;some-contacts-to-search&#39;;
+
+&nbsp;&nbsp;&nbsp;&nbsp;contact_index.search(search_input_string,&nbsp;function&nbsp;(err,&nbsp;contacts)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;(var&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;contacts.hits.length;&nbsp;i++)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;Code&nbsp;to&nbsp;deal&nbsp;with&nbsp;each&nbsp;contact
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;});12345678910</pre><p>我们可以看到，首先我们需要我们的<code>Application ID</code>及<code>Search-Only API Key</code>来初始化，接着我们使用<code>contacts</code>这个索引来搜索。<code>search_input_string</code>在这里为了方便说明我用的是固定的字符串，而实际上我们应该动态获取搜索框中的字符串来进行实时搜索。<code>contact_index.search</code>这个函数会将搜索到的结果放在<code>contacts.hits</code>中，所以我们可以使用一个loop来处理每一个返回的结果，比如把每一个结果添加上相应的<code>&lt;a&gt;&lt;/a&gt;</code>并加入到搜索结果的<code>list</code>中。</p><p><br/></p><hr/><p><span style="color: rgb(38, 38, 38); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; float: none; display: inline !important; white-space: pre-wrap; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><br/></span></p><h1>最后总结</h1><p>我在<code>CodePen</code>上做好了一个<code>instant-search</code>的<code>template</code>：</p><blockquote><p><a href="https://codepen.io/lgyaxx/project/full/XmYyBX/" target="_blank">https://codepen.io/lgyaxx/project/full/XmYyBX/</a></p><p><br/></p></blockquote><p>方便大家观看效果。另外我把代码上传到<code>github</code>了，包括了<code>instant-search</code>的逻辑。大致的概念就是每当搜索框有新的<code>input</code>，那么记录下这个<code>input</code>，等待一定的时间（例如1s或者2s），再次获取<code>input</code>，看跟之前的搜索串是否有不同，如果有不同，那么就搜索新的字符串，如果没有不同，那么就搜索旧的字符串。这样的延时机制可以有效地避免用户在搜索字符串还没打完的时候就进行多次搜索了。</p><blockquote><p><a href="https://github.com/lgyaxx/eagolia-search" target="_blank">https://github.com/lgyaxx/eagolia-search</a></p></blockquote><p>当然，我使用了<code>jQuery</code>框架并且结合了<code>Bootstrap 4</code>，大家可以自己发挥来实现所需的UI。还有需要注意的是，<code>Algolia</code>免费版需要把<code>logo</code>放在搜索结果旁边，这是官方要求，切记。</p><p>&nbsp;</p><p>综合本案中，我们是采用：</p><pre class="brush:css;toolbar:false">&lt;link&nbsp;href=&quot;../assets/css/docsearch.min.css&quot;&nbsp;rel=&quot;stylesheet&quot;&gt;</pre><p>&nbsp;以及</p><pre class="brush:css;toolbar:false">&lt;script&nbsp;src=&quot;../assets/js/docsearch.min.js&quot;&gt;&lt;/script&gt;</pre><p>两段代码结合，已经内置好了样式，非常好用。</p><p>&nbsp;</p><p><img title="11111.png" alt="11111.png" src="/UploadFiles/Image/20171112/6364607565432524688720347.png"/></p><p><br/></p><p><br/></p><p>由于逐浪CMS内置了强大的生成发布系统，所以不管是动态的NoSQL，还是静态文件引入NoSQL都是非常方便：</p><p><img title="zz.jpg" alt="zz.jpg" src="/UploadFiles/Image/20171113/6364616618789467779995813.jpg"/></p><p><br/></p><p>附扩展阅读《Algolia通往高可用搜索API的狂暴之路》：</p><p><a href="http://www.infoq.com/cn/news/2015/07/Algolia-API" target="_blank">http://www.infoq.com/cn/news/2015/07/Algolia-API</a>&nbsp;</p><p><a href="https://www.zybuluo.com/lsmn/note/137259" target="_blank">https://www.zybuluo.com/lsmn/note/137259</a>&nbsp;</p><p><br/></p>
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<br/><br/><br/>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3215" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3215" target="_blank">点此参与评论</a>>></div>
+<br/>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">基于Algolia的NoSQL技术实践及与逐浪CMS的集成分享</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<br/><br/>
+<div class="artInfo"><p calss="pull-left">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" width=\"380\"  value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="pull-right"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址" class="img-responsive text-center" /></a></p></div>
+<br/>
+<div class="Contnet_old">上一篇文章：<a href="/blog/eye/3108.shtml" title="CMS发哥谈小程序：没那么强大神秘与颠覆能力却是值得反思注意">CMS发哥谈小程序：没那么强大神秘与颠覆能力却是值得反思注意</a>     下一篇文章：</div>
+<!-- 内容主体结束 --></div>
+
+</div>
+
+
+<!--中部主体结束 -->
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3218.shtml" style="color:" target="_blank">全新检索表和数据方法提升标签（字段）开发效率</a><span class="">2017/11/20</span></li>
+
+<li><b>[新增]</b><a href="/updata/3205.shtml" style="color:" target="_blank">RSA加密安全</a><span class="">2017/10/25</span></li>
+
+<li><b>[新增]</b><a href="/updata/3204.shtml" style="color:" target="_blank">全面启用Bootstrap4.0框架</a><span class="">2017/10/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3192.shtml" style="color:" target="_blank">新固顶属性-更方便的固顶内容方法</a><span class="">2017/09/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+$(function () {
+	$("#tabs1 a").mouseover(function (e) {
+		$(this).tab('show');
+	});
+ });
+$ID = function(el){
+	return document.getElementById(el);
+};
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script>

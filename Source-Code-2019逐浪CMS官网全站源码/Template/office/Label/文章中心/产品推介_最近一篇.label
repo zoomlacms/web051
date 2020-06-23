@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Table>
+    <LabelID>430</LabelID>
+    <LabelName>产品推介_最近一篇</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,1,节点ID|TitleNum,30,1,标题长度|length,120,1,简介长度|Gid,0,2,当前文章ID|ShowNum,1,1,调用信息数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_CommonModel left join {table1}.dbo.ZL_C_Article on {table1}.dbo.ZL_CommonModel.ItemID={table1}.dbo.ZL_C_Article.ID</LabelTable>
+    <LabelField>{table1}.dbo.ZL_CommonModel.GeneralID,{table1}.dbo.ZL_CommonModel.Title,{table1}.dbo.ZL_C_Article.Defaultpic,{table1}.dbo.ZL_C_Article.synopsis</LabelField>
+    <LabelWhere>(NodeID=@NodeID or FirstNodeID=@NodeID) and Status=99 and ( GeneralID&lt;(@Gid+5) and GeneralID&gt;(@Gid-5) )</LabelWhere>
+    <LabelOrder>GeneralID desc</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="article"&gt;
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;&lt;img src="{ZL:GetPicUrl({Field="Defaultpic"/})/}" alt="{Field="Title"/}"&gt;&lt;/a&gt;
+&lt;strong&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/a&gt;:&lt;/strong&gt;
+{ZL:CutText({Field="synopsis"/},@length,...)/}&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;[+More]&lt;/a&gt;
+&lt;/div&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</DocumentElement>

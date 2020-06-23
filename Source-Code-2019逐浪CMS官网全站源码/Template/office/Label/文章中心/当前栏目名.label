@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>30</LabelID>
+    <LabelName>当前栏目名</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,1,2,当前节点ID</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Node left join {table1}.dbo.ZL_Manager on {table1}.dbo.ZL_Node.AddMoney={table1}.dbo.ZL_Manager.AddUserID</LabelTable>
+    <LabelField>{table1}.dbo.ZL_Node.NodeID,{table1}.dbo.ZL_Node.NodeName,{table1}.dbo.ZL_Manager.AddUserID,{table1}.dbo.ZL_Manager.AdminID,{table1}.dbo.ZL_Manager.AdminName,{table1}.dbo.ZL_Manager.AdminPassword,{table1}.dbo.ZL_Manager.AdminRole,{table1}.dbo.ZL_Manager.AdminTrueName,{table1}.dbo.ZL_Manager.AdminType,{table1}.dbo.ZL_Manager.DefaultStart,{table1}.dbo.ZL_Manager.EnableModifyPassword,{table1}.dbo.ZL_Manager.EnableMultiLogin,{table1}.dbo.ZL_Manager.IsLock,{table1}.dbo.ZL_Manager.LastLoginIP,{table1}.dbo.ZL_Manager.LastLoginTime,{table1}.dbo.ZL_Manager.LastLogoutTime,{table1}.dbo.ZL_Manager.LastModifyPwdTime,{table1}.dbo.ZL_Manager.LoginTimes,{table1}.dbo.ZL_Manager.ManageNode,{table1}.dbo.ZL_Manager.NodeRole,{table1}.dbo.ZL_Manager.PubRole,{table1}.dbo.ZL_Manager.RandNumber,{table1}.dbo.ZL_Manager.Theme,{table1}.dbo.ZL_Manager.UserName</LabelField>
+    <LabelWhere>NodeID=@NodeID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Field="NodeName"/}
+
+</LabelContent>
+    <LabelCount>10</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

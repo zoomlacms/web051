@@ -1,0 +1,122 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteTitle/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+<style>
+.warn{ margin:20px; width:auto;height:28px; line-height:28px; text-indent:40px; background:url(/skin/2009/images/important.gif) no-repeat 20px center #f8f8f8; border:1px solid #d4d4d4; }
+.l725{ border:1px solid #CEDBE3;}
+.l725 ul{ padding:1.2em;}
+.l725 li{padding:0px 10px 0px 10px;height:34px;line-height:34px; margin-top:2px; background:#f6f6f6; list-style:none;}
+.l725 li span{float:right;}
+.l725 li b{color:#F00;}
+</style>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+
+<div class="updata2015_c_banner">
+<div class="container">
+<i class="fa fa-cog fa-spin"></i>
+<span><strong>更新记录</strong>--把握Zoomla!逐浪CMS官方团队的研发动态。</span>
+</div>
+</div>
+
+<div class="container">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<li><a href="/">首页</a></li>
+<li><a href="/updata/i">更新记录</a> </li>
+<li class="active">信息列表</li>
+</ol>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+<div class="l725">
+<div class="warn">提示：版本更新为最新研发动态展示，不代表最终发布或产品功能买卖约定，商业用户可优先获取[<a href="/shop/">点此购买商业版本</a>]。</div>
+{ZL.Label id="更新记录_分页列表" NodeID="62" ShowNum="20" TitleNum="72" /}
+
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+{ZL.Label id="响应式右侧导航"/}
+</div>
+</div>
+</div>
+<!--中部主体结束 -->
+
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script> 

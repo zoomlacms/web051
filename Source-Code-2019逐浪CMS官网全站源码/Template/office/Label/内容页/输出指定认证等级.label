@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>523</LabelID>
+    <LabelName>输出指定认证等级</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>内容页</LabelCate>
+    <LabelDesc />
+    <LabelParam>ym,,1,域名|bm,,1,编码</LabelParam>
+    <LabelTable>ZL_CommonModel LEFT JOIN ZL_C_biz ON ZL_CommonModel.ItemID=ZL_C_biz.ID</LabelTable>
+    <LabelField>GeneralID,denji</LabelField>
+    <LabelWhere>Status=99 And ModelID=83 And (url='@ym' And url&lt;&gt;'') or (Scode='@bm' And Scode&lt;&gt;'')</LabelWhere>
+    <LabelOrder>ZL_CommonModel.AuditTime DESC</LabelOrder>
+    <LabelContent>{Field="denji"/}</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":"ZL_C_biz"}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>531</LabelID>
+    <LabelName>2017在线客服</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="home17_kefu"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="javascript:;"&gt;&lt;i class="fa fa-qq"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;div class="home17_kefu_c" style="bottom:170px;"&gt;
+&lt;div class="home17_kefu_ct"&gt;在线客服&lt;i class="fa fa-times"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div class="home17_kefu_cq"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes"&gt;&lt;i class="fa fa-qq"&gt;&lt;/i&gt;京沪苏粤售前&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes"&gt;&lt;i class="fa fa-qq"&gt;&lt;/i&gt;软件授权售前&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes"&gt;&lt;i class="fa fa-qq"&gt;&lt;/i&gt;高端订制售前&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes"&gt;&lt;i class="fa fa-qq"&gt;&lt;/i&gt;教育系统集成&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="home17_kefu_cb"&gt;
+&lt;a href="tel:021-20391046"&gt;
+&lt;h3&gt;&lt;i class="fa fa-phone"&gt;&lt;/i&gt;服务热线&lt;/h3&gt;
+&lt;p&gt;021-20391046&lt;/p&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="javascript:;"&gt;&lt;i class="fa fa-wechat"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;div class="home17_kefu_c" style="bottom:130px;"&gt;
+&lt;div class="home17_kefu_ct"&gt;扫码官方微信↓&lt;i class="fa fa-times"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;div&gt;&lt;img src="{$Banner/}" alt="微信二维码" style="max-width:100%;" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="/login9.html" target="_blank" title="免费下载逐浪CMS"&gt;&lt;i class="fa fa-cloud-download"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="javascript:;"&gt;&lt;i class="fa fa-angle-up"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

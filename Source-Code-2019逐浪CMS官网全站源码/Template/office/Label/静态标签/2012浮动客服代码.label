@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>460</LabelID>
+    <LabelName>2012浮动客服代码</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;!--客服代码开始 --&gt;
+&lt;DIV id=floatTools class=float0831&gt;
+&lt;DIV class=floatL&gt;&lt;A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);"&gt;展开&lt;/A&gt; &lt;A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);"&gt;收缩&lt;/A&gt; &lt;/DIV&gt;
+&lt;DIV id=divFloatToolsView class=floatR style="display:none;"&gt;
+&lt;DIV class=tp&gt;&lt;/DIV&gt;
+&lt;DIV class=cn&gt;
+&lt;UL&gt;
+&lt;LI class=top&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=184886758&amp;amp;site=qq&amp;amp;menu=yes"&gt;京沪苏粤售前&lt;/A&gt; &lt;/LI&gt;
+&lt;LI&gt;&lt;A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=1799661890&amp;amp;site=qq&amp;amp;menu=yes"&gt;软件授权售前&lt;/A&gt; &lt;/LI&gt;
+&lt;LI&gt;&lt;A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=524979923&amp;amp;site=qq&amp;amp;menu=yes"&gt;高端订制售前&lt;/A&gt; &lt;/LI&gt;
+&lt;LI&gt;&lt;A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;amp;uin=745151353&amp;amp;site=qq&amp;amp;menu=yes"&gt;教育系统集成&lt;/A&gt; &lt;/LI&gt;
+&lt;/UL&gt;
+&lt;UL class=webZx&gt;
+&lt;LI class=webZx-in&gt;&lt;A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"&gt;&lt;IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"&gt;&lt;/A&gt; &lt;/LI&gt;
+&lt;/UL&gt;
+&lt;UL&gt;
+&lt;a href="/pub/" target="_blank"&gt;&lt;LI class=bot&gt;&lt;/LI&gt;&lt;/a&gt;&lt;LI&gt;&lt;SPAN class=icoTl&gt;13177777714&lt;/SPAN&gt; &lt;/LI&gt;
+
+&lt;/DIV&gt;
+&lt;/DIV&gt;
+&lt;/DIV&gt;
+        
+&lt;div class="Micro"&gt;
+&lt;div class="Micro_r"&gt; &lt;img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /&gt; &lt;/div&gt;
+&lt;div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" &gt;
+&lt;div class="Mic_l"&gt; &lt;img src="/Template/office/style/images/Big_Micro.jpg" /&gt;&lt;/div&gt;
+&lt;div class="Mic_r"&gt;
+&lt;ul&gt;
+&lt;li&gt;打开微信:&lt;/li&gt;
+&lt;li&gt;1.或选择魔术棒,扫一扫&lt;/li&gt;
+&lt;li&gt;2.或选择"朋友们",扫一扫&lt;/li&gt;
+&lt;li&gt;3.或查找微信号:逐浪CMS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--客服代码结束 --&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

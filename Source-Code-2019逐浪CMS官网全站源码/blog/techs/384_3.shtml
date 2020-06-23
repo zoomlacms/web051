@@ -1,0 +1,397 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>从Oracle网站的兼容bug谈网站的兼容与查错开发_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="|网站|开发|bug|查错|兼容|Oracle">
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="all" href="/skin/2010/css/calendar-brown.css" title="win2k-cold-1" />
+<script src="/skin/2010/js/calendar.js"></script>
+<style type="text/css">
+#blog_top_nav li a.nav77{display:block;width:81px; height:26px;background:url(/skin/2010/images/blog_hover.jpg) no-repeat;color:#0B3155;}
+</style>
+</head>
+<body>
+<div id="blog_top_box">
+<div class="box970">
+<div id="blog_top_r">
+<div id="blog_top_menu">
+<a href="/" title="逐浪主页">网站首页</a>|
+<a href="/shop/" title="在线购买">商业订购</a>|
+<a href="/corp/about/83.shtml" title="联系专业客服">客服中心</a>|
+<a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a>|
+<a href="/help/" title="帮助中心">帮助中心</a>|
+<a href="http://help.zoomla.cn/" target="_blank" title="在线文档">在线文档</a>|
+<a href="http://edu.zoomla.cn" target="_blank" title="逐浪软件支持的建站技术平台">建站学院</a>|
+<a href="http://www.1th.cn" title="1th.cn为您提供最优秀的广告源码服务" target="_blank">一特源码</a>|
+</div>
+
+<div id="blog_top_nav">
+<ul>
+<li><a href="/blog/" class="nav30">博客首页</a></li>
+<li><a href="/blog/product" class="nav76">逐浪产品</a></li>
+<li><a href="/blog/eye" class="nav78">逐浪观点</a></li>
+<li><a href="/blog/tech" class="nav77">逐浪技术</a></li>
+<li><a href="/blog/ren" class="nav79">逐浪人和事</a></li>
+</ul>
+</div>
+
+</div>
+<a href="/blog/"><img src="/skin/2010/images/blog_logo.jpg" alt="Zoomla!逐浪CMS官网" /></a>
+</div>
+</div>
+<!--top end -->
+
+
+<div class="box970">
+<div id="blog_l">
+<div id="site"><a href="/">当前位置： 首页</a>  >  
+<a href="/blog/index.shtml">官方博客</a> > 
+<a href="/ColumnList.aspx?NodeID=77">逐浪技术</a> >  从Oracle网站的兼容bug谈网站的兼容与查错开发</div>
+
+
+
+<h1>从Oracle网站的兼容bug谈网站的兼容与查错开发</h1>
+<div id="Content_Info">作者：本站编辑 发布时间：2010-09-14  来源:本站原创   字体大小：【<A target="_self" href="javascript:fontZoom(18)">大</A> <A target="_self" href="javascript:fontZoom(14)">中</A> <A target="_self" href="javascript:fontZoom(12)">小</A>】  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=384"></SCRIPT></div>
+
+<div id="blog_abbr">
+<a href="/NodeNews.aspx?NodeID=30&n=%e6%9c%ac%e7%ab%99%e7%bc%96%e8%be%91"><Img src="~/Images/userface/noface.gif" alt="本站编辑" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e6%9c%ac%e7%ab%99%e7%bc%96%e8%be%91">本站编辑</a></strong><br />
+<span>个人座右铭：</span>建网站、选逐浪。
+易上手，功能棒。
+质量好，服务善。
+高性能，最划算。
+</p>
+
+</div>
+
+<div id="Content_txt"><p>
+	&nbsp;</p>
+<div style="text-indent: 1cm">
+	Oracle（甲骨文）公司，全球数据库软件服务商巨擎，每年都会面向专业开发者提供丰富的技术开发者资讯，并通过专业的会议营销来实现其软件的普及目的。</div>
+<div style="text-indent: 1cm">
+	不过本文需要介绍的不是Oracle公司的专业产品，而是从Oracle公司的一个网页说起，透过其网页背后的问题来研究网站开发、CMS软件研发以及相关问题。</div>
+<div style="text-indent: 1cm">
+	故事的开头要从逐浪软件的数据库研发小组说起，作为国内一流的CMS开发厂商，其对于数据库的研究自然也是非常重视，并组建了专业的研发小组，同时推出了国内唯一一款同步支持Oracle与MSSQL的专业CMS&mdash;Zoomla!逐浪CMS，赢得了专业领域的认同。</div>
+<div style="text-indent: 1cm">
+	2009年Oracle的&ldquo;甲骨文技术日&rdquo;即将于南昌开幕，逐浪CMS的研发团队当然是是在第一时间收到邀请函的啦，于是数据库研发小组的同事们兴奋的点击打名登记网址，结果怎么提交都不能提交上去，提示有错。</div>
+<div style="text-indent: 1cm">
+	详情如下图：</div>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="/UploadFiles/FCKeditor/pic/200902/200902080953291732.jpg" style="width: 548px; height: 434px" /></p>
+<p>
+	&nbsp;</p>
+<div style="text-indent: 1cm">
+	怎么回事？</div>
+<div style="text-indent: 1cm">
+	明明选择了行业信息，怎么系统还提示没有选择行业信息？</div>
+<div style="text-indent: 1cm">
+	于是，我们查看了其源码：</div>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="/UploadFiles/FCKeditor/pic/200902/200902081003075766.jpg" /></p>
+<p>
+	下面是内容源码：<br />
+	<img alt="" src="/UploadFiles/FCKeditor/pic/200902/200902081004212925.jpg" /></p>
+<p>
+	&nbsp;</p>
+<div style="text-indent: 1cm">
+	怎么样？看出来了吧？</div>
+<div style="text-indent: 1cm">
+	Oracle程序员写的源码确实是很敏捷，简洁、高效的实现了问券调查表单的提交，其逻辑思路可以说是经典、中规中矩，标准的引用与查询模式，效率也自然最高（传统商业软件市场一般认为成熟即为稳定），然而为何会在我们的浏览器下显示？</div>
+<div style="text-indent: 1cm">
+	这也着实让逐浪CMS的研发者们郁闷，后来再查一下，原来逐浪CMS开发团队使用的是IE8rc1浏览器，其严谨的规则造成了老式的调用出了问题。</div>
+<div style="text-indent: 1cm">
+	于是，测试员改用了IE8的兼容模式查看，或或，这下问题解决了，看下图的成功表现：</div>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" src="/UploadFiles/FCKeditor/pic/200902/200902081009555868.jpg" style="width: 395px; height: 337px" /></p>
+<p>
+	&nbsp;</p>
+<div style="text-indent: 1cm">
+	感兴趣的朋友可以点击这个网址亲自体验一下：<a href="http://wmdata.com.cn/oracle/TCSOFM-nc/register.htm"><font color="#800080">http://wmdata.com.cn/oracle/TCSOFM-nc/register.htm</font></a>。逐浪CMS开发团队们及时向Oracle反馈了这个问题，并得到了积极的响应，并邀请我们届时参与会上活动，喜为座上宾，嘻嘻：）</div>
+<div style="text-indent: 1cm">
+	说到这里，故事似乎要说完了。</div>
+<div style="text-indent: 1cm">
+	然而，开发人员关于兼容性程序性能、兼容性与BUG调试的课题还远远没完。</div>
+<div style="text-indent: 1cm">
+	随着不同的浏览器更新，兼容性的问题也越来越多的反映在开发者们面前，传统的各自为政模式正越来越向标准化方向改进，老式的开发思路也正面临着越来越多的问题，如果不改进则无以进步。</div>
+<div style="text-indent: 1cm">
+	在软件开发的过程中，除了标准的源码开发、BUG查错、用户意见反馈之外，严谨的流程也是保证开发的必经之路。通过正式审查的软件工作产品，其缺陷清除率从低于60%升到90%以上不等，平均缺陷率约为65%。目前开发业大体的共识是：正式审查是目前最高效的缺陷清除方法。而逐浪CMS通过与敏捷开发大会、CSDN等研发团队的合作，不断的改进流程，也不断的从其它同行中吸取营养，以打造卓越软件内核。</div>
+<div style="text-indent: 1cm">
+	Oracle的报名网站只是一个特例，而且所幸的是仅仅发生在刚刚发布不到一周的Ie8RC1版本中，然而国内有另一家同行的网站则更为离奇，为了解决兼容性问题，强制浏览器以特定的模式显示：</div>
+<div style="text-indent: 1cm">
+	<span><font color="#0000ff">&lt;</font></span><span><font color="#800000">meta</font></span><span><font color="#ff0000">http-equiv</font></span><font color="#0000ff"><span>=</span><span>&quot;X-UA-Compatible&quot;</span></font><span><font color="#ff0000">content</font></span><font color="#0000ff"><span>=</span><span>&quot;IE=7&quot;</span><span> /&gt;</span></font></div>
+<div style="text-indent: 1cm">
+	开发者们不禁要问，强制以IE7显示没错，但是如果客户的电脑没有安装IE7呢？那是什么样的结果？</div>
+<div style="text-indent: 1cm">
+	对方肯定会说，在IE7以下版本中会显示正常，就不存在考虑非IE7以下浏览器的兼容性问题？</div>
+<div style="text-indent: 1cm">
+	果真是这样吗？</div>
+<div style="text-indent: 1cm">
+	如果是这样，那么某公共厕所上写着&ldquo;男&rdquo;，而没找到女厕所的女士，是不是看到&ldquo;男&rdquo;，就可以认为这&ldquo;男&rdquo;中包含了女士？</div>
+<div style="text-indent: 1cm">
+	显然这是一种偷懒的方法罢了，在这样的开发思路下，其产品会是如何？值得反思。</div>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles/"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('blog/jpg/2009/2/200902081039186506.jpg');
+showimg('');
+</script>
+</div>
+<div id="T_page">
+
+ <a href="/blog/tech/384.shtml"><p>首页</p></a> <a href="/blog/tech/384_2.shtml"><p>上一页</p></a><a href="/blog/tech/384.shtml"><span>1</span></a> <a href="/blog/tech/384_2.shtml"><span>2</span></a> <a href="/blog/tech/384_3.shtml"><span>3</span></a> <a href="/blog/tech/384_4.shtml"><span>4</span></a> <a href="/blog/tech/384_5.shtml"><span>5</span></a> <a href="/blog/tech/384_6.shtml"><span>6</span></a> 
+  <a href="/blog/tech/384_4.shtml"><p>下一页</p></a> <a href="/blog/tech/384_6.shtml"><p>末页</p></a>
+</div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=384" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=384" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">从Oracle网站的兼容bug谈网站的兼容与查错开发</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script><br />
+
+<input type="button" name="Submit" onClick='copyToClipBoard()' value="复制当前网址，传给QQ/MSN上的好友">
+<script language="javascript">
+    function copyToClipBoard(){
+     var clipBoardContent="";
+       clipBoardContent+=this.location.href;
+     window.clipboardData.setData("Text",clipBoardContent);
+     alert("Zoomla!逐浪CMS官网恭喜您:网址复制成功，请使用CTRL+V粘贴到你的QQ/MSN上推荐给你的好友!");
+   }
+</script>
+
+
+</div>
+<div id="Contnet_old">上一篇文章：<a href="/Friensite/2009/2/6/383.html" title="网人科技">网人科技</a><br />
+下一篇文章：<a href="/Friensite/2009/2/8/385.html" title="0551网址大全">0551网址大全</a></div>
+
+发表评论：<a href="/Comments/CommentFor.aspx?ID=384" target="_blank">点击发表</a>  
+
+</div><!--left end -->
+<div id="blog_r">
+
+<div id="calendar-container">
+<script type="text/javascript"> 
+function dateChanged(calendar)
+{
+	if (calendar.dateClicked) 
+	{
+		var y = calendar.date.getFullYear();
+		var m = calendar.date.getMonth(); // integer, 0..11
+		var d = calendar.date.getDate(); // integer, 1..31
+		window.location = "/Nodepage.aspx?NodeID=30&Data=" + y + "-" + (m+1) + "-" + d;
+	}
+};
+Calendar.setup(
+{
+	flat : "calendar-container", // ID of the parent element
+	flatCallback : dateChanged // our callback function
+}
+);
+</script> 
+</div>
+
+<div class="try_rt">→专家观点</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=lotos"><Img src="/Images/userface/4.gif" alt="lotos" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=lotos">lotos</a></strong><br />
+<span>个人座右铭：</span>鄱阳湖畔千钧立业、井冈山下扬帆起航、黄浦江上谱写新章、东方明珠逐浪来。
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=%e6%88%91%e7%88%b1%e5%b0%8f%e7%99%bd%e9%bc%a0"><Img src="/Images/userface/14.gif" alt="我爱小白鼠" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e6%88%91%e7%88%b1%e5%b0%8f%e7%99%bd%e9%bc%a0">我爱小白鼠</a></strong><br />
+<span>个人座右铭：</span>我是一只经过改良的小老鼠，用心去做，用心去想！！！
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5"><Img src="/Images/userface/6.gif" alt="发哥" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5">发哥</a></strong><br />
+<span>个人座右铭：</span>专注服务客户，脚比路更长！
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=tudou%e5%9c%9f%e8%b1%86"><Img src="/Images/userface/5.gif" alt="tudou土豆" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=tudou%e5%9c%9f%e8%b1%86">tudou土豆</a></strong><br />
+<span>个人座右铭：</span>不要迷恋哥，哥只是个土豆
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=%e6%b5%aa%e8%8a%b1"><Img src="/Images/userface/9.gif" alt="浪花" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e6%b5%aa%e8%8a%b1">浪花</a></strong><br />
+<span>个人座右铭：</span>似水的年华，谱写青春的歌曲，还有一起奋斗的同事，以及激情的浪花~！
+</p>
+
+</div>
+
+
+<div class="blog_r_ad"><a href=""><img src="/skin/2010/images/blog_ad.jpg"></a></div>
+<div id="bsearch">
+<span><iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="185px" height="25px"></iframe></span>站内搜索:
+</div>
+<div class="clear"></div>
+
+<div class="blog_r_ad" title="商业授权"><a href="/shop/" target="_blank"><img src="/skin/2010/images/blog_ad2.jpg" alt="商业授权" /></a></div>
+
+
+
+
+<div id="friendsite">
+<Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" size=1 name=select8>
+<Option  selected>友情链接站点</Option>
+
+<Option value="http://www.hx008.com">→ 华夏营销网</Option>
+
+<Option value="http://www.hx008.cn">→ 华夏互联</Option>
+
+<Option value="http://www.ef900.com">→ 易房网</Option>
+
+<Option value="http://bbs.sec520.com">→ 安防快线</Option>
+
+<Option value="http://www.zgfsl.com/Index.html">→ 苏教版高中语文网</Option>
+
+<Option value="http://www.ppali.com">→ 阿里数据</Option>
+
+<Option value="http://www.jecat.cn/">→ JeCat Tec</Option>
+
+<Option value="http://www.wangren.net/">→ 网人科技</Option>
+
+<Option value="http://www.01551.com/">→ 0551网址大全</Option>
+
+<Option value="http://www.fendoujiaoyu.net/">→ 奋斗教育</Option>
+
+<Option value="http://www.jz1959.cn/">→ 江中学生社区</Option>
+
+<Option value="http://www.automt.cn/">→ 江西第一汽车互动媒体</Option>
+
+<Option value="http://demo.2008.hx008.cn/">→ 东营车管所</Option>
+
+<Option value="http://www.saitseo.com/">→ 阳光安吉</Option>
+
+<Option value="http://www.fc3.cn">→ 黄山房地产网</Option>
+
+<Option value="http://www.iestore.cn/">→ IEStore网店系统</Option>
+
+<Option value="http://www.shangpinfushi.net/">→ 尚品服饰</Option>
+
+<Option value="http://nc.fangqq.com/">→ 南昌房地产</Option>
+
+</Select>
+</div>
+
+
+</div><!--right end -->
+</div>
+<!--主体结束 -->
+
+
+
+
+
+
+
+</div>
+<!--中部主体结束 -->
+<div id="bottom_line"></div>
+<div id="bottom">
+<ul>
+<li><a href="/corp/">关于我们</a></li>
+<li><a href="/corp/about/94.shtml">合同文档</a></li>
+<li><a href="/corp/about/84.shtml">汇款方式</a></li>
+<li><a href="/corp/about/83.shtml">联系我们</a></li>
+<li><a href="/corp/job/">工作机会</a></li>
+<li><a href="http://www.hx008.cn/magazine/" target="_blank">电子会刊</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Article/charity/">慈善公益</a></li>
+<li><a href="/photo/ltd/">参观公司</a></li>
+</ul>
+<div class="bottom_r"><a href="/corp/media/" target="_blank">媒体报道</a></div>
+<div class="bottom_r"><a href="/corp/about/93.shtml" target="_blank">公司资质</a></div>
+<div class="bottom_r"><a href="/blog" title="官方团队的开发日志">官方博客</a></div>
+</div>
+<!--底部导航结束 -->
+
+<div id="copyright">
+<div id="copyright_logo"><a href="http://www.zoomla.cn/" target="_blank"><img src="/skin/2009/copyright_logo.gif" /></a></div>
+<p>
+ &copy; Corpright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script>All rights reserved 逐浪软件zoomla.cn版权所有<br />
+中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 
+总机电话：021-50391046(18路) 沪ICP备09077823号
+<script src='/CounterLink.aspx?style=none'></script>
+</p>
+<div id="copyright_r">
+<span>7×24小时服务热线：<b>021-50391046</b></span>
+<span>技术支持：<b>13177777714</b></span>
+<ul>
+<li><a href="/corp/about/472.shtml" target="_blank" title="欣赏电子杂志"><img src="/skin/2009/magazine.gif" /></a></li>
+<li><a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2009/724.gif" /></a></li>
+<li><a href="/corp/about/476.shtml" title="鉴赏MTV电广视告片"><img src="/skin/2009/mtv.gif" /></a></li>
+<li><a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2009/iso.jpg" /></a></li>
+<li><a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2009/csdn8A.gif" /></a></li>
+</ul>
+</div>
+
+
+</div>
+<!--底部版权结束 -->
+
+<div id="end">
+<div id="end_l"></div>
+<div id="end_m">
+<p>本网站基于&reg;Zoomla!逐浪CMS内核开发</p>
+<div id="end_m_mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script></div>
+<ul>
+<li><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn/');" href="#">设为首页</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn/','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="javascript:CorrectReport();">纠错报告</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/corp/music"  target="_blank">企业歌曲</a></li>
+</ul>
+</div>
+<div id="end_r"></div>
+</div>
+<!--最下方导航结束 -->
+
+</body>
+</html>

@@ -1,0 +1,652 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>从SAP的发展历史看ERP-西欧思路、北美思路和中国电子商务软件应用启蒙新业态_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="思路,商务,软件,启蒙,应用">
+<meta name="Description" content="从SAP的发展历史看ERP-西欧思路、北美思路和中国电子商务软件应用启蒙新业态">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20170901" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style//images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r"> <a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_2"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_45"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_9"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_24"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li id="menu_123"><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_44" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_20"><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/help/manage/index.shtml">管理学院</a> / 
+</ol>
+   
+<div id="Content">
+<h1>从SAP的发展历史看ERP-西欧思路、北美思路和中国电子商务软件应用启蒙新业态</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2017-10-13  来源:佚名   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3197"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=从SAP的发展历史看ERP-西欧思路、北美思路和中国电子商务软件应用启蒙新业态-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3197.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p>关于ERP，一万个人，有一万种理解，有人认为这是一个管理软件，有人认为这是一个财务软件，有人认为这是生态链，有人认为这是一种管理咨询服务。</p><p>百科对此解释是：</p><p>ERP管理系统是现代企业管理的运行模式。它是一个在全公司范围内应用的、高度集成的系统，覆盖了客户、项目、库存和采购、供应、生产等管理工作，通过优化企业资源达到资源效益最大化。</p><p>然而，这一软件的具体思维是如何产生的呢？本文在此进行全面诠释。</p><p><strong><br/></strong></p><p><strong>一、SAP创立</strong></p><p><br/></p><p>SAP创立于1972年，德国。</p><p><br/></p><p>SAP的主要创始人来自IBM，德国的IBM，而且是博士学历出身、IBM德国的高管VP。</p><p><br/></p><p>当时全世界都是以硬件销售为主，软件走的是程序员定制开发。当时的硬件以大型机为主，非常昂贵，只有大型企业才能用得起。</p><p><br/></p><p>当时在IBM有两派声音：一派是觉得卖硬件多利索多赚钱，软件谁想做谁做，走集成模式就OK；一派认为IBM作为全球IT领导者，必须为客户提供解决方案，而且大型客户要的就是解决方案，否则客户孤零零买台大型机干嘛，所以这派的观点是IBM也要研发软件。当然大家知道了，是IBM在80年代末期大型主机不好卖了，郭士纳1993年上台才转型软件产业走软硬件一体化解决方案。但在1972年，大部分IBM人还是赞成IBM只做硬件，把各个企业需要的千奇百怪的应用软件需求放给生态合作伙伴。</p><p><br/></p><p>而SAP的创始人觉得软件才是企业真正想要的价值，一台空的大型主机就如同一台没有音乐磁带的录音机没啥用处。而且他们在德国做了多个单子，发现客户当时需要的企业应用软件都有一定的相似性，他们认为可以提炼出一套软件产品。</p><p><br/></p><p>于是他们就准备开干，他们早就搞定了一家客户关系，说你先等等，等我们出去开公司了你购买我们开发的软件。于是，这家公司就购买了IBM大型主机，SAP创建了，SAP的几个创始人就开始使用客户的主机进行编程。</p><p><br/></p><p>要知道，1972年的德国，仍然是欧洲的工业强国，当时德国制造异常强大，生产制造管理非常复杂，也需要计算机自动化来简化。德国人也非常喜欢严谨的明确的流程制度规范。而且德国处于国家零碎的欧洲（当时还没有欧盟与欧元），每个国家的语言、税制、货币计量都不同。但德国的企业却需要在欧洲各个国家开展生意。</p><p><br/></p><p>所以当时德国企业对流程制度规范固化，对跨国家的语言/税制/货币简化处理，对生产制造复杂工序管理需求非常强烈，德国企业有强大的买单能力，SAP正好应景产生。</p><p><br/></p><p>这样的结果就是一开始就做对了：</p><p>SAP ERP做大型企业</p><p>SAP ERP售价高</p><p>SAP ERP擅长处理国际化业务</p><p>SAP ERP擅长处理生产制造</p><p><br/></p><p><strong>二、SAP在美国</strong></p><p><br/></p><p>SAP往美国发展，是因为SAP的欧洲客户要在美国开展业务，于是SAP就顺便跟了过去。</p><p><br/></p><p>但美国的套路和德国不一样。美国走的是全球供应链战略，美国来控制游戏规则、获取最大利益。哪个国家充当研发设计与品牌塑造国，哪个国家充当原料/能源提供国，哪个国家充当生产制造国，哪个国家充当倾销市场国，美国人玩的大，不像德国老老实实制造精密机床老老实实做顶尖制造。所以这也造成了美国本土Oracle产生的ERP擅长供应链管理却不擅长生产制造。所以，以生产制造为重心的企业建议采用SAP ERP，以采销供应链为重心的企业建议采用Oracle ERP。</p><p><br/></p><p>也是因为美国的战略玩法，所以美国玩ERP不是买软件上软件用软件，而是以战略咨询流程咨询为切入先做企业流程重组或企业战略变革，最后才落地固化到ERP IT系统中。</p><p><br/></p><p>而且美国有这么一条完整成熟的链条：家族产业托管基金-所有权和经营权分离-职业经理人-MBA商学院-经典管理模型教授研究-咨询顾问-ERP流程固化与数据透明。这条链，德国没有。这条链，中国更没有。</p><p><br/></p><p>于是，SAP在美国的扩展的模式：主要以咨询公司引领，SAP ERP负责落地固化。</p><p><br/></p><p><strong>三、SAP在中国</strong></p><p><br/></p><p>SAP进入中国，也是因为跟着德国公司美国公司这些客户顺便进入中国的。因为中国的改革开放，大力发展合资公司，或者到中国来做委托加工。</p><p><br/></p><p>对于合资公司，往往是技术转移，但老外也鸡贼，不是把技术图纸单纯的转移，而是从产品图纸、产品生产设备、产品核心零部件、设备维护工程师、设备管理IT系统、生产管理IT系统，全套引入。对于委托加工，为了做到全球产业链控制，为了做到产供销联动，所以外国公司给中国发包，也要求中国代工企业上线ERP，和外国母公司连接在一起，这样老外就能在外国做到信息得知、流程管控。</p><p><br/></p><p>后来，不少中国企业也长大了，但是由于历史原因，要么接受了外国的投资，要么不能在国内上市而需要在欧美股市上市，为了符合外国投资者的监管、国际审计惯例，所以也都上线了SAP ERP或Oracle ERP，主要使用财务模块，主要就是为了做外国上市财报和审计，就这个核心作用。</p><p><br/></p><p>所以，要么是依赖外国订单、要么是依赖外国技术、要么是依赖外国资本、要么是想把生意做到外国，所以才需要上SAP ERP和Oracle ERP。</p><p><br/></p><p><strong>四、中国能不能产生类似SAP的软件公司</strong></p><p><br/></p><p>依目前时间节点，我看不容易。因为大家都知道，产品都是逐步改进成熟的，不可能一开始一起步就横空出世很牛逼。所以势必刚开始时是很烂的。其实SAP在刚刚创业的时候产品也是很烂的，但是1972年ERP产品市场一片空白，而且德国企业需求非常强盛而且买单能力也超强，所以SAP ERP一开始能卖出去并且还能卖高价。但是现在中国，你让一个大型企业购买中国的一家创业公司的ERP来替换它现在使用的SAP或Oracle ERP，可能吗？不可能。你让一家创业公司的ERP卖的和SAP一样贵可能吗？也不可能。哪个老板和哪个CIO都不敢担这个历史责任。（当然，很多CIO选型SAP ERP就是私心里为了逃避未来可能的失败责任，反正我已经选型了世界上所谓的最好的ERP，咱们实施失败不是我选型失败，肯定是咱们自己不好，而不是SAP软件不对）。</p><p><br/></p><p>那我们是否就悲观了？</p><p><br/></p><p>不，我们是没法重复走一遍SAP当年的老路，但是我们有我们的历史机遇。那就是电子商务、产业链集群。</p><p><br/></p><p>有什么样的消费者就有对等水平的产品制造提供商。中国制造企业很难自己主动升级改善，必须让消费者（给钱的人）倒逼，大家才愿意改进（能躺着赚钱谁想站着啊）。</p><p><br/></p><p>恰好，中国现在处于消费升级的历史时期。我们终于拥有了所谓的一亿中产，可以形成能撼动产品制造商的影响力量了。</p><p><br/></p><p>而且我国的电子商务在互联网风投的驱动下异军突起。有钱、有互联网聚合的巨大消费者用户人群流量、有强大的IT技术和自动化仓储物流技术、有强大的智能手机普及率、普及的4G和WIFI网络、普及的移动支付和互联网金融信贷。而且我国还有强大的丰饶甚至淤出来的日用消费品的生产制造（中国是全球日用消费品第一大国啊）。而且中国人口大量聚集在35mm等雨线以南、大量聚集在几大城市圈（华北环渤海、华东长三角、华南珠三角、西南成渝），而且区域生产制造集群非常明显。中国的仓储物流配送人口红利很强大、中国的卡车生产和电动自行车生产也很强大。中国的线下零售很薄弱。这样就造就了全球独一无二的中国电子商务盛况。</p><p><br/></p><p>零售端的强大，就会倒逼生产制造。过去是生产制造出什么就卖什么。现在中国电商这么强大，势必要倒逼成消费者需要什么，中国电商就要求中国产品制造商生产什么。</p><p><br/></p><p>所以在这种基础上，中国的企业ERP势必会一块块解耦。你看现在中国企业，基本已经把供应链、仓储物流配送、客服、销售渠道管理、订单管理、售后管理、MES、项目管理、人力资源管理都逐步从ERP中拆出来了，由更专业的独立软件来处理了。经典ERP，只主要使用财务模块了。</p><p><br/></p><p>现在中国制造企业大多在积极探讨互联网+转型，尝试开展电商直销、B2B电商交易、产业链整合、产业网络服务平台、产业区域集群协同制造。这些业务的开展和IT系统的匹配，那么经典ERP会在不知不觉中都慢慢肢解了，而新一代的ERP，在电商、产业链、产业区域集群制造新业务中不断产生、打通，而形成。这属于中国的，独一无二的路径。</p><p><br/></p><p>而且现在中国互联网也在纷纷杀入上游产业链、杀入线下，纷纷以新技术、新资本、巨大的消费者为要挟来重组中国传统产业链资源。</p><p><br/></p><p>过去的ERP，大多是人手工录入，靠人在驱动流程往前走。现在是靠物联网传感器自动采集数据、靠人工智能视觉识别自动采集数据、靠智能产品智能设备自动采集数据、靠人工智能机器学习算法来做到智慧采购智慧选品智慧定价智慧仓储物流调度智慧供需资源匹配。也就是说，中国产生的ERP，是无形的，数据采集无形，数据展示在手机上，人只要做中间关键的一些确认操作。</p><p><br/></p><p>过去的ERP专注的是一家企业的经营管理，最多也就是以一家龙头企业为中心打通产业上下游。而中国产生的下一代ERP，主要是以产业链服务平台为关键特征，这个产业链互联网络中有供应商、生产商、电商零售商、售后服务商、消费者，通过大数据来驱动供需自动最佳匹配。会有专门的产业链服务平台商出现，来提供订单运营、产业链资源整合、IT系统、数据沉淀和数据洞察分析，他们不是软件公司做ERP软件卖ERP软件，但是他们拥有比专业软件公司更庞大更强大的研发团队，他们的核心能力就是订单运营+IT平台+数据洞察。</p><p>&nbsp;</p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3197" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3197" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">从SAP的发展历史看ERP-西欧思路、北美思路和中国电子商务软件应用启蒙新业态</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/manage/2264.shtml" title="你所不知道的比尔.盖茨#硅谷说#">你所不知道的比尔.盖茨#硅谷说#</a></div>
+<div class="Contnet_old">下一篇文章：</div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+<h4 class="panel-title">解决方案</h4>
+</a>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+<li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+<li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+<li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+<li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+<li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+<li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+<li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+<li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+<li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+<li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+<li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/" target="_blank">+方案中心>></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<h4 class="panel-title">产品中心</h4>
+</a>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/pub/" target="_blank">免费下载</a></li>
+<li><a href="/mtv" target="_blank">在线视频</a></li>
+<li><a href="/help/" target="_blank">帮助中心</a></li>
+<li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+<li><a href="/updata/" target="_blank">更新历史</a></li>
+<li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+</ul>      </div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+<h4 class="panel-title">商业合作</h4>
+</a>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/shop/" target="_blank">在线购买</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+<li><a href="/article/join/">代理加盟</a></li>
+<li><a href="/biz/" target="_blank">正版查询</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+<h4 class="panel-title">关于公司</h4>
+</a>
+<div id="collapsefour" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/" target="_blank">企业介绍</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+<li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+<li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+<h4 class="panel-title">企业文化</h4>
+</a>
+<div id="collapsefive" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+<li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+<li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+<h4 class="panel-title">创新学院</h4>
+</a>
+<div id="collapsesix" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/video/1839.shtml">体感研究</a></li>
+<li><a href="/pub/1932.shtml">院校合作</a></li>
+<li><a href="/corp/about/472.shtml">电子杂志</a></li>
+<li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+</ul>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/Item/3205.aspx" style="color:" target="_blank">RSA加密安全</a><span class="">2017/10/25</span></li>
+
+<li><b>[新增]</b><a href="/Item/3204.aspx" style="color:" target="_blank">全面启用Bootstrap4.0框架</a><span class="">2017/10/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3192.shtml" style="color:" target="_blank">新固顶属性-更方便的固顶内容方法</a><span class="">2017/09/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:" target="_blank">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

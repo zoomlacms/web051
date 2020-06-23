@@ -1,0 +1,765 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>webpack 入门指南_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="入门,指南,">
+<meta name="Description" content="webpack 入门指南">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20170901" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style//images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r"> <a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_2"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_45"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_9"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_24"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li id="menu_123"><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_44" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_20"><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/help/web/index.shtml">网页学园</a> / 
+</ol>
+   
+<div id="Content">
+<h1>webpack 入门指南</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2017-10-28  来源:佚名   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3209"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=webpack 入门指南-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3209.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18pt;"><strong>什么是 webpack？</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">webpack是近期最火的一款模块加载器兼打包工具，它能把各种资源，例如JS（含JSX）、coffee、样式（含less/sass）、图片等都作为模块来使用和处理。</p><p><br/></p><p><img title="1.jpg" alt="1.jpg" src="/UploadFiles/Image/20171029/6364483206028064192658858.jpg"/></p><p><br/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">我们可以直接使用 require(XXX) 的形式来引入各模块，即使它们可能需要经过编译（比如JSX和sass），但我们无须在上面花费太多心思，因为 webpack 有着各种健全的加载器（loader）在默默处理这些事情，这块我们后续会提到。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">你可以不打算将其用在你的项目上，但没有理由不去掌握它，因为以近期 Github 上各大主流的（React相关）项目来说，它们仓库上所展示的示例已经是基于 webpack 来开发的，比如&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/react-bootstrap/react-bootstrap" target="_blank">React-Bootstrap</a>&nbsp;和&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/gaearon/redux" target="_blank">Redux</a>。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">webpack的官网是&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/" target="_blank">http://webpack.github.io/</a>&nbsp;，文档地址是&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/docs/" target="_blank">http://webpack.github.io/docs/</a>&nbsp;，想对其进行更详细了解的可以点进去瞧一瞧。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18pt;"><strong>webpack 的优势</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">其优势主要可以归类为如下几个：</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">1. webpack 是以 commonJS 的形式来书写脚本滴，但对 AMD/CMD 的支持也很全面，方便旧项目进行代码迁移。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">2. 能被模块化的不仅仅是 JS 了。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">3. 开发便捷，能替代部分 grunt/gulp 的工作，比如打包、压缩混淆、图片转base64等。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">4. 扩展性强，插件机制完善，特别是支持 React 热插拔（见&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/gaearon/react-hot-loader" target="_blank">react-hot-loader</a>&nbsp;）的功能让人眼前一亮。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">我们谈谈第一点。以 AMD/CMD 模式来说，鉴于模块是异步加载的，所以我们常规需要使用 define 函数来帮我们搞回调：</p><p><br/></p><p><br/></p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><br/><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">define([&#39;package/lib&#39;],&nbsp;function(lib){&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;function&nbsp;foo(){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lib.log(&#39;hello&nbsp;world!&#39;);
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;foo:&nbsp;foo
+&nbsp;&nbsp;&nbsp;&nbsp;};
+});</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">另外为了可以兼容 commonJS 的写法，我们也可以将 define 这么写：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">define(function&nbsp;(require,&nbsp;exports,&nbsp;module){&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;someModule&nbsp;=&nbsp;require(&quot;someModule&quot;);&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;anotherModule&nbsp;=&nbsp;require(&quot;anotherModule&quot;);&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;someModule.doTehAwesome();
+&nbsp;&nbsp;&nbsp;&nbsp;anotherModule.doMoarAwesome();
+
+&nbsp;&nbsp;&nbsp;&nbsp;exports.asplode&nbsp;=&nbsp;function&nbsp;(){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;someModule.doTehAwesome();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anotherModule.doMoarAwesome();
+&nbsp;&nbsp;&nbsp;&nbsp;};
+});</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">然而对 webpack 来说，我们可以直接在上面书写 commonJS 形式的语法，无须任何 define （毕竟最终模块都打包在一起，webpack 也会最终自动加上自己的加载器）：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;someModule&nbsp;=&nbsp;require(&quot;someModule&quot;);&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;anotherModule&nbsp;=&nbsp;require(&quot;anotherModule&quot;);&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;someModule.doTehAwesome();
+&nbsp;&nbsp;&nbsp;&nbsp;anotherModule.doMoarAwesome();
+
+&nbsp;&nbsp;&nbsp;&nbsp;exports.asplode&nbsp;=&nbsp;function&nbsp;(){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;someModule.doTehAwesome();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anotherModule.doMoarAwesome();
+&nbsp;&nbsp;&nbsp;&nbsp;};</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">这样撸码自然更简单，跟回调神马的说 byebye~</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">不过即使你保留了之前 define 的写法也是可以滴，毕竟 webpack 的兼容性相当出色，方便你旧项目的模块直接迁移过来。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18pt;"><strong>安装和配置</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18px;"><strong>一. 安装</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">我们常规直接使用 npm 的形式来安装：</p><p class="VJ_note" style="margin: 10px auto; padding: 10px; border-radius: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 13px; font-style: normal; font-weight: normal; word-spacing: 0px; display: block; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">$ npm install webpack -g</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">当然如果常规项目还是把依赖写入 package.json 包去更人性化：</p><p class="VJ_note" style="margin: 10px auto; padding: 10px; border-radius: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 13px; font-style: normal; font-weight: normal; word-spacing: 0px; display: block; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">$ npm init<br/>$ npm install webpack --save-dev</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18px;"><strong>二. 配置</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">每个项目下都必须配置有一个 webpack.config.js ，它的作用如同常规的 gulpfile.js/Gruntfile.js ，就是一个配置项，告诉 webpack 它需要做什么。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">我们看看下方的示例：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">var&nbsp;webpack&nbsp;=&nbsp;require(&#39;webpack&#39;);var&nbsp;commonsPlugin&nbsp;=&nbsp;new&nbsp;webpack.optimize.CommonsChunkPlugin(&#39;common.js&#39;);
+
+module.exports&nbsp;=&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;//插件项&nbsp;&nbsp;&nbsp;&nbsp;plugins:&nbsp;[commonsPlugin],&nbsp;&nbsp;&nbsp;&nbsp;//页面入口文件配置&nbsp;&nbsp;&nbsp;&nbsp;entry:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index&nbsp;:&nbsp;&#39;./src/js/page/index.js&#39;
+&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;&nbsp;&nbsp;&nbsp;//入口文件输出配置&nbsp;&nbsp;&nbsp;&nbsp;output:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;path:&nbsp;&#39;dist/js/page&#39;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filename:&nbsp;&#39;[name].js&#39;
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;module:&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//加载器配置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loaders:&nbsp;[
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.css$/,&nbsp;loader:&nbsp;&#39;style-loader!css-loader&#39;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.js$/,&nbsp;loader:&nbsp;&#39;jsx-loader?harmony&#39;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.scss$/,&nbsp;loader:&nbsp;&#39;style!css!sass?sourceMap&#39;},
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.(png|jpg)$/,&nbsp;loader:&nbsp;&#39;url-loader?limit=8192&#39;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;&nbsp;&nbsp;&nbsp;//其它解决方案配置&nbsp;&nbsp;&nbsp;&nbsp;resolve:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root:&nbsp;&#39;E:/github/flux-example/src&#39;,&nbsp;//绝对路径
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extensions:&nbsp;[&#39;&#39;,&nbsp;&#39;.js&#39;,&nbsp;&#39;.json&#39;,&nbsp;&#39;.scss&#39;],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alias:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AppStore&nbsp;:&nbsp;&#39;js/stores/AppStores.js&#39;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ActionType&nbsp;:&nbsp;&#39;js/actions/ActionType.js&#39;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AppAction&nbsp;:&nbsp;&#39;js/actions/AppAction.js&#39;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}
+};</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">⑴ plugins 是插件项，这里我们使用了一个 CommonsChunkPlugin&nbsp;的插件，它用于提取多个入口文件的公共脚本部分，然后生成一个 common.js 来方便多页面之间进行复用。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">⑵ entry 是页面入口文件配置，output 是对应输出项配置<em>（即入口文件最终要生成什么名字的文件、存放到哪里）</em>，其语法大致为：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">{
+&nbsp;&nbsp;&nbsp;&nbsp;entry:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;page1:&nbsp;&quot;./page1&quot;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//支持数组形式，将加载数组中的所有模块，但以最后一个模块作为输出
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;page2:&nbsp;[&quot;./entry1&quot;,&nbsp;&quot;./entry2&quot;]
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;output:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;path:&nbsp;&quot;dist/js/page&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filename:&nbsp;&quot;[name].bundle.js&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">该段代码最终会生成一个 page1.bundle.js 和 page2.bundle.js，并存放到 ./dist/js/page 文件夹下。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">⑶ module.loaders 是最关键的一块配置。它告知 webpack 每一种文件都需要使用什么加载器来处理：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">&nbsp;&nbsp;&nbsp;&nbsp;module:&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//加载器配置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loaders:&nbsp;[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//.css&nbsp;文件使用&nbsp;style-loader&nbsp;和&nbsp;css-loader&nbsp;来处理
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.css$/,&nbsp;loader:&nbsp;&#39;style-loader!css-loader&#39;&nbsp;},&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//.js&nbsp;文件使用&nbsp;jsx-loader&nbsp;来编译处理
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.js$/,&nbsp;loader:&nbsp;&#39;jsx-loader?harmony&#39;&nbsp;},&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//.scss&nbsp;文件使用&nbsp;style-loader、css-loader&nbsp;和&nbsp;sass-loader&nbsp;来编译处理
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.scss$/,&nbsp;loader:&nbsp;&#39;style!css!sass?sourceMap&#39;},&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//图片文件使用&nbsp;url-loader&nbsp;来处理，小于8kb的直接转为base64
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;test:&nbsp;/\.(png|jpg)$/,&nbsp;loader:&nbsp;&#39;url-loader?limit=8192&#39;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
+&nbsp;&nbsp;&nbsp;&nbsp;}</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">如上，&quot;-loader&quot;其实是可以省略不写的，多个loader之间用“!”连接起来。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">注意所有的加载器都需要通过 npm 来加载，并建议查阅它们对应的 readme 来看看如何使用。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">拿最后一个&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/webpack/url-loader" target="_blank">url-loader</a>&nbsp;来说，它会将样式中引用到的图片转为模块来处理，使用该加载器需要先进行安装：</p><p class="VJ_note" style="margin: 10px auto; padding: 10px; border-radius: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 13px; font-style: normal; font-weight: normal; word-spacing: 0px; display: block; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">npm install url-loader -save-dev</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">配置信息的参数“?limit=8192”表示将所有小于8kb的图片都转为base64形式<em>（其实应该说超过8kb的才使用 url-loader 来映射到文件，否则转为data url形式）</em>。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">你可以<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/docs/list-of-loaders.html" target="_blank">点这里</a>查阅全部的 loader 列表。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">⑷ 最后是 resolve 配置，这块很好理解，直接写注释了：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">&nbsp;&nbsp;&nbsp;&nbsp;resolve:&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//查找module的话从这里开始查找
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root:&nbsp;&#39;E:/github/flux-example/src&#39;,&nbsp;//绝对路径
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//自动扩展文件后缀名，意味着我们require模块可以省略不写后缀名
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extensions:&nbsp;[&#39;&#39;,&nbsp;&#39;.js&#39;,&nbsp;&#39;.json&#39;,&nbsp;&#39;.scss&#39;],&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//模块别名定义，方便后续直接引用别名，无须多写长长的地址&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alias:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AppStore&nbsp;:&nbsp;&#39;js/stores/AppStores.js&#39;,//后续直接&nbsp;require(&#39;AppStore&#39;)&nbsp;即可
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ActionType&nbsp;:&nbsp;&#39;js/actions/ActionType.js&#39;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AppAction&nbsp;:&nbsp;&#39;js/actions/AppAction.js&#39;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">关于 webpack.config.js 更详尽的配置可以参考<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/docs/configuration.html" target="_blank">这里</a>。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18pt;"><strong>运行 webpack</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">webpack 的执行也很简单，直接执行</p><p class="VJ_note" style="margin: 10px auto; padding: 10px; border-radius: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(68, 68, 68); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 13px; font-style: normal; font-weight: normal; word-spacing: 0px; display: block; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">$ webpack --display-error-details</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">即可，后面的参数“--display-error-details”是推荐加上的，方便出错时能查阅更详尽的信息（比如 webpack 寻找模块的过程），从而更好定位到问题。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">其他主要的参数有：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">$&nbsp;webpack&nbsp;--config&nbsp;XXX.js&nbsp;&nbsp;&nbsp;//使用另一份配置文件（比如webpack.config2.js）来打包$&nbsp;webpack&nbsp;--watch&nbsp;&nbsp;&nbsp;//监听变动并自动打包$&nbsp;webpack&nbsp;-p&nbsp;&nbsp;&nbsp;&nbsp;//压缩混淆脚本，这个非常非常重要！$&nbsp;webpack&nbsp;-d&nbsp;&nbsp;&nbsp;&nbsp;//生成map映射文件，告知哪些模块被最终打包到哪里了</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">其中的&nbsp;<em>-p</em>&nbsp;是很重要的参数，曾经一个未压缩的 700kb 的文件，压缩后直接降到 180kb<em>（主要是样式这块一句就独占一行脚本，导致未压缩脚本变得很大）</em>。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18pt;"><strong>模块引入</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">上面唠嗑了那么多配置和执行方法，下面开始说说寻常页面和脚本怎么使用呗。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18px;"><strong>一. HTML</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">直接在页面引入 webpack 最终生成的页面脚本即可，不用再写什么 data-main 或&nbsp;seajs.use 了：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">&lt;!DOCTYPE&nbsp;html&gt;&lt;html&gt;&lt;head&nbsp;lang=&quot;en&quot;&gt;
+&nbsp;&nbsp;&lt;meta&nbsp;charset=&quot;UTF-8&quot;&gt;
+&nbsp;&nbsp;&lt;title&gt;demo&lt;/title&gt;&lt;/head&gt;&lt;body&gt;
+&nbsp;&nbsp;&lt;script&nbsp;src=&quot;dist/js/page/common.js&quot;&gt;&lt;/script&gt;
+&nbsp;&nbsp;&lt;script&nbsp;src=&quot;dist/js/page/index.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">可以看到我们连样式都不用引入，毕竟脚本执行时会动态生成&lt;style&gt;并标签打到head里。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong><span style="font-size: 18px;">二. JS</span></strong></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">各脚本模块可以直接使用 commonJS 来书写，并可以直接引入未经编译的模块，比如 JSX、sass、coffee等（只要你在 webpack.config.js 里配置好了对应的加载器）。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">我们再看看编译前的页面入口文件（index.js）：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">require(&#39;../../css/reset.scss&#39;);&nbsp;//加载初始化样式require(&#39;../../css/allComponent.scss&#39;);&nbsp;//加载组件样式var&nbsp;React&nbsp;=&nbsp;require(&#39;react&#39;);var&nbsp;AppWrap&nbsp;=&nbsp;require(&#39;../component/AppWrap&#39;);&nbsp;//加载组件var&nbsp;createRedux&nbsp;=&nbsp;require(&#39;redux&#39;).createRedux;var&nbsp;Provider&nbsp;=&nbsp;require(&#39;redux/react&#39;).Provider;var&nbsp;stores&nbsp;=&nbsp;require(&#39;AppStore&#39;);var&nbsp;redux&nbsp;=&nbsp;createRedux(stores);var&nbsp;App&nbsp;=&nbsp;React.createClass({
+&nbsp;&nbsp;&nbsp;&nbsp;render:&nbsp;function()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Provider&nbsp;redux={redux}&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{function()&nbsp;{&nbsp;return&nbsp;&lt;AppWrap&nbsp;/&gt;;&nbsp;}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/Provider&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);
+&nbsp;&nbsp;&nbsp;&nbsp;}
+});
+
+React.render(&nbsp;&nbsp;&nbsp;&nbsp;&lt;App&nbsp;/&gt;,&nbsp;document.body
+);</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">一切就是这么简单么么哒~ 后续各种有的没的，webpack 都会帮你进行处理。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18pt;"><strong>其他</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">至此我们已经基本上手了 webpack 的使用，下面是补充一些有用的技巧。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18px;"><strong>一. shimming</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">在 AMD/CMD 中，我们需要对不符合规范的模块（比如一些直接返回全局变量的插件）进行 shim 处理，这时候我们需要使用&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/webpack/exports-loader" target="_blank">exports-loader</a>&nbsp;来帮忙：</p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">{&nbsp;test:&nbsp;require.resolve(&quot;./src/js/tool/swipe.js&quot;),&nbsp;&nbsp;loader:&nbsp;&quot;exports?swipe&quot;}</pre><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">之后在脚本中需要引用该模块的时候，这么简单地来使用就可以了：</p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">require(&#39;./tool/swipe.js&#39;);
+swipe();</pre><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 18px;"><strong>二. 自定义公共模块提取</strong></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">在文章开始我们使用了&nbsp;CommonsChunkPlugin 插件来提取多个页面之间的公共模块，并将该模块打包为 common.js 。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">但有时候我们希望能更加个性化一些，我们可以这样配置：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">var&nbsp;CommonsChunkPlugin&nbsp;=&nbsp;require(&quot;webpack/lib/optimize/CommonsChunkPlugin&quot;);
+module.exports&nbsp;=&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;entry:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p1:&nbsp;&quot;./page1&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p2:&nbsp;&quot;./page2&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p3:&nbsp;&quot;./page3&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ap1:&nbsp;&quot;./admin/page1&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ap2:&nbsp;&quot;./admin/page2&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;output:&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filename:&nbsp;&quot;[name].js&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;},
+&nbsp;&nbsp;&nbsp;&nbsp;plugins:&nbsp;[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new&nbsp;CommonsChunkPlugin(&quot;admin-commons.js&quot;,&nbsp;[&quot;ap1&quot;,&nbsp;&quot;ap2&quot;]),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new&nbsp;CommonsChunkPlugin(&quot;commons.js&quot;,&nbsp;[&quot;p1&quot;,&nbsp;&quot;p2&quot;,&nbsp;&quot;admin-commons.js&quot;])
+&nbsp;&nbsp;&nbsp;&nbsp;]
+};//&nbsp;&lt;script&gt;s&nbsp;required://&nbsp;page1.html:&nbsp;commons.js,&nbsp;p1.js//&nbsp;page2.html:&nbsp;commons.js,&nbsp;p2.js//&nbsp;page3.html:&nbsp;p3.js//&nbsp;admin-page1.html:&nbsp;commons.js,&nbsp;admin-commons.js,&nbsp;ap1.js//&nbsp;admin-page2.html:&nbsp;commons.js,&nbsp;admin-commons.js,&nbsp;ap2.js</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong>三. 独立打包样式文件</strong></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">有时候可能希望项目的样式能不要被打包到脚本中，而是独立出来作为.css，然后在页面中以&lt;link&gt;标签引入。这时候我们需要&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/webpack/extract-text-webpack-plugin" target="_blank">extract-text-webpack-plugin</a>&nbsp;来帮忙：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;webpack&nbsp;=&nbsp;require(&#39;webpack&#39;);&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;commonsPlugin&nbsp;=&nbsp;new&nbsp;webpack.optimize.CommonsChunkPlugin(&#39;common.js&#39;);&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;ExtractTextPlugin&nbsp;=&nbsp;require(&quot;extract-text-webpack-plugin&quot;);
+
+&nbsp;&nbsp;&nbsp;&nbsp;module.exports&nbsp;=&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plugins:&nbsp;[commonsPlugin,&nbsp;new&nbsp;ExtractTextPlugin(&quot;[name].css&quot;)],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;entry:&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//...省略其它配置</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">最终 webpack 执行后会乖乖地把样式文件提取出来：</p><p><img title="fff.png" alt="fff.png" src="/UploadFiles/Image/20171029/6364483209550744273860539.png"/></p><p></p><p><br/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong>四. 使用CDN/远程文件</strong></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">有时候我们希望某些模块走CDN并以&lt;script&gt;的形式挂载到页面上来加载，但又希望能在 webpack 的模块中使用上。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">这时候我们可以在配置文件里使用&nbsp;externals 属性来帮忙：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">{
+&nbsp;&nbsp;&nbsp;&nbsp;externals:&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;require(&quot;jquery&quot;)&nbsp;是引用自外部模块的
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;对应全局变量&nbsp;jQuery
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;jquery&quot;:&nbsp;&quot;jQuery&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+}</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">需要留意的是，得确保 CDN 文件必须在 webpack 打包文件引入之前先引入。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">我们倒也可以使用&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/ded/script.js" target="_blank">script.js</a>&nbsp;在脚本中来加载我们的模块：</p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">var&nbsp;$script&nbsp;=&nbsp;require(&quot;scriptjs&quot;);
+$script(&quot;//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js&quot;,&nbsp;function()&nbsp;{
+&nbsp;&nbsp;$(&#39;body&#39;).html(&#39;It&nbsp;works!&#39;)
+});</pre><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong>五. 与 grunt/gulp 配合</strong></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">以 gulp 为示例，我们可以这样混搭：</p><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><pre style="margin: 0px; padding: 0px 0px 0px 10px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important; white-space: pre-wrap; -ms-word-wrap: break-word;">gulp.task(&quot;webpack&quot;,&nbsp;function(callback)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;run&nbsp;webpack&nbsp;&nbsp;&nbsp;&nbsp;webpack({&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;configuration
+&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;function(err,&nbsp;stats)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(err)&nbsp;throw&nbsp;new&nbsp;gutil.PluginError(&quot;webpack&quot;,&nbsp;err);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gutil.log(&quot;[webpack]&quot;,&nbsp;stats.toString({&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;output&nbsp;options&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}));
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callback();
+&nbsp;&nbsp;&nbsp;&nbsp;});
+});</pre><p><span class="cnblogs_code_copy" style="line-height: 1.5 !important; padding-right: 5px; font-family: &quot;Courier New&quot; !important; font-size: 12px !important;"><a title="复制代码" style="border: currentColor !important; transition:color 0.3s; border-image: none !important; color: rgb(65, 131, 196); text-decoration: none; background-color: rgb(251, 251, 251) !important;" href="void(0);"><img alt="复制代码" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_copybutton.png"/></a></span></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">当然我们只需要把配置写到 webpack({ ... }) 中去即可，无须再写 webpack.config.js 了。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">更多参照信息请参阅：<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/docs/usage-with-grunt.html" target="_blank">grunt配置</a>&nbsp;/&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/docs/usage-with-gulp.html" target="_blank">gulp配置</a>&nbsp;。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><img alt="" src="http://images.cnblogs.com/cnblogs_com/vajoy/558869/o_div.jpg"/></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong>六. React 相关</strong></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">⑴ 推荐使用&nbsp;<em>npm install react</em>&nbsp;的形式来安装并引用 React 模块，而不是直接使用编译后的 react.js，这样最终编译出来的 React 部分的脚本会减少 10-20 kb左右的大小。</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">⑵&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/gaearon/react-hot-loader" target="_blank">react-hot-loader</a>&nbsp;是一款非常好用的 React 热插拔的加载插件，通过它可以实现修改-运行同步的效果，配合&nbsp;<a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://webpack.github.io/docs/webpack-dev-server.html" target="_blank">webpack-dev-server</a>&nbsp;使用更佳！</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">基于 webpack 的入门指引就到这里，希望本文能对你有所帮助，你也可以参考下述的文章来入门：</p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="http://segmentfault.com/a/1190000002551952" target="_blank">webpack入门指谜</a></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><a style="transition:color 0.3s; color: rgb(65, 131, 196); text-decoration: none;" href="https://github.com/petehunt/webpack-howto" target="_blank">webpack-howto</a></p><p style="margin: 10px auto; padding: 0px; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Helvetica, arial, &quot;microsoft yahei&quot;, simhei; font-size: 15px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">共勉~</p><p></p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3209" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3209" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">webpack 入门指南</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/web/3209.shtml" title="webpack 入门指南">webpack 入门指南</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/help/web/3213.shtml" title="超级强大的SVG SMIL animation动画详解">超级强大的SVG SMIL animation动画详解</a></div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+<h4 class="panel-title">解决方案</h4>
+</a>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+<li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+<li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+<li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+<li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+<li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+<li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+<li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+<li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+<li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+<li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+<li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/" target="_blank">+方案中心>></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<h4 class="panel-title">产品中心</h4>
+</a>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/pub/" target="_blank">免费下载</a></li>
+<li><a href="/mtv" target="_blank">在线视频</a></li>
+<li><a href="/help/" target="_blank">帮助中心</a></li>
+<li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+<li><a href="/updata/" target="_blank">更新历史</a></li>
+<li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+</ul>      </div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+<h4 class="panel-title">商业合作</h4>
+</a>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/shop/" target="_blank">在线购买</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+<li><a href="/article/join/">代理加盟</a></li>
+<li><a href="/biz/" target="_blank">正版查询</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+<h4 class="panel-title">关于公司</h4>
+</a>
+<div id="collapsefour" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/" target="_blank">企业介绍</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+<li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+<li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+<h4 class="panel-title">企业文化</h4>
+</a>
+<div id="collapsefive" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+<li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+<li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+<h4 class="panel-title">创新学院</h4>
+</a>
+<div id="collapsesix" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/video/1839.shtml">体感研究</a></li>
+<li><a href="/pub/1932.shtml">院校合作</a></li>
+<li><a href="/corp/about/472.shtml">电子杂志</a></li>
+<li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+</ul>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3205.shtml" style="color:" target="_blank">RSA加密安全</a><span class="">2017/10/25</span></li>
+
+<li><b>[新增]</b><a href="/updata/3204.shtml" style="color:" target="_blank">全面启用Bootstrap4.0框架</a><span class="">2017/10/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3192.shtml" style="color:" target="_blank">新固顶属性-更方便的固顶内容方法</a><span class="">2017/09/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:" target="_blank">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

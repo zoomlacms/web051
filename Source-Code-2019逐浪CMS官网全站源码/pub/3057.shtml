@@ -1,0 +1,582 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>中国首家完美支持windows 2016 server系统的生产力级CMS_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="windows,完美,系统,MS,支持">
+<meta name="Description" content="中国首家完美支持windows 2016 server系统的生产力级CMS">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+ <script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+<script type="text/javascript" src="/template/office/style/js/openwin.js"></script> 
+<link href="/template/office/style/tinyScreen.css?version=V201312" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/2010/js/v4.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style/images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0"> 
+<form action="/search/SearchList.aspx" method="get">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li class="active"><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li><a href="/shop/" target="_blank">产品中心</a></li>
+        <li><a href="/case/" target="_blank">成功案例</a></li>
+        <li><a href="/Project/" target="_blank">解决方案</a></li>
+        <li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li><a href="/demo/" target="_blank">体验中心</a></li>
+	<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+ <div class="container margintop10">
+<div class="row">
+<div class="col-lg-2 col-md-2  col-sm2 col-xs-12 borders home_l">
+<div class="list-group">
+<a href="javascript:goreg('/product/FuncList/')" class="list-group-item active"><span class="badge">More..</span>系列CMS子产品</a>
+</div>
+<ul class="home_l_pro">
+<li><img src="/skin/2010/images/icon_index.png" /><a href="/pub/396.shtml" target="_blank" class="sp">文章系统</a></li>
+<li><a href="/blog/product/626.shtml" target="_blank"><span><img src="/skin/2010/images/icon_shop.png" /></span>企业门户系统</a></li>
+<li><a href="/pub/1092.shtml" target="_blank"><span><img src="/skin/2010/images/icon_chanpin.png" /></span>OA办公系统</a></li>
+<li><a href="/pub/380.shtml" target="_blank"><span><img src="/skin/2010/images/icon_market.png" /></span>网店系统</a></li>
+<li><a href="/pub/1093.shtml" target="_blank"><span><img src="/skin/2010/images/icon_service.png" /></span>站群管理</a></li>
+<li><a href="/pub/732.shtml" target="_blank"><span><img src="/skin/2010/images/icon_bbs.png" /></span>考试系统</a></li>
+<li><a href="/pub/591.shtml" target="_blank"><span><img src="/skin/2010/images/icon_glass.png" /></span>试戴系统</a></li>
+<li><a href="/pub/870.shtml" target="_blank"><span><img src="/skin/2010/images/icon_aboutus.png" /></span>三维全景</a></li>
+<li><a href="/pub/1094.shtml" target="_blank"><span><img src="/skin/2010/images/icon_office.png" /></span>百科问答</a></li>
+<li><a href="/pub/1095.shtml" target="_blank"><span><img src="/skin/2010/images/icon_exam.png" /></span>黄页与SNS社区</a></li>
+<li><a href="/pub/655.shtml" target="_blank"><span><img src="/skin/2010/images/icon_project.png" /></span>项目管理系统</a></li>
+<li><a href="/m/" target="_blank"><span><img src="/skin/2010/images/icon_project.png" /></span>移动WEB App系统</a></li>
+<li><a href="/pub/655.shtml" target="_blank"><span><img src="/skin/2010/images/icon_project.png" /></span>微门户系统</a></li>
+<li><a href="/pub/655.shtml" target="_blank"><span><img src="/skin/2010/images/icon_project.png" /></span>智能MIS系统</a></li>
+</ul>
+<div class="clearfix"></div>
+<div class="list-group">
+<a href="/Project/" class="list-group-item active" target="_blank"><span class="badge">More..</span>专业解决方案</a>
+</div>
+<ul>
+<li><a href="/Article/Project/213.shtml">面向站长</a></li>
+<li><a href="/Article/Project/136.shtml">面向政府</a></li>
+<li><a href="/Article/Project/133.shtml">面向企业</a></li>
+<li><a href="/Article/Project/131.shtml">面向学校</a></li>
+<li><a href="/Article/Project/137.shtml">面向教育</a></li>
+<li><a href="/Project">面向开发</a></li>
+<li><a href="/Project">面向特殊</a></li>
+<li><a href="/Project">面向外企</a></li>
+<li><a href="/Project">面向集团</a></li>
+<li><a href="/Project">面向公益</a></li>
+</ul>
+</div>
+
+<!--中左结束 -->
+
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+<ol class="breadcrumb">
+<li class="pull-right">   <a href="javascript:window.print();"><img src="/skin/2010/images/i_tool_print.gif" /></a>
+<a href="/corp/about/83.shtml" target="_blank"><img src="/skin/2010/images/i_tool_email.gif" /></a>
+<!-- Baidu Button BEGIN -->
+<!-- BaiduShare Button BEGIN -->
+<div class="bdsharebuttonbox"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a class="bds_more" href="#" data-cmd="more"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://dn-iyz-file.qbox.me/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<!-- Baidu Button END -->
+</li>
+ 当前位置： <li><a href="/">首页</a></li>
+  <li>
+<a href="/product/index.shtml">产品中心</a> / 
+<a href="/product/pub/index.shtml">产品特性与逐浪程序发布</a> / </li>
+  <li class="active"><a href="/pub/listpage.shtml">精彩功能推荐</a> </li>
+</ol>
+
+
+<div id="prj790">
+<div id="prj790_top"></div> 
+<div id="prj580">
+
+<div id="site">
+<div id="add">
+</div>
+</div>
+ 
+
+
+<h1>中国首家完美支持windows 2016 server系统的生产力级CMS</h1>
+<abbr>关于本功能的简介:</abbr>
+<article>
+<span class="short" id="show_info_short">近年来移动互联网突飞猛进，生产力级平台也在发展，否则也看不到库克在Iphone生产线的设备使用的Windows。<br/>
+
+通常一台手机...</span>
+<span class="long" id="show_info_long" style="display:none">近年来移动互联网突飞猛进，生产力级平台也在发展，否则也看不到库克在Iphone生产线的设备使用的Windows。<br/>
+
+通常一台手机用2年就要换、一台奔驰开3年要大修或换新，而一个操作系统如果9年不换，那只有“落后”来描述。<br/>
+逐浪CMS不会让落后、消极、低端成为自己的标签。
+<br/>今天我们向所有用户宣布：
+<br/>
+Zoomla!逐浪CMS完美支持最新的windows Server 2016操作系统，您不需要进行任何的重新升级和改编，正因为逐浪CMS的技术前瞻性保障，成为中国首家完美支持windows server 2016生产力平台的卓越工具，可以快速的基于Zoomla!逐浪CMS构建办公、门户、微信、APP数据中心、电商、调查、互动、视频、智能硬件等应用，简洁方便、高效卓越，为您而生！
+</span> <span class="handle"><a charset="404-4-05-08" onclick="Display.toggleText('show_info_short', 'show_info_long', this)">+展开简介</a></span>
+</article>   
+
+<abbr>详细说明</abbr>
+<article>
+<p style="text-align: left; text-indent: 2em;">北京时间2016年10月13日，美国微软公司发布全新一代操作系统：windows Server 2016操作系统。</p><p style="text-align: left; text-indent: 2em;">这一操作系统为我们带来了革命性的变化，其中包括云端、大数据、大内存的诸多优化，事实上也是windows 10的服务器版应用平台，深受业界专业人士的好评（目前国内诸多PHP应用多建立在windows Server操作系统之上）。</p><p style="text-align: left; text-indent: 2em;">Zoomla!逐浪CMS软件团队，一直作为国内领先的生产力级平台软件与移动H5研发厂商，一直以最优先的技术为己任，为用户带来安全、鲁棒与卓越的产品体验，其中包括：</p><ul class=" list-paddingleft-2" style="list-style-type: square;"><li><p style="text-align: left; text-indent: 2em;">基于微软公司最新的windows server操作系统</p></li><li><p style="text-align: left; text-indent: 2em;">基于Microsoft .NET Framework 4.5 64位框架提供完整的应用</p></li><li><p style="text-align: left; text-indent: 2em;">提供优秀的移动客户端，甚至在动力逐浪上可以3秒快速制作微站和H5</p></li><li><p style="text-align: left; text-indent: 2em;">强大的站群可以接入Hyper-V大型物理硬件优化</p></li><li><p style="text-align: left; text-indent: 2em;">积极参与微软MSDN社区活动和生产力平台</p></li><li><p style="text-align: left; text-indent: 2em;">拥抱开源，推进GitHub等平台的建设 <br/></p></li></ul><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;">与国内一些厂商，依然沉迷于32位的.net平台、并内置诸多升级侦测、嵌入广告推送代码、强制版权不同，逐浪CMS全面开放，并专注于64位高端平台，即使对于陈旧的windows 2008操作系统也是提供有限支持，推荐最低使用windows 2012或windows 8操作系统，基于64位的dotNET&nbsp;Framework 4.5架构，支持云端技术与大数据，是客户最值得购买与使用的平台，保弹客户每一分IT投资与回报。</p><p style="text-align: left; text-indent: 2em;"><em><br/></em></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>近年来移动互联网突飞猛进，生产力级平台也在发展，否则也看不到库克在Iphone生产线的设备使用的Windows。</em></span></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>通常一台手机用2年就要换、一台奔驰开3年要大修或换新，而一个操作系统如果9年不换，那只有“落后”来描述。</em></span></p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;">逐浪CMS不会让落后、消极、低端成为自己的标签。</p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;">今天我们向所有用户宣布：</p><p style="text-align: left; text-indent: 2em;">Zoomla!逐浪CMS完美支持最新的windows Server 2016操作系统，您不需要进行任何的重新升级和改编，正因为逐浪CMS的技术前瞻性保障，成为中国首家完美支持windows server 2016生产力平台的卓越工具，可以快速的基于Zoomla!逐浪CMS构建办公、门户、微信、APP数据中心、电商、调查、互动、视频、智能硬件等应用，简洁方便、高效卓越，为您而生！</p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>徐玉这样的案件背后不仅是法制的缺失，</em></span></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>一大批科研学校、教育机构和政府门户长年对软件信息化管理缺失，</em></span></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>安全隐患众生，数据库漏洞、后站、OS系统0日漏洞层出，</em></span></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>从而造成一些漏洞即使在当年的乌云上发布，</em></span></p><p style="text-align: left; text-indent: 2em;"><span style="text-decoration: underline;"><em>也没人关注，从而最终酿成悲剧。</em></span></p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;">用最先进的平台、最优秀的开发框架、最先的技术，并第一时间发布最优秀的版本产品，</p><p style="text-align: left; text-indent: 2em;">从而锻造了优秀的产品。</p><p style="text-align: left; text-indent: 2em;">逐浪CMS一直领先于国内同行，从不以后台注入、广告推达、客户数据转售为任务，</p><p style="text-align: left; text-indent: 2em;">虽然我们付出的汗水要比别人多，</p><p style="text-align: left; text-indent: 2em;">但我们收获的是客户认同与市场成长，</p><p style="text-align: left; text-indent: 2em;">从内容管理、微信应用、站群、智能硬件、OA系统、三维全景、VR、APP生成、微站等技术一路领先，深受客户喜爱。</p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;">这就是千万站长喜欢的逐浪CMS，</p><p style="text-align: left; text-indent: 2em;">这也是中国软件人的孜孜追求！</p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;">windows Sever&nbsp;2016上的逐浪CMS图文大赏：</p><p style="text-align: left; text-indent: 2em;"><br/></p><p><img title="2.jpg" src="/UploadFiles/Image/20161019/6361247796108003296392007.jpg"/></p><p><img title="1.jpg" src="/UploadFiles/Image/20161019/6361247796151755814792595.jpg"/></p><p><img title="3.jpg" src="/UploadFiles/Image/20161019/6361247796154880946549258.jpg"/></p><p style="text-align: left; text-indent: 2em;">&nbsp;</p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">下面是Windows Server 2016中的新内容和改进：</strong></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">Windows Server容器应用开发</strong></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">Windows Server容器创建了高度灵活的Windows Server环境，帮助用户加速开发及运营流程，实现现代化应用的高效开发和部署。数百万Windows开发者将体验到容器技术带来的优势，而这一切都建立在开发者可以自行选择开发语言的基础之上——不论是.NET、ASP.NET、PowerShell、Python、Ruby on Rails、Java或是其他。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">此次Windows Server容器的发布，也是对早前微软宣布与Docker合作的进一步延伸。微软将为Linux和Windows Server用户带来容器技术和开发运营的优势。Windows Server容器目前是Docker开源项目的一部分，用户可以通过PowerShell或Docker客户端对这些容器进行部署和管理。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">除了<strong style="font-weight: 700; box-sizing: border-box;">与Docker合作提供Windows Server容器</strong>，微软还将围绕该技术提供更多选择及灵活性，包括：</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• 保证容器技术在Azure上的一流体验。借助微软近期发布的Docker VM Extensions for Linux on Azure、Docker CLI support on Windows和Visual Studio Tools for Docker，用户能够开发和运行现代化应用。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">为面向Windows Server的Docker Engine开源开发提供支持，让Docker客户端能够借助Linux和Windows容器管理多容器应用，而无需考虑运行环境。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• 微软还加入了由Linux基金会赞助的开放容器计划，提供开放且通用的容器映像格式和运行时间。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• &nbsp;围绕LXD REST API与Canonical展开合作，拓展生态系统。作为一个跨平台的容器管理层，LXD REST API能够为Windows和Ubuntu开发者带来新的容器技术创新。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">微软也对Visual Studio和Visual Studio Online进行了更新，让开发者可以使用自己熟悉且喜欢的工具来体验Windows Server容器。开发者即可利用Visual Studio在Azure内创建一个Windows Server容器主机，并将自己的ASP.NET网站或控制台应用发布到新建的容器中，然后部署到容器主机上。而借助即将到来的Visual Studio Online持续集成和版本管理功能，开发者将实现上述流程的自动化，并容器化应用的版本进行管理。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">•&nbsp;支持Hyper-V容器</strong></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">除了Docker容器，IT之家看到Windows Server 2016中还包括Hyper-V容器，作为第二个容器部署选项，Hyper-V容器通过优化的虚拟化和Windows Server操作系统，提供更高程度的隔离，即将各个容器之间、以及容器与主机操作系统之间进行隔离，从而增加了在低信任度或混合运营环境下部署容器的可能性。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">提供新的软件定义数据中心特性</strong></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">Windows Server 2016还包括全新的，以Azure为启发的软件定义数据中心特性，主要更新包括：</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">•<span class="Apple-converted-space">&nbsp;</span><strong style="font-weight: 700; box-sizing: border-box;">Nano Server增强功能：</strong>微软添加了新的Emergency Management Console，让用户可以直接从Nano Server控制台中查看和修复网络配置；借助新的PowerShell脚本，用户可以创建一个Nano Azure虚拟机。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">作为最小的内存部署选项，Nano Server可以被安装在物理主机或虚拟机上。新的Emergency Management Console让用户可以在Nano Server控制台中直接查看和修复网络配置。此外，还提供PowerShell脚本用于创建一个运行Nano Server的Azure虚拟机。从应用的角度来说，你现在可以使用CoreCLR运行ASP.Net v5应用。微软增加重大功能以扩展Nano Server能力，而这一切的更新都建立在维持原有内存占用的基础之上。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">•<span class="Apple-converted-space">&nbsp;</span><strong style="font-weight: 700; box-sizing: border-box;">简化软件定义网络：</strong>微软提供用于集中型网络配置的可扩展网络控制器，以及实现高可用性和高性能的软件负载均衡器。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">微软引入了用于编程政策的可扩展网络控制器、用于高可用性和高性能的L4负载均衡器、用于混合连接的增强网关，以及融合了RDMA流量和租户流量的底层网络结构。另外在Azure中使用核心网络功能套件和SDN架构。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">• 更高的安全性：</strong>将底层主机与虚拟机隔离，帮助保护共享环境中的资源。用户可以通过一个署名模板测试创建一个隔离虚拟机，并体验隔离虚拟机的其他功能。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">增加了对于Hyper-V的投入：包括某些用于下一版本的安全创新。虚拟机隔离是核心，即帮助你保护共享环境中的资源。现在你可以通过一个署名模板测试创建一个屏蔽虚拟机，以及该新屏蔽虚拟机的其他功能。你还可以发现Windows Server扮演的全新角色——Host Guardian Service，管理员可以识别合法主机。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">• 工作负载支持</strong></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">用于增强关键工作复杂支持的附加特性和功能包括：</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• 借助拥有OpenGL支持的Remote Desktop Services提高应用兼容性。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• 借助Storage Replica，对面向延展集群的站点感知而改进业务连续性场景。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• 通过为SQL Server集群删除特定域容器而增加灵活性。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">• 管理：System Center的特性也得到增强，让您更轻松地管理虚拟化环境，包括支持滚动升级、隔离虚拟机、支持受保护主机以及自动维护窗口。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">Windows Server 2016增强特性简化了新功能的管理。包括对Virtual Machine Manager的改进，如支持集群节点滚动升级，支持Nano Server作为主机和文件服务器。通过轻松管理隔离虚拟机和受保护主机，你还可以充分利用针对共享环境的安全增强功能。在存储方面，你会看到改进的功能，以保持满足预期的端对端服务质量（QoS）和更快速的数据（使用存储分层）检索。在Operations Manager中，Windows Server 2016侧重于通过管理包的可发现性，和使用PowerShell自动化维护窗口的能力，来提升用户体验。</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">Windows Server 2016远程桌面特性</strong></p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">•&nbsp;显示性能提升 —— 离散设备分配（DDA）技术可以为远程桌面模拟提供全性能的图形处理服务</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">•&nbsp;连接表 —— 展示全新RD Connection Broker的可靠性，可以处理大量并发性连接请求</p><p style="margin: 0px 0px 10px; color: rgb(51, 51, 51); text-transform: none; line-height: 20px; text-indent: 0px; letter-spacing: normal; font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px;">•&nbsp;优化云服务 —— Azure QuickStart在Azure架构的远程桌面上表现出可扩展性和强大的部署能力</p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;"><br/></p><p style="text-align: left; text-indent: 2em;"><br/></p>
+</article>
+
+<div id="T_page"></div>
+
+<abbr>最佳配置应用</abbr>
+
+ 
+<div class="article">
+<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 padding5">
+<a href="/pub/3056.shtml">
+<img src="/UploadFiles/image/20161013/6361196497712235504476176.jpg" alt="基于SSL加密技术的逐浪CMS-政府与间谍也无法刺探隐私信息" class="img-responsive" >
+</a>
+</div>
+<div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 padding5">
+<strong><a href="/pub/3056.shtml">基于SSL加密技术的逐浪CMS-政府</a>:</strong>
+HTTPS 是一个安全通信通道，能够保证数据内容在传输的过程中不会被第三方查看。
+
+“ 我们已经深入讨论了 HTTPS 的好处。它有两个最大的优势就是保密性和完整性。使用 HTTPS，你的 ISP （互联...<a href="/pub/3056.shtml">[+More]</a>
+</div>
+<div class="clearfix"></div>
+</div>
+
+<abbr>最新模块播报</abbr>
+
+ 
+<div class="article">
+ <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12 padding5">
+<a href="/pub/3057.shtml"><img src="/UploadFiles/image/20161019/6361247796108003296392007.jpg" alt="中国首家完美支持windows 2016 server系统的生产力级CMS"  class="img-responsive" /> </a>
+</div>
+<div class="col-lg-10 col-md-10 col-sm-8 col-xs-12 padding5">
+<strong><a href="/pub/3057.shtml">中国首家完美支持windows 2016 s</a>:</strong>
+近年来移动互联网突飞猛进，生产力级平台也在发展，否则也看不到库克在Iphone生产线的设备使用的Windows。<br/>
+
+通常一台手机用2年就要换、一台奔驰开3年要大修或换新，而一个操作系统如果9...<a href="/pub/3057.shtml">[+More]</a>
+</div>
+</div>
+
+<div class="clearfix"></div>
+<div id="edit"><img src="/skin/default/Comment.gif" />点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3057"></SCRIPT>  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3057" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3057" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">中国首家完美支持windows 2016 server系统的生产力级CMS</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/pub/3056.shtml" title="基于SSL加密技术的逐浪CMS-政府与间谍也无法刺探隐私信息">基于SSL加密技术的逐浪CMS-政府与间谍也无法刺探隐私信息</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/Item/3074.aspx" title="逐浪CMS2 x3.8新功能：定时执行C#代码让二次开发虎虎添翼">逐浪CMS2 x3.8新功能：定时执行C#代码让二次开发虎虎添翼</a></div>
+<div class="clear"></div>
+</div><!--中部结束 -->
+
+<div id="prj790_bottom"></div>
+</div>
+</div>
+</div>
+</div>
+<!--中部主体结束 -->
+ 
+
+ <div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+ </body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+</script> 

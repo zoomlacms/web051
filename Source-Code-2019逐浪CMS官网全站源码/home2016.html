@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zoomla!逐浪CMS-中国最大的高端CMS+移动互联网+智慧云软件研发厂商、上海-南昌两大研发中心、门户站群|商城系统|同步支持MSSQL与Oracle优质CMS解决方案服务商</title>
+<meta name="description" content="Zoomla!逐浪CMS2 x3.1发布">
+<meta name="keywords" content="逐浪,cms,cms2,x3.1,发布,建站系统">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/dist/css/animate.min.css" rel="stylesheet"/>
+<script src="/Plugins/ECharts/build/source/echarts.js"></script>
+<style>
+@font-face { font-family: "ZoomlaICO";
+    src: url("/dist/fonts/ZoomlaICO.eot"); /* IE9 */
+    src: url("/dist/fonts/ZoomlaICO.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/dist/fonts/ZoomlaICO.woff") format("woff"), /* chrome、firefox */
+    url("/dist/fonts/ZoomlaICO.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("/dist/fonts/ZoomlaICO.svg#ZoomlaICO") format("svg"); /* iOS 4.1- */
+    font-style: normal;    font-weight: normal;}
+.home_body { position:absolute; top:0; width:100%; height:100%; z-index:1200; background-color: #8ce3fe; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#c1e4ef), to(#7ecef4)); background-image: -webkit-linear-gradient(top, #c1e4ef, #7ecef4); background-image: -webkit-gradient(linear, left top, left bottom, from(#c1e4ef), to(#7ecef4)); background-image: linear-gradient(to bottom, #c1e4ef, #7ecef4); background-repeat: repeat-x; }
+#wave { position:absolute; bottom:10em; width:100%; height:200px;}
+.home_main { position:absolute; top:50%; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); width:100%;}
+.home_main_t { text-align:center; margin-bottom:3em;}
+.home_main_c img { width:96%; height:10em;}
+.home_main_m { text-align:center;}
+.home_main_b { margin-top:1em;}
+.home_zico { position:absolute; width:100%; top:50%; margin-top:-400px; text-align:center; font-size:30em; color:#0066cc; }
+.home_zico .ZoomlaICO2015:before { font-family:'ZoomlaICO'; content:"\51F7";}/*ICO*/
+.home_zico i { -webkit-animation-name: swing;animation-name: swing; -webkit-animation-duration:3s; animation-duration: 3s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
+.btn{margin-top:1em;}
+.btn-link{ padding-left:0;color:#fff;}
+@media screen and (max-width:768px){ /*小于768px私有*/
+#wave{bottom:0; width:100%; height:160px;}
+}
+</style>
+<link rel="prefetch" href="/Template/office/style/images/oa_section1.mp4" /> 
+</head>
+<body><a href="http://webscan.360.cn/index/checkwebsite/url/www.z01.com" name="2918cabc941fa31f730ea612a0b02dd1" >360网站安全检测平台</a>
+<div class="home_body">
+<div class="home_main" style="display:none;">
+<div class="home_main_t">
+<div class="home_main_c"><a href="index.shtml" title="进入主站"><img src="/Template/office/style//images/logo_w.svg" alt="逐浪软件" /></a></div>
+</div>
+<div class="home_main_m">
+<a href="index.shtml" class="btn btn-primary" target="_blank">进入主站</a>
+<a href="demo" class="btn btn-info" target="_blank">逐浪CMS产品</a>
+<a href="oas" class="btn btn-success">Z套件OA办公软件</a>
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+    动力逐浪 <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="http://v.z01.com/h5" target="_blank">在线建站</a></li>
+    <li><a href="http://v.z01.com/h5" target="_blank">H5移动场景</a></li>
+    <li><a href="mb" target="_blank">免费模板云</a></li>
+    <li><a href="http://ad.z01.com" target="_blank">广告源码库</a></li>
+    <li><a href="#" onclick="alert('Coming soon')" >Webfont</a></li>
+    <li class="divider"></li>
+    <li><a href="y10">10周年华诞</a></li>
+  </ul>
+</div>
+<!--<a href="#" onclick="alert('Coming soon')" class="btn btn-info">SiiClound</a>-->
+<a href="http://bbs.z01.com" class="btn btn-warning" target="_blank">技术论坛</a>
+<a href="index.shtml" class="btn btn-link">直接进入>></a>
+</div>
+<div class="home_main_b"><img src="/App_Themes/Admin/shadow.png" class="img-responsive center-block" alt="阴影" /></div>
+</div>
+<!--home_main end-->
+<div class="home_zico"><i class="fa ZoomlaICO2015 animated"></i></div>
+<div id="wave"></div><!--下方的Echart动画效果-->
+</div>
+</body>
+</html>
+<script>
+$(function(e) {
+	drawCanvasOne();
+	$(".home_zico").animate(
+		{
+			"opacity":"0"
+		},2000,function(){
+			$(".home_zico").remove();
+			$(".home_main").show().addClass("animated").css("-webkit-animation-name", "fadeIn").css("animation-name", "fadeIn").css("-webkit-animation-duration", "3s").css("animation-duration", "3s").css("-webkit-animation-fill-mode", "both").css("animation-fill-mode", "both");
+		});
+});
+function drawCanvasOne() {
+var t = document.getElementById("wave"),
+	e = echarts.init(t),
+	i = e.getZr(),
+	a = e.getWidth(),
+	c = e.getHeight(),
+	o = new echarts.graphic.Group;
+i.add(o);
+var n = 3;
+800 > a && (n = 2);
+for (var r = 0; 3 > r; r++) {
+	for (var s = [], l = 0; n + 1 >= l; l++) {
+		var h = c / 10 * r + c / 6,
+			d = Math.random() * c / 8 + h,
+			g = c - Math.random() * c / 8 - h,
+			m = [
+				[2 * l * a / n / 2, r % 2 ? d : g],
+				[(2 * l + 1) * a / n / 2, r % 2 ? g : d]
+			];
+		s.push(m[0], m[1])
+	}
+	var u = new echarts.graphic.Polyline({
+		shape: {
+			points: s,
+			smooth: .4
+		},
+		style: {
+			stroke: "#fff",
+			opacity: 1 / (r + 1),
+			lineWidth: 1.2 / (r + 1) + .8
+		},
+		silent: !0,
+		position: [-r * a / 8, 35 * -(r - .5)]
+	}),
+		y = new echarts.graphic.Rect({
+			shape: {
+				x: 0,
+				y: 0,
+				width: 0,
+				height: c
+			},
+			position: [r * a / 8, 0]
+		});
+	o.add(u), y.animateTo({
+		shape: {
+			width: a
+		}
+	}, 1e3, 800 * Math.random()), u.setClipPath(y), n += 1 //e3前是速度
+}
+$(window).on("resize", function() {
+	var t = e.getWidth(),
+		i = e.getHeight();
+	e.resize();
+	var a = e.getWidth(),
+		c = e.getHeight();
+	y.setShape({
+		width: a,
+		height: c
+	});
+	var n = a / t,
+		r = c / i;
+	o.eachChild(function(t) {
+		t.position[0] *= n, t.position[1] *= r, t.shape.points.forEach(function(t) {
+			t[0] *= n, t[1] *= r
+		}), t.dirty(!0)
+	})
+})
+}
+
+//进入主站
+setTimeout("window.location='index.shtml'",18000);
+	$(function () {
+		$("#tabs1 a").mouseover(function (e) {
+			$(this).tab('show');
+		});
+	   
+	});
+ </script>

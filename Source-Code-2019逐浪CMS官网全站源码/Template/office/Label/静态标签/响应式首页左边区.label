@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>476</LabelID>
+    <LabelName>响应式首页左边区</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="col-lg-2 col-md-2  col-sm2 col-xs-12 borders home_l"&gt;
+&lt;div class="list-group"&gt;
+&lt;a href="javascript:goreg('/product/FuncList/')" class="list-group-item active"&gt;&lt;span class="badge"&gt;More..&lt;/span&gt;系列CMS子产品&lt;/a&gt;
+&lt;/div&gt;
+&lt;ul class="home_l_pro"&gt;
+&lt;li&gt;&lt;img src="/skin/2010/images/icon_index.png" /&gt;&lt;a href="/pub/396.shtml" target="_blank" class="sp"&gt;文章系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/product/626.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_shop.png" /&gt;&lt;/span&gt;企业门户系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/1092.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_chanpin.png" /&gt;&lt;/span&gt;OA办公系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/380.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_market.png" /&gt;&lt;/span&gt;网店系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/1093.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_service.png" /&gt;&lt;/span&gt;站群管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/732.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_bbs.png" /&gt;&lt;/span&gt;考试系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/591.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_glass.png" /&gt;&lt;/span&gt;试戴系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/870.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_aboutus.png" /&gt;&lt;/span&gt;三维全景&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/1094.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_office.png" /&gt;&lt;/span&gt;百科问答&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/1095.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_exam.png" /&gt;&lt;/span&gt;黄页与SNS社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/655.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_project.png" /&gt;&lt;/span&gt;项目管理系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/m/" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_project.png" /&gt;&lt;/span&gt;移动WEB App系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/655.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_project.png" /&gt;&lt;/span&gt;微门户系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/655.shtml" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_project.png" /&gt;&lt;/span&gt;智能MIS系统&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;div class="list-group"&gt;
+&lt;a href="/Project/" class="list-group-item active" target="_blank"&gt;&lt;span class="badge"&gt;More..&lt;/span&gt;专业解决方案&lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/Article/Project/213.shtml"&gt;面向站长&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/Project/136.shtml"&gt;面向政府&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/Project/133.shtml"&gt;面向企业&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/Project/131.shtml"&gt;面向学校&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/Project/137.shtml"&gt;面向教育&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向特殊&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向外企&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向集团&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向公益&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

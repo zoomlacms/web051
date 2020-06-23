@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>532</LabelID>
+    <LabelName>2017新版全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;nav class="navbar navbar-default navbar-fixed-top home17_nav" id="home17_nav"&gt;
+&lt;div class="container-fluid"&gt;
+&lt;div class="navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+&lt;span class="sr-only"&gt;智能切换导航&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;a href="javascript:;" onClick="ShowSearch();" class="pull-right visible-xs"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;h1 class="navbar-brand"&gt;&lt;a href="/"&gt;&lt;img src="{$LogoUrl/}" alt="{$SiteName/}" /&gt;&lt;/a&gt;&lt;span&gt;{SField sid="栏目信息数据源" FD="NodeName" page="0"/}&lt;/span&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="navbar-collapse collapse"&gt;
+&lt;ul class="nav navbar-nav navbar-right"&gt;
+&lt;li&gt;&lt;a href="/"&gt;首页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/"&gt;关于&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/"&gt;产品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/case/"&gt;案例&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project/"&gt;方案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.z01.com/mb/"&gt;模板&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/demo/"&gt;体验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bbs.z01.com" target="_blank"&gt;社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.z01.com/jz/" target="_blank"&gt;微建站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.z01.com/h5" target="_blank"&gt;H5&lt;/a&gt;&lt;/li&gt;
+&lt;li class="home17_nav_s"&gt;&lt;a href="/pub/" target="_blank"&gt;下载逐浪CMS&lt;/a&gt;&lt;/li&gt;
+&lt;li class="home17_nav_u"&gt;
+&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;&lt;i class="fa fa-user"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;ul class="dropdown-menu" role="menu"&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="javascript:;" onClick="ShowSearch();"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="javascript:;" onClick="ShowMobileMenu();"&gt;&lt;i class="fa z01-icon106"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0; }
+body{background:#FF0000; font-size:12px;}
+img{border:none;}
+li{list-style-type:none;}
+html, body, #wrap { height: 100%; }
+body > #wrap { height: auto; min-height: 100%; }
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.clear{clear:both;}
+
+#header { height:120px;}
+
+#main { padding-bottom: 150px; margin:0 auto; clear:both }
+#content { padding-right: 0px; padding-left: 0px; float: left; padding-bottom: 25px; width: 60%; height:380px; padding-top:80px;}
+#sidebar {float: right; padding-left: 10px;  padding-bottom: 25px; width: 315px; height:479px; background:url(/skin/2010/images/5.1r.gif) no-repeat; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+#home{ float:right;width:470px; height:220px; background:url(/skin/2010/images/5.1main.gif);}
+#home p{margin-top:190px; height:30px; }
+#home p a{ color:#000; font-size:14px;}
+#home .home,#home .down{ display:block; float:left;width:90px; text-align:center; line-height:30px;}
+#home .pub{line-height:30px; color:#FFF;}
+
+#footer { position: relative; margin-top: -106px; height:106px; background:url(/skin/2010/images/5.1foot_bg.gif) right no-repeat #F00; clear:both; color:#FFF;}
+#footer a{color:#FFF;}
+#corpright{ float:right; margin-right:10px; margin-top:50px; width:740px; line-height:22px;}
+
+/*5.5begin*/
+.bluebg{background:#0260B7;}
+.home55{margin:auto; width:988px; height:699px; background:url(../images/5.5bg.jpg) no-repeat;}
+.home55_c{ padding-top:0px; margin-left:790px;}
+.home55_c a{color:#fff;}

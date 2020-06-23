@@ -1,0 +1,7 @@
+/*
+ *	soChange 1.3 - simple gallery with jQuery
+ *	made by bujichong 2009-12-09
+ *	作者：不羁虫  2009-12-09
+ * http://hi.baidu.com/bujichong/
+ */
+(function(c){c.fn.soChange=function(d){return new a(this,d)};var b={thumbObj:null,botLast:null,botNext:null,thumbNowClass:"now",slideTime:1000,autoChange:true,clickFalse:true,overStop:true,changeTime:5000,delayTime:300};c.soChangeLong=function(l,g){this.options=c.extend({},b,g||{});var m=c(l);var n=this.options;var d;var q=m.size();var i=0;var k;var f;var j;m.hide();m.eq(0).show();function h(){if(i!=k){if(n.thumbObj!=null){c(n.thumbObj).removeClass(n.thumbNowClass).eq(k).addClass(n.thumbNowClass)}if(n.slideTime<=0){m.eq(i).hide();m.eq(k).show()}else{m.eq(i).fadeOut(n.slideTime);m.eq(k).fadeIn(n.slideTime)}i=k;if(n.autoChange==true){clearInterval(f);f=setInterval(p,n.changeTime)}}}function p(){k=(i+1)%q;h()}if(n.thumbObj!=null){d=c(n.thumbObj);d.removeClass(n.thumbNowClass).eq(0).addClass(n.thumbNowClass);d.click(function(){k=d.index(c(this));h();if(n.clickFalse==true){return false}});d.mouseenter(function(){k=d.index(c(this));j=setTimeout(h,n.delayTime)});d.mouseleave(function(){clearTimeout(j)})}if(n.botNext!=null){c(n.botNext).click(function(){if(m.queue().length<1){p()}return false})}if(n.botLast!=null){c(n.botLast).click(function(){if(m.queue().length<1){k=(i+q-1)%q;h()}return false})}if(n.autoChange==true){f=setInterval(p,n.changeTime);if(n.overStop==true){m.mouseenter(function(){clearInterval(f)});m.mouseleave(function(){f=setInterval(p,n.changeTime)})}}};var a=c.soChangeLong})(jQuery);

@@ -1,0 +1,90 @@
+.show_pic { float:left; width:760px; height:444px; background-repeat: no-repeat; background-position: center; }
+#Layer1 {
+	float:left;
+	padding-top:68px;
+	padding-left:286px;
+	width:431px;
+	height:120px;
+}
+#Layer2 {
+	float:left;
+	padding-top:72px;
+	padding-left:280px;
+	width:166px;
+	height:116px;	
+}
+#Layer3 {
+	float:left;
+	padding-top:71px;
+	padding-left:65px;
+	width:228px;
+	height:116px;	
+}
+#Layer4 {
+	float:left;
+	padding-top:72px;
+	padding-left:250px;
+	width:159px;
+	height:115px;	
+}
+#Layer5 {
+	float:left;
+	padding-top:76px;
+	padding-left:1px;
+	width:440px;
+	height:233px;	
+}
+#Layer6 {
+	float:left;
+	padding-top:3px;
+	padding-left:351px;
+	width:410px;
+	height:224px;	
+}
+#Layer7 {
+	float:left;
+	padding-top:68px;
+	padding-left:2px;
+	width:445px;
+	height:231px;	
+}
+#Layer8 {
+	float:left;
+	padding-top:0px;
+	padding-left:38px;
+	width:682px;
+	height:488px;
+}
+#Layer9 {
+	float:left;
+	padding-top:328px;
+	padding-left:378px;
+	width:155px;
+	height:110px;	
+}
+#Layer10 {
+	float:left;
+	padding-top:330px;
+	padding-left:398px;
+	width:155px;
+	height:106px;	
+}
+#Layer11 {
+	float:left;
+	padding-top:72px;
+	padding-left:39px;
+	width:161px;
+	height:108px;	
+}
+#intro {
+	float:left;
+	width:700px;
+	padding-left:40px;
+	margin-top:10px;
+}
+.introtext{
+	padding-left:20px;
+	font-size:12px;
+	color:#006699;
+	font-weight:normal;
+}

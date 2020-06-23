@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>23</LabelID>
+    <LabelName>当前信息所在节点_用于信息展示页的位置导航</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,2,节点ID</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_Node on ZL_CommonModel.NodeID=ZL_Node.NodeID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.ModelID,ZL_CommonModel.ItemID,ZL_CommonModel.TableName,ZL_CommonModel.Title,ZL_Node.NodeID,ZL_Node.NodeName,ZL_Node.NodeType,ZL_Node.NodeDir,ZL_Node.NodeUrl,ZL_Node.Tips</LabelField>
+    <LabelWhere>ZL_CommonModel.GeneralID=@NodeID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>您的位置：&lt;a href="/"&gt;{$SiteName/}&lt;/a&gt;&gt;&gt;&lt;a href="ColumnList.aspx?NodeID={Field="NodeID"/}"&gt;{Field="NodeName"/}&gt;&gt;&lt;/a&gt;{Field="Title"/}</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

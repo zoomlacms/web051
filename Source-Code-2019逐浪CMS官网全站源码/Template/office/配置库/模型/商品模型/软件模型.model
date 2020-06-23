@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>9</ModelID>
+    <ModelName>软件模型</ModelName>
+    <Description />
+    <TableName>ZL_P_software</TableName>
+    <ItemName>软件</ItemName>
+    <ItemUnit>件</ItemUnit>
+    <ItemIcon>Soft.gif</ItemIcon>
+    <ModelType>2</ModelType>
+    <ContentModule>/商城模板/软件_商品内容页.html</ContentModule>
+    <MultiFlag>false</MultiFlag>
+    <IsNull>false</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail />
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

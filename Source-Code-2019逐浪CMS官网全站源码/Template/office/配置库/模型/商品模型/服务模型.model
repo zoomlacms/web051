@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>10</ModelID>
+    <ModelName>服务模型</ModelName>
+    <Description />
+    <TableName>ZL_P_server</TableName>
+    <ItemName>服务</ItemName>
+    <ItemUnit>个</ItemUnit>
+    <ItemIcon>Camera.gif</ItemIcon>
+    <ModelType>2</ModelType>
+    <ContentModule>/商城模板/服务_商品内容页.html</ContentModule>
+    <MultiFlag>false</MultiFlag>
+    <IsNull>false</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail />
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

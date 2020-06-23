@@ -1,0 +1,206 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/skin/2010/images/logo.jpg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+<div class="header_r"><a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+<input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua"><a class="navbar-brand" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()">↓开启WEB云计算内核之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li><a href="index.shtml" target="_blank">网站首页</a></li>
+<li><a href="/product/" target="_blank">走进逐浪</a></li>
+<li><a href="/shop/" target="_blank">产品中心</a></li>
+<li><a href="/case/" target="_blank">成功案例</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li class="scuess"><img src="{$CssDir/}/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+<li><a href="/demo/" target="_blank">体验中心</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+<div id="banner2014" style=""><img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" /></div>
+
+<div class="container mtv_main">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 mtv_main_l">
+<div class="mtv_main_lt">
+<div class="main_l_title">官方推荐</div>
+<div style=" margin-left:1px"><script type="text/javascript" src="{$AdDir/}/201008/9.js"></script></div>
+<div class="main_l_btitle"><a href="{ZL:GetNodeUrl(5)/}" target="_blank">官方更新</a></div>
+<div class="main_l_news">
+<ul class="list-unstyled">
+{ZL.Label id="首页_官方动态" ShowNum="5" TitleNum="20" /}
+</ul>
+</div>
+<div class="main_l_btitle"><a href="{ZL:GetNodeUrl(9)/}" target="_blank">最新案例</a></div>
+<div class="main_l_news">
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="5" TitleNum="20" NodeID="9" /}
+</ul>
+</div>
+<div class="main_l_btitle"><a href="{ZL:GetNodeUrl(21)/}" target="_blank">媒体报道</a></div>
+<div class="main_l_news">
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="5" TitleNum="20" NodeID="21" /}
+</ul>
+</div>
+</div>
+<div class="mtv_main_lb">
+<div class="main_l_title" style="text-align:left;padding-left:10px; padding-right:10px;"><span><a href="{ZL:GetNodeLinkUrl(24)/}">更多>></a></span>专业解决方案</div>
+<p>Zoomla!逐浪CMS专业解决方案提供了丰富的案例信息和PDF文档下载，欢迎您点击访问</p>
+</div>
+<div class="mtv_main_ls">
+<Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" class="form-control" size="1" name="select8">
+<Option  selected>友情链接站点</Option>
+{ZL.Label id="首页友情链接"/}
+</Select>
+</div>
+<div class="mtv_main_lad"><script type="text/javascript" src="{$AdDir/}/201009/10.js"></script></div>
+</div>
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 mtv_main_r">
+<div class="video_bannr" style="margin-top:10px;"><img src="{ZL.Label id="输出栏目图片" NodeID="16" /}" alt="{SField sid="栏目信息数据源" FD="NodeName" page="0"/}" /></div>
+<div class="Video_navMenu">
+<div class="btn-group">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">视频类型 <span class="caret"></span></button>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/mtv/" target="_blank">教程视频</a></li>
+<li><a href="/corp/music/">企业宣传</a></li>
+<li><a href="/corp/video/">影音逐浪</a></li>
+</ul>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">按流程分类 <span class="caret"></span></button>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/mtv/setup/" target="_blank">入门安装</a></li>
+<li><a href="/mtv/modem/" target="_blank">模板开发</a></li>
+<li><a href="/mtv/b2b/" target="_blank">商城网店</a></li>
+<li><a href="/mtv/control" target="_blank">智能管理</a></li>
+<li><a href="/mtv/high" target="_blank">高级进阶</a></li>
+<li><a href="/mtv/cms2/" target="_blank">CMS2教程</a></li>
+</ul>
+</div>
+<div class="btn-group">
+<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">按产品分类 <span class="caret"></span></button>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/Class_16/NodeHot.aspx?type={$GetUrlencode(内容管理)$}" target="_blank">内容管理</a></li>
+<li><a href="/Class_16/NodeHot.aspx?type={$GetUrlencode(在线商城)$}" target="_blank">在线商城</a></li>
+<li><a href="/Class_16/NodeHot.aspx?type={$GetUrlencode(网店系统)$}" target="_blank">网店系统</a></li>
+<li><a href="/Class_16/NodeHot.aspx?type={$GetUrlencode(公用系统)$}" target="_blank">公用系统</a></li>
+</ul>
+</div>
+</div><!--Video_navMenu end-->
+<div class="Video_mySite hidden-xs">
+<ol class="breadcrumb">
+<li>当前位置：<a href="/">首页</a></li>
+<li><a href="/mtv/">视频中心</a></li>
+<li class="active">{ZL.Label id="根据ID输出节点名称" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" /}系列教程</li>
+</ol>
+</div>
+<div class="mtv_main_rc">
+{ZL.Label id="最新视频列表_v3" ShowNum="12" TitleNum="58" NodeID="{SField sid="栏目信息数据源" FD="NodeID"/}" Class="col-lg-3 col-md-3 col-sm-3 col-xs-12" /}
+</div>
+</div>
+</div>
+</div>
+<!--中部主体结束-->
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+</script>

@@ -1,0 +1,308 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>无线网站解决方案</title>
+<meta name="Keywords" content="站群,cms,ecms,cmis,wcms,逐浪,zoomla,表单王,cms,投票,问券,调查,内容管理,程序,oa,商城,内容内核,网店,dotNET开发,全景展示,云技术,云模板">
+<meta name="Description" content="Zoomla!逐浪CMS是国内最大的高端CMS网站内核与管理系统研发厂商,集成内容管理、商城、OA、SNS、项目管理、采集、邮件订阅百项功能,基于.net平台并支持跨平台与移动开发,同时支持MSSQL与Oracle两大数据库,用于快速构建门户网站,提供门户站群与云计算机支持">
+<link href="/skin/2010/css/Project_style.css" type=text/css rel=stylesheet>
+<link href="/skin/2010/css/Project_leftMenu.css" type=text/css rel=stylesheet>
+<script language=javascript src="/js/leftMenu.js" type=text/javascript></script>
+<script language=javascript src="/js/js.js" type=text/javascript></script>
+</head>
+<body>
+<div class="content_bg"> 
+  <div class="top_div" id="top_link"> 
+    <div class="f_left"><a name="top" href="/" target="_blank"><img src="/skin/default/Project/prj_logo.jpg" alt="逐浪软件" width="342" height="40" border="0"></a></div>
+    <div class="f_right" style="padding-top: 12px;"> 
+      <select id="linkSelect_bxn" name="linkSelect_bxn" onChange="linkChangelinkSelect();">
+        <option value="#">请选择逐浪官方网站导航</option>
+        <option value="/shop/">购买商业版授权</option>
+        <option value="/demo/">软件演示中心</option>
+        <option value="/blog/">开发团队博客</option>
+        <option value="http://edu.zoomla.cn/">开发者俱乐部</option>
+        <option value="/server/">客服中心</option>
+        <option value="/corp/about/83.shtml">联系逐浪软件官方</option>
+      </select>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="hide_bar" id="hide_bar" align="center"><a href="#" onClick="hide_mc()"><img src="/skin/default/Project/hide_but.jpg" alt="隐藏头部链接" border="0"></a></div>
+<div class="content_bg"> 
+<!-- 网站头部/ -->
+  <div class="top_block"> 
+    <div class="f_left"><a href="#" target="_blank"><img src="/skin/default/Project/ilogo.jpg" alt="逐浪CMS解决方案中心" width="303" height="84" border="0"></a></div>
+    <div class="head_search default_main"> 
+      <div><img src="/skin/default/Project/mainli_icon.gif" alt="dot" align=absMiddle>&nbsp;<a href="/corp/about/151.shtml">订购指南</a> 
+        &nbsp; <img src="/skin/default/Project/mainli_icon.gif" alt="dot" align=absMiddle>&nbsp;<a href="/corp/about/83.shtml">联系我们</a></div>
+      <div style="margin-top: 10px"><a href="/User/Login.aspx" target=_blank><img src="/skin/default/Project/memberLogin.gif" alt="会员登陆" border="0" align=absMiddle></a>&nbsp;&nbsp;<a href="/User/Register.aspx" target=_blank>新用户注册</a> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<!-- BONO头部菜单/ -->
+<div class="content_bg"> 
+  <div class="nav"> 
+    <div class="menu_main"><a href="/" title="首 页">首 页</a></div>
+    <div class="menu_main"><a href="/ColumnList.aspx?NodeID=3" title="走进逐浪">走进逐浪</a></div>
+    <div class="menu_main"><a href="/product/" title="产品中心">产品中心</a></div>
+    <div class="menu_main"><a href="/case/" title="成功案例">成功案例</a></div>
+    <div class="menu_main"><a href="/Project/" title="解决方案">解决方案</a></div>
+    <div class="menu_main"><a href="/templet/" title="模板中心">模板中心</a></div>
+    <div class="menu_main"><a href="http://bbs.zoomla.cn/" title="技术社区" target="_blank">技术社区</a></div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="content_bg"> 
+  <table width="936" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td width="183" align="left" valign="top" bgcolor="#EAEAE2">
+		<!-- BONO主体左部菜单/ -->
+		<div  class="subMenu">
+		<div class="menu_top"></div>
+     
+<div class="sub"><a href="/Article/Project/2025.shtml">逐浪CMS软件在实施中的增值与赢利之道</a></div>
+
+<div class="sub"><a href="/Article/Project/475.shtml">FLEX及3D综合解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/399.shtml">门户网站群解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/213.shtml">个人网站解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/166.shtml">网上商城解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/138.shtml">行业门户解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/137.shtml">文献网站解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/136.shtml">政府网站解决方案 </a></div>
+
+<div class="sub"><a href="/Article/Project/135.shtml">无线网站解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/134.shtml">社区门户解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/133.shtml">企业网站解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/132.shtml">交友网站解决方案</a></div>
+
+<div class="sub"><a href="/Article/Project/131.shtml">教育网站解决方案</a></div>
+
+		<div><img src="/skin/default/Project/menu_food.gif" alt="菜单底部" width="183" height="30"></div>
+		</div>
+		<!--左菜单部分结束-->
+
+	  </td>
+      <td align="left" valign="top">&nbsp;</td>
+      <td width="473" align="left" valign="top">
+<div> 
+<div class="kv"><img src="/UploadFiles/Project/jpg/2008/8/200808210046272571.jpg" width="740px" height="180px"></div>
+<div class="contentner">
+<div class="path">您现在的位置: <a href="/">首页</a> <img src="/skin/default/Project/dot_2.jpg" alt="dot"><a href="/ColumnList.aspx?NodeID=24">解决方案</a> <img src="/skin/default/Project/dot_2.jpg" alt="dot">无线网站解决方案</div>
+<div class="content">
+<div class=search_tit_bg>
+<div class=actTag id=hy_tag onClick="switchTag('hy',this)"><span>背 景</span></div>
+<div><img src="/skin/default/Project/search_tit_line.jpg"></div>
+<div class=tag id=ks_tag onClick="switchTag('ks',this)"><span>优 势</span></div>
+<div><img src="/skin/default/Project/search_tit_line.jpg"></div>
+<div class=tag id=bx_tag onClick="switchTag('bx',this)"><span>细 节</span></div>
+<div><img src="/skin/default/Project/search_tit_line.jpg"></div>
+<div class=tag id=sc_tag onClick="switchTag('sc',this)"><span>应 用</span></div>
+<div><img src="/skin/default/Project/search_tit_line.jpg"></div>
+<div class=tag id=ml_tag onClick="switchTag('ml',this)"><span>成 就</span></div>
+<div><img src="/skin/default/Project/search_tit_line.jpg"></div>
+<div class=tag id=pz_tag onClick="switchTag('pz',this)"><span>案 例</span></div>
+<div><img src="/skin/default/Project/search_tit_line.jpg"></div>
+<div class=tag id=fw_tag onClick="switchTag('fw',this)"><span>体验逐浪专业化的解决方案</span></div>
+</div>
+
+
+<div class=f-left style="margin-bottom: 30px">
+<div class=content1> 
+<div class=clear></div>
+
+<div id=hy style="padding-left:10px;padding-top:20px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"> 
+<td> <div class="content default_main" > 
+  <div class=tit_blue>解决方案背景</div>
+  <div><p>&nbsp;</p>
+<div style="text-indent: 1cm"><img style="padding-bottom: 5px; padding-left: 5px; padding-right: 5px; margin-right: 5px; padding-top: 5px" border="2" alt="" align="left" src="/uploadfiles/Project/jpg/2008/8/200808210047530133.jpg" />PC、移动终端、智能手机构成了人类接触信息的三点。</div>
+<div style="text-indent: 1cm">普罗大众可能不会用电脑上网，但却一定会用手机。手机和其它各类移动终端的占有率远远超过PC。</div>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS提供的网站短信解决方案不再是一个普通的短信发送与接收系统，而是依托在3G与高速互联网下的多元信息体系。</div></div>
+  <div style="padding-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="#b" onClick="switchTag('ks','ks_tag')">进一步了解逐浪CMS于本解决方案的优势分析</a><br />
+ <a href="/UploadFiles/Project/pdf/2009/3/200903072059022748.pdf">下载PDF版解决方案文献</a>
+</div>
+</div></td>
+</tr>
+</table>
+</div>
+<div class=hide id=ks style="padding-left:10px;padding-top:20px;"><!--优势-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"> 
+<td><div class="content default_main" > 
+  <div class=tit_blue>逐浪CMS解决方案的优势</div>
+  <div><p>&nbsp;</p>
+<div style="text-indent: 1cm">通过导入Zoomla!逐浪CMS网站短信解决方案，将能够实现：</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span>■&nbsp;</span>随时随地的手机上网；</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>用户信息紧密共享；</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>网站事件（如会员订单、注册）等紧密提醒服务；</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>把电子商务与手机终端密切关联；</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>第一时间将网站传递到手机上；</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>通过WAP、MOBIL等技术为网站的宣传提供新的管道</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>导入3G技术构建全新的互联网传播平台</div></div>
+  <div style="padding-top:10px;"><img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="#b" onClick="switchTag('bx','bx_tag')">进一步查看本解决方案细节</a></div>
+</div></td>
+</tr>
+</table>
+</div>
+<div class=hide id=bx style="padding-left:10px;padding-top:20px;"><!--细节-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"> 
+<td>  <div class="content default_main" > 
+  <div class=tit_blue>本案实施细节与亮点披露</div>
+  <div><p>&nbsp;</p>
+<div style="text-indent: 1cm">传统的短信收发方案都是基于点对点的手工处理，不具备智能的关联网站的经营。</div>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS团队根据中国目前的移动通信标准，采用自主平台研发，推出的短信与3G网络解决方案，是具备一流品质的无线与手机上网解决方案。</div>
+<div style="text-indent: 28.45pt"><strong>WAP</strong><strong>网站解决方案</strong></div>
+<div style="text-indent: 1cm">3G的到来会是什么？会是真正的手机浏览，而不是某些&ldquo;短信网址&rdquo;，发一条短信，回一条短信。基于严格意义的WAP访问，访客可以在线查看信息、检索信息、留言、注册管理和订单购买。</div>
+<div style="text-indent: 1cm">WAP是建立在无线网络上的Internet 接入解决方案，蓝牙是无线网络的构建及接入方案.在蓝牙的基础上能很好地实现WAP的无线Internet 接入服务.介绍并分析了WAP的组成和协议栈以及蓝牙的网络结构和协议栈,给出了建立在蓝牙技术基础之上的无线移动终端的Internet接入方案.</div>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS开发的WAP网站解决方案是一套完整的、可移植的、适应于各种移动终端的WAP2.0软件解决方案。符合OMA的WAP2.0规范、中国移动WAP2.0终端测试规范、中国联通WAP2.0业务规范。 WAP主要包含WML浏览器、XHTML浏览器、WAP1.X协议栈、WAP2.0协议栈等模块。 WAP特有的 WML Transformations功能将WML文档转换成XHTML文档处理，取得了处理和操作上的一致性，并能够在各类手机与蓝牙设备上得到良好的支持。</div>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS的WAP网站解决方案在功能上：</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span>■&nbsp;</span>支持完整的WAP1.X和WAP2.0协议栈</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持WML、WBXML、XHTMLMP文档格式的解析处理</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持WBMP、JPG、GIF、PNG等图像格式的下载、解码和显示</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持WCSS(WAP Cascading Style Sheet)</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持本地Cache</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持HTTPSM(COOKIE)</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持UNICODE,支持GB2312/GBK/BIG5的相互转换</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>支持压缩保存功能，减少存储空间的使用</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>可扩展支持ECMAScript/JAVASCRIPT</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>可扩展支持普通HTML网页</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>可扩展支持文本文件的显示和二进制文件的下载</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>可扩展支持压缩文档的下载显示</div>
+<div style="text-indent: 1cm">&nbsp;</div>
+<div style="text-indent: 1cm">与其它同类产品相比，Zoomla!逐浪CMS的无线解决方案具备的特点：</div>
+<div style="text-indent: 1cm">1、代码精简：</div>
+<div style="text-indent: 1cm">基本版本仅仅需要200KB代码空间，包含CSS\Javascript\GZIP等功能的完全版本也只需要650KB代码空间</div>
+<div style="text-indent: 1cm">2、内存节省：</div>
+<div style="text-indent: 1cm">不支持Javascript时300KB内存就可以支持包括新浪在内的大网页浏览；支持Javascript也只需要增加300KB空间</div>
+<div style="text-indent: 1cm">3、独立内存管理：</div>
+<div style="text-indent: 1cm">内建浏览器内存管理机制，避免内存泄漏和保证内存操作的安全性</div>
+<div style="text-indent: 1cm">4、执行高效：</div>
+<div style="text-indent: 1cm">解析速度大于28K页面/秒 （以40 MIPS CPU为例）</div>
+<div style="text-indent: 1cm">5、提供简单易用的第三方接口:</div>
+<div style="text-indent: 1cm">可实现对网页的解析、显示、编辑、保存功能，容易与第三方应用如HTML EMAIL集成</div>
+<div style="text-indent: 1cm">6、容易移值：</div>
+<div style="text-indent: 1cm">标准C实现，任务无关设计，不依赖操作系统特性，容易移植到各种终端平台</div>
+<div style="text-indent: 1cm">7、模块化设计，可剪裁，可配置。</div>
+<div style="text-indent: 1cm">&nbsp;</div>
+<div style="text-indent: 28.45pt"><strong>.mobi</strong><strong>手机网站解决方案</strong></div>
+<div style="text-indent: 1cm">&nbsp;</div>
+<div style="text-indent: 1cm">城市，手机拥有率达到97.8%，但只有35.4%的人有电脑；您可以时时带着手机，但您不可能时时带着电脑。传统网站不能通过手机访问，而手机上网已是一种时尚趋势，现在流行通过手机和电脑都能访问的手机网站，实现随时、随地、随身访问，让您的客户真正实现随时随地找到您。 　　</div>
+<div style="text-indent: 1cm">手机域名被称为互联网的第二个机会，手机网站则被誉为企业的第二生命，而3G的到来无疑为无线互联网提供了发展的机遇。 　</div>
+<div style="text-indent: 1cm">　</div>
+<div style="text-indent: 1cm">　　<span style="color: #c00000">手机网站&mdash;&mdash;企业的第二生命，您当然不能错过！</span></div>
+<div style="text-indent: 1cm">&nbsp;</div>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS引领手机网站与无线网络时尚,同时旗下的华夏互联作为国内领先的域名及网站托管服务商，致力于帮助企业通过网站建设与网站推广提高企业信息化程度，并努力开创电子商务的中国模式。秉承10年互联网专业服务经验，为您量身订制个性化的企业手机网站解决方案。</div>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS实行网络营销顾问制，专员专线专注服务</div></div>
+  <div style="padding-top:10px;"><img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="#b" onClick="switchTag('sc','sc_tag')">点击查看本案可实施的具体范围定义</a></div>
+</div></td>
+</tr>
+</table>
+
+</div>
+<div class=hide id=sc style="padding-left:10px;padding-top:20px;"><!--应用-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"> 
+<td>  <div class="content default_main" > 
+  <div class=tit_blue>可应用范围</div>
+  <div><p>&nbsp;</p>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS无线网站解决方案可应用于：</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span>■&nbsp;</span>企业网站的信息传递</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>商业网站的流程管理与监控</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>多团队事务间的协同</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>基于网站事件的短信通知</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>基于随时随地的网站访问</div>
+<div style="text-indent: -21pt; margin: 0cm 0cm 0pt 49.35pt"><span><span>■</span>&nbsp;</span>基于手机等终端的信息交流</div> </div>
+  <div style="padding-top:10px;"><img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="#b" onClick="switchTag('ml','ml_tag')">点击关注逐浪CMS在本案中取得的成就报告</a></div>
+</div></td>
+</tr>
+</table>
+</div>
+<div class=hide id=ml style="padding-left:10px;padding-top:20px;"><!--成就-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"> 
+<td>  <div class="content default_main" > 
+  <div class=tit_blue>已取得成就</div>
+  <div><p>&nbsp;</p>
+<div style="text-indent: 1cm">通过Zoomla!逐浪CMS无线网站解决方案的实施，能够有效的改进传统商业与电子商务间的关系，手机作为最广泛的无线应用终端极好的成为之间的纽带。</div>
+<div style="text-indent: 1cm">用户可以快速的通过手机登陆网站、下单购物、发表评论、参与活动、阅读商业信息，构建从手机到办公场所一体的无缝商务网络。</div></div>
+  <div style="padding-top:10px;"><img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="#b" onClick="switchTag('pz','pz_tag')"> 查看逐浪CMS提供的实施案例。 </a></div>
+</div></td>
+</tr>
+</table>
+</div>
+<div class=hide id=pz style="padding-left:10px;padding-top:20px;"><!--案例-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top"> 
+<td>  <div class="content default_main" > 
+  <div class=tit_blue>本案曾实施的案例精选推荐</div>
+   <div><p>&nbsp;</p>
+<div style="text-indent: 1cm">深圳聚善堂</div>
+<div style="text-indent: 1cm">南昌易购网</div>
+<div style="text-indent: 1cm">南昌宝贝网</div>
+<div style="text-indent: 1cm">南京鲁拉宠物网</div>
+<div style="text-indent: 1cm">以及更多</div> </div>
+  <div style="padding-top:10px;"><img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="#b" onClick="switchTag('fw','fw_tag')"> 立即体验逐浪CMS专业服务  </a></div>
+</div></td>
+</tr>
+</table>
+</div>
+<div class=hide id=fw><!--服 务-->
+<div class=tit_blue>体验逐浪CMS卓越服务</div>
+<div ><p>&nbsp;</p>
+<div style="text-indent: 1cm">Zoomla!逐浪CMS软件自1.1版开始即全面支持无线网络解决方案，并导入自主的[逐浪&reg;商讯通]子品牌，满足商业应用的需求。</div>
+<div style="text-indent: 1cm">如果您有特殊需求，可以随时联系逐浪CMS软件团队成员，获取专业方案。</div></div>
+<div style="padding-top:10px;"><img src="/skin/default/Project/mark_1.gif">&nbsp;&nbsp;<a href="/Content.aspx?ItemID=83" onClick="switchTag('ks','ks_tag')">对《无线网站解决方案》感兴趣吗？您可以点击立即联系专业逐浪工程师会话洽谈！</a></div>
+
+</div>
+</div>
+<div class=content1_food></div>
+<div style="padding-right: 6px; margin-top: 12px; padding-left: 6px">
+<div style="margin-top: 10px; margin-bottom: 25px; text-align: right"><a href="#top"><img src="/skin/default/Project/btn_top.gif" border="0"></a> </div>
+</div>
+</div>
+<script src="/js/switchTag.js"></script>
+<script type=text/javascript>
+switchTag("hy","hy_tag");
+</script>
+
+</div>
+</div>
+
+</div>
+	  </td>
+    </tr>
+  </table>
+
+</div>
+<div class="clear"></div>
+<div class="food_div"><a href="/map.html">网站导航</a> | <a href="/corp/about/83.shtml">联系我们</a> | <a href="/corp/media">媒体报道</a> | <a href="/corp/about/95.shtml">法律声明</a> | <a href="/corp/about/151.shtml">订购指南</a><br />
+ &copy; Corpright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script>All rights reserved 逐浪软件zoomla.cn版权所有<br />
+沪ICP备09077823号   <a href="http://www.zx110.org/" target="_blank">网络社会征信网</a> 经营许可证号:工商3601002021063 
+<script src='/CounterLink.aspx?style=none'></script>
+<br />
+</div>
+</body>
+</html>

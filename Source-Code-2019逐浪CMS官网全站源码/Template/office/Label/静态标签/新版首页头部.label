@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>464</LabelID>
+    <LabelName>新版首页头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="header_x"&gt;
+&lt;script type="text/javascript" src="{$AdDir/}/201205/14.js"&gt;&lt;/script&gt;
+&lt;h1&gt;&lt;a href="/"&gt;&lt;img src="{$LogoUrl/}" alt="{$SiteName/}" /&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序"&gt;最新版本号：&lt;script type="text/javascript" src="{$AdDir/}/201003/8.js"&gt;&lt;/script&gt;[免费下载]&lt;/a&gt;
+&lt;iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="186px" height="24px"&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--header_x end --&gt;
+
+&lt;div id="nav_x"&gt;
+&lt;div id="menus"&gt;
+&lt;div id="menuNav"&gt;
+&lt;ul&gt;
+&lt;strong&gt;↓开启WEB云计算内核之门:&lt;/strong&gt;
+&lt;li class="on"&gt;&lt;a href="/" target="_blank"&gt;网站首页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/" target="_blank"&gt;走进逐浪&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/" target="_blank"&gt;产品中心&lt;/a&gt;&lt;/li&gt;
+&lt;li class="scuess"&gt;&lt;img src="/template/office/style/images/hot.gif" class="hot"&gt;&lt;a href="/case/" target="_blank"&gt;成功案例&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project/" target="_blank"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/mb/" target="_blank"&gt;模板中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/" target="_blank"&gt;下载产品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/demo/" target="_blank"&gt;体验中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bbs.zoomla.cn/" target="_blank"&gt;技术社区&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+{ZL.Label id="可收缩便捷导航"/}
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--nav_x end --&gt;
+
+&lt;div id="i_nav"&gt;
+&lt;p&gt;
+&lt;a href="{ZL:GetNodeLinkUrl(67)/}" target="_blank"&gt;软件选型:如何选择合适的CMS系统&lt;/a&gt;
+&lt;a href="{ZL:GetNodeLinkUrl(91)/}" target="_blank"&gt;行业纵横:中国CMS行业动态及名单&lt;/a&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class="biz_log"&gt;&lt;a href="/biz/" target="_blank"&gt;授权验证&lt;/a&gt;&lt;/li&gt;
+&lt;li class="wap_log"&gt;&lt;a href="/wap/Default.aspx" target="_blank"&gt;手机访问&lt;/a&gt;&lt;/li&gt;
+&lt;li class="rss_log"&gt;&lt;a href="/rss/Default.aspx" target="_blank"&gt;RSS聚合&lt;/a&gt;&lt;/li&gt;
+&lt;li class="reg_log"&gt;&lt;a href="/user/" target="_blank"&gt;用户中心&lt;/a&gt;&lt;/li&gt;
+&lt;li class="login_log"&gt;{ZL:Big5()/}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--小导航菜单结束 --&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <NodeID>54</NodeID>
+    <NodeName>网站地图</NodeName>
+    <NodeType>2</NodeType>
+    <NodeDir>map</NodeDir>
+    <NodeUrl>/map.html</NodeUrl>
+    <Tips />
+    <ParentID>0</ParentID>
+    <OrderID>13</OrderID>
+    <Child>0</Child>
+    <Depth>1</Depth>
+    <NodePicUrl />
+    <Description />
+    <Meta_Keywords />
+    <Meta_Description />
+    <OpenType>false</OpenType>
+    <PurviewType>false</PurviewType>
+    <CommentType>false</CommentType>
+    <HitsOfHot>0</HitsOfHot>
+    <ListTemplateFile>单页模板/2009_网站地图.html</ListTemplateFile>
+    <IndexTemplate>单页模板/2009_网站地图.html</IndexTemplate>
+    <ContentModel />
+    <ItemOpenType>true</ItemOpenType>
+    <ContentHtmlRule>0</ContentHtmlRule>
+    <ListPageHtmlEx>0</ListPageHtmlEx>
+    <ContentFileEx>0</ContentFileEx>
+    <HtmlPosition>0</HtmlPosition>
+    <NodeListType>0</NodeListType>
+    <ConsumePoint>0</ConsumePoint>
+    <ConsumeType>0</ConsumeType>
+    <ConsumeTime>0</ConsumeTime>
+    <ConsumeCount>0</ConsumeCount>
+    <Shares>0</Shares>
+    <Custom />
+    <NodeListUrl />
+    <LastinfoTemplate />
+    <HotinfoTemplate />
+    <ProposeTemplate />
+    <OpenTypeTrue />
+    <ItemOpenTypeTrue />
+    <NodeBySite>0</NodeBySite>
+    <SiteConfige />
+    <SafeGuard>0</SafeGuard>
+    <Contribute>0</Contribute>
+    <SiteContentAudit>0</SiteContentAudit>
+    <AuditNodeList />
+    <AddPoint>0</AddPoint>
+    <AddMoney>0.0000</AddMoney>
+    <ClickTimeout>0</ClickTimeout>
+    <Purview />
+    <AddUserExp>0</AddUserExp>
+    <DeducUserExp>0</DeducUserExp>
+    <ListPageEx>0</ListPageEx>
+    <LastinfoPageEx>0</LastinfoPageEx>
+    <HotinfoPageEx>0</HotinfoPageEx>
+    <ProposePageEx>0</ProposePageEx>
+    <Viewinglimit xml:space="preserve">                                                                                                    </Viewinglimit>
+  </Table>
+</NewDataSet>

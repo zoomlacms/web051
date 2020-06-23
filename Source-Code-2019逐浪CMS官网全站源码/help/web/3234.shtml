@@ -1,0 +1,683 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>详解CSS中flex布局-面向未来的网页设计理念_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="设计,面向,详解,未来,网页">
+<meta name="Description" content="详解CSS中flex布局-面向未来的网页设计理念">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=180111" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style//images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r"> <a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_2"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_45"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_9"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_24"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li id="menu_123"><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_44" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_20"><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/help/web/index.shtml">网页学园</a> / 
+</ol>
+   
+<div id="Content">
+<h1>详解CSS中flex布局-面向未来的网页设计理念</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2018-01-23  来源:佚名   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3234"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=详解CSS中flex布局-面向未来的网页设计理念-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3234.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p><br/></p><p><font color="#333333" face="PingFang SC"><br/></font></p><p><font color="#333333" face="PingFang SC">可以点这里先看一个例子：</font></p><p><a href="http://code.z01.com/v4/layout/example.html" target="_blank"><font color="#333333" face="PingFang SC">http://code.z01.com/v4/layout/example.html</font></a></p><p><font color="#333333" face="PingFang SC"><br/></font></p><p><font color="#333333" face="PingFang SC">做网页布局难，左右居中可以，上下居中如何处理？四个角浮动如何处理？尤其是中文环境中，这些问题一直很难解决，直到flex弹性布局出现....<span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;"><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><br/></p></span></font></p><p>网页布局（layout）是 CSS 的一个重点应用。</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p><img title="1.gif" alt="1.gif" src="/UploadFiles/Image/20180123/6365234384700594278675294.gif"/></p><p><br/></p><p>布局的传统解决方案，基于<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box_model" target="_blank">盒状模型</a>，依赖 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank"><code>display</code></a> 属性 + <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position" target="_blank"><code>position</code></a>属性 + <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float" target="_blank"><code>float</code></a>属性。它对于那些特殊布局非常不方便，比如，<a href="https://css-tricks.com/centering-css-complete-guide/" target="_blank">垂直居中</a>就不容易实现。</p><p><img title="2.png" alt="2.png" src="/UploadFiles/Image/20180123/6365234385945376211813356.png"/></p><p><br/></p><p>2009年，W3C 提出了一种新的方案----Flex 布局，可以简便、完整、响应式地实现各种页面布局。目前，它已经得到了所有浏览器的支持，这意味着，现在就能很安全地使用这项功能。</p><p><img title="3.jpg" alt="3.jpg" src="/UploadFiles/Image/20180123/6365234387413058441595468.jpg"/></p><p><br/></p><p><br/></p><p>Flex 布局将成为未来布局的首选方案。本文介绍它的语法，<a href="http://www.ruanyifeng.com/blog/2015/07/flex-examples.html" target="_blank">下一篇文章</a>给出常见布局的 Flex 写法。网友 <a href="http://vgee.cn/" target="_blank">JailBreak</a> 为本文的所有示例制作了 <a href="http://static.vgee.cn/static/index.html" target="_blank">Demo</a>，也可以参考。</p><p>以下内容主要参考了下面两篇文章：<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox</a> 和 <a href="https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties" target="_blank">A Visual Guide to CSS3 Flexbox Properties</a>。</p><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;"><br/></span></p><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;"><br/></span></p><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;"><br/></span></p><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;">布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</span></p><h1 style="margin: 0px; padding: 0px; color: rgb(69, 69, 69); line-height: 1.1; font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; font-size: 36px; font-weight: 400; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;" target="_blank"></a>一、Flex布局是什么？</span></h1><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;">Flex是Flexible Box的缩写，意为&quot;弹性布局&quot;，用来为盒状模型提供最大的灵活性。<br/></span></p><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); box-sizing: border-box;">任何一个容器都可以指定为Flex布局。</span></p><pre class="brush:css;toolbar:false">.box1{&nbsp;&nbsp;
+&nbsp;&nbsp;display:&nbsp;flex;&nbsp;&nbsp;
+}&nbsp;&nbsp;
+.box2{&nbsp;&nbsp;
+&nbsp;&nbsp;display:&nbsp;inline-flex;&nbsp;&nbsp;&lt;span&nbsp;style=&quot;font-family:&nbsp;Arial,&nbsp;Helvetica,&nbsp;sans-serif;&quot;&gt;/*&lt;/span&gt;&lt;span&nbsp;style=&quot;font-family:&nbsp;Arial,&nbsp;Helvetica,&nbsp;sans-serif;&quot;&gt;行内元素也可以使用Flex布局。*/&lt;/span&gt;&nbsp;&nbsp;
+}&nbsp;&nbsp;
+.box3{&nbsp;&nbsp;
+&nbsp;&nbsp;display:&nbsp;-webkit-flex;&nbsp;/*&nbsp;Safari&nbsp;,Webkit内核的浏览器，必须加上-webkit前缀。*/&nbsp;&nbsp;
+&nbsp;&nbsp;display:&nbsp;flex;&nbsp;&nbsp;
+}</pre><p><br/></p><p><br/><span style="color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);">注意：</span></p><p><span style="color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);">1、设为Flex布局以后，子元素的</span><strong style="color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);">float、clear和vertical-align</strong><span style="color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);">属性将失效。</span><br/></p><p><span style="color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);">2、部份Flex属性在IE11上不支持，更低版本浏览器亦不兼容。</span></p><p><span style="color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; background-color: rgb(255, 255, 255);">3、著名的Bootstrap前端框架从bootstrapz4.0开始全面基于Flex布局（详见<a href="http://code.z01.com/v4">http://code.z01.com/v4</a>&nbsp;）</span></p><p><br/></p><p style="padding: 0px; color: rgb(69, 69, 69); font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; margin-top: 0px; margin-bottom: 0px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><br/></p><h1 style="margin: 0px; padding: 0px; color: rgb(69, 69, 69); line-height: 1.1; font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; font-size: 36px; font-weight: 400; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>二、基本概念</h1><p>采用Flex布局的元素，称为Flex容器（flex container），简称&quot;容器&quot;。它的所有子元素自动成为容器成员，称为Flex项目（flex item），简称&quot;项目&quot;。<br/></p><p><img alt="" src="/UploadFiles/Image/20180123/6365234264921645112469250"/><img title="v.png" alt="v.png" src="/UploadFiles/Image/20180123/6365234284188838436370614.png"/></p><p>容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。<br/>项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。<br/></p><h1 style="margin: 0px; padding: 0px; color: rgb(69, 69, 69); line-height: 1.1; font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; font-size: 36px; font-weight: 400; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>三、容器的属性</h1><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>flex-direction</p></li><li><p>flex-wrap</p></li><li><p>flex-flow</p></li><li><p>justify-content</p></li><li><p>align-items</p></li><li><p>align-content</p></li></ul><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>3.1 flex-direction属性</h2><p>flex-direction属性决定主轴的方向（即项目的排列方向）。</p><pre class="brush:css;toolbar:false">.box&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;flex-direction:&nbsp;row&nbsp;|&nbsp;row-reverse&nbsp;|&nbsp;column&nbsp;|&nbsp;column-reverse;&nbsp;&nbsp;
+}</pre><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>row（默认值）：主轴为水平方向，起点在左端。</p></li><li><p>row-reverse：主轴为水平方向，起点在右端。</p></li><li><p>column：主轴为垂直方向，起点在上沿。</p></li><li><p>column-reverse：主轴为垂直方向，起点在下沿。</p></li></ul><p><img alt="" src="/UploadFiles/Image/20180123/6365234271137985825131374"/><img title="1.png" alt="1.png" src="/UploadFiles/Image/20180123/6365234286262579096672434.png"/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>&nbsp;3.2flex-wrap属性</h2><p>默认情况下，项目都排在一条线（又称&quot;轴线&quot;）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。<br/></p><pre class="brush:css;toolbar:false">.box{&nbsp;&nbsp;
+&nbsp;&nbsp;flex-wrap:&nbsp;nowrap&nbsp;|&nbsp;wrap&nbsp;|&nbsp;wrap-reverse;&nbsp;&nbsp;
+}</pre><p><br/></p><p><span style="color: rgb(0, 0, 0); background-color: inherit;">&nbsp;&nbsp;</span><br/></p><p>（1）nowrap（默认）：不换行。</p><p><img alt="" src="/UploadFiles/Image/20180123/6365234271144486625916221"/><img title="1.png" alt="1.png" src="/UploadFiles/Image/20180123/6365234292442485323818166.png"/></p><p>（2）wrap：换行，第一行在上方。<br/></p><p><img alt="" src="/UploadFiles/Image/20180123/6365234271153250614944405"/><img title="2.jpg" alt="2.jpg" src="/UploadFiles/Image/20180123/6365234293117091609480329.jpg"/></p><p>（3）wrap-reverse：换行，第一行在下方。<br/></p><p><img alt="" src="/UploadFiles/Image/20180123/6365234271167594333688509"/><img title="3.png" alt="3.png" src="/UploadFiles/Image/20180123/6365234295679309128142244.png"/></p><h2 style="margin: 0px; padding: 0px; color: rgb(69, 69, 69); line-height: 1.1; font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; font-size: 30px; font-weight: 400; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>3.3 flex-flow<br/></h2><p>flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。<br/></p><pre class="brush:css;toolbar:false">.box{&nbsp;&nbsp;
+&nbsp;&nbsp;flex-wrap:&nbsp;nowrap&nbsp;|&nbsp;wrap&nbsp;|&nbsp;wrap-reverse;&nbsp;&nbsp;
+}</pre><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><br/>3.4 justify-content属性</h2><p>justify-content属性定义了项目在主轴上的对齐方式。<br/></p><pre class="brush:css;toolbar:false">.box&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;justify-content:&nbsp;flex-start&nbsp;|&nbsp;flex-end&nbsp;|&nbsp;center&nbsp;|&nbsp;space-between&nbsp;|&nbsp;space-around;&nbsp;&nbsp;
+}</pre><p><br/></p><p><br/></p><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>flex-start（默认值）：左对齐</p></li><li><p>flex-end：右对齐</p></li><li><p>center： 居中</p></li><li><p>space-between：两端对齐，项目之间的间隔都相等。</p></li><li><p>space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。</p></li></ul><p><img alt="" src="/UploadFiles/Image/20180123/6365234271174186444473356"/><img title="1.png" alt="1.png" src="https://www.z01.com/UploadFiles/Image/20180123/6365234308579002809352470.png"/></p><p><br/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>3.5 align-items属性</h2><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a></h2><p>align-items属性定义项目在交叉轴上如何对齐<br/></p><pre class="brush:css;toolbar:false">.box&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;align-items:&nbsp;flex-start&nbsp;|&nbsp;flex-end&nbsp;|&nbsp;center&nbsp;|&nbsp;baseline&nbsp;|&nbsp;stretch;&nbsp;&nbsp;
+}</pre><p><br/></p><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>flex-start：交叉轴的起点对齐。</p></li><li><p>flex-end：交叉轴的终点对齐。</p></li><li><p>center：交叉轴的中点对齐。</p></li><li><p>baseline: 项目的第一行文字的基线对齐。</p></li><li><p>stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。</p></li></ul><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a></h2><p><img title="2.png" alt="2.png" src="https://www.z01.com/UploadFiles/Image/20180123/6365234312975026137913959.png"/><img alt="" src="/UploadFiles/Image/20180123/6365234271181878976730785"/></p><p><br/><br/></p><p>3.6 align-content属性</p><p>align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。<br/></p><pre class="brush:css;toolbar:false">.box&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;align-items:&nbsp;flex-start&nbsp;|&nbsp;flex-end&nbsp;|&nbsp;center&nbsp;|&nbsp;baseline&nbsp;|&nbsp;stretch;&nbsp;&nbsp;
+}</pre><p><br/></p><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>flex-start：与交叉轴的起点对齐。</p></li><li><p>flex-end：与交叉轴的终点对齐。</p></li><li><p>center：与交叉轴的中点对齐。</p></li><li><p>space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。</p></li><li><p>space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。</p></li><li><p>stretch（默认值）：轴线占满整个交叉轴。</p></li></ul><h1 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 36px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a></h1><p><img alt="" src="/UploadFiles/Image/20180123/6365234271187345623217460"/><br/></p><p><img title="3.png" alt="3.png" src="https://www.z01.com/UploadFiles/Image/20180123/6365234316360084785023713.png"/></p><p><br/></p><p>四、项目的属性</p><p>以下6个属性设置在项目上。<br/></p><ul class=" list-paddingleft-2" style="list-style-type: none;"><li><p>order</p></li><li><p>flex-grow</p></li><li><p>flex-shrink</p></li><li><p>flex-basis</p></li><li><p>flex</p></li><li><p>align-self</p></li><li><p><br/></p></li></ul><h2 style="margin: 0px; padding: 0px; color: rgb(69, 69, 69); line-height: 1.1; font-family: &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, SimHei, Arial, SimSun; font-size: 30px; font-weight: 400; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>4.1 order属性</h2><p>order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。<br/></p><pre class="brush:css;toolbar:false">.item&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;order:&nbsp;&lt;integer&gt;;&nbsp;&nbsp;
+}</pre><p><img title="1.png" alt="1.png" src="https://www.z01.com/UploadFiles/Image/20180123/6365234324880544943187309.png"/></p><p><br/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a></h2><p><img alt="" src="/UploadFiles/Image/20180123/6365234271194489224002307"/></p><p>4.2 flex-grow属性 flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。<br/><br/></p><p><span style="margin: 0px; padding: 0px; border: currentColor; border-image: none; color: rgb(0, 0, 0); box-sizing: border-box; background-color: inherit;">&nbsp;</span></p><pre class="brush:css;toolbar:false">.item&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;flex-grow:&nbsp;&lt;number&gt;;&nbsp;/*&nbsp;default&nbsp;0&nbsp;*/&nbsp;&nbsp;
+}</pre><p><img title="2.png" alt="2.png" src="/UploadFiles/Image/20180123/6365234329498882188392849.png"/></p><p>如果所有项目的flex-grow属性都为1，则它们将等分剩余空间（如果有的话）。如果一个项目的flex-grow属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍。<br/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>4.3 flex-shrink属性</h2><p>flex-shrink属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。<br/><br/></p><pre class="brush:css;toolbar:false">.item&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;flex-shrink:&nbsp;&lt;number&gt;;&nbsp;/*&nbsp;default&nbsp;1&nbsp;*/&nbsp;&nbsp;
+}</pre><p>&nbsp;&nbsp;<br/></p><p><img alt="" src="/UploadFiles/Image/20180123/6365234271212542826760503"/><img title="3.jpg" alt="3.jpg" src="/UploadFiles/Image/20180123/6365234332455905055729361.jpg"/></p><p><br/>如果所有项目的flex-shrink属性都为1，当空间不足时，都将等比例缩小。如果一个项目的flex-shrink属性为0，其他项目都为1，则空间不足时，前者不缩小。<br/>负值对该属性无效。<br/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>4.4 flex-basis属性</h2><p>flex-basis属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小。<br/><br/></p><pre class="brush:css;toolbar:false">.item&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;flex-basis:&nbsp;&lt;length&gt;&nbsp;|&nbsp;auto;&nbsp;/*&nbsp;default&nbsp;auto&nbsp;*/&nbsp;&nbsp;
+}</pre><p><br/></p><p><br/>它可以设为跟width或height属性一样的值（比如350px），则项目将占据固定空间。<br/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>4.5 flex属性</h2><p>flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。<br/><br/></p><pre class="brush:css;toolbar:false">.item&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;flex:&nbsp;none&nbsp;|&nbsp;[&nbsp;&lt;&#39;flex-grow&#39;&gt;&nbsp;&lt;&#39;flex-shrink&#39;&gt;?&nbsp;||&nbsp;&lt;&#39;flex-basis&#39;&gt;&nbsp;]&nbsp;&nbsp;
+}</pre><p><br/>该属性有两个快捷值：auto (1 1 auto) 和 none (0 0 auto)。<br/>建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。<br/></p><h2 style="margin: 0px; padding: 0px; color: inherit; line-height: 1.1; font-size: 30px; font-weight: 400; box-sizing: border-box;"><a style="background: none; margin: 0px; padding: 0px; outline: 0px; color: rgb(66, 139, 202); box-sizing: border-box;"></a>4.6 align-self属性</h2><p>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。<br/><br/></p><pre class="brush:css;toolbar:false">.item&nbsp;{&nbsp;&nbsp;
+&nbsp;&nbsp;align-self:&nbsp;auto&nbsp;|&nbsp;flex-start&nbsp;|&nbsp;flex-end&nbsp;|&nbsp;center&nbsp;|&nbsp;baseline&nbsp;|&nbsp;stretch;&nbsp;&nbsp;
+}</pre><p><img title="4.png" alt="4.png" src="/UploadFiles/Image/20180123/6365234337711201306782499.png"/></p><p><br/>该属性可能取6个值，除了auto，其他都与align-items属性完全一致。</p><p><br/></p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3234" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3234" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">详解CSS中flex布局-面向未来的网页设计理念</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/web/3228.shtml" title="SASS界面编译工具—Koala的使用及中国镜像下载">SASS界面编译工具—Koala的使用及中国镜像下载</a></div>
+<div class="Contnet_old">下一篇文章：</div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+<h4 class="panel-title">解决方案</h4>
+</a>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+<li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+<li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+<li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+<li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+<li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+<li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+<li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+<li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+<li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+<li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+<li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/" target="_blank">+方案中心>></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<h4 class="panel-title">产品中心</h4>
+</a>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/pub/" target="_blank">免费下载</a></li>
+<li><a href="/mtv" target="_blank">在线视频</a></li>
+<li><a href="/help/" target="_blank">帮助中心</a></li>
+<li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+<li><a href="/updata/" target="_blank">更新历史</a></li>
+<li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+</ul>      </div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+<h4 class="panel-title">商业合作</h4>
+</a>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/shop/" target="_blank">在线购买</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+<li><a href="/article/join/">代理加盟</a></li>
+<li><a href="/biz/" target="_blank">正版查询</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+<h4 class="panel-title">关于公司</h4>
+</a>
+<div id="collapsefour" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/" target="_blank">企业介绍</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+<li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+<li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+<h4 class="panel-title">企业文化</h4>
+</a>
+<div id="collapsefive" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+<li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+<li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+<h4 class="panel-title">创新学院</h4>
+</a>
+<div id="collapsesix" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/video/1839.shtml">体感研究</a></li>
+<li><a href="/pub/1932.shtml">院校合作</a></li>
+<li><a href="/corp/about/472.shtml">电子杂志</a></li>
+<li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+</ul>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="//www.73ic.com" target="_blank">73ic智能云</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3218.shtml" style="color:" target="_blank">全新检索表和数据方法提升标签（字段）开发效率</a><span class="">2017/11/20</span></li>
+
+<li><b>[新增]</b><a href="/updata/3205.shtml" style="color:" target="_blank">RSA加密安全</a><span class="">2017/10/25</span></li>
+
+<li><b>[新增]</b><a href="/updata/3204.shtml" style="color:" target="_blank">全面启用Bootstrap4.0框架</a><span class="">2017/10/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3192.shtml" style="color:" target="_blank">新固顶属性-更方便的固顶内容方法</a><span class="">2017/09/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

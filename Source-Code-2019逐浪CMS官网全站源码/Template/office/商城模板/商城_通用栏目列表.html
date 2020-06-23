@@ -1,0 +1,100 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteTitle/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/pub.js"></script>
+<style>
+{SField sid="栏目信息数据源" FD="Description" page="0"/}
+</style>
+<body>
+{ZL.Label id="响应式网站头部"/}
+<!--顶部结束 -->
+
+<div class="shop2015_con_banner">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 shop2015_con_banner_l text-center">
+    <i class="fa fa-flag"></i>  
+</div>
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 shop2015_con_banner_r">
+<ul class="list-unstyled">
+<li><a href="/shop/soft/"><i class="fa fa-circle-o-notch"></i><br/>软件产品</a></li>
+<li><a href="/shop/other_bz/"><i class="fa fa-coffee"></i><br/>配套服务</a></li>
+<li><a href="/yun" target="_blank"><i class="fa fa-cloud-upload"></i><br/>官方主机</a></li>
+<li><a href="/mb/" target="_blank"><i class="fa fa-file-picture-o"></i><br/>模板中心</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container_fuild shop2015_con_banner2">
+购买商业授权，支持逐浪发展...
+</div>
+
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+:<a href="/">逐浪官网</a> / <a href="/shop/">在线商城</a> > {SField sid="栏目信息数据源" FD="NodeName" page="0"/}
+</ol>
+</div>
+
+<div class="shop2015_list">
+{ZL.Label id="2015商城列表_分页" ShowNum="30" Imgewidth="100" ImgeHeight="146"  /}
+</div>
+</div>
+</div>
+</div>
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

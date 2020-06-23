@@ -1,0 +1,275 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Zoomla!逐浪CMS站长俱乐部_Zoomla!逐浪CMS-中国最大的高端CMS+移动互联网+智慧云软件研发厂商、上海-南昌两大研发中心、门户站群|商城系统|同步支持MSSQL与Oracle优质CMS解决方案服务商</title>
+<meta name="Keywords" content="站长,俱乐部,站长聚会,站长联盟,逐浪站长,逐浪建站">
+<meta name="Description" content="站长聚会与交流最佳门户、逐浪学习成长者最优联盟">
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<link href="http://zoomla.cn/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="club_body">
+<div id="club_top">
+<a href="/"><img src="/skin/2010/images/club_logo.jpg" alt="逐浪CMS站长俱乐部" /></a>
+<ul>
+
+<li><a href="/Class_87/Default.aspx" target="_blank">视频报道</a></li>
+
+<li><a href="/Class_86/Default.aspx" target="_blank">一线活动</a></li>
+
+<li><a href="/Class_85/Default.aspx" target="_blank">站长访谈</a></li>
+
+<li><a href="/Class_29/Default.aspx" target="_blank">开发者风采</a></li>
+
+<li><a href="http://bbs.zoomla.cn/showforum-30.aspx" target="">社区沙龙</a></li>
+
+</ul>
+</div>
+
+<div id="club_banner">
+</div>
+
+
+
+<div id="club_elit">
+<div id="club_elit_l">
+<div class="club_title">最新活动:</div>
+<h1>2011逐浪软件全国站长聚会与网站运营沙龙</h1>
+<abbr>上一站：<a href="">上海站</a>，主题：逐浪软件5.0预览与SEO优化</abbr>
+<p>
+2010年11月28日，逐浪CMS的爱好者们和广大站长进行了活跃的交流，位于浦东的锦江之星会议室开启了一场高峰对话沙龙。会议由逐浪CMS首席架构师发哥主持，来自社区的小敬、SEO高手zhanger、爱家网老总付晓、外包网董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了主董事苏总等纷纷作了了主董事苏总等纷纷作了主题演讲...[<a href="">详情</a>]
+</p>
+<span>下一站：<a href="">广州站</a>，主题：地方门户赢利之道与快速开发   预计举办日期：2011年元月    <a href="">立即报名</a></span> 
+
+</div><!--left end -->
+
+<div id="FocusViewer" isimage="true" textheight="24"></div>
+<script src="/js/bairongflash.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+var FocusViewer_focus_width=330
+var FocusViewer_focus_height=380
+var FocusViewer_text_height=18
+
+var FocusViewer_swf_height = FocusViewer_focus_height + FocusViewer_text_height
+
+var FocusViewer_pics='/UploadFiles//Sport/jpg/2010/12/201012031850342583.jpg|'
+var FocusViewer_links='/club/Sport/1211.shtml'
+var FocusViewer_texts='小敬：和JS的那点事|'
+
+//alert(FocusViewer_texts);
+
+var FocusViewer_FocusFlash = new bairongFlash("/skin/default/focusviewer.swf", "focusflash", FocusViewer_focus_width, FocusViewer_swf_height, "7", "#ffffff", false, "High");
+FocusViewer_FocusFlash.addParam("allowScriptAccess", "sameDomain");
+FocusViewer_FocusFlash.addParam("menu", "false");
+FocusViewer_FocusFlash.addParam("wmode", "opaque");
+FocusViewer_FocusFlash.addVariable("pics", FocusViewer_pics);
+FocusViewer_FocusFlash.addVariable("links", FocusViewer_links);
+FocusViewer_FocusFlash.addVariable("texts", FocusViewer_texts);
+FocusViewer_FocusFlash.addVariable("borderwidth", FocusViewer_focus_width);
+FocusViewer_FocusFlash.addVariable("borderheight", FocusViewer_focus_height);
+FocusViewer_FocusFlash.addVariable("textheight", FocusViewer_text_height);
+FocusViewer_FocusFlash.write("FocusViewer");
+</script>
+<div class="clear"></div>
+</div>
+
+
+
+<div class="club_content">
+<div class="club_title"><span><a href="/Class_85/Default.aspx">More...</a></span>站长访谈:</div>
+
+<div id="J_feedLive" class="feedLive">
+<a class="preLive" href="javascript:;">上一页</a> <a class="nextLive" href="javascript:;">下一页</a>
+    <div class="ulLive">
+      <ul class="cc">
+       
+<li> <a href="/club/talk/1219.shtml" target="_blank" ><img src="/UploadFiles/talk/jpg/2010/12/201012041831476647.jpg" alt="付晓：垂直地方门户赢利在于人气" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1219.shtml" target="_blank" >付晓：垂直地方门</a></p>
+</li>
+
+<li> <a href="/club/talk/1218.shtml" target="_blank" ><img src="/UploadFiles/talk/jpg/2010/12/201012102345433662.jpg" alt="臧承云：中小企业网站优化之道" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1218.shtml" target="_blank" >臧承云：中小企业</a></p>
+</li>
+
+<li> <a href="/club/talk/1217.shtml" target="_blank" ><img src="/UploadFiles/nopic.gif" alt="苏绍焕：如何把你的能力变成RMB" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1217.shtml" target="_blank" >苏绍焕：如何把你</a></p>
+</li>
+
+<li> <a href="/club/talk/1216.shtml" target="_blank" ><img src="/UploadFiles/talk/jpg/2010/12/201012031855383160.jpg" alt="全运会 2222222222" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1216.shtml" target="_blank" >全运会 222222222</a></p>
+</li>
+
+<li> <a href="/club/talk/1215.shtml" target="_blank" ><img src="/UploadFiles/talk/jpg/2010/12/201012031855383160.jpg" alt="全运会 2222222" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1215.shtml" target="_blank" >全运会 2222222</a></p>
+</li>
+
+<li> <a href="/club/talk/1214.shtml" target="_blank" ><img src="/UploadFiles/nopic.gif" alt="亮剑在弦" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1214.shtml" target="_blank" >亮剑在弦</a></p>
+</li>
+
+<li> <a href="/club/talk/1213.shtml" target="_blank" ><img src="/UploadFiles/nopic.gif" alt="发哥" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1213.shtml" target="_blank" >发哥</a></p>
+</li>
+
+<li> <a href="/club/talk/1212.shtml" target="_blank" ><img src="/UploadFiles/nopic.gif" alt="无名竹" /></a> <strong>本站编辑</strong>
+<p><a href="/club/talk/1212.shtml" target="_blank" >无名竹</a></p>
+</li>
+
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div class="club_content">
+<div class="club_title"><span><a href="/Class_29/Default.aspx">More...</a></span>开发者风采:</div>
+<div class="club_txt">
+<ul>
+
+<li><a href="/club/developer/518.shtml" title="Joe Stagner:ASP.NET比拼PHP，谁是速度之王？" target="_blank">Joe Stagner:ASP.NET比拼PHP，谁</a></li>
+
+<li><a href="/club/developer/211.shtml" title="大学生创业的典型：朱墨和他的电竞之路！" target="_blank">大学生创业的典型：朱墨和他的电</a></li>
+
+<li><a href="/club/developer/116.shtml" title="南昌晚报报道我司客户南昌易物网" target="_blank">南昌晚报报道我司客户南昌易物网</a></li>
+
+<li><a href="/club/developer/10.shtml" title="蔡刚：“玩”出来的好身手 " target="_blank">蔡刚：“玩”出来的好身手 </a></li>
+
+<li><a href="/club/developer/9.shtml" title="劳凡鉴：携手华夏互联构建中国最具优势的农业牧养平台" target="_blank">劳凡鉴：携手华夏互联构建中国最</a></li>
+
+<li><a href="/club/developer/8.shtml" title="徐学宝与他的中国花岗石门户网络" target="_blank">徐学宝与他的中国花岗石门户网络</a></li>
+
+<li><a href="/club/developer/7.shtml" title="华夏互联伙伴宣传计划之[舒畅篇]--心情舒畅-用心打造动易模" target="_blank">华夏互联伙伴宣传计划之[舒畅篇]</a></li>
+
+<li><a href="/club/developer/6.shtml" title="职场无忧—18岁女孩打造的财富梦想 " target="_blank">职场无忧—18岁女孩打造的财富梦</a></li>
+
+<li><a href="/club/developer/5.shtml" title="李国庆：百龙成川、气吞山河" target="_blank">李国庆：百龙成川、气吞山河</a></li>
+
+<li><a href="/club/developer/4.shtml" title="冯松先生--硬盘维修行业的“大侠”" target="_blank">冯松先生--硬盘维修行业的“大侠</a></li>
+
+
+</ul>
+</div>
+</div>
+
+
+
+
+<div class="club_banner"><script type="text/javascript" src="/AD/201012/11.js"></script></div>
+
+
+
+
+
+
+
+<div id="bottom_line"></div>
+<div id="bottom">
+<ul>
+<li><a href="/corp/">关于我们</a></li>
+<li><a href="/corp/about/94.shtml">合同文档</a></li>
+<li><a href="/corp/about/84.shtml">汇款方式</a></li>
+<li><a href="/corp/about/83.shtml">联系我们</a></li>
+<li><a href="/corp/job/">工作机会</a></li>
+<li><a href="http://2009.hx008.com/magazine/" target="_blank">电子会刊</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="http://gongyi.zoomla.cn" target="_blank">慈善公益</a></li>
+<li><a href="/photo/ltd/">参观公司</a></li>
+</ul>
+<div class="bottom_r"><a href="/corp/media/" target="_blank">媒体报道</a></div>
+<div class="bottom_r"><a href="/corp/about/93.shtml" target="_blank">公司资质</a></div>
+<div class="bottom_r"><a href="/blog/" title="官方团队的开发日志">官方博客</a></div>
+</div>
+<!--底部导航结束 -->
+
+
+<div id="copyright">
+<div id="copyright_logo"><a href="http://www.zoomla.cn/" target="_blank"><img src="skin/2009/copyright_logo.gif" /></a></div>
+<p>
+ &copy; Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件zoomla.cn版权所有 All rights reserved<br/>
+经营许可证号:工商3601002021063 
+总机电话：021-50391046(18路) <br/>
+沪ICP备09077823号    <a href="http://www.zx110.org/" target="_blank">网络社会征信网</a> 
+<script src='/CounterLink.aspx?style=none'></script>
+</p>
+<div id="copyright_r">
+<span>7×24小时服务热线：<b>021-50391046</b></span>
+<span>技术支持：<b>13177777714</b></span>
+<ul>
+<li><a href="/corp/about/472.shtml" target="_blank" title="欣赏电子杂志"><img src="/skin/2009/magazine.gif" /></a></li>
+<li><a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2009/724.gif" /></a></li>
+<li><a href="/corp/about/476.shtml" title="鉴赏MTV电广视告片"><img src="/skin/2009/mtv.gif" /></a></li>
+<li><a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2009/iso.jpg" /></a></li>
+<li><a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2009/csdn8A.gif" /></a></li>
+</ul>
+</div>
+
+
+</div>
+<!--底部版权结束 -->
+
+
+<div id="end">
+<div id="end_l"></div>
+<div id="end_m">
+<p>本网站基于&reg;Zoomla!逐浪CMS内核开发</p>
+<div id="end_m_mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script></div>
+<ul>
+<li><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn');" href="#">设为首页</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="javascript:CorrectReport();">纠错报告</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/corp/music"  target="_blank">企业歌曲</a></li>
+</ul>
+</div>
+<div id="end_r"></div>
+</div>
+
+<script type="text/javascript" src="/skin/2010/js/core.js"></script> 
+<script type="text/javascript">
+(function(){
+    var moveElem = getElementsByClassName("cc","J_feedLive")[0];
+    var prevElem = getElementsByClassName("preLive","J_feedLive")[0];
+    var nextElem = getElementsByClassName("nextLive","J_feedLive")[0];
+    var lis = moveElem.getElementsByTagName("li");
+    if(lis.length%3!=0){
+        for(var i=0;i<lis.length%2;i++){
+            moveElem.removeChild(lis[0]);
+        }
+    }
+    var width = lis[0].offsetWidth;
+    moveElem.style.left = 0;
+    moveElem.style.width = width*lis.length+"px";
+    prevElem.onclick = function(){
+        var oFragment = document.createDocumentFragment();
+        while(lis.length!=3 && parseInt(moveElem.style.left)!=-width*3){
+            var node = lis[lis.length-1];
+            oFragment.insertBefore(node.cloneNode(true),oFragment.childNodes[0]);
+            moveElem.removeChild(node);
+        }  
+        moveElem.insertBefore(oFragment,lis[0]);
+        moveElem.style.left = -width*(lis.length-3)+"px";
+        moveElement(moveElem,parseInt(moveElem.style.left)+width*3,0,0);
+	};
+	nextElem.onclick = function(){
+        var oFragment = document.createDocumentFragment();
+        while(lis.length!=3 && parseInt(moveElem.style.left)!=0){
+	        var node = lis[0];
+	        oFragment.appendChild(node.cloneNode(true));
+	        moveElem.removeChild(lis[0]);
+        }
+        moveElem.appendChild(oFragment);
+        moveElem.style.left = 0;
+		moveElement(moveElem,parseInt(moveElem.style.left)-width*3,0,0);
+	};
+})();
+</script>
+</body>
+</html>

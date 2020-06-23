@@ -1,0 +1,341 @@
+﻿{ZL.Source id="服务_商城内容页数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="服务_商城内容页数据源" FD="Proname"/}_{$SiteName/}</title>
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/pub.js"></script>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+
+<div class="shop2015_con_banner">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 shop2015_con_banner_l text-center">
+    <i class="fa fa-flag"></i>  
+</div>
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 shop2015_con_banner_r">
+<ul class="list-unstyled">
+<li><a href="/shop/soft/"><i class="fa fa-circle-o-notch"></i><br/>软件产品</a></li>
+<li><a href="/shop/other_bz/"><i class="fa fa-coffee"></i><br/>配套服务</a></li>
+<li><a href="/yun" target="_blank"><i class="fa fa-cloud-upload"></i><br/>官方主机</a></li>
+<li><a href="/mb/" target="_blank"><i class="fa fa-file-picture-o"></i><br/>模板中心</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container_fuild shop2015_con_banner2">
+官方配套服务，更加超值高效成长...
+</div>
+
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪官网</a> / {ZL.Label id="三级智能节点导航" NodeID="{SField sid="服务_商城内容页数据源" FD="NodeID" page="0"/}" /} {SField sid="服务_商城内容页数据源" FD="Proname"/}
+</ol>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 shop2015_con_about_show">
+<a href="{SField sid="服务_商城内容页数据源" FD="Thumbnails"/}" title="点击查看大图" target="_blank"><img src="{ZL:GetPicUrl({SField sid="服务_商城内容页数据源" FD="Thumbnails" page="0"/})/}" class="img-thumbnail" /></a>
+</div><!--left end-->        
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 shop2015_con_about">
+<h1>{SField sid="服务_商城内容页数据源" FD="Proname"/}</h1>
+<span id="shopstar" data-index="{SField sid="服务_商城内容页数据源" FD="dengji"/}"></span>
+<p>{SField sid="服务_商城内容页数据源" FD="proinfo"/}</p>
+<div class="shop2015_con_ShiPrice">市场价¥ {ZL:GetMoney({SField sid="服务_商城内容页数据源" FD="ShiPrice"/},2,1)/}</div>
+<div class="shop2015_con_linprice">官方热销价：¥ {ZL:GetMoney({SField sid="服务_商城内容页数据源" FD="LinPrice"/},2,1)/}</div>
+<div class="shop2015_con_num">
+<i class="fa fa-send"></i>商品编号：{SField sid="服务_商城内容页数据源" FD="ProCode"/}<br/>
+<i class="fa fa-inbox"></i>库存数量：{SField sid="服务_商城内容页数据源" FD="Stock"/}件<br/>
+<i class="fa fa-tags"></i><a href="/corp/about/151.shtml" target="_blank">所有产品价格清单</a><br/>
+<i class="fa  fa-minus-square-o"></i><a href="/corp/about/251.shtml" target="_blank">版本差别与比较说明</a><br/>
+<i class="fa  fa-arrow-circle-o-down"></i><a href="/pub" target="_blank">不想购买？下载免费版</a>
+</div>
+<form id="form" name="form" target="_blank" method="post" action="/Cart/Cart.aspx" style="margin-bottom:10px;">
+            <input name="id" type="hidden" id="id" value="{SField sid="服务_商城内容页数据源" FD="ID" page="0"/}" />
+            我要买 <a href="javascript:;" class="J_minus">-</a>
+            <input name="Pronum" type="text" id="Pronum" value="1" class="J_input" />
+            <a href="javascript:;" class="J_add">+</a>{SField sid="服务_商城内容页数据源" FD="Prounit" page="0"/}
+            <div style="display:none">
+              <input type="submit" name="button" id="buttons" value="提交" />
+            </div>
+            <input name="Attribute" id="Attribute"  type="hidden" value="">
+          </form>
+          <input name="color" value="" id="color" type="hidden">
+          <input name="size" value="" id="size" type="hidden">
+          <button type="button" onClick="subm()" class="btn btn-danger"><i class="fa fa-shopping-cart"></i> 立即购买</button>
+          <button type="button" onClick="AddCart()" class="btn btn-danger"><i class="fa fa-plus-square"></i> 加入购物车</button>
+          <a href="/User/Content/AddToFav.aspx?itemid={SField sid="服务_商城内容页数据源" FD="ID" page="0"/}&Url=/Shop.aspx?itemid={SField sid="服务_商城内容页数据源" FD="ID" page="0"/}&type=2" class="btn btn-link"><i class="fa fa-eye"></i> 关注商品</a>
+          
+          
+</div><!--right end-->
+
+</div>
+</div>
+</div>
+<!--shop基本信息-->
+
+<div class="shop2015_con_contet">
+<div class="container">
+<h2>产品说明:</h2>
+<div class="text-center"><img src="{SField sid="服务_商城内容页数据源" FD="Clearimg" page="0"/}" alt="{SField sid="服务_商城内容页数据源" FD="Proname"/}" /></div><br/>
+<div class="clearfix"></div>
+{SField sid="服务_商城内容页数据源" FD="Procontent" page="0"/}
+
+</div>
+</div>
+
+
+
+<div class="container corop2015_home">
+<div class="section">
+<div id="home_roll" >
+<div class="home_roll">
+<div class="rollBox">
+<div class="LeftBotton">
+<img src="/Template/office/style/images/trangle_left_icon.png"  alt=""  onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()"  id="d2" /></div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 Cont" id="ISL_Cont">
+<div class="ScrCont">
+<div id="List1">
+<div class="pic">
+<a href="/corp/about/93.shtml" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video1.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/about/93.shtml" title="Regultions Homologation">资质与荣耀-逐浪软件官方证件</a></h5>
+</div>
+<div class="pic">
+<a href="/corp/music/" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video2.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/music/" title="Regultions Homologation">汇聚成海涛涛大道-逐浪软件企业歌曲《大江》</a></h5>
+</div>
+<div class="pic">
+<a href="/corp/about/476.shtml" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video3.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/about/476.shtml" title="Regultions Homologation">WEB开发新纪元-我们改变历史</a></h5>
+</div>
+<div class="pic">
+<a href="/10year.html" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video4.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/10year.html" title="Regultions Homologation">《我相信》10周年纪念视频</a></h5>
+</div>
+<div class="pic">
+<a href="/corp/video/1839.shtml" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video5.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/video/1839.shtml" title="Regultions Homologation">体感研发小测</a></h5>
+</div>
+<div class="pic">
+<a href="/corp/video/1944.shtml" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video6.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/video/1944.shtml" title="Regultions Homologation">CSDN团队专访</a></h5>
+</div>
+<div class="pic">
+<a href="/corp/video/1954.shtml" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video7.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/video/1954.shtml" title="Regultions Homologation">2012北京大数据峰会专访</a></h5>
+</div>
+<div class="pic">
+<a href="/corp/video/1668.shtml" title="Regultions Homologation"><img src="/template/office/style/images/2015corp_video8.jpg" alt="Regultions Homologation"  class="img-responsive"/></a>
+<h5><a href="/corp/video/1668.shtml" title="Regultions Homologation">客户祝福Zoomla!逐浪CMS新品发布</a></h5>
+</div>
+
+</div>
+<div id="List2"></div>
+</div>
+</div>
+<div class="RightBotton" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()" ><img src="/Template/office/style/images/trangle_right_icon.png"  alt=""   onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()" class="pull-right" id="d3"  /></div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+<!--滚动公司介绍结束-->
+
+
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+
+$().ready(function(e) {  //输出推荐星级
+for(var  i=0; i<$("#shopstar").data("index"); i++){
+	$("#shopstar").append("<i class='fa fa-star'></i>");
+	} 
+	 var num=parseInt($("#shopstar").data("index"));
+	if(num<5){
+		for(var j=0; j<5-num; j++){
+			$("#shopstar").append("<i class='fa fa-star-o'></i>");
+			}
+		}
+});
+
+//购物车模型
+
+function subm() {
+    switch ('{SField sid="常规商品数据源" FD="ProClass" page="0"/}') {
+        case "7":
+        case "8":
+            BeginSubmit();
+            break;
+        default:
+            document.getElementById("Attribute").value = "color:" + document.getElementById("color").value + ",size:" + document.getElementById("size").value;
+            document.forms[1].submit();
+            break;
+    }
+}
+
+
+function BeginSubmit() {
+    var d = new Date();
+    var time = d.getFullYear() + "/" + d.getMonth() + (d.getDate() + 1);
+    var arr = [];
+    arr.push({ ProID: '{SField sid="常规商品数据源" FD="ID" page="0"/}', GoDate: time, Pronum: $('#Pronum').val(), Remind: "" });
+    location = "/Prompt/ShopCart/Passengers.aspx?pros=" + JSON.stringify(arr);
+}
+	/*商品加减*/
+	$.fn.iVaryVal=function(iSet){
+	iSet=$.extend({Minus:$('.J_minus'),Add:$('.J_add'),Input:$('.J_input'),Min:0,Max:20,Fun:null},iSet);
+	var C=null,O=null;
+	//输出值全局对象[若担心全局对象污染，可定义一个hidden表单，向其传值]
+	$GLOBAL={};
+	//增加
+	iSet.Add.each(function(i){
+		$(this).click(function(){
+			O=parseInt(iSet.Input.eq(i).val());
+			(O+1<=iSet.Max) || (iSet.Max==null) ? iSet.Input.eq(i).val(O+1) : iSet.Input.eq(i).val(iSet.Max);
+			//输出当前改变后的值
+			$GLOBAL.val=iSet.Input.eq(i).val();
+			$GLOBAL.index=i;
+			//回调函数
+			if (typeof iSet.Fun == 'function') {
+				iSet.Fun.call(this);
+		  	}
+		});
+	});
+	//减少
+	iSet.Minus.each(function(i){
+		$(this).click(function(){
+			O=parseInt(iSet.Input.eq(i).val());
+			O-1<iSet.Min ? iSet.Input.eq(i).val(iSet.Min) : iSet.Input.eq(i).val(O-1);
+			$GLOBAL.val=iSet.Input.eq(i).val();
+			$GLOBAL.index=i;
+			//回调函数
+			if (typeof iSet.Fun == 'function') {
+				iSet.Fun.call(this);
+		  	}
+		});
+	});
+	//手动
+	iSet.Input.bind({
+		'click':function(){
+			O=parseInt($(this).val());
+			$(this).select();
+		},
+		'keyup':function(e){
+			if($(this).val()!=''){
+				C=parseInt($(this).val());
+				//非负整数判断
+				if(/^[1-9]\d*|0$/.test(C)){
+					$(this).val(C);
+					O=C;
+				}else{
+					$(this).val(O);
+				}
+			}
+			//键盘控制：上右--加，下左--减
+			if(e.keyCode==38 || e.keyCode==39){
+				iSet.Add.eq(iSet.Input.index(this)).click();
+			}
+			if(e.keyCode==37 || e.keyCode==40){
+				iSet.Minus.eq(iSet.Input.index(this)).click();
+			}
+			//输出当前改变后的值
+			$GLOBAL.val=$(this).val();
+			$GLOBAL.index=iSet.Input.index(this);
+			//回调函数
+			if (typeof iSet.Fun == 'function') {
+				iSet.Fun.call(this);
+		  	}
+		},
+		'blur':function(){
+			$(this).trigger('keyup');
+			if($(this).val()==''){
+				$(this).val(O);
+			}
+			//判断输入值是否超出最大最小值
+			if(iSet.Max){
+				if(O>iSet.Max){
+					$(this).val(iSet.Max);
+				}
+			}
+			if(O<iSet.Min){
+				$(this).val(iSet.Min);
+			}
+			//输出当前改变后的值
+			$GLOBAL.val=$(this).val();
+			$GLOBAL.index=iSet.Input.index(this);
+			//回调函数
+			if (typeof iSet.Fun == 'function') {
+				iSet.Fun.call(this);
+		  	}
+		}
+	});
+}
+//调用
+$( function() {
+	
+	$('.i_box').iVaryVal({Fun:function(){
+		
+	}});
+});
+function AddCart()
+{
+	if($("#Pronum").val()>0)
+	{
+		$.post("/Cart/Cart.aspx?ID="+$("#id").val()+"&Pronum="+$("#Pronum").val());
+		alert("加入购物车成功！")
+	}
+	else
+		alert("商品数量不正确！");
+}
+</script> 

@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>468</LabelID>
+    <LabelName>Rss列表_更新</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>Rss</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,20,1,显示数|NodeID,1,1,节点ID</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_updata on ZL_CommonModel.ItemID=ZL_C_updata.ID</LabelTable>
+    <LabelField>ZL_CommonModel.CreateTime,ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.Title,ZL_C_updata.content</LabelField>
+    <LabelWhere>(ZL_CommonModel.NodeID=@NodeID OR ZL_CommonModel.FirstNodeID=@NodeID) And Status=99</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;item&gt;&lt;title&gt;{Field="Title"/}&lt;/title&gt;
+&lt;category&gt;文章&lt;/category&gt;&lt;author&gt;官方更新&lt;/author&gt;&lt;pubDate&gt;{Field="CreateTime"/}&lt;/pubDate&gt;&lt;description&gt;&lt;![CDATA[ 
+  {Field="content"/}
+ ]]&gt; 
+
+&lt;/description&gt;&lt;link&gt;{$SiteURL/}{ZL:GetInfoUrl({Field="GeneralID"/})/}&lt;/link&gt;&lt;/item&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

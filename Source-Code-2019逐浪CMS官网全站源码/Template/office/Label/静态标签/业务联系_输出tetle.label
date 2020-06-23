@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>32</LabelID>
+    <LabelName>业务联系_输出tetle</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;a href="/Content.aspx?ItemID=83" target="_blank"&gt;&lt;img src="../skin/default/post.gif" /&gt;对[&lt;span style="color:red" id="tii"&gt;&lt;/span&gt;]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。&lt;/a&gt;</LabelContent>
+    <LabelCount />
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>73</LabelID>
+    <LabelName>解决方案引导横向滚动</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>解决方案</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable>ZL_CommonModel left join ZL_C_prj on ZL_CommonModel.ItemID=ZL_C_prj.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.ModelID,ZL_CommonModel.ItemID,ZL_CommonModel.TableName,ZL_CommonModel.Title,ZL_C_prj.ID,ZL_C_prj.author,ZL_C_prj.source,ZL_C_prj.backdrop,ZL_C_prj.summarize,ZL_C_prj.detail,ZL_C_prj.effort,ZL_C_prj.experienc,ZL_C_prj.Edit,ZL_C_prj.users,ZL_C_prj.cases,ZL_C_prj.big_pic,ZL_C_prj.lite_pic</LabelField>
+    <LabelWhere>ZL_CommonModel.NodeID=24</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Repeate}
+                  &lt;td&gt;&lt;a href="/Content.aspx?ItemID={Field="GeneralID"/}"&gt;&lt;img src="{$UploadDir/}{Field="lite_pic"/}" alt="{Field="Title"/}" width="160" height="140" hspace="3" vspace="7"&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;img src="/skin/default/Project/mark_1.gif"&gt;&amp;nbsp;&amp;nbsp;&lt;a href="/Content.aspx?ItemID={Field="GeneralID"/}"&gt;{Field="Title"/}&lt;/a&gt;&lt;/td&gt;
+
+
+{/Repeate}</LabelContent>
+    <LabelCount>100</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

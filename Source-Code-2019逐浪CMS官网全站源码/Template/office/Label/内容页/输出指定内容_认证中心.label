@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>518</LabelID>
+    <LabelName>输出指定内容_认证中心</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>内容页</LabelCate>
+    <LabelDesc />
+    <LabelParam>ym,,1,域名|bm,,1,编码</LabelParam>
+    <LabelTable>ZL_CommonModel LEFT JOIN ZL_C_biz ON ZL_CommonModel.ItemID=ZL_C_biz.ID</LabelTable>
+    <LabelField>ZL_CommonModel.Title,ZL_CommonModel.GeneralID,ZL_C_biz.edition,ZL_C_biz.ID,ZL_C_biz.names,ZL_C_biz.S_times,ZL_C_biz.Scode,ZL_C_biz.Sever_time,ZL_C_biz.tels,ZL_C_biz.url,ZL_CommonModel.CreateTime,ZL_C_biz.content,ZL_CommonModel.NodeID,ZL_C_biz.Fonts</LabelField>
+    <LabelWhere>Status=99 And ModelID=83 And ( (url='@ym' And url&lt;&gt;'') or (Scode='@bm' And Scode&lt;&gt;''))</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>&lt;div class="biz_jg_center2"&gt;
+&lt;h3&gt;基本信息&lt;/h3&gt;
+&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan="2"&gt;&lt;strong&gt;客户名称：{Field="Title"/}&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="2"&gt;产品类型：{ZL.Label id="根据ID输出节点名称" NodeID="{Field="NodeID"/}" /}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;{ZL.Label id="输出指定域名认证IP域名信息" GeneralID="{Field="GeneralID"/}" NodeID="154" /}{ZL.Label id="输出指定字体认证字体信息" GeneralID="{Field="GeneralID"/}" NodeID="155" /}&lt;/tr&gt;
+&lt;tr&gt;&lt;td width="50%"&gt;授权时间：{ZL:FormatDate({Field="CreateTime"/},yyyy/MM/dd)/}&lt;/td&gt;&lt;td width="50%"&gt;服务有效期：一年&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td width="50%"&gt;负责或络人姓名：{Field="names"/}&lt;/td&gt;&lt;td width="50%"&gt;被授权人联系方式：{Field="tels"/}&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt;详细描述&lt;/h3&gt;
+{Field="content"/}
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>参数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>不等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot>{Field="num"/}</Valueroot>
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":"ZL_C_biz"}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

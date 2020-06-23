@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>17</LabelID>
+    <LabelName>首页友情链接</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>首页标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable>ZL_CommonModel left join ZL_C_friendsite on ZL_CommonModel.ItemID=ZL_C_friendsite.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.ModelID,ZL_CommonModel.ItemID,ZL_CommonModel.TableName,ZL_CommonModel.Title,ZL_C_friendsite.ID,ZL_C_friendsite.url,ZL_C_friendsite.logo</LabelField>
+    <LabelWhere>ZL_CommonModel.NodeID=7 and Status=99</LabelWhere>
+    <LabelOrder>ZL_CommonModel.GeneralID asc</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;Option value="{Field="url"/}"&gt;→ {Field="Title"/}&lt;/Option&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>20</LabelCount>
+    <LabelIdentity />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+  </Table>
+</NewDataSet>

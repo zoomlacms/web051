@@ -1,0 +1,392 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>高管团队-团结专注铸就中国一流的WEB软件！_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+</head>
+<body>
+<div class="relative">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="home_scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/Template/office/style//images/logo_w.svg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/corp/listpage.shtml" target="_blank">首页</a></li>
+<li><a href="/corp/about/630.shtml">公司介绍</a></li>
+<li><a href="/corp/history/">发展历程</a></li>
+<li><a href="/corp/team/">团队风采</a></li>
+<li><a href="/product/">产品体系</a></li>
+<li><a href="/corp/music/">企业歌曲</a></li>
+<li><a href="/corp/job/">求贤纳仕</a></li>
+<li><a href="/photo/ltd/">企业图库</a></li>
+<li><a href="/corp/about/83.shtml">联系我们</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown">业务导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/blog/" target="_blank">团队博客</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<style>
+/*滚动通栏定义*/
+#bannerbg { margin-top:73px; width:100%; height:280px; text-align:center; background:#2FA3F6;  clear:both; ;}
+#bannerline {z-index:11; margin:auto; width:100%; height:280px; clear:both;background:url(images/touming.png) #2FA3F6 repeat-x center bottom;}
+#bannerbg a {display:none;}
+#bannerbg img {border:none;}
+#firstnews{position:absolute; left:0px; top:-25px; line-height:20px;}
+#firstnews span{float:left; font-weight:bold; color:#fff;}
+#firstnews a{display:block; width:300px; color:#fff;}
+#flash { margin:auto; width:100%; clear:both; overflow:hidden;text-align:cneter;BACKGROUND:#135AA0;}
+#flash1{ BACKGROUND:#135AA0;}
+#flash2{ BACKGROUND:url(images/flash2_bg.jpg) top center no-repeat;}
+#flash3{ BACKGROUND:url(images/flash3_bg.jpg) top center no-repeat;}
+
+#flash1,#flash2,#flash3{ margin:auto; width:100%; height:285px;}
+.flash_bar{Z-INDEX:69; POSITION: absolute; BOTTOM:0; BACKGROUND: url(images/tg_flashbar.png) no-repeat; HEIGHT:73px; OVERFLOW: hidden; PADDING-TOP: 16px !important; right: 0px}
+#bannerbg .flash_bar img{ margin-top:20px; width:80px;height:28px; overflow:hidden; border:#35296B 1px solid;}
+.flash_bar .dq { WIDTH:80px; display:block; FLOAT: left; HEIGHT: 8px; CURSOR: pointer; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/tg_flash_p.png" ,sizingMethod="crop")}
+.flash_bar .no { MARGIN: 5px; WIDTH:80px; DISPLAY: block;  FLOAT: left; HEIGHT: 8px; CURSOR: pointer; _background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/tg_flash_p2.png" ,sizingMethod="crop")}
+
+.music_s{-webkit-animation-name: rotateInDownLeft;animation-name: rotateInDownLeft; }
+.music_s{ -webkit-animation-duration:3s; animation-duration: 3s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.music_ye{left:0; bottom:0;position: absolute;  width:413px; height:480px; background:url(/UploadFiles/ye.png);}
+</style>
+
+
+<div id="bannerbg">
+<div id="bannerline">
+<div id="flash">
+<a style="display:block;" id="flash1" name="#ffffff"><img src="/skin/2009/images/c_ad1.jpg" /></a>
+<a id="flash2" name="#619AA1"><img src="/skin/2009/images/c_ad2.jpg" /></a>
+<a id="flash3" name="#198FFB"><img src="/skin/2009/images/c_ad3.jpg" /></a>
+<a id="flash4" name="#198FFB"><img src="/skin/2009/images/c_ad4.jpg" /></a>
+<div style="width:980px; margin:auto; position:relative;">
+<DIV class="flash_bar">
+<DIV id="f1" class="dq" onclick="changeflash(1)"><img src="/skin/2009/images/c_ad1_i.jpg" /></DIV>
+<DIV id="f2" class="no" onclick="changeflash(2)"><img src="/skin/2009/images/c_ad2_i.jpg" /></DIV>
+<DIV id="f3" class="no" onclick="changeflash(3)"><img src="/skin/2009/images/c_ad3_i.jpg"  /></DIV>
+<DIV id="f4" class="no" onclick="changeflash(4)"><img src="/skin/2009/images/c_ad4_i.jpg"  /></DIV>
+</DIV>
+</div>
+</div>
+</div>
+</div>
+  <!-- 滚动banner结束 -->
+
+
+<SCRIPT>
+var currentindex=1;
+$("#flashBg").css("background",$("#flash1").attr("name"));
+function changeflash(i) {	
+currentindex=i;for (j=1;j<=4;j++){
+if (j==i) 
+{
+$("#flash"+j).fadeIn("normal");
+$("#flash"+j).css("display","block");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("dq");
+$("#bannerbg").css("background-color",$("#flash"+j).attr("name"));
+}
+else
+{
+$("#flash"+j).css("display","none");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("no");}
+}}
+function startAm(){
+timerID = setInterval("timer_tick()",5000);
+}
+function stopAm(){
+clearInterval(timerID);
+}
+function timer_tick() {
+currentindex=currentindex>=3?1:currentindex+1;
+changeflash(currentindex);}
+$(document).ready(function(){
+$(".flash_bar div").mouseover(function(){stopAm();}).mouseout(function(){startAm();});
+startAm();
+}); 
+//document.getElementById("p7ssm_fsc").style.width=document.body.width+"px";
+</SCRIPT>
+
+
+
+<div class="container margintop10">
+<div class="row">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">当前位置:首页</a> / 
+<a href="/corp/index.shtml">关于逐浪</a> / 
+<a href="/Class_60/Default.aspx">公司介绍</a> / 
+</ol>
+</div>
+</div>
+
+
+
+<div class="container" id="Content">
+<h1>高管团队-团结专注铸就中国一流的WEB软件！</h1>
+
+<div id="container paddin10">
+<p class="col-lg-12 col-md12 col-sm-12 col-xs-12 text-center">作者：本站编辑 发布时间：2015-08-12  来源:本站原创  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=2429"></SCRIPT>   
+</p>
+</div>
+<div id="Content_txt">
+<p>&nbsp;注：本页面非动态更新页面，欢迎<a href="/photo/ltd/">点此浏览企业图库&gt;&gt;</a>&nbsp; <a href="/corp/music/">点此浏览我们的企业歌曲《大江》&gt;&gt;</a></p><p></p><p></p><p></p><p><img align="left" alt="" src="/UploadFiles/UserUpload/t1.gif" vspace="20" hspace="20"/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发哥：1980年出生，首席架构师，产品研发与品牌运营经理，十年WEB开发经验，种过田、耕过地、上过工地、当过编辑。曾一心想当一个文化人，却偏爱实业经营与技术狂热，为理想而追求奋斗。信奉“守真志满、逐物意移”，遂无物欲，以“菜重芥姜、果弥李奈”为生活态度，研习小学与瘦金书法，稍修宋史，以丰富软件之思想和知行超卓。<br/>作为“中国字写得最好的程序员”和“中国最懂程序的瘦金书法家”，知宣和之大美，明大玉之不琢，谦逊立身，以成就客户为己任。</p><p>&nbsp;</p><p></p><p>&nbsp;</p><p>&nbsp;&nbsp;&nbsp;<img width="100" height="138" title="" align="left" style="width: 100px; height: 138px; float: left;" alt="" src="/UploadFiles/UserUpload/t8.gif" border="0" vspace="20" hspace="20"/></p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阿梁，联合创始人，工商研究与大数据专家，独立媒体研究者，丰富的行业经验与冷静深遂的思维，从上海逐浪CMS的创建，到北京研发中心的新生，再到全新物联网领域的研究，始终以学生的心态跋涉，书生报国非易事，此时不报更何时！</p><p>&nbsp;</p><p>&nbsp;&nbsp;<br/><br/>&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;<img align="left" alt="" src="/UploadFiles/UserUpload/t2.gif" vspace="20" hspace="20"/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小末：运营总监，负责客户服务、行政事务以及人务资源。拥有丰富的项目案场服务经验，北至新疆沈阳，南至海滨之南，无不铬下了自己的脚印。既服务于政务国企大型项目，也愿和每一个草根站长为伍豪饮问道。生为邹鲁之乡女子，不骄不燥，毫无隐忍，淡如菊花骨傲霜，七年辩才见真金。</p><p>&nbsp;</p><p>&nbsp;&nbsp;<br/><br/>&nbsp;</p><p><img align="left" alt="" src="/UploadFiles/UserUpload/t3.gif" vspace="20" hspace="20"/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亭亭：开发部经理，专注于WEB前台研发、软件架构，具备良好的编程与系统框架设计能力，Zoomla!逐浪CMS5.x前台体验架构设计师。桃源才女恒心恒德，历经程序开发与互联网的风花雪月，更加知道专注的力量。勤奋而不守旧，自信而不骄傲，用技术改变世界，不做世界的随从，展示互联网的造梦师和建筑师风采。</p><p>&nbsp;</p><p>&nbsp;</p><p><br/>&nbsp;</p><p>&nbsp;&nbsp;&nbsp;<img align="left" alt="" src="/UploadFiles/UserUpload/t4.gif" vspace="20" hspace="20"/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小雪：营销总监，湖南女大毕业，带领逐浪软件团队为客户提供标准、及时、严谨、高效的产品规范与项目实施服务，现负责上海逐一软件科技有限公司运营事务。茶陵诗派传千古、湘江儿女自不凡，精于研发，更善于与客户共成长。用自己的身体力行去丈量中国大地的每一寸市场，再小的个体也应该拥有独立数据，尤其是中国本土企业更需要有自主软件支持，我们一直为此而奋斗。</p><p>&nbsp;</p><p>&nbsp;&nbsp;<br/><br/>&nbsp;</p><p>&nbsp;&nbsp;</p><p>[注：团队风采栏目不动态更新，更多信息欢迎联系我们并欢迎四海精英<a href="/corp/job/" target="_blank">加盟Zoomla!逐浪CMS研发团队</a>]</p>
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=631" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=631" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/server" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">高管团队-团结专注铸就中国一流的WEB软件！</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="about_copyurl"><p calss="pull-left">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" width=\"380\"  value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="pull-right"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址" class="img-responsive text-center" /></a></p></div>
+<div class="Contnet_old">上一篇文章：<a href="/corp/about/630.shtml" title="关于逐浪软件企业">关于逐浪软件企业</a>     下一篇文章：<a href="/corp/about/84.shtml" title="汇款方式">汇款方式</a></div>
+</div>
+<!-- 内容主体结束 -->
+
+
+<div class="container-fluid corop2015_home_foot">
+<div class="container padding0">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<form class="navbar-form navbar-left" role="search" action="/Search/SearchList.aspx" method="get" target="_blank" style="position:relative;">
+<div class="form-group">
+<input name="KeyWord" class="form-control" type="text" placeholder="全站搜索">
+</div>
+<button class="btn btn-default" type="submit" style="position: absolute; top: 0px;right: 0.8em; font-size:1.5em;border: none; background: none; color: #ff9d00;"><i class="fa fa-search"></i></button>
+</form>
+<ul>
+<li><a href="/">逐浪官网</a></li>
+<li><a href="/pub/">下载Zoomla!逐浪CMS</a></li>
+<li><a href="/help/">使用帮助</a></li>
+<li><a href="http://bbs.z01.com/" target="_blank">技术论坛</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<div class="pull-right">
+&copy; Copyright <script>
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+</script> 逐浪软件集团版权所有 总机电话：021-50391046</div>
+</div>
+</ul>
+
+</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+//左右滚动效果
+var Speed = 3; //速度(毫秒)
+var Space = 7; //每次移动(px)
+var PageWidth = 400; //翻页宽度
+var fill = 0; //整体移位
+var MoveLock = false;
+var MoveTimeObj;
+var Comp = 0;
+var AutoPlayObj = null;
+GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+GetObj('ISL_Cont').scrollLeft = fill;
+GetObj("ISL_Cont").onmouseover = function(){clearInterval(AutoPlayObj);}
+GetObj("ISL_Cont").onmouseout = function(){AutoPlay();}
+AutoPlay();
+function GetObj(objName)
+{
+if(document.getElementById)
+return eval('document.getElementById("'+objName+'")')
+else
+return eval('document.all.'+objName)
+}
+function AutoPlay()
+{//自动滚动
+clearInterval(AutoPlayObj);
+AutoPlayObj = setInterval('ISL_GoDown();ISL_StopDown();',3000); //间隔时间
+}
+function ISL_GoUp()
+{ //上翻开始
+if(MoveLock) return;
+clearInterval(AutoPlayObj);
+MoveLock = true;
+MoveTimeObj = setInterval('ISL_ScrUp();',Speed);
+}
+function ISL_StopUp()
+{ //上翻停止
+clearInterval(MoveTimeObj);
+if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0)
+{
+Comp = fill - (GetObj('ISL_Cont').scrollLeft % PageWidth);
+CompScr();
+}
+else
+MoveLock = false;
+AutoPlay();
+}
+function ISL_ScrUp()
+{ //上翻动作
+if(GetObj('ISL_Cont').scrollLeft <= 0){GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft + GetObj('List1').offsetWidth}
+GetObj('ISL_Cont').scrollLeft -= Space ;
+}
+function ISL_GoDown(){ //下翻
+clearInterval(MoveTimeObj);
+if(MoveLock) return;
+clearInterval(AutoPlayObj);
+MoveLock = true;
+ISL_ScrDown();
+MoveTimeObj = setInterval('ISL_ScrDown()',Speed);
+}
+function ISL_StopDown(){ //下翻停止
+clearInterval(MoveTimeObj);
+if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0 )
+{
+Comp = PageWidth - GetObj('ISL_Cont').scrollLeft % PageWidth + fill;
+CompScr();
+}
+else{MoveLock = false;}
+AutoPlay();
+}
+function ISL_ScrDown()
+{ //下翻动作
+if(GetObj('ISL_Cont').scrollLeft >= GetObj('List1').scrollWidth){GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft - GetObj('List1').scrollWidth;}
+GetObj('ISL_Cont').scrollLeft += Space ;
+}
+function CompScr()
+{
+var num;
+if(Comp == 0){MoveLock = false;return;}
+if(Comp < 0)
+{ //上翻
+if(Comp < -Space)
+{
+Comp += Space;
+num = Space;
+}
+else
+{
+num = -Comp;
+Comp = 0;
+}
+GetObj('ISL_Cont').scrollLeft -= num;
+setTimeout('CompScr()',Speed);
+}
+else
+{ //下翻
+if(Comp > Space)
+{
+Comp -= Space;
+num = Space;
+}
+else
+{
+num = Comp;
+Comp = 0;
+}
+GetObj('ISL_Cont').scrollLeft += num;
+setTimeout('CompScr()',Speed);
+}
+}
+
+</script>

@@ -1,0 +1,150 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于逐浪-专注研发|打造世界级网站内核管理系统与WEB软件服务体系</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<script src="http://code.z01.com/jquery/jquery-1.10.2.min.js"></script>
+</head>
+<body class="c_body">
+<div id="top">
+<div id="logo"><a href="/"><img src="/skin/2009/images/c_logo.jpg" /></a></div>
+<div id="c_logo"><img src="/skin/2009/images/c_i_logo.jpg" /></div>
+
+<div id="top_r">
+<div id="top_o"><a href="/vip/" target="_blank" title="高端计算专区"><img src="/skin/2009/oracle.gif" />高端计算专区由此进入>></a></div>
+<ul>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/blog" title="官方团队的开发日志">官方博客</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</div>
+</div><!--顶部结束 -->
+
+<div id="c_nav">
+<ul>
+    <li><a href="/corp/">首页</a></li>
+    <li><a href="/corp/about/630.shtml">公司介绍</a></li>
+    <li><a href="/corp/about/631.shtml">团队介绍</a></li>
+    <li><a href="/pub/">产品下载</a></li>
+    <li><a href="/corp/media/">媒体报道</a></li>
+    <li><a href="/corp/about/632.shtml">企业文化</a></li>
+    <li><a href="/corp/job/">招贤纳仕</a></li>
+    <li><a href="/photo/ltd/">企业图库</a></li>
+    <li><a href="/corp/about/83.shtml">联系我们</a></li>
+</ul>
+</div><!--主导航 -->
+
+<div id="bannerbg">
+<div id="bannerline">
+<div id="flash">
+<a style="display:block;" id="flash1" name="#ffffff"><img src="/skin/2009/images/c_ad1.jpg" /></a>
+<a id="flash2" name="#619AA1"><img src="/skin/2009/images/c_ad2.jpg" /></a>
+<a id="flash3" name="#198FFB"><img src="/skin/2009/images/c_ad3.jpg" /></a>
+<a id="flash4" name="#198FFB"><img src="/skin/2009/images/c_ad4.jpg" /></a>
+<div style="width:980px; margin:auto; position:relative;">
+<DIV class="flash_bar">
+<DIV id="f1" class="dq" onclick="changeflash(1)"><img src="http://www.z01.com/skin/2009/images/c_ad1_i.jpg" /></DIV>
+<DIV id="f2" class="no" onclick="changeflash(2)"><img src="http://www.z01.com/skin/2009/images/c_ad2_i.jpg" /></DIV>
+<DIV id="f3" class="no" onclick="changeflash(3)"><img src="http://www.z01.com/skin/2009/images/c_ad3_i.jpg"  /></DIV>
+<DIV id="f4" class="no" onclick="changeflash(4)"><img src="http://www.z01.com/skin/2009/images/c_ad4_i.jpg"  /></DIV>
+</DIV>
+</div>
+</div>
+</div>
+</div>
+
+<SCRIPT>
+var currentindex=1;
+$("#flashBg").css("background",$("#flash1").attr("name"));
+function changeflash(i) {	
+currentindex=i;for (j=1;j<=4;j++){
+if (j==i) 
+{
+$("#flash"+j).fadeIn("normal");
+$("#flash"+j).css("display","block");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("dq");
+$("#bannerbg").css("background-color",$("#flash"+j).attr("name"));
+}
+else
+{
+$("#flash"+j).css("display","none");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("no");}
+}}
+function startAm(){
+timerID = setInterval("timer_tick()",5000);
+}
+function stopAm(){
+clearInterval(timerID);
+}
+function timer_tick() {
+currentindex=currentindex>=3?1:currentindex+1;
+changeflash(currentindex);}
+$(document).ready(function(){
+$(".flash_bar div").mouseover(function(){stopAm();}).mouseout(function(){startAm();});
+startAm();
+}); 
+//document.getElementById("p7ssm_fsc").style.width=document.body.width+"px";
+</SCRIPT>
+<!-- end .container -->
+
+<div class="company_box">
+<div class="company_box_l">
+<span><img src="/skin/2009/images/c_product_1.gif" /></span>
+<p>　　Zoomla!逐浪CMS是国内首家集成MSSQL与Oralce两大数据库高端CMS，摒弃低端模板嵌套业务，专注核心WEB计算与数据处理，为诸多软件厂商提供内核服务，开放式计算以宽广的胸怀长期在企业和高端门户系统开发领域乘风破浪、赢得了高端开发者的一致认同。</p>
+<a href="/corp/about/630.shtml" class="more">查看详情</a>
+</div>
+
+<div class="company_box_l">
+<span><img src="/skin/2009/images/c_product_2.gif" /></span>
+<p>　　专注成就未来--高端计算与数据中心的经验、十年网站开发和IDC经营轨迹，赋予了逐浪软件团队独天独厚的行业经验，作为国内致力于WEB领域的高端ISV（独立软件研发厂商），为军工企业、世界五百强、大型门户、政府以及诸多个人站长提供个性化的定制开发，硕果累累。</p>
+<a href="/product/" class="more">查看详情</a>
+</div>
+
+<div class="company_box_r">
+<div id="company_about">
+<div class="company_title">关于公司</div>
+<p>　　“追逐未来、只争第一”--上海逐一软件科技有限公司旗下拥有逐浪软件、华夏互联、华夏营销网三大门户，拥有上海、南昌两大全资集团化研发公司，逾十年网站开发与解决方案服务经验，服务包括政府、军工、外企、世界五百强企业和诸多本土站长，致力于打造最优秀的网站内核管理系统。<br />
+　　逐浪®CMS作为国内顶尖、华中地区（苏、浙、皖、湘、鄂、豫、赣）唯一自主知识产权的网站管理系统（CMS）开发商，独有的“沙箱”开发理念，赢得了高端用户和开发者推崇，完全开放的软件体制更是行业翘楚...<a href="/corp/about/630.shtml" class="more">查看详情</a>  </p>
+</div>
+</div>
+</div>
+
+
+<div class="company_box" style="height:150px;">
+<div class="company_box_l" style="width:540px;">
+<div class="company_title"><a href="/corp/media/" target="_blank">更多</a>媒体报道</div>
+<ul>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="6" TitleNum="40" NodeID="21" /}
+</ul>
+</div>
+
+<div class="company_box_r">
+<div id="c_case">
+<span>　→典型客户</span>
+<ul>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="10" TitleNum="40" NodeID="9" /}
+<a href="/case/" class="more">查看更多</a>
+</ul>
+</div>
+</div>
+<div style="clear:both"></div>
+</div>
+
+<div id="c_bottom">
+<div id="c_copyright">
+<div id="copyright_logo"><a href="http://www.z01.com/" target="_blank"><img src="/skin/2009/images/c_logo_bottom.jpg" /></a></div>
+<p>{ZL.Label id="底部版权定义"/}</p>
+</div>
+</div>
+</body>
+</html>

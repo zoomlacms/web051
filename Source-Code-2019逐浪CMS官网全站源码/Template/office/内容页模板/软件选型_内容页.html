@@ -1,0 +1,85 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<script src="http://code.zoomla.cn/jquery/jquery-1.11.1.min.js"></script>
+<script src="/js/jquery.lazyload.js" type="text/javascript"></script>
+<SCRIPT language=javascript src="/skin/2010/js/ajax.js"></SCRIPT>
+<SCRIPT language=javascript src="/js/pub.js"></SCRIPT>
+<script language="javascript"> 
+function fontZoom(size){ 
+document.getElementById('Content_txt').style.fontSize=size+'px'
+}
+var c1 = 1;
+var c2 = 9;
+var c3 = 0;
+var c4 = 0;
+var c5 = 0;
+</script>
+
+</head>
+<body>
+
+{ZL.Label id="响应式网站头部"/}
+<div id="banner2014" class="text-right">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+  <div class="container margintop10">
+<div class="row">
+<ol class="breadcrumb">
+当前位置： <li><a href="/">首页</a></li>
+<li><a href="try">CMS选型</a> </li>
+<li> <a href="{ZL:GetNodeLinkUrl({SField sid="文章模型数据源标签" FD="NodeID" page="0"/})/}">{ZL.Label id="根据ID输出节点名称" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</a></li>
+<li> {SField sid="文章模型数据源标签" FD="Title" page="0"/}</li>
+</ol>
+<div id="Content">
+<!--中左结束 -->
+ <h1>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+<div id="Content_Info" class="text-center">作者：{SField sid="文章模型数据源标签" FD="author" page="0"/} 发布时间：{ZL:FormatDate({SField sid="文章模型数据源标签" FD="UpDateTime" page="0"/},yyyy-MM-dd)/}
+  来源:{SField sid="文章模型数据源标签" FD="source" page="0"/}   字体大小：【<A target="_self" href="javascript:fontZoom(18)">大</A> <A target="_self" href="javascript:fontZoom(14)">中</A> 
+  <A target="_self" href="javascript:fontZoom(12)">小</A>】  点击数：<SCRIPT language=javascript src='/Common/GetHits.aspx?id={SField sid=""文章模型数据源标签" FD="GeneralID"/}' ></SCRIPT>
+  </div>
+<div id="Content_txt">
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='{$UploadDir/}"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('{SField sid="文章模型数据源标签" FD="Defaultpic"/}');
+showimg('');
+</script>
+</div>
+<div id="T_page">{ZL.Page id="2009版内容分页" num="{SField sid="文章模型数据源标签" FD="F_page" page="0"/}"/}</div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：{ZL.Label id="编辑_信息中心通用"/} &nbsp;<a href="/user/content/addtofav.aspx?infoid={SField sid="文章模型数据源标签" FD="GENERALID"/}" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">{ZL.Label id="响应式点击复制网址"/}</div>
+<div class="Contnet_old">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+<div class="Contnet_old">下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+</div>
+<!--中右结束 -->
+ <!--最右联系浮动结束 -->
+</div>
+
+</div>
+<!--中部主体结束 -->
+ {ZL.Label id="响应式网站底部"/}
+{ZL.Label id="2012浮动客服代码"/}
+ 
+
+</body>
+</html>

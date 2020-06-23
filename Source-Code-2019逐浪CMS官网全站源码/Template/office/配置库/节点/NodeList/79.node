@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <NodeID>79</NodeID>
+    <NodeName>那人那事</NodeName>
+    <NodeType>1</NodeType>
+    <NodeDir>ren</NodeDir>
+    <NodeUrl>/blog/ren/index.shtml</NodeUrl>
+    <Tips />
+    <ParentID>30</ParentID>
+    <OrderID>3</OrderID>
+    <Child>0</Child>
+    <Depth>2</Depth>
+    <NodePicUrl>/Template/office/style/images/2015blog_banner2.jpg</NodePicUrl>
+    <Description>赛马不相马，我们为每一个同事提供平等的待遇，每一个人都是团队中不可缺少的有机组成。我们一方面倡导科研精神、用千万分的耐心和静心做好研发，而不是愚昧的去迎合；另一方面谦逊的学习，三人行三人师，哪怕我们都是小矮人，也团结的走在一起，组成不可摧毁的斯巴达方阵。</Description>
+    <Meta_Keywords />
+    <Meta_Description />
+    <OpenType>false</OpenType>
+    <PurviewType>false</PurviewType>
+    <CommentType>false</CommentType>
+    <HitsOfHot>0</HitsOfHot>
+    <ListTemplateFile />
+    <IndexTemplate>栏目列表/博客_列表页.html</IndexTemplate>
+    <ContentModel>1</ContentModel>
+    <ItemOpenType>false</ItemOpenType>
+    <ContentHtmlRule>2</ContentHtmlRule>
+    <ListPageHtmlEx>2</ListPageHtmlEx>
+    <ContentFileEx>2</ContentFileEx>
+    <HtmlPosition>1</HtmlPosition>
+    <NodeListType>1</NodeListType>
+    <ConsumePoint>0</ConsumePoint>
+    <ConsumeType>0</ConsumeType>
+    <ConsumeTime>0</ConsumeTime>
+    <ConsumeCount>0</ConsumeCount>
+    <Shares>0</Shares>
+    <Custom />
+    <NodeListUrl />
+    <LastinfoTemplate />
+    <HotinfoTemplate />
+    <ProposeTemplate />
+    <OpenTypeTrue>_blank</OpenTypeTrue>
+    <ItemOpenTypeTrue>_blank</ItemOpenTypeTrue>
+    <NodeBySite>0</NodeBySite>
+    <SiteConfige />
+    <SafeGuard>0</SafeGuard>
+    <Contribute>0</Contribute>
+    <SiteContentAudit>0</SiteContentAudit>
+    <AuditNodeList />
+    <AddPoint>0</AddPoint>
+    <AddMoney>0.0000</AddMoney>
+    <ClickTimeout>1</ClickTimeout>
+    <Purview>&lt;View&gt;allUser&lt;/View&gt;&lt;ViewGroup&gt;&lt;/ViewGroup&gt;&lt;ViewSunGroup&gt;&lt;/ViewSunGroup&gt;&lt;input&gt;&lt;/input&gt;&lt;forum&gt;1,2&lt;/forum&gt;</Purview>
+    <AddUserExp>0</AddUserExp>
+    <DeducUserExp>0</DeducUserExp>
+    <ListPageEx>2</ListPageEx>
+    <LastinfoPageEx>2</LastinfoPageEx>
+    <HotinfoPageEx>2</HotinfoPageEx>
+    <ProposePageEx>2</ProposePageEx>
+    <Viewinglimit>1=0|2=0</Viewinglimit>
+  </Table>
+</NewDataSet>

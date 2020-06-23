@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>72</LabelID>
+    <LabelName>节点名称_内容页调用</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,0,2,当前信息ID</LabelParam>
+    <LabelTable>ZL_Node</LabelTable>
+    <LabelField>NodeID,NodeName</LabelField>
+    <LabelWhere>NodeID = (select NodeID from ZL_CommonModel where GeneralID=@ItemID)</LabelWhere>
+    <LabelOrder />
+    <LabelContent>&lt;a href="/ColumnList.aspx?NodeID={Field="NodeID"/}"&gt;{Field="NodeName"/}&lt;/a&gt;</LabelContent>
+    <LabelCount>10</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

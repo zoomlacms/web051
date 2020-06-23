@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>86</LabelID>
+    <LabelName>通用商城文字列表栏目标签</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>商城标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,2,当前节点ID|ShowNum,20,1,每页调用信息数|Imgewidth,100,1,缩略图宽度|ImgeHeight,146,1,缩略图高度</LabelParam>
+    <LabelTable>ZL_Commodities</LabelTable>
+    <LabelField>ID,Proname,Thumbnails,ShiPrice,LinPrice</LabelField>
+    <LabelWhere>NodeID=@NodeID and Istrue=1</LabelWhere>
+    <LabelOrder>ID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+    &lt;div class="shop_pro"&gt;
+    &lt;div class="shop_proleft" title="{Field="Proname"/}" /&gt;&lt;a href="{ZL:GetShopUrl({Field="ID"/})/}" target="_blank"&gt;&lt;img src="{$SiteURL/}/{Field="Thumbnails"/}" width="@Imgewidthpx" height="@ImgeHeightpx" /&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div id="shop_rporight"&gt;
+    &lt;ul&gt;
+    &lt;li&gt;{Field="Proname"/}&lt;/li&gt;
+    &lt;li&gt;市场价：&lt;span&gt;￥{ZL:GetMoney({Field="ShiPrice"/},2,1)/}&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;会员价：￥{ZL:GetMoney({Field="LinPrice"/},2,1)/}
+&lt;/li&gt;
+    &lt;li&gt;&lt;a href="{ZL:GetShopUrl({Field="ID"/})/}" target="_blank" title="查看详情并购买"&gt;&lt;img src="/skin/default/ProductBuy.gif" /&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/user/content/addtofav.aspx?infoid={Field="ID"/}" target="_blank" title="加入您的会员收藏夹"&gt;&lt;img src="/skin/default/ProductFav.gif" /&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+{/Repeate}
+
+{ZL.Page/}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>zoomla_cn</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

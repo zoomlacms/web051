@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <FieldID>981</FieldID>
+    <ModelId>86</ModelId>
+    <FieldName>fdsf</FieldName>
+    <FieldAlias>fds</FieldAlias>
+    <FieldTips />
+    <Description />
+    <IsNotNull>False</IsNotNull>
+    <IsSearchForm>False</IsSearchForm>
+    <FieldType>TextType</FieldType>
+    <Content>TitleSize=35,IsPassword=text,DefaultValue=,SelVideo=False,SelIcon=False</Content>
+    <OrderId>0</OrderId>
+    <ShowList>True</ShowList>
+    <ShowWidth>0</ShowWidth>
+    <IsShow>True</IsShow>
+    <IsView>True</IsView>
+    <IsDownField>0</IsDownField>
+    <DownServerID>0</DownServerID>
+    <RestoreField>0</RestoreField>
+    <IsCopy>-1</IsCopy>
+    <Sys_type>false</Sys_type>
+    <Islotsize>False</Islotsize>
+    <IsChain>False</IsChain>
+  </Table>
+  <Table>
+    <FieldID>982</FieldID>
+    <ModelId>86</ModelId>
+    <FieldName>yyy</FieldName>
+    <FieldAlias>yyy</FieldAlias>
+    <FieldTips />
+    <Description />
+    <IsNotNull>False</IsNotNull>
+    <IsSearchForm>False</IsSearchForm>
+    <FieldType>TextType</FieldType>
+    <Content>TitleSize=35,IsPassword=text,DefaultValue=,SelVideo=False,SelIcon=False</Content>
+    <OrderId>1</OrderId>
+    <ShowList>True</ShowList>
+    <ShowWidth>0</ShowWidth>
+    <IsShow>True</IsShow>
+    <IsView>True</IsView>
+    <IsDownField>0</IsDownField>
+    <DownServerID>0</DownServerID>
+    <RestoreField>0</RestoreField>
+    <IsCopy>-1</IsCopy>
+    <Sys_type>false</Sys_type>
+    <Islotsize>False</Islotsize>
+    <IsChain>False</IsChain>
+  </Table>
+</NewDataSet>

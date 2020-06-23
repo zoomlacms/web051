@@ -1,0 +1,98 @@
+{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<style>
+</style>
+</head>
+<body>
+{ZL.Label id="2016响应式网站头部"/}
+
+<div class="container home_nav">
+<div class="row">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+<a href="/try/index.shtml" target="_blank">软件选型:如何选择合适的CMS系统</a>
+<a href="/try/cmsnews/" target="_blank">行业纵横:中国CMS行业动态及名单</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<ul class="list-unstyled">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="rss_log"><a href="pub/listpage.shtml" target="_blank">功能播报</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log">{ZL:Big5()/}</li>
+</ul>
+</div>
+</div>
+</div><!--小导航菜单结束 -->
+
+
+<div class="container">
+<div ><span style="float:right; padding-right:50px;">投递简历：<a href="mailto:web@z01.com">web@z01.com</a></span><a href="/">逐浪软件</a> / {ZL.Label id="三级智能节点导航" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /} {SField sid="文章模型数据源标签" FD="Title" page="0"/}</div>
+
+<div id="Content_txt" class="margintop10">
+<img src="{SField sid="文章模型数据源标签" FD="Defaultpic" page="0"/}" alt="{SField sid="文章模型数据源标签" FD="Title" page="0"/}" onerror="this.onerror=null;this.src='/Template/office/style/images/dian2.jpg'"  />
+<div id="job_content">
+{SField sid="文章模型数据源标签" FD="Content" page="0"/}
+</div>
+</div><!--job end -->
+
+</div>
+<!--main end -->
+
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/pub.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/2015.js"></script>
+<script type="text/javascript" src="{$CssDir/}js/materialMenu.js"></script>
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+ 
+ 
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000)
+</script>

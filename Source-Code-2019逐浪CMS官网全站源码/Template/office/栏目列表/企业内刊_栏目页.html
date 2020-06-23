@@ -1,0 +1,90 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>《逐浪人》企业内刊-{SField sid="栏目信息数据源" FD="NodeName" page="0"/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script> 
+<script type="text/javascript">
+$(function() {
+$('#accordion > li').hover(
+	function () {
+		var $this = $(this);
+		$this.stop().animate({'width':'480px'},500);
+		$('.heading',$this).stop(true,true).fadeOut();
+		$('.bgDescription',$this).stop(true,true).slideDown(500);
+		$('.description',$this).stop(true,true).fadeIn();
+	},
+	function () {
+		var $this = $(this);
+		$this.stop().animate({'width':'115px'},1000);
+		$('.heading',$this).stop(true,true).fadeIn();
+		$('.description',$this).stop(true,true).fadeOut(500);
+		$('.bgDescription',$this).stop(true,true).slideUp(700);
+	}
+);
+});
+</script>
+<link rel="stylesheet" href="/skin/2010/css/global.css" type="text/css" media="screen"/>
+<style>
+body { font-family:Arial; background:#fff url(/skin/2010/images/accordion_bg.png) repeat top left; }
+a { color:#444; }
+a:hover { color:#999; }
+.title { width:500px; height:152px; position:absolute; top:0px; left:0px; background:transparent url(/skin/2010/images/accordion_title.png) no-repeat top left; }
+a.back { background:transparent url(/skin/2010/images/accordion_back.png) no-repeat top left; position:fixed; width:150px; height:27px; outline:none; bottom:0px; left:0px; }
+#content { margin:0 auto; }
+.reference { clear:both; top:300px; left:0px; position:absolute; text-align:right; width:400px; padding:20px; background-color:#fff; -moz-box-shadow:1px 3px 15px #ddd; -webkit-box-shadow:1px 3px 15px #ddd; box-shadow:1px 3px 15px #ddd; }
+.reference li { background:none; height:18px; line-height:18px; }
+.reference strong{height:20px; line-height:20px; font-size:14px; color:#F00; clear:both;}
+</style>
+</head>
+<body>
+<div id="content"> <a class="back" href="/" title="返回官网首页"></a>
+          <div class="title"></div>
+          <div class="reference">
+          <strong>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}-目录</strong>
+          <ul>          
+          {ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="10" TitleNum="130" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" /}
+          </ul>
+  </div>
+          <ul class="accordion" id="accordion">
+    <li class="bg1">
+              <div class="heading">技术瞻仰</div>
+              <div class="bgDescription"></div>
+              <div class="description">
+        <h2>技术瞻仰</h2>
+        <p>透析技术本质，通过一个个鲜活的案例，让我们窥视这个星球的真知、仰望这个世界的哲理、问道这个时代的强者之音.</p>
+        <a href="/Content.aspx?ItemID={PH.Label id="自设节点内容" nodeid="@Request_id" num="4" /}">Read &rarr; </a> </div>
+            </li>
+    <li class="bg2">
+              <div class="heading">部门动态</div>
+              <div class="bgDescription"></div>
+              <div class="description">
+        <h2>部门动态</h2>
+        <p>团队之本、方为企业之本。始终恪守团队第一，积极融入团队行动，打造学习型的矩阵。从黄浦江边的上海团队、到井冈山下的技术之师，我们每一个成员都积极成长，为企业成长出力。</p>
+        <a href="/Content.aspx?ItemID={PH.Label id="自设节点内容" nodeid="@Request_id" num="3" /}">Read &rarr;</a> </div>
+            </li>
+    <li class="bg3">
+              <div class="heading">通知与条例</div>
+              <div class="bgDescription"></div>
+              <div class="description">
+        <h2>公司通知与条例</h2>
+        <p>日事日毕、日清日高。立即行动、马上改变。融入企业，铸就辉煌。</p>
+        <a href="/Content.aspx?ItemID={PH.Label id="自设节点内容" nodeid="@Request_id" num="2" /}">Read &rarr;</a> </div>
+            </li>
+    <li class="bg4 bleft">
+              <div class="heading">逐浪人和事</div>
+              <div class="bgDescription"></div>
+              <div class="description">
+        <h2>逐浪人和事</h2>
+        <p>每天，我们都在放松心情，使自己开心的上班、快乐的帮助同事、积极的推进项目，因为我们是一个快乐的华夏互联人...</p>
+        <a href="/Content.aspx?ItemID={PH.Label id="自设节点内容" nodeid="@Request_id" num="1" /}">Read &rarr;</a> </div>
+            </li>
+  </ul>
+        </div>
+
+<!-- The JavaScript --> 
+</body>
+</html>

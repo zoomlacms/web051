@@ -1,0 +1,126 @@
+{ZL.Source id="下载中心内容页数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="下载中心内容页数据源" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="下载中心内容页数据源" FD="Tagkey" page="0"/}">
+<meta name="Description" content="{SField sid="下载中心内容页数据源" FD="Title" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+<div id="banner2014soft">
+<strong>英雄。或是程序员出没的地方</strong>
+<em>下载专区为您服务</em>
+<div class="clearfix"></div>
+</div>
+
+  <div class="container margintop10">
+<div class="row">
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<div class="breadcrumb">
+当前位置： <a href="/">首页</a> /{ZL.Label id="三级智能节点导航" NodeID="{SField sid="下载中心内容页数据源" FD="NodeID" page="0"/}" /}<li class="active">文章内容</li>
+</div>
+ 
+<div id="Content">
+<h1>{SField sid="下载中心内容页数据源" FD="Title" page="0"/}</h1>
+<div id="Content_Info">
+<p class="text-center">作者：{SField sid="下载中心内容页数据源" FD="author" page="0"/} 发布时间：{ZL:FormatDate({SField sid="下载中心内容页数据源" FD="UpDateTime" page="0"/},yyyy-MM-dd)/}  来源：{SField sid="下载中心内容页数据源" FD="source" page="0"/}  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid="下载中心内容页数据源" FD="GeneralID"/}"></SCRIPT>   
+</p>
+<!-- BaiduShare Button BEGIN -->
+<div class="bdsharebuttonbox"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a class="bds_more" href="#" data-cmd="more"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://dn-iyz-file.qbox.me/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<!-- BaiduShare Button END -->
+</div>
+<div class="clearfix"></div>
+<div class="well"><i class="fa fa-space-shuttle fa-rotate-90 fa-3x"></i><a href="#downurl">[高速免费下载通道↓]</a></div>
+<h2>详细介绍：</h2>
+<div id="Content_txt">{SField sid="下载中心内容页数据源" FD="content" page="{SField sid="下载中心内容页数据源" FD="K_pages" page="0"/}"/}</div>
+<div class="alert alert-success" id="downurl">
+<h2>点击下载(文件大小:{SField sid="下载中心内容页数据源" FD="Downurl_li" page="0"/}KB)：</h2><!--下载输出 -->
+<div class="down_text">
+{ZL:SplitDown({SField sid="下载中心内容页数据源" FD="Downurl"/},,_blank)/}
+<div class="clearfix"></div>
+</div>
+</div>
+<div id="T_page">{ZL.Page id="2009版内容分页" num="{SField sid="下载中心内容页数据源" FD="F_page" page="0"/}"/}</div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：{ZL.Label id="编辑_信息中心通用"/} &nbsp;<a href="/user/content/addtofav.aspx?infoid={SField sid="下载中心内容页数据源" FD="GENERALID"/}" target="_blank">加入收藏</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID={SField sid="下载中心内容页数据源" FD="GeneralID" page="0"/}" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">{SField sid="下载中心内容页数据源" FD="Title" page="0"/}</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">{ZL.Label id="响应式点击复制网址"/}</div>
+<div class="Contnet_old">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="下载中心内容页数据源" FD="NodeID" page="0"/}" /}</div>
+<div class="Contnet_old">下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="下载中心内容页数据源" FD="NodeID" page="0"/}" /}</div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+{ZL.Label id="响应式右侧导航"/}
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+
+{ZL.Label id="响应式网站底部"/}
+
+{ZL.Label id="2012浮动客服代码"/} 
+<script>$(".down_text li a").addClass("btn btn-success btn-lg");	
+
+</script>
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script> 

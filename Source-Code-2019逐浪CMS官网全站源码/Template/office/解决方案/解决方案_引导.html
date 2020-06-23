@@ -1,0 +1,207 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{$SiteName/}>>{ZL.Label id="当前栏目名"/}</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+<link href="/skin/2010/css/Project_style.css" type=text/css rel=stylesheet>
+<link href="/skin/2010/css/Project_leftMenu.css" type=text/css rel=stylesheet>
+<script language=javascript src="/js/leftMenu.js" type=text/javascript></script>
+<script language=javascript src="/js/js.js" type=text/javascript></script>
+</head>
+<body>
+<div class="content_bg"> 
+  <div class="top_div" id="top_link"> 
+    <div class="f_left"><a href="/" target="_blank"><img src="/skin/default/Project/prj_logo.jpg" alt="逐浪软件" width="342" height="40" border="0"></a></div>
+    <div class="f_right" style="padding-top: 12px;"> 
+      <select id="linkSelect_bxn" name="linkSelect_bxn" onChange="linkChangelinkSelect();">
+        <option value="#">请选择逐浪官方网站导航</option>
+        <option value="/shop/">购买商业版授权</option>
+        <option value="/demo/">软件演示中心</option>
+        <option value="/blog/">开发团队博客</option>
+        <option value="http://edu.zoomla.cn/">开发者俱乐部</option>
+        <option value="/server/">客服中心</option>
+        <option value="/corp/about/83.shtml">联系逐浪软件官方</option>
+      </select>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<div class="hide_bar" id="hide_bar" align="center"><a href="#" onClick="hide_mc()"><img src="/skin/default/Project/hide_but.jpg" alt="隐藏头部链接" border="0"></a></div>
+<div class="content_bg"> 
+<!-- 网站头部/ -->
+  <div class="top_block"> 
+    <div class="f_left"><a href="#" target="_blank"><img src="/skin/default/Project/ilogo.jpg" alt="逐浪CMS解决方案中心" width="303" height="84" border="0"></a></div>
+    <div class="head_search default_main"> 
+      <div><img src="/skin/default/Project/mainli_icon.gif" alt="dot" align=absMiddle>&nbsp;<a href="/corp/about/151.shtml">订购指南</a> 
+        &nbsp; <img src="/skin/default/Project/mainli_icon.gif" alt="dot" align=absMiddle>&nbsp;<a href="/corp/about/83.shtml">联系我们</a></div>
+      <div style="margin-top: 10px"><a href="/User/Login.aspx" target=_blank><img src="/skin/default/Project/memberLogin.gif" alt="会员登陆" border="0" align=absMiddle></a>&nbsp;&nbsp;<a href="/User/Register.aspx" target=_blank>新用户注册</a> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<!-- 头部菜单/ -->
+<div class="content_bg"> 
+  <div class="nav"> 
+    <div class="menu_main"><a href="/" title="首 页">首 页</a></div>
+    <div class="menu_main"><a href="/product/" title="走进逐浪">走进逐浪</a></div>
+    <div class="menu_main"><a href="/shop/" title="产品中心">产品中心</a></div>
+    <div class="menu_main"><a href="/case/" title="成功案例">成功案例</a></div>
+    <div class="menu_main"><a href="/Project/" title="解决方案">解决方案</a></div>
+    <div class="menu_main"><a href="/templet/" title="模板中心">模板中心</a></div>
+    <div class="menu_main"><a href="http://bbs.zoomla.cn/" title="技术社区" target="_blank">技术社区</a></div>
+  </div>
+</div>
+<div class="clear"></div>
+
+<div class="content_bg2">
+<div class="f_left">
+<!-- 主体左部菜单/ -->
+<div class="menu"> 
+<div class="menu_top"></div>
+<div class="subMenu2"> 
+<script language=javascript type=text/javascript>
+/*
+	系统区分正常状态与点击状态
+*/
+var menu_Title = "";		//菜单头的文字。
+var rootMenu,subItems;
+var menuEffict = true;			//主菜单是否有特效,值为true(是)与false(否)两种。
+var img_src = "images/";
+var hideOtherItems = true;
+//点击某个主菜单之后,true为其他展开的菜单关闭,false为其他展开保持不变(当值为false时,展开菜单后选中某个菜单无效)。
+
+var td_target = "custome";	//支持两种方式,一种弹出新窗口new,一种自己输入custome(默认)
+var c_method = "";		//当上面的设置为custome时填写这项才有效果,放空为当前窗口打开。
+
+/*主菜单说明
+	rootMenu为菜单头。
+	写法表示：[[第一个菜单],[第二个菜单],[第三个菜单],...]
+	菜单内参数：[菜单名称,链接地址,所调用子项的索引值,鼠标移上样式,鼠标移走样式,默认是否展开,菜单标识图片(完整的地址路径,没有子菜单请留空。如箭头),弹出子菜单后选中子菜单(0为关闭该功能,数字不能超过子菜单数)]
+ */
+rootMenu = [
+			["关于逐浪Zoomla!","",0,"rOver","rOut",false,"","1"],
+			["技术报告","",1,"rOver","rOut",false,"","1"],
+			["软件优势","",2,"rOver","rOut",false,"","1"],
+			["选择您需要的解决方案","",3,"rOver","rOut",false,"",""],			
+			["客户服务","",4,"rOver","rOut",false,"","1"],
+			["商业订购","",5,"rOver","rOut",false,"","1"]			
+			]
+
+/*子菜说明
+ *	menus是一个数组,由JS核心代码中定义。
+ *	写法表示：[[第一个子菜单],[第二个子菜单],[第三个子菜单],...]
+ *	菜单内参数：[菜单名称,链接地址,鼠标移上样式,鼠标移走样式]
+ *	若只想显示主菜单,不显示子菜单,子菜单的项放空。
+ */
+subItems = new Array();
+subItems[0] = [
+				["公司简介","/corp/","sOver","sOut",""],
+				["品牌简介","/corp/about/630.shtml","sOver","sOut",""],
+				["团队介绍","/corp/about/631.shtml","sOver","sOut",""],
+				["媒体报道","/corp/media/","sOver","sOut",""],
+				["视听频道","/corp/about/476.shtml","sOver","sOut",""]
+			];
+			
+subItems[1] = [
+				["子产品一揽","/pub/listpage.shtml","sOver","sOut",""],
+				["产品文档","/help/","sOver","sOut",""]
+			];
+			
+subItems[2] = [  
+				["文章子系统","/product/pub/396.shtml","sOver","sOut",""],
+				["OA政务系统","/product/pub/1092.shtml","sOver","sOut",""],
+				["网店子系统","/product/pub/380.shtml","sOver","sOut",""],
+				["站群子系统","/product/pub/1093.shtml","sOver","sOut",""],
+				["试戴子系统","/product/pub/591.shtml","sOver","sOut",""],
+				["三维全景子系统","/product/pub/870.shtml","sOver","sOut",""]
+			];		
+			
+subItems[3] = [
+				["企业门户解决方案","/Article/Project/133.shtml","sOver","sOut",""],
+				["政府网站解决方案","/Article/Project/136.shtml","sOver","sOut",""],
+				["教育行业解决方案","/Article/Project/131.shtml","sOver","sOut",""],
+				["网上商城解决方案","/Article/Project/166.shtml","sOver","sOut",""],
+				["行业门户解决方案","/Article/Project/138.shtml","sOver","sOut",""],
+				["文献网站解决方案","/Article/Project/137.shtml","sOver","sOut",""],
+				["无线网站解决方案","/Article/Project/135.shtml","sOver","sOut",""],
+				["社区门户解决方案","/Article/Project/134.shtml","sOver","sOut",""],
+				["交友网站解决方案","/Article/Project/132.shtml","sOver","sOut",""],
+				["个人网站解决方案","/Article/Project/213.shtml","sOver","sOut",""],
+				["门户网站群解决方案","/Article/Project/399.shtml","sOver","sOut",""],
+				["更多方案","/Project/listpage.html","sOver","sOut",""]
+			];
+
+subItems[4] = [
+				["服务网络","/article/join/","sOver","sOut",""],
+				["下载逐浪","/pub/","sOver","sOut",""],
+				["常见问题","/help/","sOver","sOut",""],
+				["客户留言","http://bbs.zoomla.cn/","sOver","sOut",""],
+				["联系方式","/corp/about/83.shtml","sOver","sOut",""]				
+			];
+
+subItems[5] = [
+				["人才招聘","/corp/job/","sOver","sOut",""],
+				["人才观","http://www.hx008.com/corp/job/","sOver","sOut",""]
+			];
+			
+loadMenu();		//载入菜单
+</script>
+<a href="/Project/listpage.html" style="height:28px; line-height:28px; padding-left:20px;">所有方案一览>></a>
+</div>
+
+<div><img src="/skin/default/Project//menu_food.gif" alt="菜单底部" width="183" height="30"></div>
+</div>
+<!--左菜单部分结束-->
+</div>
+
+<div class="main_block"> 
+  <div class="kv"><a href="/demo" target="_blank"><img src="/uploadfiles/iaa/20088/200808201626239821.jpg" alt="卓越产品预览" /></a></div>
+  <div class="symbol">
+      <div class="f_left" style="padding-right:7px;"><img src="/skin/default/Project/prjindex.jpg" alt=""></div>
+<div class="f_left"><img src="/skin/default/Project/intr.jpg" alt="逐浪简介" width="222" height="364" border="0" usemap="#Map"><map name="Map"><area shape="rect" coords="117,319,199,338" href="/corp/" alt="公司简介"></map></div>
+</div>
+<div class="clear"></div>
+
+<div class="hangye default_main">
+<div id="demo" style="overflow:hidden; width:743px; height:168px;">
+<table width="100%" cellpadding="0" cellspacing="0">
+<tr>
+            <td id="demo1" valign="top" > <table width="743" height="134" border="0" cellpadding="0" cellspacing="0">
+                <tr> 
+                  <td height="134">&nbsp;</td>
+                  {ZL.Label id="解决方案引导横向滚动"/}
+                </tr>
+              </table></td>
+<td id="demo2" valign="top"></td>
+</tr>
+</table>
+</div>
+<script language="JavaScript" type="text/javascript">
+var speed=10
+demo2.innerHTML=demo1.innerHTML
+function Marquee(){
+if(demo2.offsetWidth-demo.scrollLeft<=0)
+demo.scrollLeft-=demo1.offsetWidth
+else{
+demo.scrollLeft++
+}
+}
+var MyMar=setInterval(Marquee,speed)
+demo.onmouseover=function() {clearInterval(MyMar)}
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+</script>
+</div>
+</div>
+
+</div>
+
+<div class="clear"></div>
+<div class="food_div"><a href="/map.html">网站导航</a> | <a href="/corp/about/83.shtml">联系我们</a> | <a href="/corp/media">媒体报道</a> | <a href="/corp/about/95.shtml">法律声明</a> | <a href="/corp/about/151.shtml">订购指南</a><br />
+{$Copyright/}<br />
+</div>
+</body>
+</html>

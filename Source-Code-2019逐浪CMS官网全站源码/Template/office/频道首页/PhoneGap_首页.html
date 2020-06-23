@@ -1,0 +1,294 @@
+{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" id="phonegap_nav">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="{$CssDir/}images/logo1.png" alt="{$SiteName/}" /></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li><a href="/">网站首页</a></li>
+<li><a href="/product/" target="_blank">走进逐浪</a></li>
+<li><a href="/shop/" target="_blank">产品中心</a></li>
+<li><a href="/case/" target="_blank">成功案例</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/pub/" target="_blank">下载产品</a></li>
+<li><a href="/demo/" target="_blank">体验中心</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="http://v.z01.com/jz" target="_blank">微建站</a></li>
+<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="javascript:;" onClick="ShowSearch();"><i class="fa fa-search"></i></a></li>
+<li><a href="#"><i class="fa fa-user"></i></a></li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-list"></i></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/">网站首页</a></li>
+<li><a href="/product/" target="_blank">走进逐浪</a></li>
+<li><a href="/shop/" target="_blank">产品中心</a></li>
+<li><a href="/case/" target="_blank">成功案例</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/mb/" target="_blank">模板中心</a></li>
+<li><a href="/pub/" target="_blank">下载产品</a></li>
+<li><a href="/demo/" target="_blank">体验中心</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+</ul>
+</li>
+</ul>
+<form class="navbar-form navbar-right" role="search" method="get" action="/Search/SearchList" target="_blank" style="display:none;">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="全站检索" name="KeyWord">
+</div>
+<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+</form>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<div class="h50"></div>
+<div class="phonegap_top"></div>
+<div class="phonegap_banner">
+<h3>PhoneGap开发中心</h3>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 phonegap_banner_l"><a href="{ZL:GetInfoUrl(2425)/}" target="_blank"><img src="{$CssDir/}images/phonegap_banner1.png" class="img-responsive" alt="在线开发" /></a></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 phonegap_banner_r">
+<h4>在线开发</h4>
+<p>在全新的逐浪CMS中，我们带来了全新的可视化编辑界面，从而提升模板开发效率。 传统的网站开发中，模板编辑和可视化开发，始终困扰着每一个用户，作为普通的编辑，不可能每次都启用专业的Adobe Dreamweaver等工具进行网页编辑，于是我们在此版本中，提供了更加优秀的模板编辑工具，完全可视化与符合html5规范，三分钟就能设计出优秀的网站代码。</p>
+<a href="{ZL:GetInfoUrl(2425)/}" target="_blank" class="btn btn-info">了解更多</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 phonegap_banner_l"><a href="http://club.zoomla.cn/PItem?id=13369" target="_blank"><img src="{$CssDir/}images/phonegap_banner2.png" class="img-responsive" alt="本地部署" /></a></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 phonegap_banner_r">
+<h4>本地部署</h4>
+<p>新可视开发模式！为企业部署APP提代使得，不植入任何后台广告，确保企业的权益收益不植入任何后台广告，确保企业的权益收益。</p>
+<a href="http://club.zoomla.cn/PItem?id=13369" target="_blank" class="btn btn-info">了解更多</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 phonegap_banner_l"><a href="{ZL:GetInfoUrl(2426)/}" target="_blank"><img src="{$CssDir/}images/phonegap_banner3.png" class="img-responsive" alt="微信应用" /></a></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 phonegap_banner_r">
+<h4>微信应用</h4>
+<p>在全新的逐浪CMS2.5中，微信支付和微信公众号管理平台隆登场。 它优化了此前的微信公众号菜单功能，同时支持欢迎语、刮刮卡、智能图表、舆情监测等多个模块。 为了配合开发者使用，逐浪官方还开放了http://wei.zoomla.cn 微逐浪平台，使用户更加方便的管理整个应用，方便的建立起移动化体验。</p>
+<a href="{ZL:GetInfoUrl(2426)/}" target="_blank" class="btn btn-info">了解更多</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 phonegap_banner_l"><a href="{ZL:GetInfoUrl(2415)/}" target="_blank"><img src="{$CssDir/}images/phonegap_banner4.png" class="img-responsive" alt="舆情监测" /></a></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 phonegap_banner_r">
+<h4>舆情监测</h4>
+<p>长期以来，企业级用户都希望对自己的信息管理拥有强劲的工具，可以按需订制，在浩瀚的互联网领域中，管理完整的信息，并随时随地按需订制自己的舆情重点。 </p>
+<a href="{ZL:GetInfoUrl(2415)/}" target="_blank" class="btn btn-info">了解更多</a>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 phonegap_banner_l"><a href="http://club.zoomla.cn/PItem?id=12629" target="_blank"><img src="{$CssDir/}images/phonegap_banner5.png" class="img-responsive" alt="智慧图标" /></a></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 phonegap_banner_r">
+<h4>智慧图表</h4>
+<p>强大的图表管理系统,支持折线、饼图、柱图、仪表盘、雷达图等。</p>
+<a href="{http://club.zoomla.cn/PItem?id=12629" target="_blank" class="btn btn-info">了解更多</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+</ol>
+
+</div>
+</div><!--phonegap_banner end-->
+
+<div class="phonegap_info">
+<div class="container">
+<h3>快速构建您的web门户与移动平台</h3>
+<div class="row">
+<ul class="list-unstyled">
+<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="media">
+<div class="media-left"><a href="{ZL:GetInfoUrl(1092)/}"><i class="fa fa-desktop"></i></a></div>
+<div class="media-body">
+<h4 class="media-heading"><a href="{ZL:GetInfoUrl(1092)/}">OA办公平台</a></h4>
+<p>全新的企业办公化与信息化平台，一体化解决方案</p>
+</div>
+</div>
+</li>
+<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="media">
+<div class="media-left"><a href="{ZL:GetInfoUrl(2090)/}"><i class="fa fa-database"></i></a></div>
+<div class="media-body">
+<h4 class="media-heading"><a href="{ZL:GetInfoUrl(2090)/}">MIS智能门户</a></h4>
+<p>大数据时代门户建设最佳平台</p>
+</div>
+</div>
+</li>
+<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="media">
+<div class="media-left"><a href="/Shop/20.aspx"><i class="fa fa-shopping-cart"></i></a></div>
+<div class="media-body">
+<h4 class="media-heading"><a href="/Shop/20.aspx">电子商务门户</a></h4>
+<p>一站式商城、网店、订单、物流支持,成就互联网时代财富</p>
+</div>
+</div>
+</li>
+<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="media">
+<div class="media-left"><a href="{ZL:GetInfoUrl(2201)/}"><i class="fa fa-sitemap"></i></a></div>
+<div class="media-body">
+<h4 class="media-heading"><a href="{ZL:GetInfoUrl(2201)/}">企业站群</a></h4>
+<p>新一代具备虚拟化与IDC标准的网站集群管理系统</p>
+</div>
+</div>
+</li>
+<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="media">
+<div class="media-left"><a href="{ZL:GetInfoUrl(2426)/}"><i class="fa fa-apple"></i></a></div>
+<div class="media-body">
+<h4 class="media-heading"><a href="{ZL:GetInfoUrl(2426)/}">移动应用体系</a></h4>
+<p>移动APP在线生成</p>
+</div>
+</div>
+</li>
+<li class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+<div class="media">
+<div class="media-left"><a href="#"><i class="fa fa-html5"></i></a></div>
+<div class="media-body">
+<h4 class="media-heading"><a href="#">生产力Html5应用平台</a></h4>
+<p>企业移动应用平台，安全高效帮助您的企业移动化</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div><!--phonegap_info end-->
+
+<div class="phonegap_news">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="phonegap_news_c">
+<div class="phonegap_news_ct"><span><i class="fa fa-play-circle"></i> 视频教程</span><a href="{ZL:GetNodeLinkUrl(139)/}">+More</a><div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_带时间" ShowNum="10" TitleNum="38" NodeID="139" /}
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="phonegap_news_c">
+<div class="phonegap_news_ct"><span><i class="fa fa-apple"></i> 移动开发资讯</span><a href="{ZL:GetNodeLinkUrl(143)/}">+More</a><div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_带时间" ShowNum="10" TitleNum="38" NodeID="143" /}
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="phonegap_news_c">
+<div class="phonegap_news_ct"><span><i class="fa fa-code"></i> Nodejs教程</span><a href="{ZL:GetNodeLinkUrl(140)/}">+More</a><div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_带时间" ShowNum="10" TitleNum="38" NodeID="140" /}
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="phonegap_news_c">
+<div class="phonegap_news_ct"><span><i class="fa fa-code"></i> Nodejs教程</span><a href="{ZL:GetNodeLinkUrl(141)/}">+More</a><div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_带时间" ShowNum="10" TitleNum="38" NodeID="141" /}
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="phonegap_news_c">
+<div class="phonegap_news_ct"><span><i class="fa fa-gavel"></i> PhoneGap与Cordova教程</span><a href="{ZL:GetNodeLinkUrl(142)/}">+More</a><div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_带时间" ShowNum="10" TitleNum="38" NodeID="142" /}
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<div class="phonegap_news_c">
+<div class="phonegap_news_ct"><span><i class="fa fa-star"></i> ionic中文教程</span><a href="{ZL:GetNodeLinkUrl(144)/}">+More</a><div class="clearfix"></div></div>
+<ul class="list-unstyled">
+{ZL.Label id="查询指定节点ID下信息列表_带时间" ShowNum="10" TitleNum="38" NodeID="144" /}
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+{ZL.Label id="响应式网站底部"/}
+</body>
+</html>
+<script>
+function ShowSearch()
+{
+	$("#phonegap_nav").find(".navbar-form").toggle();
+}
+</script>

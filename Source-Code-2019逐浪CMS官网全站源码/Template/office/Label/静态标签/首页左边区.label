@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>456</LabelID>
+    <LabelName>首页左边区</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="main_l"&gt;
+&lt;div class="main_l_t"&gt;&lt;/div&gt;
+&lt;div class="main_l_m"&gt;
+&lt;div class="main_l_title"&gt;&lt;span&gt;&lt;a  id="oncitydiv" href="javascript:goreg('/product/FuncList/')"&gt;More..&lt;/a&gt;&lt;/span&gt;系列CMS子产品&lt;/div&gt;
+
+&lt;div id="home_s"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(396)/}" target="_blank" class="sp"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_index.png" /&gt;&lt;/span&gt;文章系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(626)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_shop.png" /&gt;&lt;/span&gt;企业门户系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(1092)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_chanpin.png" /&gt;&lt;/span&gt;OA办公系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(380)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_market.png" /&gt;&lt;/span&gt;网店系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(1093)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_service.png" /&gt;&lt;/span&gt;站群管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(732)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_bbs.png" /&gt;&lt;/span&gt;考试系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(591)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_glass.png" /&gt;&lt;/span&gt;试戴系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(870)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_aboutus.png" /&gt;&lt;/span&gt;三维全景&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(1094)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_office.png" /&gt;&lt;/span&gt;百科问答&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(1095)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_exam.png" /&gt;&lt;/span&gt;黄页与SNS社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(655)/}" target="_blank"&gt;&lt;span&gt;&lt;img src="/skin/2010/images/icon_project.png" /&gt;&lt;/span&gt;项目管理系统&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="main_l_m  mian_else" &gt;
+&lt;ul class="home_prj"&gt;
+&lt;div class="main_l_title"&gt;&lt;span&gt;&lt;a href="/Project"&gt;More..&lt;/a&gt;&lt;/span&gt;专业解决方案&lt;/div&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(213)/}"&gt;面向站长&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(136)/}"&gt;面向政府&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(133)/}"&gt;面向企业&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(131)/}"&gt;面向学校&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl(137)/}"&gt;面向教育&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向特殊&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向外企&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向集团&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project"&gt;面向公益&lt;/a&gt;&lt;/li&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="main_l_bottom"&gt;&lt;/div&gt;&lt;!--左边第一个环形 --&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

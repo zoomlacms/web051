@@ -1,0 +1,257 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>逐浪人和事<官方博客_Zoomla!逐浪CMS-中国最大的高端CMS+移动互联网+智慧云软件研发厂商、上海-南昌两大研发中心、门户站群|商城系统|同步支持MSSQL与Oracle优质CMS解决方案服务商</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="all" href="/skin/2010/css/calendar-brown.css" title="win2k-cold-1" />
+<script src="/skin/2010/js/calendar.js"></script>
+<style type="text/css">
+#blog_top_nav li a.nav79{display:block;width:81px; height:26px;background:url(/skin/2010/images/blog_hover.jpg) no-repeat;color:#0B3155;}
+</style>
+</head>
+<body>
+<div id="blog_top_box">
+<div class="box970">
+<div id="blog_top_r">
+<div id="blog_top_menu">
+<a href="/" title="逐浪主页">网站首页</a>|
+<a href="/shop/" title="在线购买">商业订购</a>|
+<a href="/corp/about/83.shtml" title="联系专业客服">客服中心</a>|
+<a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a>|
+<a href="/help/" title="帮助中心">帮助中心</a>|
+<a href="http://help.zoomla.cn/" target="_blank" title="在线文档">在线文档</a>|
+<a href="http://edu.zoomla.cn" target="_blank" title="逐浪软件支持的建站技术平台">建站学院</a>|
+<a href="http://www.1th.cn" title="1th.cn为您提供最优秀的广告源码服务" target="_blank">一特源码</a>|
+</div>
+
+<div id="blog_top_nav">
+<ul>
+<li><a href="/blog/" class="nav30">博客首页</a></li>
+<li><a href="/blog/product" class="nav76">逐浪产品</a></li>
+<li><a href="/blog/eye" class="nav78">逐浪观点</a></li>
+<li><a href="/blog/tech" class="nav77">逐浪技术</a></li>
+<li><a href="/blog/ren" class="nav79">逐浪人和事</a></li>
+</ul>
+</div>
+
+</div>
+<a href="/blog/"><img src="/skin/2010/images/blog_logo.jpg" alt="Zoomla!逐浪CMS官网" /></a>
+</div>
+</div>
+<!--top end -->
+
+<div class="box970">
+<div id="blog_l">
+<div id="site"><a href="/">当前位置： 首页</a>  >  
+<a href="/blog/index.shtml">官方博客</a> / 
+<a href="/Class_79/Default.aspx">逐浪人和事</a> /  信息列表</div>
+<div id="Class_bannr"><img src="/skin/default/blog_banner.jpg" /></div>
+
+<div class="day">
+<div class="b_title"><a href="/blog/ren/119.shtml"><span>2008年08月19日</span>CSDN采访记录逐浪软件创始人汪照发先生</a></div>
+<div class="abbr">
+
+摘要：古有王勃腾王阁前赋诗千古流芳，今有逐浪华夏互联开发矢志辉煌。
+走进华夏互联开放式的办公环境，任何人都能感受到这个团结奋进的企业风范。<span><a href="/blog/ren/119.shtml">阅读全文</a></span></div>
+<div class="day_post">Update @  2010-09-14 16:48 \ <a href="/Class_30/NodeNews.aspx?n=%e6%b5%aa%e8%8a%b1">浪花</a> \ 阅读(805) \ 评论(1) \  归类：<a href="/Class_79/Default.aspx" target="_blank">逐浪人和事</a></div>
+</div>
+
+
+
+<table id="Page" width="100%" border="0" cellpadding="0" cellspacing="1" align="center"><tr>	<td valign="bottom" align="center" nowrap="nowrap" style="width:40%;">总共<b>31</b>条记录&nbsp;&nbsp;当前页面:<strong><font color=red>4</font></strong>/共<strong>4</strong>页&nbsp; 每页<strong><font color=red>10</font></strong>条记录&nbsp; <a href='index.shtml'>首页</a>&nbsp;<a href='index_3.shtml'>上一页</a>&nbsp;下一页 尾页</td>		</tr>	</table>
+</div><!--left end -->
+<div id="blog_r">
+
+<div id="calendar-container">
+<script type="text/javascript"> 
+function dateChanged(calendar)
+{
+	if (calendar.dateClicked) 
+	{
+		var y = calendar.date.getFullYear();
+		var m = calendar.date.getMonth(); // integer, 0..11
+		var d = calendar.date.getDate(); // integer, 1..31
+		window.location = "/Nodepage.aspx?NodeID=30&Data=" + y + "-" + (m+1) + "-" + d;
+	}
+};
+Calendar.setup(
+{
+	flat : "calendar-container", // ID of the parent element
+	flatCallback : dateChanged // our callback function
+}
+);
+</script> 
+</div>
+
+<div class="try_rt">→专家观点</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=lotos"><Img src="/Images/userface/4.gif" alt="lotos" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=lotos">lotos</a></strong><br />
+<span>个人座右铭：</span>鄱阳湖畔千钧立业、井冈山下扬帆起航、黄浦江上谱写新章、东方明珠逐浪来。
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=%e6%88%91%e7%88%b1%e5%b0%8f%e7%99%bd%e9%bc%a0"><Img src="/Images/userface/14.gif" alt="我爱小白鼠" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e6%88%91%e7%88%b1%e5%b0%8f%e7%99%bd%e9%bc%a0">我爱小白鼠</a></strong><br />
+<span>个人座右铭：</span>我是一只经过改良的小老鼠，用心去做，用心去想！！！
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5"><Img src="/Images/userface/12.gif" alt="发哥" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5">发哥</a></strong><br />
+<span>个人座右铭：</span>建网站，选逐浪。 易上手，功能棒。 质量好，服务善。 高性能，最划算。
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=tudou%e5%9c%9f%e8%b1%86"><Img src="/Images/userface/5.gif" alt="tudou土豆" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=tudou%e5%9c%9f%e8%b1%86">tudou土豆</a></strong><br />
+<span>个人座右铭：</span>不要迷恋哥，哥只是个土豆
+</p>
+
+</div>
+
+<div class="try_blog">
+<a href="/NodeNews.aspx?NodeID=30&n=%e6%b5%aa%e8%8a%b1"><Img src="/Images/userface/9.gif" alt="浪花" /></a>
+<p>
+<strong><span>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e6%b5%aa%e8%8a%b1">浪花</a></strong><br />
+<span>个人座右铭：</span>似水的年华，谱写青春的歌曲，还有一起奋斗的同事，以及激情的浪花~！
+</p>
+
+</div>
+
+
+<div class="blog_r_ad"><a href=""><img src="/skin/2010/images/blog_ad.jpg"></a></div>
+<div id="bsearch">
+<span><iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="185px" height="25px"></iframe></span>站内搜索:
+</div>
+<div class="clear"></div>
+
+<div class="blog_r_ad" title="商业授权"><a href="/shop/" target="_blank"><img src="/skin/2010/images/blog_ad2.jpg" alt="商业授权" /></a></div>
+
+<div id="friendsite">
+<Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" size=1 name=select8>
+<Option  selected>友情链接站点</Option>
+
+<Option value="http://www.hx008.com">→ 华夏互联</Option>
+
+<Option value="http://duba.duba.net/">→ 金山毒霸</Option>
+
+<Option value="http://www.jecat.cn/">→ JeCat Tec</Option>
+
+<Option value="http://demo.2008.hx008.cn/">→ 东营车管所</Option>
+
+<Option value="http://www.saitseo.com/">→ 阳光安吉</Option>
+
+<Option value="http://www.sjtzj.com">→ 瘦金体之家</Option>
+
+<Option value="http://www.qudou668.com">→ 滑嘟嘟美容护肤</Option>
+
+<Option value="http://nc.fangqq.com/">→ 南昌房地产</Option>
+
+<Option value="http://product.yesky.com/mobilephone/bbk/">→ 步步高手机</Option>
+
+<Option value="http://down.admin5.com/">→ A5源码</Option>
+
+<Option value="http://www.admin5.com">→ A5站长网</Option>
+
+<Option value="http://www.ttuu.com">→ 推优网</Option>
+
+<Option value="http://www.0791wx.com/">→ 南昌微讯</Option>
+
+<Option value="http://wh.chinabd.com.cn">→ 武汉本地网</Option>
+
+<Option value="http://www.cge.cc/">→ 金银时代</Option>
+
+</Select>
+</div>
+
+</div><!--right end -->
+</div>
+<!--主体结束 -->
+
+</div>
+<!--中部主体结束 -->
+<div id="bottom_line"></div>
+<div id="bottom">
+<ul>
+<li><a href="/corp/">关于我们</a></li>
+<li><a href="/corp/about/94.shtml">合同文档</a></li>
+<li><a href="/corp/about/84.shtml">汇款方式</a></li>
+<li><a href="/corp/about/83.shtml">联系我们</a></li>
+<li><a href="/corp/job/">工作机会</a></li>
+<li><a href="http://2009.hx008.com/magazine/" target="_blank">电子会刊</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="http://gongyi.zoomla.cn" target="_blank">慈善公益</a></li>
+<li><a href="/photo/ltd/">参观公司</a></li>
+</ul>
+<div class="bottom_r"><a href="/corp/media/" target="_blank">媒体报道</a></div>
+<div class="bottom_r"><a href="/corp/about/93.shtml" target="_blank">公司资质</a></div>
+<div class="bottom_r"><a href="/blog" title="官方团队的开发日志">官方博客</a></div>
+</div>
+<!--底部导航结束 -->
+
+<div id="copyright">
+<div id="copyright_logo"><a href="http://www.zoomla.cn/" target="_blank"><img src="/skin/2009/copyright_logo.gif" /></a></div>
+<p>
+ &copy; Corpright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件zoomla.cn版权所有 All rights reserved<br/>
+经营许可证号:工商3601002021063 
+总机电话：021-50391046(18路) <br/>
+沪ICP备09077823号    <a href="http://www.zx110.org/" target="_blank">网络社会征信网</a> 
+<script src='/CounterLink.aspx?style=none'></script>
+</p>
+<div id="copyright_r">
+<span>7×24小时服务热线：<b>021-50391046</b></span>
+<span>技术支持：<b>13177777714</b></span>
+<ul>
+<li><a href="/corp/about/472.shtml" target="_blank" title="欣赏电子杂志"><img src="/skin/2009/magazine.gif" /></a></li>
+<li><a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2009/724.gif" /></a></li>
+<li><a href="/corp/about/476.shtml" title="鉴赏MTV电广视告片"><img src="/skin/2009/mtv.gif" /></a></li>
+<li><a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2009/iso.jpg" /></a></li>
+<li><a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2009/csdn8A.gif" /></a></li>
+</ul>
+</div>
+
+</div>
+<!--底部版权结束 -->
+
+<div id="end">
+<div id="end_l"></div>
+<div id="end_m">
+<p>本网站基于&reg;Zoomla!逐浪CMS内核开发</p>
+<div id="end_m_mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script></div>
+<ul>
+<li><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn');" href="#">设为首页</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="javascript:CorrectReport();">纠错报告</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/corp/music"  target="_blank">企业歌曲</a></li>
+</ul>
+</div>
+<div id="end_r"></div>
+</div>
+</body>
+</html>

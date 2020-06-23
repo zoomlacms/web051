@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>98</ModelID>
+    <ModelName>test2</ModelName>
+    <Description />
+    <TableName>ZL_Store_test2</TableName>
+    <ItemName>22</ItemName>
+    <ItemUnit>22</ItemUnit>
+    <ItemIcon>Default.gif</ItemIcon>
+    <ModelType>6</ModelType>
+    <ContentModule>内容页/默认test2内容页.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>false</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>1</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

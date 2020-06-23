@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+	<head> 
+	<meta charset="utf-8">
+	<title>佰奇网</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.8757.com/assets/images/favicon.png" />
+	<link type="image/x-icon" rel="shortcut icon" href="http://www.8757.com/assets/images/favicon.png" />
+	<script src="http://jsconsole.com/remote.js?E580A191-6D97-4486-BDBF-CA89558B736F"></script>
+    <link rel="stylesheet" href="assets/jquery.mobile-1.0.min.css" />
+	<script src="assets/jquery-1.6.4.min.js"></script>
+	<script src="assets/jquery.mobile-1.0.min.js"></script>
+	<script type="text/javascript">
+    $(document).bind("mobileinit", function(){
+    	$.mobile.defaultPageTransition = 'none'
+    	$.mobile.loadingMessage = 'Logind...'
+    	$.mobile.page.prototype.options.backBtnText = '后退'
+        $.mobile.page.prototype.options.addBackBtn= true
+    });
+	</script>
+	
+</head> 
+<body> 
+<div data-role="page" id="login">
+	<div data-role="header" data-theme="b">		
+        <h1>注 册</h1>
+        <a href="index.html" class="ui-btn-right">返回</a>
+	</div>
+	<div data-role="content" data-inset="true">	
+	
+        <form action="" method="POST" name="loginForm" id="loginForm">
+            <fieldset>
+                <label for="username">用户名:</label>
+                <input type="text" name="username" id="username" value=""  class="required" />
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" value="" class="required" />
+
+                <p>提交信息，视为已经阅读并同意《佰奇网会员协议》</p>
+
+                <a href="index.html" data-role="button" data-inline="true" data-theme="b">注册</a>
+
+                <p>已经有佰奇网帐户了? <a data-rel="dialog" href="login.html">登录</a></p> 
+            </fieldset>
+        </form>
+        
+	</div>
+</div>
+</body>
+</html>

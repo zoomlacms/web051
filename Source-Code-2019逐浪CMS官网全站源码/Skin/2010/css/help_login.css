@@ -1,0 +1,103 @@
+/*Zoomla!逐浪CMS官网帮助中心引导页定义*/
+html, body {margin: 0;padding: 0;height: 100%; color:#fff;
+	font-size: 12px;
+	background:#000000 url(/skin/2010/images/bg-main.jpg) no-repeat scroll 270px 0;
+}
+
+td {vertical-align:top;}
+
+img, h1, h2, h3, h4, h5, h6, p, ol, ul, form, input, textarea, select, option, table, td, th, tr, tbody, iframe,ul,li,ol,dl{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+form{display:inline;}
+
+ input, textarea{
+   font-size:1em;
+	margin-top:3px;
+	padding:2px;
+	display:inline;
+ }
+/*ff bug*/
+input[type=hidden] { visibility: hidden; }
+
+ 
+h1 {font-size:30px; margin-top:10px; margin-bottom:30px; font-weight:normal;}
+h2 {margin-top:30px; margin-bottom:10px; font-weight:normal;}
+
+
+p { color:#AE9B5A;}
+
+hr, .clearDIV {float:none;clear:both; font-size: 1px; height:1px; overflow:hidden; visibility: hidden; border:0; border-top:1px solid #AE9B5A;}
+.clearDIV  hr{display:none!important;}
+
+#mainLayer{width:1200px; height:100%}
+
+#mainHeader{ margin-left:300px; }
+#mainHeader h1 {margin:0!important;padding:0!important;}
+
+#mainMenu{ width:230px; left:75px; position: absolute; z-index:99;}
+#mainMenu ul {margin-top:55px;}
+#mainMenu ul li {list-style:none; padding-left:46px; margin-top:5px;;}
+#mainMenu ul li a {color:#6A6F77; font-family:verdana, arial, sans-serif; font-size:12px; line-height:18px; text-decoration:none;}
+#mainMenu ul li a:hover {color:#6A6F77; text-decoration:underline;}
+#mainMenu ul li.act a {color:#AE9B5A; font-size:24px;}
+#mainMenu ul li.act a:hover {color:#AE9B5A;text-decoration:none!important;}
+#mainMenu ul li.act {list-style:none outside !important; padding-top:4px; padding-bottom:4px; background:url(/skin/2010/images/spacer2.gif) 0% 50% no-repeat;}
+#mainMenu p {margin-left:46px;}
+#mainMenu p.lang {margin-top:43px; margin-left:36px; }
+#mainMenu p.lang span {background:url("/skin/2010/images/spacer1.gif") no-repeat left;}
+#mainMenu p.lang a {font-size:14px; font-family:arial; color:#6A6F77; text-decoration:none; padding-left:10px; padding-right:10px;}
+#mainMenu p.lang a:hover {text-decoration:underline;}
+#mainMenu p.lang a.used {color:#AE9B5A !important;text-decoration:none!important;}
+
+#mainMenu ul li#faq {margin-top:55px; }
+#mainMenu ul li#livehelp {margin-top:55px; padding:0 69px 0; }
+#mainMenu ul li#faq a {background:url(/skin/2010/images/bull1.gif) no-repeat; display:block; width:105px; height: 0; padding-top: 87px; overflow: hidden; text-decoration:none;}
+
+#mainMenu ul li#cssme {margin-top:55px; padding:0;}
+#mainMenu ul li#cssme a {background:url(/skin/2010/images/cssme_link.jpg) no-repeat; display:block; width:220px; height:42px; overflow: hidden; text-decoration:none; text-indent:-9999px}
+
+#mainContent{ 	width:420px; margin-left:310px; position:relative; z-index:50;}
+#mainContent .main-content {font-size:12px; font-family:verdana, arial, sans-serif;  margin-bottom:30px;margin-top:37px;}
+#mainContent .main-content h1 {margin-top:40px; margin-bottom:20px; font-size:20px; font-weight:bold;}
+#mainContent .main-content h1 a.cb1 {font-size:14px; color:#A29154; }
+#mainContent .main-content h1 a.cb1:hover {color:#A29154;text-decoration:none;}
+#mainContent .main-content h1 a.cb2 {font-size:30px; color:#fff; text-decoration:none; }
+#mainContent .main-content h1 a.cb2:hover {color:#fff;}
+#mainContent .main-content p {color:white;line-height:22px;}
+#mainContent .main-content ul {margin-left:25px;}
+#mainContent .main-content li {list-style:disc outside;  margin-top:20px; margin-bottom:20px;}
+#mainContent .main-content input.text,
+#mainContent .main-content input.button,
+#mainContent .main-content textarea {width: 100%; border:1px solid #AE9B5A;color:White;background-color: transparent;}
+#mainContent .main-content a {color:#AE9B5A; text-decoration:underline;}
+#mainContent .main-content a:hover {color:#AE9B5A; text-decoration:none;}
+
+#newsLayer {width:380px;margin-top:425px; left:740px; position: absolute; z-index:10;}
+#newsLayer .news {margin-left:65px; margin-bottom:54px; line-height:20px;}
+#newsLayer .news p span {font-size:10px; color:#fff; font-style:italic;}
+#newsLayer .phone{padding-top:20px;}
+#newsLayer .phone p.pb  {font-family:georgia, serif;color:#FFF; font-size:40px;margin-bottom:40px;}
+#newsLayer .phone p.pb span {color:#4D4D4D; font-size:14px; position:relative; top:-23px;} 
+#newsLayer .phone p.botlink {margin-left:65px;}
+#newsLayer .phone p.botlink a {color:#AE9B5A; font-size:14px;}
+#newsLayer .phone p.botlink a:hover {text-decoration:none;}
+
+.main-content .item {float:left; margin-right:14px;margin-bottom:10px;}
+
+.main-content .portfolio .item {float:left; margin-right:21px;}
+.main-content .portfolio .item h2{ background:url(/skin/2010/images/preview3.gif) no-repeat; margin:0!important; }
+.main-content .portfolio .item h2 img {margin:4px;}
+.main-content .portfolio .item p   {display:block; position:relative; float:left; height:10px; background:url(cor1.gif) no-repeat;  font-size:1px; margin:0!important;}
+.main-content .portfolio .item p a {display:block; position:relative; float:left; height:10px; color:#8B8B8B;font-size:9px; text-decoration:none!important; line-height:9px; margin-left:9px; padding-right:7px; background: white url(/skin/2010/images/cor2.gif) no-repeat right top; }
+
+p.ulink { margin-top:17px; height:20px;}
+p.ulink a {color:#AE9B5A; text-decoration:none; }
+p.ulink a {display:block; float:left; height:20px; padding-right:30px; background:url(/skin/2010/images/arrow.gif) no-repeat top right; text-decoration:underline !important;}
+p.ulink a:hover {color:#AE9B5A; text-decoration:none !important;}
+
+p.copyright {color:#6A6F77;   padding-top:50px; padding-bottom:50px; line-height:20px;}
+p.copyright a {color:#6A6F77;text-decoration: underline;}
+p.copyright a:hover {;text-decoration: none;}

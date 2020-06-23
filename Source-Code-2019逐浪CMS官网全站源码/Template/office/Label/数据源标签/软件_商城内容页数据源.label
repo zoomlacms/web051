@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>80</LabelID>
+    <LabelName>软件_商城内容页数据源</LabelName>
+    <LabelType>3</LabelType>
+    <LabelCate>数据源标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,0,2,当前页面ID</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Commodities left join {table1}.dbo.ZL_P_software on {table1}.dbo.ZL_Commodities.ItemID={table1}.dbo.ZL_P_software.ID</LabelTable>
+    <LabelField>{table1}.dbo.ZL_Commodities.*,{table1}.dbo.ZL_P_software.*</LabelField>
+    <LabelWhere>{table1}.dbo.ZL_Commodities.ID=@ItemID</LabelWhere>
+    <LabelOrder />
+    <LabelContent />
+    <LabelCount>10</LabelCount>
+    <LabelIdentity />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+  </Table>
+</NewDataSet>

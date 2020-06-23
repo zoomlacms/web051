@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>35</LabelID>
+    <LabelName>可收缩便捷导航</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="menu"&gt;
+	&lt;div class="mainBg"&gt;
+	  &lt;div class="part1"&gt;
+	    &lt;div class="version"&gt;
+          &lt;div class="padder"&gt;
+			&lt;h2 onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" class="normal"&gt;&lt;div&gt;&lt;span&gt;&lt;em&gt;快速便捷导航&lt;/em&gt;&lt;/span&gt;&lt;/div&gt;&lt;/h2&gt;
+              &lt;div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()"&gt;
+              	&lt;a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&amp;#x56FA;&amp;#x5B9A;"&gt;&lt;/a&gt;
+                &lt;div class="qq"&gt;
+           	    &lt;h3&gt;网站内核产品线&lt;/h3&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(142)/}"&gt;Zoomla!逐浪CMS个人版&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(143)/}"&gt;Zoomla!逐浪CMS企业版&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(144)/}"&gt;Zoomla!逐浪CMS教育版&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(145)/}"&gt;Zoomla!逐浪CMS政府版&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(146)/}"&gt;Zoomla!逐浪CMS开发版&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(147)/}"&gt;Zoomla!逐浪CMS订制版&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(475)/}"&gt;虚拟3D系统&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(591)/}"&gt;在线试穿(戴)系统&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="others"&gt;
+                	&lt;div class="left"&gt;
+						&lt;h3&gt;解决方案&lt;/h3&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(213)/}" target="_blank"&gt;面向个人&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(133)/}" target="_blank"&gt;面向企业&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(136)/}" target="_blank"&gt;面向政府&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(131)/}" target="_blank"&gt;面向教育&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;h3&gt;使用教程&lt;/h3&gt;
+                        &lt;ul class="last"&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(555)/}" target="_blank"&gt;使用手册&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://help.zoomla.cn/data" target="_blank"&gt;数据字典&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="{ZL:GetInfoUrl(497)/}" target="_blank"&gt;DW插件&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="/mtv/" target="_blank"&gt;视频教程&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class="right"&gt;
+                    	&lt;h3&gt;官方推荐&lt;/h3&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="/down/" target="_blank"&gt;最新下载&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/" target="_blank"&gt;发布中心&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank"&gt;产品特性&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/news/" target="_blank"&gt;官方动态&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                        &lt;h3&gt;论坛导航&lt;/h3&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-24.aspx" target="_blank"&gt;程序发布&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-25.aspx" target="_blank"&gt;技术讨论&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-26.aspx" target="_blank"&gt;模板交流&lt;/a&gt;&lt;/li&gt;
+                            &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-27.aspx" target="_blank"&gt;教程发布&lt;/a&gt;&lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+		
+  &lt;/div&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>526</LabelID>
+    <LabelName>2017首页_官方动态带副标题与时间</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>首页标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,调用信息数|TitleNum,30,1,标题长度</LabelParam>
+    <LabelTable>ZL_CommonModel</LabelTable>
+    <LabelField>CreateTime,GeneralID,NodeID,Subtitle,Title</LabelField>
+    <LabelWhere>NodeID in (3,5,8,19,21,24,23,27,31,34,43,44,76,77,78,79) and Status=99</LabelWhere>
+    <LabelOrder>CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow animated slideInUp home17_news_c"&gt;
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" class="media" title="{Field="Title"/}" target="_blank"&gt;
+&lt;div class="media-left"&gt;&lt;strong&gt;{ZL:FormatDate({Field="CreateTime"/},MM/dd)/}&lt;/strong&gt;&lt;span&gt;{ZL:FormatDate({Field="CreateTime"/},yyyy)/}&lt;/span&gt;&lt;/div&gt;
+&lt;div class="media-body"&gt;
+&lt;h5 class="media-heading"&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/h5&gt;
+&lt;p&gt;{Field="Subtitle"/}&lt;/p&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":""}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

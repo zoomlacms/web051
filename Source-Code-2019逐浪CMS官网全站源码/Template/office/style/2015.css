@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+/* Powered by Zoomla!逐浪CMS www.z01.com */
+a:active {star:expression(this.onFocus=this.blur());} 
+canvas {-ms-touch-action:double-tap-zoom;}
+.padding_l_r0{padding-left:0; padding-right:0;}
+.padding_l0{padding-left:0;}
+.padding_l2px{padding-left:2px;}
+.padding_r2px{padding-right:2px;}
+.margin_l_r0{margin-left:0; margin-right:0;}
+.padding5{ padding-left:5px; padding-right:5px;}
+/*html  {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter:  grayscale(100%);}/*网站变灰代码*/*/
+
+.myhear{ height:7em; background:#F8F8F8; }
+.myhear .navbar-nav{ padding-top:2.4em;}
+.myhear li a{ padding-left:7px; padding-right:7px;}
+.myhear .navbar-nav li a{color:#000; font-family: "STHeiti","Microsoft YaHei","黑体","arial";font-size:1.1em; back}/*主导航字体*/
+.myhear .navbar-nav .active a{ background-color:#ddd; color:#666;}
+.myhear .navbar-nav li a:hover{color:#ccc;}
+.myhear .navbar-left {padding-top:2.4em;}
+.myhear img{ width:236px; height:56px;}
+.myhear .navbar-header .navbar-brand{padding-left:0; padding-right:0;}
+
+.server_c{ padding-top:8em; background:#F2F2F2; text-align:center;}
+.server_c h1{ padding-top:0.8em;color:#000; font-family: "STHeiti","Microsoft YaHei","黑体","arial";font-size:3em;}
+.server_c2{ height:60em; background:url(images/server_bg2.png) no-repeat 50% bottom;background-size:cover;}
+.server_c2_music{ margin:auto;width:352px; padding-top:5em;text-align:center; }
+.server_c2_music span{ display:block; width:340px; height:76px; }
+.server_c2_music a{ display:block;width:352px; height:76px;background:url(images/button_box1_1.png) center no-repeat; background-size:cover; cursor:pointer;}
+.server_c2_music a:hover{ font-size:99px; background:url(images/button_box1_1_hover.png);}
+.server_c2 ul{ padding-top:6em;}
+.server_c2 li{ margin-top:20px; }
+.server_c2 li span{ padding-top:0.8em;font-size:5em;}
+.server_c2 li a{ display:block; height:200px; border:1px solid #ddd; text-align:center; color:#fff; background:rgba(255,255,255,0.2);}
+.server_c2 li a:hover{color:#CCC;}
+.server_c3{ height:30em; background:url(images/server_bg3.png) top center no-repeat; }
+.server_c3 ul{ margin-top:10px;}
+.server_c3 .list-unstyled li{ min-height:30px; line-height:30px;}
+.server_c3 .list-unstyled li:nth-child(3n+1) a{ color:#008375;}
+.server_c3 .list-unstyled li:nth-child(3n+2) a{ color:#CD9700;}
+.server_c3 .list-unstyled li:nth-child(3n) a{ color:#318DDE;}
+.server_c3 li span{ float:right; color:#666;}
+.server_c3 li #pages{ height:30px; line-height:30px;}
+.server_c4{ position:relative; min-height:60em; background:#00C2DF url(images/server_gun_c.png) center no-repeat; }
+.radar-outer{opacity:1;-webkit-transition-delay:0;transition-delay:0}
+.radar-wrap { margin:auto; -webkit-animation:ANIMATION_SPIN 4s linear .2s infinite; animation: ANIMATION_SPIN 4s linear .2s infinite;-webkit-backface-visibility: visible; -webkit-transform-origin: 215px 356px;transform-origin: 215px 356px;width: 418px; position:absolute; left:39%; top:8%;}
+.SC{background-image:url(images/server_gun_b.png);}
+.s-casa-scan{background-position:-30px 0;height:363px;width:418px}
+.server_footer{ display:none;}
+
+
+@-webkit-keyframes ANIMATION_BOUNCE { 4% {-webkit-transform:translateY(-20px) scaleY(0.99)}
+8% {-webkit-transform:none}
+12% {-webkit-transform:translateY(-20px) scaleY(0.99)}
+16% {-webkit-transform:none}
+}
+@keyframes ANIMATION_BOUNCE { 4% {transform:translateY(-20px) scaleY(0.99)}
+8% {transform:none}
+12% {transform:translateY(-20px) scaleY(0.99)}
+16% {transform:none}
+}
+@-webkit-keyframes ANIMATION_HEARTBEAT_FADE { 4% {-webkit-transform:scale(0.7)}
+8% {-webkit-transform:none}
+12% {-webkit-transform:scale(0.7)}
+16% {-webkit-transform:none}
+}
+@keyframes ANIMATION_HEARTBEAT_FADE { 4% {transform:scale(0.7)}
+8% {transform:none}
+12% {transform:scale(0.7)}
+16% {transform:none}
+}
+@-webkit-keyframes ANIMATION_SPIN { 100% {-webkit-transform:rotate(360deg)}
+}
+@keyframes ANIMATION_SPIN { 100% {transform:rotate(360deg)}
+}
+
+@media (max-width:1200px) {
+.myhear .navbar-form{ width:150px;}		
+}
+@media (max-width:767px) {/*小于768px私有*/
+.MYbottom .Mytel{height:3em;line-height:3em;background:#263E84;text-align:center; color:#fff;font-size:1.6em;FONT-FAMILY:"Microsoft Yahei", SimSun, Tahoma, Helvetica, Arial, sans-serif;font-weight:bold;}
+.myhear .navbar{ margin-bottom:0;}
+.myhear .navbar-nav{ margin-top:0; padding-top:0; background:#f5f5f5; border:none;}
+.myhear .navbar-form{ display:none; margin-top:0; padding-top:0; width:100%; background:#f5f5f5;}
+.server_c img{ width:100%;}
+.server_c h1{ margin-top:0; font-size:28px;}
+.server_c2 li{ padding-left:5px; padding-right:5px;}
+.server_c2 li a {height:150px; }
+.server_c2_music{ width:100%; padding-top:2em;}
+.server_c2 li span{ padding-top:0.3em; }
+.server_c2_music span{ display:block; width:100%; height:76px;font-size:4em; }
+.server_c2_music a{ width:100%; background:url(images/button_box1_1.png) center no-repeat; background-size:cover; cursor:pointer; border-radius:10px;}
+.server_footer{ display:inline-block; text-align:center; height:40px; line-height:40px; background:rgba(0,0,0,0.4); color:#ddd;}
+.server_footer span{ margin-right:10px; }
+.server_footer a{ color:#ddd;}
+
+.server_c2 ul{ padding-top:1.2em;}
+.server_c3{ padding-bottom:40px;}
+
+.server_c4{ min-height:20em; background-size:100% 100%;}
+.radar-outer{opacity:1;-webkit-transition-delay:0;transition-delay:0}
+.radar-wrap { margin:auto; -webkit-animation:ANIMATION_SPIN 4s linear .2s infinite; animation: ANIMATION_SPIN 4s linear .2s infinite;-webkit-backface-visibility: visible; -webkit-transform-origin:80px 150px;transform-origin: 80px 150px; width: 150px; left:23%;top:0;}
+.SC{background-image:url(images/server_gun_b.png);background-size:cover;}
+.s-casa-scan{background-position:0 0;height:135px; width:160px}
+
+}
+@media (min-width:768px) and (max-width:991px){/*在768和991px之间的屏幕里生效*/
+.radar-wrap { left:28%; top:8%;}
+.myhear navbar-brand{ position:relative; margin-left:-20px;}
+.myhear .navbar-nav{ position:absolute; padding-top:1em; right:0; top:0;}
+.myhear .navbar-form{ margin-top:30px; float:right; }
+
+
+}
+
+@media (min-width:992px){  /*大于992px私有*/
+.MYbottom{display:none;}
+.MYbottom .Mytel{display:none;}
+#scolls{position:absolute;top:0; /*left:0px;*/z-index:999; width:100%;background:#fff;border-bottom:1px solid #ccc;  }
+
+}
+
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuWm9vbWxhLmNu */

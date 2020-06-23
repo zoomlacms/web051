@@ -1,0 +1,483 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>从“人间正道”领悟的八条软件开发与项目管理心得_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="人间正道|领悟|八条|软件|开发|项目|管理|心得">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+</head>
+<body class="blog2015">
+<div class="relative">
+<div class="navbar navbar-default" role="navigation" id="home_scolls">
+<div class="container blog2015_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/skin/2010/images/logo.jpg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/blog/products/">产品管锥</a></li>
+<li><a href="/blog/eye/">观点碰撞</a></li>
+<li><a href="/blog/techs/">技术问道</a></li>
+<li><a href="/blog/ren/">那人那事</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<DIV class="blog2015_banner2" style="background-image: url({SField sid="栏目信息数据源" FD="NodePicUrl" page="0"/});">
+<DIV class="container">
+<h2 class="ZoomlaXingtiJ3"><i class="fa  fa-slideshare"></i>观点碰撞<abbr>--Zoomla!逐浪CMS官方博客</abbr></h2>
+</div>
+</div>
+
+<div class="container margintop10">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/blog/index.shtml">官方博客</a> / 
+<a href="/Class_78/Default.aspx">观点碰撞</a> / 
+</ol>
+</div>
+
+<div class="container  blog2015_con">
+<div class="container" id="Content">
+<h1>从“人间正道”领悟的八条软件开发与项目管理心得</h1>
+
+<div id="container paddin10">
+<p class="text-center">
+作者：发哥 发布时间：2009-07-22   来源:本站原创  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=465"></SCRIPT>  <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=从“人间正道”领悟的八条软件开发与项目管理心得-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/465.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<h3><div class="pull-left"><a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5"><Img src="" alt="发哥" /></a></div>
+<p>
+<strong>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5">发哥</a></strong><br />
+个人座右铭：</span>建网站，选逐浪。 易上手，功能棒。 质量好，服务善。 高性能，最划算。
+</p>
+</h3>
+<div id="Content_txt">
+<p>&nbsp;</p>
+<div>
+<div>电视剧《人间正道是仓桑》是以发生在湖南醴陵的杨家为故事基点。</div>
+<div>事实上，湖南醴陵并没有这样的一个&ldquo;杨家&rdquo;，但是这里孕育过XX党第一书记李立三等在内的精英，在建国60周年的巡礼中播出此片，笔者认为显然包括了对李立三等先驱的褒赏。</div>
+<div>从湖南醴陵向南三十公里，是一个叫&ldquo;茶陵&rdquo;的县城，那里是中国工农红军第一个革命根据地所在，现北京军事博物馆关于红军的第一段历史即从茶陵根据地开始，其后方是井冈山英豪聚义的故事开始。</div>
+<div>常年的奔波各地，作为中国程序员的一份子，自然对我党、我军的创业史留意收集，因为我们的事业走的也是一条白手起家的创业之路。而我的太太刘璐莹小姐出生于茶陵望族，更让我对其中感受颇深。</div>
+<div>在此，收撷几条鄙人从《人间正道》电视剧中的心得，与大家分享：</div>
+<div><span>一、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>程序员是需要理想的</b>，虽然社会提供了许多所谓的&ldquo;发财捷径&rdquo;，但是没有理想者最终还是会走向失败。</div>
+<div>影片：从瞿恩、瞿霞、林、立青等人的发展轨道中，我们可以看到一个个鲜活、为了理想而奋斗的人生，正是他们的理想，照亮了自己、照亮了社会、照亮了未来。</div>
+<div><b><span>二、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>即使你拥有满腔的热情、忠诚和才智，跟对人、站对队往往会决定整个项目的结局。</b></div>
+<div>剧中主人公杨立仁，从黄埔军校教官、到抗日精干特工、再到反共一等功臣，拥有聪明才智、更具备对国民党&ldquo;蒋公&rdquo;的无限忠诚，可最终的失败苦楚，不知有多少精英会有一同感慨。</div>
+<div>不幸的是，现实中，不少年轻的程序员，都是以&ldquo;学习经验&rdquo;为目标，基于是&ldquo;先学一下，等掌握了就换个山头谋新发展&rdquo;，&ldquo;要签三年合同是不可能的，因为未来三年对我来说太重要了&rdquo;，这里，要请这些年轻的所谓程序员们（笔者认为他们事实不算合格的程序员）和国民党反动派&ldquo;杨立仁&rdquo;对比下，&ldquo;民工&rdquo;思想下的人们，才志均不如人，何谈成功？</div>
+<div><b><span>三、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>人生往往只有几个重要的转折点，而为这个转折点所做的准备，远远超过事件的本身。</b></div>
+<div>想我XX党带领全国人民的解放战争，通过三场大战，即初定江山。</div>
+<div>不少人总认为当年的战争全凭的是人民解放军的巧打、游击致胜，可当你战在苏北平原一望无际的广亵大地上，你就知道这是多么激烈的战争了。一望平川、毫无掩伏，凭的是真正实力！</div>
+<div>中华人民共和国的创立是真正能力和勇者开山，而不是投机取巧的&ldquo;敏捷&rdquo;之道。</div>
+<div><b><span>四、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>不要以为只有写&ldquo;核心源码&rdquo;才是编程，没有细节和基础技术，连&ldquo;编程&rdquo;的门都不能算进。</b></div>
+<div>逐浪CMS软件团队的招聘中，经常会遇到一些心浮气躁之辈，他们认为只有使用Microsoft Visual Studio工具才叫开发，可连一个基于的CSS属性都不会，真不知这样的人才在WEB开发大行其道的今天，应如何生存下去。</div>
+<div>剧中主人公杨立青同志，战士、教官、特工、后勤、排长、连长、学生、司令，每一个职位都是以团队的需求为出发点的，只有一步一个脚印，才能走出精彩的人生。</div>
+<div><b><span>五、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>你可以放弃选择，但不能选择放弃。</b></div>
+<div>这句话我最早是从上海篱笆网的营销总监刘继汉先生口中学到，但看看电视剧中的女主角，一个个的献身于革命事业，即使是与国民党的交往中，利益相诱，也能把握住自己的立场，不得不让人钦佩。</div>
+<div>现实中，不少程序员被&ldquo;收买&rdquo;，从乙方转身跳到甲方，再从甲方程序员转身变为&ldquo;只说不做的小混混&rdquo;，这样的事件屡出不鲜。当事人认为&ldquo;有机会就不能放弃&rdquo;，事实上你何曾是俘获机会，而是机会俘获了你！</div>
+<div><span>六、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b>最好的工具往往不会生产出最好的产品，最恶劣的环境往往诞生最惊心动魄的篇章</b>。</div>
+<div>想想国民党的&ldquo;美式机械师&rdquo;，靠着从美国&ldquo;原装进口&rdquo;，在人民解放军的自力更生、自主生产的战争下，毫无生机可言。</div>
+<div>年轻的程序员们总是喜欢崇拜建模、UML、架构、领导、需求、团队管理之类的词汇，而忽略真正的开发与测试能力。要知道，再丰富的知识，没有行动去践行，也是没用的书本文化。</div>
+<div>所以我们的观点是：战场上见输赢，有能力就做出程序来，否则一切空谈都是反动派。</div>
+<div><b><span>七、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>现场，只有现场才是程序员的天坛。</b></div>
+<div>天坛，古代封建皇帝封爵加后的地方，代表了国家的最高神旨。</div>
+<div>现场，程序开发现场，才是程序员真正的天坛。</div>
+<div>国民党的精干美制军队的指挥思想是：司令部离前线只有100米、师团旅离前线只有50米，营连排只有冲锋陷阵，这样的军队才有战斗力。</div>
+<div>XX党战无不败的宣传理念是：在国民党军队中间发展革命的力量，无论何时何刻都注意白区群众的思想宣传工作。</div>
+<div>蒋家天下失败的标志是：长江以北战败，即将大批珠宝财富转运台湾，远而避之。</div>
+<div>如果说，整个团队在加班，而另一个在嘲讽，那这个嘲讽的人再才富五车也是一个无益于团队的人，他的命运只有消失和淘汰。所以逐浪CMS开发四大原则中一点是：我在现场，因为平等和责任让我不会放弃。</div>
+<div><b><span>八、<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b>勿以利小而不赢，勿以利大而倾巢。</b></div>
+<div>积小胜成大胜，用心经营，才有我军我党的成功。</div>
+<div>做生意、接订单、做开发，也同样，不以利益的大小为评价，无论是百万千万的订单，还是百元千元的订单，都应倾力做好。</div>
+<div>&ldquo;三年不开张、开张吃三年&rdquo;这样的心态，是走不出卓越的软件公司的。</div>
+<div>所以笔者常会说：&ldquo;软件公司是怎么死的？都是自己做死的：第一年做产品赢得认可、第二年做政务系统和大象跳舞，第三年玩概念销声匿迹。&rdquo;</div>
+<div>试问一下朋友们，当IBM、华为、金蝶软件、东软这样的公司都在世界各地奔跑为一分利而追逐时，我们的民营企业何尝不是&ldquo;只做政府&lsquo;大&rsquo;单&rdquo;、&ldquo;出差异地订单太累一般不做&rdquo;的生存着？</div>
+<div>国民党从抗日战争到解放战争，无一不是恃势自傲，完全以赌徒心态去经营战场，以致于若干江山在三场歼灭战后居然是无兵可派、无将可陈，其败亦必然（如果国民党也能掌握我人民解放军的游击、迂回战述，则大可避免全迁消灭、战事急剧变化之后果）。</div>
+<div>&nbsp;</div>
+<div>欲行正道，必历仓桑。</div>
+<div>笔者不是每天都是准时下班的人群，也不是整天都坐在电脑前看电视剧的无聊之辈。</div>
+<div>偶然的看到《人间正道》电视剧，即让我对其爱不释手，故在差旅途中整理出这段文字与广大同行共勉。</div>
+<div>而逐浪CMS的同事们，只要不是陪太子读书之辈，相信假以时日、脚比路长、历经艰辛，必将成就大道&mdash;因为我们胸怀理想、拥抱真知、日行日践、团结奋进。</div>
+<div>&nbsp;</div>
+<div><i>附：湖南茶陵在明代曾诞生过文学之花李东阳，&ldquo;茶陵诗派&rdquo;在历史上享有盛誉，有机会笔者将抽空就此作文以飨读者。</i></div>
+</div>
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<br/><br/><br/>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=465" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=465" target="_blank">点此参与评论</a>>></div>
+<br/>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">从“人间正道”领悟的八条软件开发与项目管理心得</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<br/><br/>
+<div class="artInfo"><p calss="pull-left">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" width=\"380\"  value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="pull-right"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址" class="img-responsive text-center" /></a></p></div>
+<br/>
+<div class="Contnet_old">上一篇文章：<a href="/blog/eye/301.shtml" title="赣鄱论道谈发展、专注技术创辉煌—访JEECMS归来">赣鄱论道谈发展、专注技术创辉煌—访JEECMS归来</a>     下一篇文章：<a href="/blog/eye/162.shtml" title="静心做开发、潜心学技术-推动中国CMS行业的成长">静心做开发、潜心学技术-推动中国CMS行业的成长</a></div>
+<!-- 内容主体结束 --></div>
+
+
+
+</div>
+
+
+<!--中部主体结束 -->
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/2441.shtml" style="color:">访客行为跟踪与互动系统上线交付商用</a><span class="">2015/09/16</span></li>
+
+<li><b>[改进]</b><a href="/updata/2419.shtml" style="color:">更正后台Safri浏览器兼容性缺陷</a><span class="">2015/07/01</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+$(function () {
+	$("#tabs1 a").mouseover(function (e) {
+		$(this).tab('show');
+	});
+   
+});
+$ID = function(el){
+	return document.getElementById(el);
+};
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+
+</script>

@@ -1,0 +1,170 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>33</LabelID>
+    <LabelName>bottom</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="foot_x"&gt;
+&lt;div id="Home_server"&gt;
+&lt;div id="Home_server_l"&gt;
+&lt;strong&gt;什么是CMS软件？&lt;/strong&gt;
+&lt;p&gt;
+CMS（Content Management System）是网站内容管理系统的统称，
+互联网上每个网站后台都是专业内容管理系统支撑-无论多大网站都不离开CMS作用。
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范，专注底层内核心技术研发，以云技术、创新精神构建行业新成就！
+&lt;/p&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;li&gt;&lt;a href="#"&gt;CMS起源&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Class_91/Default.aspx" target="_blank"&gt;CMS行业动态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/try/" target="_blank"&gt;CMS选型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;CMS厂商榜单&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://gongyi.zoomla.cn" target="_blank"&gt;东方红慈善基金&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.zoomla.cn/demo/" target="_blank"&gt;产品演示&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/case/" target="_blank"&gt;案例中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/151.shtml" target="_blank"&gt;购买指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/article/join/" target="_blank"&gt;代理加盟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/job/" target="_blank"&gt;求贤若渴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/95.shtml"&gt;版权申明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/about.shtml"&gt;About Zoomla!&lt;/a&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!--left end --&gt;
+&lt;div id="Home_server_r"&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;产品导航&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/pub/" target="_blank"&gt;下载逐浪&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/listpage.shtml" target="_blank"&gt;产品特色&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/help/Install/692.shtml" target="_blank"&gt;快速安装&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Shop/12.aspx" target="_blank"&gt;模板设计&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/help/Install/693.shtml" target="_blank"&gt;程序迁移&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/product/626.shtml" target="_blank"&gt;门户优化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/pub/380.shtml" target="_blank"&gt;商城建设&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/pub/1987.shtml" target="_blank"&gt;数据中心与高端计算&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/login5.5.html" target="_blank"&gt;云计算&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Shop/16.aspx" target="_blank"&gt;整合优化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/server/470.shtml" target="_blank"&gt;订制中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.zoomla.cn" target="_blank"&gt;用户手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.zoomla.cn/data" target="_blank"&gt;数据字典&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/media/359.shtml" target="_blank"&gt;Oracle支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/learn/2027.shtml" target="_blank"&gt;桌面壁纸&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Shop/28.aspx" target="_blank"&gt;纪念品&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;旗下矩阵&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/mtv/" target="_blank"&gt;视频教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project/" target="_blank"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/templet/" target="_blank"&gt;模板中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bbs.zoomla.cn" target="_blank"&gt;技术社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/biz/" target="_blank"&gt;商业认证&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/video" target="_blank"&gt;视频中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/472.shtml" target="_blank"&gt;电子杂志&lt;/a&gt;
+&lt;li&gt;&lt;a href="/product/pub/1932.shtml" target="_blank"&gt;院校合作&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;开放平台&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/try/kkzx/1021.shtml" target="_blank"&gt;API整合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/server/1774.shtml" target="_blank"&gt;讲师计划&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/learn/1246.shtml" target="_blank"&gt;云技术白皮书&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/" target="_blank"&gt;官方博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/down/note.pdf" target="_blank"&gt;员工手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Search/vSearch.aspx" target="_blank"&gt;全站搜索&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/news/526.shtml" target="_blank"&gt;永久免费声明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tgceo.zoomla.cn" target="_blank"&gt;TgCEO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;关于我们&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/corp/" target="_blank"&gt;关于公司&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/photo/ltd/" target="_blank"&gt;参观公司&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/music" target="_blank"&gt;企业歌曲&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/media" target="_blank"&gt;媒体报道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/93.shtml" target="_blank"&gt;资质证件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/84.shtml" target="_blank"&gt;汇款方式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/83.shtml"&gt;联系地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/94.shtml" target="_blank"&gt;合同文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;研发计划&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/updata/" target="_blank"&gt;更新记录&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/news/1902.shtml" target="_blank"&gt;豚计划&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/video/1839.shtml" target="_blank"&gt;体感研发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;教育研发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/m/" target="_blank"&gt;移动开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=""&gt;RIA客户端体验&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bbs.zoomla.cn/showforum-34.aspx" target="_blank"&gt;CFS教学专区&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;配套服务&lt;/h4&gt;
+&lt;li&gt;&lt;a href="http://v.hx008.com/domain.php" target="_blank"&gt;域名注册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.hx008.com/web.php" target="_blank"&gt;主机服务&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hx008.com/idc/" target="_blank"&gt;租用托管&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.020data.com/" target="_blank"&gt;数据修复&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.hx008.com/pro.php" target="_blank"&gt;优化推广&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hx008.com/Website/" target="_blank"&gt;网站建设&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.020data.com" target="_blank"&gt;大数据存储及修复&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;站内导航&lt;/h4&gt;
+&lt;li&gt;&lt;a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn');" href="#"&gt;设为首页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="javascript:window.external.addFavorite('http://www.zoomla.cn/','{$SiteName/}');"&gt;加入收藏&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/map.html" target="_blank"&gt;网站地图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/join/106.shtml" target="_blank"&gt;加盟代理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;订阅本站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;纠错报告&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Friendsite/"&gt;友情链接&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!--right end --&gt;
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="home_friendsite"&gt;
+&lt;p&gt;典型客户：&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li id="home_friendsite_china"&gt;&lt;a href="#"&gt;中国政府网&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_fujitsu"&gt;&lt;a href="#"&gt;Fujitsu&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_hp"&gt;&lt;a href="/Template/office/style/images//HP.pdf" target="_blank"&gt;HP&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_whedu"&gt;&lt;a href="#"&gt;武汉大学&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_huawei"&gt;&lt;a href="#"&gt;深圳华为&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_cdc"&gt;&lt;a href="#"&gt;中国疾病预防控制中心&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_kingdee"&gt;&lt;a href="#"&gt;金蝶软件&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_chinaredstar"&gt;&lt;a href="#"&gt;红星美凯龙&lt;/a&gt;&lt;/li&gt;
+    &lt;li id="home_friendsite_jxrb"&gt;&lt;a href="#"&gt;江西日报&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="copyrights"&gt;
+7×24小时服务热线：021-50391046 技术支持：13177777714&lt;br/&gt;
+&amp;copy;Corpright 2003-2012 All rights reserved 逐浪软件zoomla.cn版权所有&lt;br/&gt;
+中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号&lt;br /&gt;
+&lt;div class="mail"&gt;&lt;script src='/Qmail/SubscribeMail.aspx?type=1'&gt;&lt;/script&gt;本网站基于&amp;reg;Zoomla!逐浪CMS内核开发&lt;/div&gt;
+&lt;p&gt;
+&lt;SCRIPT&gt;document.writeln("&lt;a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=2012041112133385' target='_blank' &gt;&lt;img src='/Skin/2010/images/gs.gif' alt='工商认证'&gt;&lt;/a&gt;")&lt;/SCRIPT&gt;
+&lt;a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"&gt;&lt;img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/&gt;&lt;/a&gt;
+&lt;a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"&gt;&lt;img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /&gt;&lt;/a&gt;
+&lt;a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告片"&gt;&lt;img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告片" /&gt;&lt;/a&gt;
+&lt;a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"&gt;&lt;img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /&gt;&lt;/a&gt;
+&lt;a href="http://www.zx110.org/" target="_blank"&gt;&lt;img src="/img/zx110.png" alt="社会征信网" /&gt;&lt;/a&gt;
+&lt;a href="http://sh.cyberpolice.cn/" target="_blank"&gt;&lt;img src="/img/police.png" alt="网络110" /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--foot_x end --&gt;
+</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>396</LabelID>
+    <LabelName>底部版权定义</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent> &amp;copy; Copyright 2003-&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear &gt; 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--&gt; 
+&lt;/script&gt; 逐浪软件z01.com版权所有 All rights reserved&lt;br/&gt;
+经营许可证号:工商3601002021063 
+总机电话：021-50391046(18路) &lt;br/&gt;
+沪ICP备09077823号    &lt;a href="http://www.zx110.org/" target="_blank"&gt;网络社会征信网&lt;/a&gt; 
+&lt;script src='/CounterLink.aspx?style=none'&gt;&lt;/script&gt;
+</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

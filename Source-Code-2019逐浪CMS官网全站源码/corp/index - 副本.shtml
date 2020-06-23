@@ -1,0 +1,149 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于逐浪-专注研发|打造世界级网站内核管理系统与WEB软件服务体系</title>
+<meta name="Keywords" content="关于逐浪,上海逐一,逐浪CMS,逐浪公司,公司介绍,公司体系,about zoomla">
+<meta name="Description" content="Zoomla!逐浪CMS团队与公司的完整介绍及官方信息披露">
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<script src="/skin/2009/js/flash.js" language="javascript"></script>
+</head>
+<body class="c_body">
+<div id="top">
+<div id="logo"><a href="/"><img src="/skin/2009/images/c_logo.jpg" /></a></div>
+<div id="c_logo"><img src="/skin/2009/images/c_i_logo.jpg" /></div>
+
+<div id="top_r">
+<div id="top_o"><a href="/vip/" target="_blank" title="高端计算专区"><img src="/skin/2009/oracle.gif" />高端计算专区由此进入>></a></div>
+<ul>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/blog" title="官方团队的开发日志">官方博客</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.zoomla.cn" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</div>
+</div><!--顶部结束 -->
+
+<div id="c_nav">
+<ul>
+    <li><a href="/corp/">首页</a></li>
+    <li><a href="/corp/about/630.shtml">公司介绍</a></li>
+    <li><a href="/corp/about/631.shtml">团队介绍</a></li>
+    <li><a href="/pub/">产品下载</a></li>
+    <li><a href="/corp/media/">媒体报道</a></li>
+    <li><a href="/corp/about/632.shtml">企业文化</a></li>
+    <li><a href="/corp/job/">招贤纳仕</a></li>
+    <li><a href="/photo/ltd/">企业图库</a></li>
+    <li><a href="/corp/about/83.shtml">联系我们</a></li>
+</ul>
+</div><!--主导航 -->
+
+<div id="c_banner">
+<script language="javascript"> 
+	//初始化Flash时，包含xml路径
+	CreateFlash("banner", "http://www.zoomla.cn/skin/2009/swf/banner.swf", 1002, 280, "data=http://www.zoomla.cn/skin/2009/js/inddata.xml");
+</script>
+</div><!--中部广告位 -->
+
+<div class="company_box">
+<div class="company_box_l">
+<span><img src="/skin/2009/images/c_product_1.gif" /></span>
+<p>　　Zoomla!逐浪CMS是国内首家集成MSSQL与Oralce两大数据库高端CMS，摒弃低端模板嵌套业务，专注核心WEB计算与数据处理，为诸多软件厂商提供内核服务，开放式计算以宽广的胸怀长期在企业和高端门户系统开发领域乘风破浪、赢得了高端开发者的一致认同。</p>
+<a href="/corp/about/630.shtml" class="more">查看详情</a>
+</div>
+
+<div class="company_box_l">
+<span><img src="/skin/2009/images/c_product_2.gif" /></span>
+<p>　　专注成就未来--高端计算与数据中心的经验、十年网站开发和IDC经营轨迹，赋予了逐浪软件团队独天独厚的行业经验，作为国内致力于WEB领域的高端ISV（独立软件研发厂商），为军工企业、世界五百强、大型门户、政府以及诸多个人站长提供个性化的定制开发，硕果累累。</p>
+<a href="/product/" class="more">查看详情</a>
+</div>
+
+<div class="company_box_r">
+<div id="company_about">
+<div class="company_title">关于公司</div>
+<p>　　“追逐未来、只争第一”--上海逐一软件科技有限公司旗下拥有逐浪软件、华夏互联、华夏营销网三大门户，拥有上海、南昌两大全资集团化研发公司，逾十年网站开发与解决方案服务经验，服务包括政府、军工、外企、世界五百强企业和诸多本土站长，致力于打造最优秀的网站内核管理系统。<br />
+　　逐浪®CMS作为国内顶尖、华中地区（苏、浙、皖、湘、鄂、豫、赣）唯一自主知识产权的网站管理系统（CMS）开发商，独有的“沙箱”开发理念，赢得了高端用户和开发者推崇，完全开放的软件体制更是行业翘楚...<a href="/corp/about/630.shtml" class="more">查看详情</a>  </p>
+</div>
+</div>
+</div>
+
+
+<div class="company_box" style="height:150px;">
+<div class="company_box_l" style="width:540px;">
+<div class="company_title"><a href="/corp/media/" target="_blank">更多</a>媒体报道</div>
+<ul>
+
+<li><a href="/corp/media/2224.shtml" title="站长网报道：2014年CMS年度风向标-逐浪云建站产品感悟记" target="_blank">站长网报道：2014年CMS年度风向标-逐浪云建</a></li>
+
+<li><a href="/corp/media/2219.shtml" title="IT世界网:逐浪软件助力杭州高远旗下中国画家网改版" target="_blank">IT世界网:逐浪软件助力杭州高远旗下中国画</a></li>
+
+<li><a href="/corp/media/2213.shtml" title="汪照发总经理接受《程序员》杂志权威专访" target="_blank">汪照发总经理接受《程序员》杂志权威专访</a></li>
+
+<li><a href="/corp/media/2207.shtml" title="站长网专访：南昌网事:那一场关于互联网的风花雪月" target="_blank">站长网专访：南昌网事:那一场关于互联网的</a></li>
+
+<li><a href="/corp/media/2201.shtml" title="A5站长网:云建站与新IDC虚拟时代的到来-揭秘逐浪CMS2全新站群功能" target="_blank">A5站长网:云建站与新IDC虚拟时代的到来-揭</a></li>
+
+<li><a href="/corp/media/2094.shtml" title="站长网专访：A5会客:解密逐浪CMS研发八种武器" target="_blank">站长网专访：A5会客:解密逐浪CMS研发八种武</a></li>
+
+
+</ul>
+</div>
+
+<div class="company_box_r">
+<div id="c_case">
+<span>　→典型客户</span>
+<ul>
+
+<li><a href="/Item/2039.aspx" title="江西中川建材科技有限公司" target="_blank">江西中川建材科技有限公司</a></li>
+
+<li><a href="/Item/1998.aspx" title="WOODMARK企业网站" target="_blank">WOODMARK企业网站</a></li>
+
+<li><a href="/Item/1586.aspx" title="美途网" target="_blank">美途网</a></li>
+
+<li><a href="/Item/1585.aspx" title="江西礼品网" target="_blank">江西礼品网</a></li>
+
+<li><a href="/Item/1584.aspx" title="钢铁168社区" target="_blank">钢铁168社区</a></li>
+
+<li><a href="/Item/1583.aspx" title="一路乐购淘宝与线上商城推荐门户" target="_blank">一路乐购淘宝与线上商城推荐门户</a></li>
+
+<li><a href="/Item/1582.aspx" title="东圣广告" target="_blank">东圣广告</a></li>
+
+<li><a href="/Item/1581.aspx" title="NetLCd网" target="_blank">NetLCd网</a></li>
+
+<li><a href="/Item/1274.aspx" title="锡安的呼唤" target="_blank">锡安的呼唤</a></li>
+
+<li><a href="/Item/1271.aspx" title="江西省女劳动教养管理所" target="_blank">江西省女劳动教养管理所</a></li>
+
+
+<a href="/case/" class="more">查看更多</a>
+</ul>
+</div>
+</div>
+<div style="clear:both"></div>
+</div>
+
+<div id="c_bottom">
+<div id="c_copyright">
+<div id="copyright_logo"><a href="http://www.zoomla.cn/" target="_blank"><img src="/skin/2009/images/c_logo_bottom.jpg" /></a></div>
+<p> &copy; Corpright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script>All rights reserved 逐浪软件zoomla.cn版权所有<br />
+经营许可证号:工商3601002021063 
+总机电话：021-50391046(18路) <br/>
+沪ICP备09077823号    <a href="http://www.zx110.org/" target="_blank">网络社会征信网</a> 
+<script src='/CounterLink.aspx?style=none'></script>
+</p>
+</div>
+</div>
+</body>
+</html>

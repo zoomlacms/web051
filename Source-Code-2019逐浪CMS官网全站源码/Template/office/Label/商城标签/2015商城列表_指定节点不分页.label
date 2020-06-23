@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>496</LabelID>
+    <LabelName>2015商城列表_指定节点不分页</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>商城标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,1,节点ID|ShowNum,20,1,每页调用信息数</LabelParam>
+    <LabelTable>ZL_Commodities</LabelTable>
+    <LabelField>ID,Proname,Thumbnails,ShiPrice,LinPrice</LabelField>
+    <LabelWhere>NodeID=@NodeID and Istrue=1</LabelWhere>
+    <LabelOrder>ID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"&gt;
+&lt;div class="pic"&gt;
+&lt;a href="{ZL:GetShopUrl({Field="ID"/})/}" title="{Field="Proname"/}"&gt;&lt;img src="{ZL:GetPicUrl({Field="Thumbnails"/})/}" alt="{Field="Proname"/}"  class="img-responsive"/&gt;&lt;/a&gt;
+&lt;h3&gt;&lt;a href="{ZL:GetShopUrl({Field="ID"/})/}" title="{Field="Proname"/}" target="_blank"&gt;{Field="Proname"/}&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>zoomla_cn</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

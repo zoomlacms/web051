@@ -1,0 +1,76 @@
+{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>全新办公产品线-逐浪OA与能力办公系统</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}oas.css?v={ZL.Label id="前端样式版本号"/}" rel="stylesheet" type="text/css" />
+<link rel="prefetch" href="{$CssDir/}images/oa_section1.mp4" /> 
+<style>
+html { height:100%;}
+</style>
+</head>
+<body class="oa_body">
+<nav class="navbar navbar-default navbar-fixed-top oa_nav">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="{$CssDir/}images/logo_w.svg" alt="{$SiteName/}" /></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li class="active"><a href="{ZL:GetNodeLinkUrl(146)/}">OA首页 <span class="sr-only">(current)</span></a></li>
+<li><a href="{ZL:GetNodeLinkUrl(147)/}">产品介绍</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(148)/}">移动优先</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(149)/}">功能大赏</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(150)/}">自由开发</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(151)/}">版本历史</a></li>
+<li><a href="/OAS/get/">获得OA套件</a></li>
+<li><a href="/pub/">下载产品</a></li>
+<li><a href="/demo/">体验中心</a></li>
+<li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<div class="oa_main">
+<div class="oa_section1">
+<div class="oa_section_v">
+<video id="homeVideo1" loop src="{$CssDir/}images/oa_section1.mp4" autoplay  preload="auto">Video tag not supported.</video>
+</div>
+<div class="oa_section1_c">
+<img src="{$CssDir/}images/logo_w.svg" alt="{$SiteName/}" />
+<h1>全新办公产品线，社会化协同办公平台<br/>线上办公、邮件管理、协同操作、时间线、智能考勤、计划任务、站群、小组诸多功能<br/>支持PC、移动、微信、APP、小程序多种接入方式</h1>
+<a href="{ZL:GetNodeLinkUrl(147)/}" class="btn btn-default">Start Now</a> <a href="/corp/video/3210.shtml" style="color:#F3EEEE"><i class="fa fa-play-circle-o" aria-hidden="true"></i>
+ 新一代OA产品视频介绍</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+<script>
+$().ready(function (e) {
+    if (document.documentElement.clientWidth / document.documentElement.clientHeight > 1920 / 1080)
+        $("#homeVideo1").css("width", "100%").css("height", "auto")
+    else
+        $("#homeVideo1").css("height", "100%").css("width", "auto")
+})
+window.onresize = function ()
+{
+    if (document.documentElement.clientWidth / document.documentElement.clientHeight>1920/1080)
+        $("#homeVideo1").css("width", "100%").css("height", "auto")
+    else
+        $("#homeVideo1").css("height", "100%").css("width", "auto")
+}
+</script>

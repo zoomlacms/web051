@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>89</LabelID>
+    <LabelName>帮助中心多栏目嵌套基础类</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>帮助中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,1,节点ID</LabelParam>
+    <LabelTable>ZL_Node</LabelTable>
+    <LabelField>NodeID</LabelField>
+    <LabelWhere>NodeID=@NodeID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>&lt;div class="help_conter"&gt;
+{ZL.Label id="帮助中心首页自动循环栏目标题" NodeID="{Field="NodeID"/}" /}
+&lt;ul&gt;
+{ZL.Label id="帮助中心首页自动循环栏目标题列表" NodeID="{Field="NodeID"/}" ShowNum="6" TieltNum="64" /}
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--子栏目信息显示 --&gt;
+</LabelContent>
+    <LabelCount>10</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

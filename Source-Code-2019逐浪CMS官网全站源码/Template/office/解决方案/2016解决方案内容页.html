@@ -1,0 +1,182 @@
+﻿{ZL.Source id="解决方案内容页数据源"/}<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{SField sid="解决方案内容页数据源" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="解决方案内容页数据源" FD="Tagkey" page="0"/}" />
+<meta name="Description" content="{SField sid="解决方案内容页数据源" FD="Title" page="0"/}">
+{ZL:Boot()/}
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" >
+<link href="{$CssDir/}2014.css?v={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<style>
+.Home_server { margin-top:0;}
+.menu .softList { top:0;}
+</style>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+
+<div class="project_banner"><a href="/Project/">我们提供全网最卓越的WEB与移动软件解决方案</a></div>
+
+<div class="container project_main">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="project_main_l">
+<div class="project_main_lt">解决方案</div>
+<ul>
+{ZL.Label id="解决方案内容页左侧_列表" NodeID="{SField sid="解决方案内容页数据源" FD="NodeID" page="0"/}" ShowNum="12" /}
+<li><a href="/Project/">更多解决方案+</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 project_main_r">
+<div class="mySite">
+<ol class="breadcrumb">
+<li>当前位置：<a href="/">首页</a></li>
+<li><a href="/Project/">解决方案</a></li>
+<li class="active">{SField sid="解决方案内容页数据源" FD="Title" page="0"/}</li>
+</ol>
+</div>
+
+<div class="hidden"><SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid="解决方案内容页数据源" FD="GeneralID" page="0"/}"></SCRIPT></div>
+<div class="project_cont">
+<div class="project_cont_t">
+<h1>{SField sid="解决方案内容页数据源" FD="Title" page="0"/}</h1>
+</div>
+<div role="tabpanel">
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#project_1" aria-controls="project_1" role="tab" data-toggle="tab">背景</a></li>
+<li role="presentation"><a href="#project_2" aria-controls="project_2" role="tab" data-toggle="tab">优势</a></li>
+<li role="presentation"><a href="#project_3" aria-controls="project_3" role="tab" data-toggle="tab">细节</a></li>
+<li role="presentation"><a href="#project_4" aria-controls="project_4" role="tab" data-toggle="tab">应用</a></li>
+<li role="presentation"><a href="#project_5" aria-controls="project_5" role="tab" data-toggle="tab">成就</a></li>
+<li role="presentation"><a href="#project_6" aria-controls="project_6" role="tab" data-toggle="tab">案例</a></li>
+<li role="presentation"><a href="#project_7" aria-controls="project_7" role="tab" data-toggle="tab">体验逐浪专业化的解决方案</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+<div role="tabpanel" class="tab-pane active" id="project_1">
+<h4>解决方案背景</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="backdrop"/}
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">进一步了解逐浪CMS于本解决方案的优势分析 <i class="fa fa-angle-right"></i></button>
+{ZL:SplitDown({SField sid="解决方案内容页数据源" FD="pdf_down"/})/}
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_2">
+<h4>逐浪CMS解决方案的优势</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="summarize"/}
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">进一步查看本解决方案细节 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_3">
+<h4>本案实施细节与亮点披露</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="detail"/}
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">点击查看本案可实施的具体范围定义 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_4">
+<h4>可应用范围</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="users"/}
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">点击关注逐浪CMS在本案中取得的成就报告 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_5">
+<h4>已取得成就</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="effort"/}
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">查看逐浪CMS提供的实施案例 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_6">
+<h4>本案曾实施的案例精选推荐</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="cases"/}
+</div>
+<div class="project_cont_b">
+<button type="button" class="btn btn-info">立即体验逐浪CMS专业服务 <i class="fa fa-angle-right"></i></button>
+</div>
+</div>
+<div role="tabpanel" class="tab-pane" id="project_7">
+<h4>体验逐浪CMS卓越服务</h4>
+<div class="project_cont_c">
+{SField sid="解决方案内容页数据源" FD="experienc"/}
+</div>
+<div class="text-center">
+<a href="{ZL:GetInfoUrl(83)/}" class="btn btn-info">对《{SField sid="解决方案内容页数据源" FD="Title"/}》感兴趣吗？您可以点击立即联系专业逐浪工程师会话洽谈！ <i class="fa fa-angle-right"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+{ZL.Label id="响应式网站底部"/}
+</body>
+</html>
+<script>
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+$().ready(function(e) {
+    $("#menu_{ZL.Label id="根据ID获得指定节点标识" NodeID="{SField sid="解决方案内容页数据源" FD="NodeID" page="0"/}" /}").addClass("active");
+});
+
+//搜索关键字
+function setEmpty(obj) { if (obj.value == "全站检索") obj.value = "";}
+function settxt(obj) { if (obj.value == "") obj.value = "全站检索";}
+
+$().ready(function(e) {
+    $(".project_cont_b a:last-child").addClass("btn btn-danger").html("<i class='fa fa-download'></i> "+$(".project_cont_b a:last-child").html())
+	$('#pj{SField sid="解决方案内容页数据源" FD="GeneralID" page="0"/}').addClass("active");
+});
+$(".project_cont_b .btn-info").click(function(e){
+	var num=$(this).parent().parent().index()+1;
+	$(".project_cont ul.nav-tabs li:eq("+num+")").addClass("active").siblings("li").removeClass("active");
+	$(".project_cont .tab-content .tab-pane:eq("+num+")").addClass("active").siblings("div").removeClass("active");
+})
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script>

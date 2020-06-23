@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>389</LabelID>
+    <LabelName>产品发布主页图文动态效果</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>栏目列表</LabelCate>
+    <LabelDesc />
+    <LabelParam>TitleNum,30,1,标题长度|SysNum,100,1,简介长度|NodeID,10,1,节点ID|ShowNum,10,1,调用信息数</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_Article on ZL_CommonModel.ItemID=ZL_C_Article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.Status,ZL_CommonModel.Title,ZL_C_Article.synopsis,ZL_C_Article.Defaultpic</LabelField>
+    <LabelWhere>ZL_CommonModel.NodeID=@NodeID and ZL_CommonModel.Status=99 and ZL_C_Article.Defaultpic&lt;&gt;''</LabelWhere>
+    <LabelOrder>ZL_CommonModel.GeneralID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+		&lt;div class="slide"&gt;
+			&lt;img class="diapo" src="{$UploadDir/}{Field="Defaultpic"/}" alt="{Field="Title"/}"&gt;
+			&lt;div class="text"&gt;
+				  &lt;span class="title"&gt;&lt;a href="" target="_blank"&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/a&gt;&lt;/span&gt;
+				 {ZL:CutText({Field="synopsis"/},@SysNum,...)/}			&lt;/div&gt;
+		&lt;/div&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

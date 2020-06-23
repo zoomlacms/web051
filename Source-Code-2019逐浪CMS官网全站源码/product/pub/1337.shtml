@@ -1,0 +1,595 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>[5.0功能展示]拥抱开放-业界首家支持盛付通支付接口_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="盛付通|开放">
+<meta name="Description" content="[5.0功能展示]拥抱开放-业界首家支持盛付通支付接口">
+
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/template/office/style/2012.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+<link href="/template/office/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/template/office/style/js/openwin.js"></script> 
+<link href="/template/office/style/tinyScreen.css?version=V201312" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/2010/js/v4.js"></script>
+<SCRIPT language=javascript src="/js/pub.js"></SCRIPT>
+<!--[if IE]>
+   <script src="/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="header_x">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href="/"><img src="/skin/2010/images/logo.jpg" alt="Zoomla!逐浪CMS官网" /></a></h1>
+</div>
+<p>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号：<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="186px" height="24px"></iframe>
+</p>
+</div>
+</div>
+</div>
+<!--header_x end -->
+
+<div class="naver">
+<div id="nav_x">
+<div id="menus">
+<div id="menuNav">
+<ul>
+<strong>开启WEB云计算内核之门：</strong>
+<li class="on"><a href="/" target="_blank">网站首页</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">走进逐浪</a></li>
+<li><a href="/product/" target="_blank">产品中心</a></li>
+<li class="scuess"><img src="/template/office/style/images/hot.gif" class="hot"><a href="/case/" target="_blank">成功案例</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/templet/" target="_blank">模板中心</a></li>
+<li><a href="/pub/" target="_blank">下载产品</a></li>
+<li><a href="/demo/" target="_blank">体验中心</a></li>
+<li><a href="http://bbs.zoomla.cn/" target="_blank">技术社区</a></li>
+</ul>
+</div>
+<div class="menu">
+	<div class="mainBg">
+	  <div class="part1">
+	    <div class="version">
+          <div class="padder">
+			<h2 onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" class="normal"><div><span><em>快速便捷导航</em></span></div></h2>
+              <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+              	<a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+                <div class="qq">
+           	    <h3>网站内核产品线</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                    </ul>
+                </div>
+                <div class="others">
+                	<div class="left">
+						<h3>解决方案</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        </ul>
+                        <h3>使用教程</h3>
+                        <ul class="last">
+                            <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                            <li><a onclick="hidingMenu()" href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+                            <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                            <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                    	<h3>官方推荐</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        </ul>
+                        <h3>论坛导航</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-24.aspx" target="_blank">程序发布</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-25.aspx" target="_blank">技术讨论</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-26.aspx" target="_blank">模板交流</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-27.aspx" target="_blank">教程发布</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+		
+  </div>
+</div>
+
+</div>
+</div>
+<!--nav_x end -->
+
+</div>
+
+
+<div id="banner2014" style=""><img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" /></div>
+
+
+<div id="main">
+<div id="main_l">
+<div class="main_l_t"></div>
+<div class="main_l_m">
+<div class="main_l_title"><span><a  id="oncitydiv" href="javascript:goreg('/product/FuncList/')">More..</a></span>系列CMS子产品</div>
+
+<div id="home_s">
+<ul>
+<li><a href="/pub/396.shtml" target="_blank" class="sp"><span><img src="/skin/2010/images/icon_index.png" /></span>文章系统</a></li>
+<li><a href="/blog/product/626.shtml" target="_blank"><span><img src="/skin/2010/images/icon_shop.png" /></span>企业门户系统</a></li>
+<li><a href="/pub/1092.shtml" target="_blank"><span><img src="/skin/2010/images/icon_chanpin.png" /></span>OA办公系统</a></li>
+<li><a href="/pub/380.shtml" target="_blank"><span><img src="/skin/2010/images/icon_market.png" /></span>网店系统</a></li>
+<li><a href="/pub/1093.shtml" target="_blank"><span><img src="/skin/2010/images/icon_service.png" /></span>站群管理</a></li>
+<li><a href="/pub/732.shtml" target="_blank"><span><img src="/skin/2010/images/icon_bbs.png" /></span>考试系统</a></li>
+<li><a href="/pub/591.shtml" target="_blank"><span><img src="/skin/2010/images/icon_glass.png" /></span>试戴系统</a></li>
+<li><a href="/pub/870.shtml" target="_blank"><span><img src="/skin/2010/images/icon_aboutus.png" /></span>三维全景</a></li>
+<li><a href="/pub/1094.shtml" target="_blank"><span><img src="/skin/2010/images/icon_office.png" /></span>百科问答</a></li>
+<li><a href="/pub/1095.shtml" target="_blank"><span><img src="/skin/2010/images/icon_exam.png" /></span>黄页与SNS社区</a></li>
+<li><a href="/pub/655.shtml" target="_blank"><span><img src="/skin/2010/images/icon_project.png" /></span>项目管理系统</a></li>
+</ul>
+</div>
+<div class="main_l_m  mian_else" >
+<ul class="home_prj">
+<div class="main_l_title"><span><a href="/Project">More..</a></span>专业解决方案</div>
+<div class="clear"></div>
+<li><a href="/Article/Project/213.shtml">面向站长</a></li>
+<li><a href="/Article/Project/136.shtml">面向政府</a></li>
+<li><a href="/Article/Project/133.shtml">面向企业</a></li>
+<li><a href="/Article/Project/131.shtml">面向学校</a></li>
+<li><a href="/Article/Project/137.shtml">面向教育</a></li>
+<li><a href="/Project">面向开发</a></li>
+<li><a href="/Project">面向特殊</a></li>
+<li><a href="/Project">面向外企</a></li>
+<li><a href="/Project">面向集团</a></li>
+<li><a href="/Project">面向公益</a></li>
+<div class="clear"></div>
+</ul>
+</div>
+</div>
+<div class="main_l_bottom"></div><!--左边第一个环形 -->
+</div>
+<!--中左结束 -->
+
+<div id="prj790">
+<div id="prj790_top"></div> 
+<div id="prj580">
+
+<div id="site">
+<div id="add">
+<a href="javascript:window.print();"><img src="/skin/2010/images/i_tool_print.gif" /></a>
+<a href="/corp/about/83.shtml" target="_blank"><img src="/skin/2010/images/i_tool_email.gif" /></a>
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_b" style=" width:220px;line-height: 12px;">
+<img src="http://bdimg.share.baidu.com/static/images/type-button-1.jpg?cdnversion=20120831" />
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=button&amp;uid=6550456" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+
+当前位置： <a href="/">首页</a> / 
+<a href="/product/index.shtml">产品中心</a> / 
+<a href="/pub/index.shtml">产品特性与逐浪程序发布</a> /   <a href="/pub/listpage.shtml">精彩功能推荐</a>
+
+</div>
+
+<h1>[5.0功能展示]拥抱开放-业界首家支持盛付通支付接口</h1>
+<abbr>关于本功能的简介:</abbr>
+<article style="text-decoration:underline;">
+<span class="short" id="show_info_short"></span>
+<span class="long" id="show_info_long"></span> <span class="handle"><a charset="404-4-05-08" onclick="Display.toggleText('show_info_short', 'show_info_long', this)">展开简介</a></span>
+</article>   
+
+<abbr>详细说明</abbr>
+<article>
+<p>
+	&nbsp;当今<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=151">中国</span>，除了百度、阿里、腾讯外，还有谁是骑士般的风范？<br />
+	<br />
+	<font face="宋体">那就是盛大！</font><br />
+	<br />
+	<font face="宋体">作为游戏领域的霸主，盛大近年来的投作挺多，除了在游戏、电商领域外，在支付<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=123">系统</span>亦欲打造新的高度，<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=2743">盛付通</span>支付平台的推出说明了陈天桥要在电子商务方面大干一场的决心！</font><br />
+	<br />
+	<font face="宋体">作为国内领先的</font><font face="Calibri">CMS</font><font face="宋体">厂商，<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=162">逐浪</span></font><font face="Calibri">CMS</font><font face="宋体">于</font><font face="Calibri">2011</font><font face="宋体">年</font><font face="Calibri">3</font><font face="宋体">月全面推出支持盛付通的版本（所有商业<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=188">用户</span>都可以通过客户中心获取并将全面开放免费下载）。</font><br />
+	<br />
+	<font face="宋体">提到盛大，更多的人想到的就是盛大游戏，也许你和你身边的朋友也是盛大游戏中的一员。其实只要我们对盛大略微加深了解就知道起点、红袖、浩方平台、</font><font face="Calibri">ET</font><font face="宋体">语音、酷</font><font face="Calibri">6</font><font face="宋体">视频等等，很多网民熟知品牌都是盛大旗下的，而盛付通的发布必然会在</font><font face="Calibri">B2C</font><font face="宋体">、</font><font face="Calibri">C2C</font><font face="宋体">等电子商务领域掀起一个新的狂潮！</font><br />
+	<br />
+	<font face="宋体"><span id="attach_2036" style="position: absolute; display: none; top: 1052px; left: 702px"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311532542252.jpg" style="width: 622px; height: 408px" /> </font></p>
+<div class="t_attach" id="attach_2036_menu" style="display: none">
+	<font face="宋体"><img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2036" target="_blank"><strong>1.jpg</strong></a>(41.85 K)</font><br />
+	<div class="t_smallfont">
+		<font face="宋体">2011-3-30 14:30:40</font></div>
+</div>
+<p>
+	<br />
+	<br />
+	<font face="宋体">盛付通具有&ldquo;支出和消费的场景合二为一&rdquo;的特点，与其他支付公司相比，盛付通打造的是微支付平台，不仅金额小，更突出支付的便利性。微支付特点是&ldquo;全、易、强&rdquo;，所谓全，指全国有</font><font face="Calibri">35</font><font face="宋体">万经销网点；易，指支付便利，十秒到账率高达到</font><font face="Calibri">99.99%</font><font face="宋体">；强，指每分钟近</font><font face="Calibri">6000</font><font face="宋体">笔的交易频率，一年交易达</font><font face="Calibri">31</font><font face="宋体">亿笔，并拥有强大的风险控制体系。</font><br />
+	<br />
+	<font face="宋体">盛付通更开创了用户无需开通网银，只需要用户有一张银行卡、一部手机便可以简单快捷地完成支付，一键傻瓜式支付让普通百姓也能学会电子支付，走进电子商务。</font><br />
+	<br />
+	<font face="宋体">可是你的商城竟然不支持盛付通，甚至你对盛付通的了解远不如你的客户，那么你丢失的可能不仅仅是客户！</font><br />
+	<br />
+	<font face="宋体">然而面对盛付通的接入问题你又无从下手，怎么办？</font><br />
+	<br />
+	<font face="宋体">使用我们逐浪</font><font face="Calibri">CMS</font><font face="宋体">商城系统的客户是完全不用担心的，逐浪</font><font face="Calibri">CMS</font><font face="宋体">在第一<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=837">时间</span>就加入了盛付通的接口。</font><br />
+	<br />
+	<font face="宋体">如图，在逐浪</font><font face="Calibri">CMS</font><font face="宋体">商城系统的<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=142">后台</span>&rarr;支付平台&rarr;增加支付平台&rarr;接口类型选择</font><br />
+	<br />
+	<font face="宋体"><span id="attach_2044" style="position: absolute; display: none; top: 1870px; left: 688px"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311533240396.jpg" style="width: 622px; height: 429px" /> </font></p>
+<div class="t_attach" id="attach_2044_menu" style="display: none">
+	<font face="宋体"><img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2044" target="_blank"><strong>2.jpg</strong></a>(55.35 K)</font><br />
+	<div class="t_smallfont">
+		<font face="宋体">2011-3-30 14:30:40</font></div>
+</div>
+<p>
+	<br />
+	<br />
+	<font face="宋体">点击右边的下拉框就会看到除去我们网友常用的快钱、支付宝、财付通、银联接口，还有最新加入的<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=2742">盛付通接口</span>。</font><br />
+	<br />
+	<span id="attach_2038" style="position: absolute; display: none; top: 2397px; left: 688px"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311533383915.jpg" style="width: 622px; height: 285px" /></p>
+<div class="t_attach" id="attach_2038_menu" style="display: none">
+	<img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2038" target="_blank"><strong>3.jpg</strong></a>(37.14 K)<br />
+	<div class="t_smallfont">
+		2011-3-30 14:30:40</div>
+</div>
+<p>
+	<br />
+	<br />
+	<font face="宋体">选择盛付通接口，在添入对应的支付名称、商户</font><font face="Calibri">ID</font><font face="宋体">、安全验证码，选择商家分成点击保存就成功了！</font><br />
+	<br />
+	<span id="attach_2039" style="position: absolute; display: none; top: 2758px; left: 688px"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311533519985.jpg" style="width: 622px; height: 513px" /></p>
+<div class="t_attach" id="attach_2039_menu" style="display: none">
+	<img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2039" target="_blank"><strong>4.jpg</strong></a>(45.30 K)<br />
+	<div class="t_smallfont">
+		2011-3-30 14:30:40</div>
+</div>
+<p>
+	<br />
+	<br />
+	<font face="宋体">同时还可以增加多个商户</font><font face="Calibri">ID</font><font face="宋体">供客户选择，自由设置盛付通支付是否默认、移动位置、禁用和删除功能。</font><br />
+	<br />
+	<span id="attach_2040" style="position: absolute; display: none"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311534022751.jpg" style="width: 622px; height: 156px" /></p>
+<div class="t_attach" id="attach_2040_menu" style="display: none">
+	<img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2040" target="_blank"><strong>5.jpg</strong></a>(17.55 K)<br />
+	<div class="t_smallfont">
+		2011-3-30 14:30:40</div>
+</div>
+<p>
+	<br />
+	<br />
+	<font face="宋体">目前，支持盛付通的版本已经应用在<span class="t_tag" href="tools/ajax.aspx?t=topicswithsametag&amp;tagid=107">上海</span>邑亘的&ldquo;我购</font><font face="Calibri">V</font><font face="宋体">商城&rdquo;</font><font face="Calibri">wogv.net</font><font face="宋体">等平台，赢得了客户的赞誉</font><br />
+	<br />
+	<span id="attach_2041" style="position: absolute; display: none; top: 3579px; left: 688px"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311534211064.jpg" style="width: 622px; height: 357px" /></p>
+<div class="t_attach" id="attach_2041_menu" style="display: none">
+	<img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2041" target="_blank"><strong>6.jpg</strong></a>(33.19 K)<br />
+	<div class="t_smallfont">
+		2011-3-30 14:30:40</div>
+</div>
+<p>
+	<br />
+	<br />
+	<span id="attach_2042" style="position: absolute; display: none; top: 3964px; left: 688px"><img border="0" src="http://bbs.zoomla.cn/images/attachicons/attachimg.gif" /></span><img alt="" src="/UploadFiles/UserUpload/2011/3/201103311534387889.jpg" style="width: 622px; height: 373px" /></p>
+<div class="t_attach" id="attach_2042_menu" style="display: none">
+	<img alt="" border="0" class="absmiddle" src="http://bbs.zoomla.cn/images/attachicons/image.gif" /><a href="http://bbs.zoomla.cn/attachment.aspx?attachmentid=2042" target="_blank"><strong>7.jpg</strong></a>(32.18 K)<br />
+	<div class="t_smallfont">
+		2011-3-30 14:30:40</div>
+</div>
+<p>
+	<br />
+	<br />
+	<font face="宋体">是不是非常方便呢？由此可见选择一个不错的</font><font face="Calibri">CMS</font><font face="宋体">系统是多么的重要，你还在犹豫什么，还不马上使用逐浪</font><font face="Calibri">CMS</font><font face="宋体">告诉你的客户，商城的新接口！</font> <SCRIPT type=text/javascript>function forumhottag_callback(data){ tags = data; }</SCRIPT><SCRIPT type=text/javascript src="cache/tag/hottags_forum_cache_jsonp.txt"></SCRIPT><SCRIPT type=text/javascript>getTopicTags(14551);</SCRIPT></p>
+</article>
+
+<div id="T_page"></div>
+
+
+<div class="myabbr">最佳配置应用</div>
+
+<div class="article">
+<a href="/pub/1337.shtml"><img src="/UploadFiles//nopic.gif" alt="[5.0功能展示]拥抱开放-业界首家支持盛付通支付接口"></a>
+<strong><a href="/pub/1337.shtml">[5.0功能展示]拥抱开放-业界首家</a>:</strong>
+<a href="/pub/1337.shtml">[+More]</a>
+</div>
+
+
+<div class="myabbr">最新模块播报</div>
+
+<div class="article">
+<a href="/pub/1337.shtml"><img src="/UploadFiles//nopic.gif" alt="[5.0功能展示]拥抱开放-业界首家支持盛付通支付接口"></a>
+<strong><a href="/pub/1337.shtml">[5.0功能展示]拥抱开放-业界首家</a>:</strong>
+<a href="/pub/1337.shtml">[+More]</a>
+</div>
+
+
+<div id="edit"><img src="/skin/default/Comment.gif" />点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=1337"></SCRIPT>  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=1337" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=1337" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">[5.0功能展示]拥抱开放-业界首家支持盛付通支付接口</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+<br/>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址"></a></div>
+<div class="Contnet_old">上一篇文章：<a href="/pub/1260.shtml" title="[5.0功能展示]在线SWF（flash)文档生成功能保护您的知识版权">[5.0功能展示]在线SWF（flash)文档生成功能保护您的知识版权</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/pub/1596.shtml" title="微博功能-迎接社会化与新营销时代的到来">微博功能-迎接社会化与新营销时代的到来</a></div>
+<div class="clear"></div>
+</div><!--中部结束 -->
+
+<div id="prj790_bottom"></div>
+</div>
+</div>
+<!--中部主体结束 -->
+
+
+<div id="bottom_line"></div>
+
+111
+
+<div id="foot_x">
+<div id="Home_server">
+<div id="Home_server_l">
+<strong>什么是CMS软件？</strong>
+<p>
+CMS（Content Management System）是网站内容管理系统的统称，
+互联网上每个网站后台都是专业内容管理系统支撑-无论多大网站都不离开CMS作用。
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范，专注底层内核心技术研发，以云技术、创新精神构建行业新成就！
+</p>
+<ul class="Home_server_li">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/Class_91/Default.aspx" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.zoomla.cn" target="_blank">东方红慈善基金</a></li>
+<li><a href="http://www.zoomla.cn/demo/" target="_blank">产品演示</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">购买指南</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/about.shtml">About Zoomla!</a>
+</ul>
+</div><!--left end -->
+<div id="Home_server_r">
+<ul class="Home_server_li">
+<h4>产品导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="">模板设计</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="">门户优化</a></li>
+<li><a href="">商城建设</a></li>
+<li><a href="">数据中心与高端计算</a></li>
+<li><a href="">云台计算</a></li>
+<li><a href="">整合优化</a></li>
+<li><a href="">订制中心</a></li>
+<li><a href="http://help.zoomla.cn" target="_blank">用户手册</a></li>
+<li><a href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+<li><a href="/Search/vSearch.aspx" target="_blank">全站搜索</a></li>
+<li><a href="">Oracle支持</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/templet/" target="_blank">模板中心</a></li>
+<li><a href="http://bbs.zoomla.cn" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/mtv/" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/down/note.pdf" target="_blank">员工手册</a></li>
+<li><a href="#">接入申请</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://tgceo.zoomla.cn" target="_blank">TgCEO</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">资质证件</a></li>
+<li><a href="/corp/about/84.shtml" target="_blank">汇款方式</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>研发计划</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/Article/news/1902.shtml" target="_blank">豚计划</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="">教育研发</a></li>
+<li><a href="/m" target="_blank">移动开发</a></li>
+<li><a href="">RIA客户端体验</a></li>
+  <li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://www.020data.com/" target="_blank">数据修复</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="">大数据存储及修复</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn');" href="#">设为首页</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn/','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/Article/join/106.shtml" target="_blank">加盟代理</a></li>
+<li><a href="#">订阅本站</a></li>
+<li><a href="#">纠错报告</a></li>
+<li><a href="/Friendsite/">友情链接</a></li>
+</ul>
+</div><!--right end -->
+<div class="clear"></div>
+</div>
+
+
+<div id="home_friendsite">
+<p>典型客户：</p>
+<ul>
+    <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+    <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+    <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+    <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+    <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+    <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+    <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+    <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+    <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul><div class="clear"></div>
+</div>
+
+<div id="copyrights">
+7×24小时服务热线：021-50391046 技术支持：13177777714<br/>
+&copy;Corpright 2003-2013 All rights reserved 逐浪软件zoomla.cn版权所有<br/>
+中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+<div class="mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script>本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p>
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT>
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a>
+<a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a>
+<a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告片"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告片" /></a>
+<a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+<a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a>
+</p>
+</div>
+</div>
+<!--foot_x end -->
+
+<div id="dashboardContainer">
+<div id="dashboardLinks">
+<div id="dashboardLink_txt">
+<ul>
+<li><a href="pub/listpage.shtml">Zoomla!逐浪CMS内核</a></li>
+<li><a href="m">Z-Mobile智能移动手机应用开发</a></li>
+<li><a href="#" Onclick="javaScript:alert('抱歉当前仅对商业用户开放')">RIA交互体验与桌面智能软件</a></li>
+</ul>
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now></a></div>
+</span>
+</div>
+</div>
+</div>
+
+
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A>
+ <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+  <DIV id=divFloatToolsView class=floatR style="display:none;">
+    <DIV class=tp></DIV>
+    <DIV class=cn>
+      <UL>
+        <LI class=top>
+          <H3 class=titZx>QQ咨询</H3>
+        </LI>
+        <!--<LI><SPAN class=icoZx>在线咨询</SPAN> </LI>-->
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=69250566&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=228388629&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+        <LI class=bot><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1579153275&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+      </UL>
+      <UL class=webZx>
+        <LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+      </UL>
+      <UL>
+        <LI>
+          <H3 class=titDh>电话咨询</H3>
+        </LI>
+        <LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+        <LI class=bot>
+          <H3 class=titDc><A href="/pub/" target="_blank">免费下载逐浪CMS</A></H3>
+        </LI>
+      </UL>
+    </DIV>
+  </DIV>
+</DIV>
+<div class="Micro">
+  <div class="Micro_r"> <img src="/Template/office/style/images/Micro.gif"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+  <div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+    <div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+    <div class="Mic_r">
+      <ul>
+        <li>打开微信:</li>
+        <li>1.或选择魔术棒,扫一扫</li>
+        <li>2.或选择"朋友们",扫一扫</li>
+        <li>3.或查找微信号:逐浪CMS</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script> 

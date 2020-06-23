@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404错误-未找到该页面_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+</head>
+<body class="error404body">
+{ZL.Label id="响应式网站头部"/}
+
+<div class="container">
+<ul class="pull-right">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log">{ZL:Big5()/}</li>
+</ul>
+<ol class="breadcrumb">
+<li><a href="/">逐浪软件</a></li>
+<li class="active">404错误提示页</li>
+</ol>
+</div>
+
+<div class="container error404">
+<p>
+<strong>您正在浏览的网页可能已被删除、重命名或暂时不可用。试试下面几种方法吧：</strong><br/>
+·检查网址是否正确；<br/>
+·直接访问<a href="/">官网首页</a>；<br/>
+·逐浪软件快速入门：<a href="/help/mtv/">视频教程</a> <a href="/help/">帮助中心</a> <a href="http://edu.z01.com" target="_blank">学习网站</a> <a href="/learn/">文档下载</a> <a href="http://help.z01.com/data">数据字典</a> <a href="http://help.z01.com" target="_blank">使用手册</a> <a href="/updata" target="_blank">更新历史</a> <a href="http://ad.z01.com" target="_blank">广告源码</a><br/>
+·选择其他地方逛逛：<a href="/pub">下载逐浪</a> <a href="/demo">演示中心</a> <a href="/pub/listpage.shtml">产品中心</a> <a href="/Project/">解决方案</a> <a href="/blog">开发博客</a> <a href="/corp/media">媒体报道</a> <a href="/corp/">关于我们</a> <a href="/corp/music">企业歌曲</a><br/>
+·还可点此逛逛<a href="http://bbs.z01.com" target="_blank">开发社区</a>,或拨打全国免费客服热线：021-50391056/13177777714 ~^_^<br/>
+<a href="http://v.z01.com" target="_blank">免费在线拖拽建站与H5生成平台动力逐浪点此进入v.z01.com</a><br/>
+<a href="http://www.ziti163.com" target="_blank">逐浪字库产品全面开放-中国最开放的字库产品线</a>
+</p>
+</div>
+<!--中部主体结束 -->
+
+{ZL.Label id="响应式网站底部"/}
+</body>
+</html>
+<script>
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+ 
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script>

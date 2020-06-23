@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>5</LabelID>
+    <LabelName>当前时间</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,0,2,当前信息ID</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_Manager</LabelTable>
+    <LabelField>AddUserID,AdminID,AdminName,AdminPassword,AdminRole,AdminTrueName,AdminType,DefaultStart,EnableModifyPassword,EnableMultiLogin,IsLock,LastLoginIP,LastLoginTime,LastLogoutTime,LastModifyPwdTime,LoginTimes,ManageNode,NodeRole,PubRole,RandNumber,Theme,UserName</LabelField>
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div style="display:none;"&gt; {Repeate}AddUserID:{Field="AddUserID"/}AdminID:{Field="AdminID"/}AdminName:{Field="AdminName"/}
+
+AdminPassword:{Field="AdminPassword"/}UserName:{Field="UserName"/}
+{/Repeate}
+&lt;/div&gt;
+</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

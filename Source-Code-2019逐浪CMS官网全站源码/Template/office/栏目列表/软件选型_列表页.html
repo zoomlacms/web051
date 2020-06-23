@@ -1,0 +1,42 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteTitle/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<SCRIPT language=javascript src="/skin/2010/js/ajax.js"></SCRIPT>
+<SCRIPT language=javascript src="/js/pub.js"></SCRIPT>
+</head>
+<body>
+ {ZL.Label id="响应式网站头部"/}
+<!--顶部结束 -->
+<div id="banner2014" class="text-right">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+
+ <div class="container margintop10">
+<div class="row">
+<ol class="breadcrumb">
+当前位置： <li><a href="/">首页</a></li>
+<li><a href="/try">软件选型</a></li>
+<li><a href="{ZL:GetNodeUrl({SField sid="文章模型数据源标签" FD="NodeID" page="0"/})/}">{ZL.Label id="根据ID输出节点名称" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" /}</a> </li>
+<li> 信息列表</li>
+</ol>
+ 
+<div id="Class_txt">
+{ZL.Label id="响应式通用型栏目分页" ShowNum="20" /}
+
+</div>
+
+</div>
+</div>
+<!--中右结束 -->
+{ZL.Label id="响应式网站底部"/}
+{ZL.Label id="2012浮动客服代码"/}
+</body>
+</html>

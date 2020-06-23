@@ -1,0 +1,343 @@
+﻿
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CMS选型与应用-专注研发|打造世界级网站内核管理系统与WEB软件服务体系</title>
+<meta name="Keywords" content="cms,选型,应用,开发,软件选型,选择cms,挑选cms,CMS分析">
+<meta name="Description" content="国内专业的CMS选型研发平台">
+<script>
+function change(i,Str1,Str2,Str3,Str4,Str5,Str6,Str7,Str8,Str9,Str10,Str11,Str12,Str13,Str14,Str15,Str16)
+{
+  arrow.style.backgroundImage="url('/skin/2010/Images/product_pic"+i+".gif')";
+}
+</script>
+<style type="text/css">
+a{ text-decoration:none;}
+.try_table{font-size:12px;}
+.try_td{font-size:12px; height:125px; width:109px; background:url(/skin/2010/images/try_bg.gif) no-repeat;}
+.try_td a{color:#666;}
+.try_td a:hover{color:#A1CDD6;}
+.green{color:#3C0;}
+#words{line-height:18px; font-size:12px;}
+#words li{list-style-type:none; height:18x; line-height:18px; text-align:left; width:98px;padding-left:0px; margin-left:0px;}
+.try_table #titles{font-size:12px;}
+.white{height:20px; line-height:20px; text-align:right;}
+</style>
+</head>
+<body>
+<table width="945" border="0" cellspacing="0" cellpadding="0" height="100%" class="try_table">
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td valign="top">
+            <table width="95%" border="0" cellspacing="0" cellpadding="0" height="100%">
+              
+              <tr>
+                <td>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" height="633">
+                    <tr>
+                      <td background="/skin/2010/images/product_pic3.gif" id="arrow">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center">
+                          <tr>
+                            <td valign="bottom" height="200" width="240"> 
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" align="center" id="product" onMouseOver="javascript:change(1,'gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','submenu','submenu','submenu','gray','gray','gray')">
+                                <tr> 
+                                  <td> 
+                                    <table width="88%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray"  id="titles"><b>项目预算</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" id="words">
+										 
+<li><a href="/try/xmys/1000.shtml" title="总成本控制" target="_blank">总成本控制</a></li>
+
+<li><a href="/try/xmys/1001.shtml" title="分体项目预算" target="_blank">分体项目预算</a></li>
+
+<li><a href="/try/xmys/1002.shtml" title="二期拓展预算" target="_blank">二期拓展预算</a></li>
+
+<li><a href="/try/xmys/1003.shtml" title="使用培训预算" target="_blank">使用培训预算</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right"><a href="/try/xmys/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td width="110">
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" align="center" id="product" onMouseOver="javascript:change(2,'gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','submenu','gray','gray')">
+                                <tr> 
+                                  <td> 
+                                    <table width="85%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray" id="titles"><b>使用习惯</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" id="words">
+										 
+<li><a href="/try/syxg/1004.shtml" title="管理员习惯研究" target="_blank">管理员习惯研究</a></li>
+
+<li><a href="/try/syxg/1005.shtml" title="网站编辑法则" target="_blank">网站编辑法则</a></li>
+
+<li><a href="/try/syxg/1006.shtml" title="多浏览器兼容" target="_blank">多浏览器兼容</a></li>
+
+<li><a href="/try/syxg/1007.shtml" title="办公软件接口" target="_blank">办公软件接口</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right"><a href="/try/syxg/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td valign="bottom" width="240"> 
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" align="center" id="product" onMouseOver="javascript:change(3,'gray','gray','gray','submenu','submenu','submenu','submenu','gray','gray','gray','gray','gray','gray','gray','gray','gray')">
+                                <tr> 
+                                  <td valign="top"> 
+                                    <table width="88%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="green"  id="titles"><b>功能需求</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td class="gray" id="words" valign="top"> 
+										 
+<li><a href="/try/gnxq/1008.shtml" title="面向用户的需求" target="_blank">面向用户的需求</a></li>
+
+<li><a href="/try/gnxq/1009.shtml" title="面向管理的需求" target="_blank">面向管理的需求</a></li>
+
+<li><a href="/try/gnxq/1010.shtml" title="面向开发的需求" target="_blank">面向开发的需求</a></li>
+
+<li><a href="/try/gnxq/1011.shtml" title="面向安全的需求" target="_blank">面向安全的需求</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right" valign="top"><a href="/try/gnxq/index.shtml" class="submenu" target="_blank" id="more"><b>more</b>&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="200">
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" align="left" id="product" onMouseOver="javascript:change(4,'gray','gray','gray','gray','gray','gray','gray','gray','gray','submenu','gray','gray','gray','gray','gray','gray')">
+                                <tr> 
+                                  <td> 
+                                    <table width="88%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray"  id="titles"><b>技术平台</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td valign="top" height="18" id="words">
+										 
+<li><a href="/try/jspt/1012.shtml" title="底层技术" target="_blank">底层技术</a></li>
+
+<li><a href="/try/jspt/1013.shtml" title="平台技术" target="_blank">平台技术</a></li>
+
+<li><a href="/try/jspt/1014.shtml" title="数据库技术" target="_blank">数据库技术</a></li>
+
+<li><a href="/try/jspt/1015.shtml" title="前台语言技术-内容管理系统概述" target="_blank">前台语言技术-内</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right"><a href="/try/jspt/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>&nbsp;</td>
+                            <td>
+                              <table border="0" cellspacing="0" cellpadding="0"  id="product" class="try_td" align="right" onMouseOver="javascript:change(5,'gray','gray','gray','gray','gray','gray','gray','submenu','gray','gray','gray','gray','gray','gray','gray','gray')">
+                                <tr> 
+                                  <td> 
+                                    <table width="88%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray"  id="titles"><b>售后服务</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td valign="top" id="words">
+										 
+<li><a href="/try/shfw/1016.shtml" title="线上支持体系" target="_blank">线上支持体系</a></li>
+
+<li><a href="/try/shfw/1017.shtml" title="线下服务体系" target="_blank">线下服务体系</a></li>
+
+<li><a href="/try/shfw/1018.shtml" title="现场服务体系" target="_blank">现场服务体系</a></li>
+
+<li><a href="/try/shfw/1019.shtml" title="标准文档支持" target="_blank">标准文档支持</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right"><a href="/try/shfw/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td valign="top" height="200"> 
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" align="center" id="product" onMouseOver="javascript:change(6,'gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','submenu','submenu')">
+                                <tr> 
+                                  <td> 
+                                    <table width="88%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray" id="titles"><b>可扩展性</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td id="words">
+										 
+<li><a href="/try/kkzx/1020.shtml" title="自身衍生能力" target="_blank">自身衍生能力</a></li>
+
+<li><a href="/try/kkzx/1021.shtml" title="跨系统API接口" target="_blank">跨系统API接口</a></li>
+
+<li><a href="/try/kkzx/1022.shtml" title="跨系统数据交互" target="_blank">跨系统数据交互</a></li>
+
+<li><a href="/try/kkzx/1023.shtml" title="升级支持" target="_blank">升级支持</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right" valign="top"><a href="/try/kkzx/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td>
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" align="center" id="product" onMouseOver="javascript:change(7,'submenu','submenu','submenu','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray','gray')">
+                                <tr> 
+                                  <td> 
+                                    <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray" id="titles"><b>易用性</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td id="words" valign="top"> 
+										 
+<li><a href="/try/yyx/1024.shtml" title="普适的管理易用" target="_blank">普适的管理易用</a></li>
+
+<li><a href="/try/yyx/1025.shtml" title="再开发简明规则" target="_blank">再开发简明规则</a></li>
+
+<li><a href="/try/yyx/1026.shtml" title="托管第三方服务" target="_blank">托管第三方服务</a></li>
+
+<li><a href="/try/yyx/1027.shtml" title="适当超前的原则" target="_blank">适当超前的原则</a></li>
+
+                                        </td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right" valign="top"><a href="/try/yyx/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td valign="top">
+                              <table border="0" cellspacing="0" cellpadding="0" class="try_td" id="product" onMouseOver="javascript:change(8,'gray','gray','gray','gray','gray','gray','gray','gray','submenu','gray','gray','gray','gray','gray','gray','gray')" align="center">
+                                <tr> 
+                                  <td> 
+                                    <table width="83%" border="0" cellspacing="0" cellpadding="0" align="center" height="100%">
+                                      <tr> 
+                                        <td height="4"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" class="gray"  id="titles"><b>性价比</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td height="18" valign="top" id="words"> 
+										 
+<li><a href="/try/xjb/1028.shtml" title="当前实施性价比" target="_blank">当前实施性价比</a></li>
+
+<li><a href="/try/xjb/1029.shtml" title="未来成长性价比" target="_blank">未来成长性价比</a></li>
+
+<li><a href="/try/xjb/1030.shtml" title="历史负荷性价比" target="_blank">历史负荷性价比</a></li>
+
+<li><a href="/try/xjb/1031.shtml" title="人员培训性价比" target="_blank">人员培训性价比</a></li>
+
+                                          </td>
+                                      </tr>
+                                      <tr> 
+                                        <td></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align="right"><a href="/try/xjb/index.shtml" class="white" id="more" target="_blank"><b>more</b>&nbsp;&nbsp;</a></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="220" valign="top"> 
+            
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

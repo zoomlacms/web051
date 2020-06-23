@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>429</LabelID>
+    <LabelName>简单列表分页</LabelName>
+    <LabelType>5</LabelType>
+    <LabelCate>列表分页导航</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div style="height:24px; line-height:24px; text-align:center;"&gt;
+&lt;a href="{firsturl/}"&gt;首页&lt;/a&gt;    
+&lt;a href="{prvurl/}"&gt;上一页&lt;/a&gt;    
+&lt;a href="{nexturl/}"&gt;下一页&lt;/a&gt;    
+&lt;a href="{endurl/}"&gt;尾页&lt;/a&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo />
+    <addroot />
+    <setroot />
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

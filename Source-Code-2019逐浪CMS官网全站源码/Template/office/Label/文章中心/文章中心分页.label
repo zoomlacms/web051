@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>22</LabelID>
+    <LabelName>文章中心分页</LabelName>
+    <LabelType>4</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,2,当前节点ID</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_Article on ZL_CommonModel.ItemID=ZL_C_Article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.TableName,ZL_C_Article.ID,ZL_C_Article.source,ZL_C_Article.synopsis,ZL_C_Article.content,ZL_C_Article.Defaultpic,ZL_C_Article.Edit</LabelField>
+    <LabelWhere>ZL_CommonModel.GeneralID=@NodeID</LabelWhere>
+    <LabelOrder />
+    <LabelContent />
+    <LabelCount>10</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

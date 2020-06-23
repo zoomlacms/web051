@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>78</LabelID>
+    <LabelName>解决方案首页图片列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>解决方案</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,调用信息数</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_prj on ZL_CommonModel.ItemID=ZL_C_prj.ID</LabelTable>
+    <LabelField>GeneralID,lite_pic,Title</LabelField>
+    <LabelWhere>ZL_CommonModel.NodeID=24</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Repeate}
+&lt;div style="float:left;width:350px; height:330px; text-align:center"&gt;
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;&lt;img src="{$UploadDir/}{Field="lite_pic"/}" alt="{Field="Title"/}" width="285px" height="320px" hspace="3" vspace="7"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

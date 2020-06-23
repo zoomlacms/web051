@@ -1,0 +1,326 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}" />
+<meta name="description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}" />
+{ZL:Boot()/}
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<link href="{$CssDir/}2014.css" rel="stylesheet" />
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+<style>
+@media screen and (max-width:768px){
+.navbar-toggle { margin-top:15px; margin-bottom:15px; background:none; border:none;}/*手机菜单极简风格*/
+.navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background:none; border:none;}
+.navbar-toggle .icon-bar { background:#FFF;}
+body { position:absolute; left:0; right:0; overflow-x:hidden; backface-visibility:hidden; transition:all .3s ease-in-out; transition-delay:0s;}
+body.out { left:-200px; right:200px; overflow:hidden;}
+body.off-canvas-nav-left.out { left:200px; right:-200px;}
+.container-fluid>.navbar-collapse,.container>.navbar-collapse { margin-left:0; margin-right:0;}
+nav.navbar-fixed-top { transition:all .3s ease-in-out; transition-delay:0s;}
+nav.navbar-fixed-top.out { transform:translate3d(-200px,0,0);}
+body.off-canvas-nav-left nav.navbar-fixed-top.out { transform:translate3d(200px,0,0); transition-delay:.3s;}
+nav .navbar-nav { margin:0 -15px 7.5px -15px;}
+nav .navbar-toggle { transition:all .5s ease-in-out;}
+body.off-canvas-nav-left nav .navbar-toggle { float:left; margin-left:15px; margin-right:0;}
+nav .navbar-toggle .icon-bar { transition:all .5s ease-in-out;}
+body.out nav .navbar-toggle .icon-bar:nth-of-type(2) { transform:translate3d(0,6px,0) rotate(45deg);}
+body.out nav .navbar-toggle .icon-bar:nth-of-type(3) { opacity:0;}
+body.out nav .navbar-toggle .icon-bar:nth-of-type(4) { transform:translate3d(0,-6px,0) rotate(-45deg);}
+nav .navbar-collapse { display:block!important; position:fixed; top:0; right:-200px; bottom:0; z-index:100000; width:200px; height:100vh!important; margin:0; background-color:inherit; border:none; box-shadow:none; border-left:1px solid #e7e7e7; transition:all .3s ease-in-out;}
+body.out nav .navbar-collapse { box-shadow:-10px 0 50px 0 rgba(0,0,0,.75); transform:translate3d(-200px,0,0);}
+nav.navbar-fixed-top .navbar-collapse { right:-200px!important; max-height:none;}
+body.out nav.navbar-fixed-top .navbar-collapse { box-shadow:-10px 0 50px 0 rgba(0,0,0,.75);}
+body.off-canvas-nav-left nav .navbar-collapse { left:-200px; right:auto; border:none; border-right:1px solid #e7e7e7;}
+body.off-canvas-nav-left.out nav .navbar-collapse { box-shadow:10px 0 50px 0 rgba(0,0,0,.75); transform:translate3d(200px,0,0);}
+body.off-canvas-nav-left.out nav.navbar-fixed-top .navbar-collapse { box-shadow:10px 0 50px 0 rgba(0,0,0,.75); transform:none;}
+.navbar-fixed-top, .navbar-fixed-bottom { position:fixed;}
+.video2017_second .video2017_s h3 { font-size:2em;}
+.video2017_second .video2017_s h4 { font-size:1.5em;}
+.video2017_t video { width:100%;}
+.video2017_first { height:15em;}
+.video2017_first h3 { font-size:1.6em; left:0%; width:100%; transform:translate(0%,-50%); -webkit-transform:translate(0%,-50%);}
+.video2017_third h3 { font-size:1.6em; left:0%; width:100%; transform:translate(0%,-50%); -webkit-transform:translate(0%,-50%);}
+.video2017_fourth { margin-top:2em; margin-bottom:2em;}
+.video2017_fourth h3 { font-size:1.5em;}
+.video2017_fifth h3 { font-size:1.6em; left:0%; width:100%; transform:translate(0%,-50%); -webkit-transform:translate(0%,-50%);}
+.video2017_nav .navbar-nav { margin-top:0;}
+.navbar-default .navbar-nav > li > a { padding-left:0; color:#333; text-align:center;}
+}
+</style>
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top video2017_nav">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a href="/" class="navbar-brand"><img alt="Zoomla!逐浪CMS官网" src="{$CssDir/}/images/logo_w.svg" onerror="this.onerror=null;this.src='{$CssDir/}/images/logo.svg'" /></a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li><a href="/" target="_blank">网站首页</a></li>
+<li><a href="/product" target="_blank">走进逐浪</a></li>
+<li><a href="/shop" target="_blank">产品中心</a></li>
+<li><a href="/case" target="_blank">成功案例</a></li>
+<li><a href="/Project" target="_blank">解决方案</a></li>
+<li><a href="http://v.z01.com/mb" target="_blank">模板中心</a></li>
+<li><a href="/pub" target="_blank">下载产品</a></li>
+<li><a href="/demo" target="_blank">体验中心</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="http://v.z01.com/jz" target="_blank">微建站</a></li>
+<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<div class="video2017_first">
+<h3>WE CHANGE WEB AND HTML5</h3>
+</div>
+<div class="video2017_second">
+<div class="container">
+<div id="videobox" style="display:none;">      
+<video controls id="video"><source src="/down/zoomla_video.mp4" type="video/mp4" /></video>
+</div>
+<div class="video2017_t" id="fullScreenBtn">
+<i class="fa fa-play"></i><svg><rect></rect></svg>
+<img src="/UploadFiles/2015video.JPG" alt="{$SiteName/}" />
+</div>
+<div class="video2017_s">
+<h3>WEB开发新纪元</h3>
+<h4>中国网站H5内核研发领导企业</h4>
+<p><a href="/corp/about/476.shtml" target="_blank">探索新纪元 <i class="fa fa-arrow-right"></i></a></p>
+</div>
+</div>
+</div>
+<div class="video2017_third">
+<div id="videobox2" style="display:none;">
+<video controls id="video2"><source src="/10year.mp4" type="video/mp4" /></video>
+</div>
+<div class="video2017_t" id="fullScreenBtn2">
+<i class="fa fa-play"></i><svg><rect></rect></svg>
+<img src="/10year.jpg" alt="{$SiteName/}" />
+<h3>10年见证不平凡</h3>
+</div>
+</div>
+<div class="video2017_fourth">
+<h3>12年来我们凝聚了一批卓越的团队</h3>
+<h4>专心致志为客户和伙伴提供内核软件和高性能解决方案-做当代互联网的鲁班！</h4>
+<p><a href="/photo/ltd/" target="_blank">了解更多 >></a></p>
+</div>
+
+<div class="video2017_fifth">
+<div id="videobox3" style="display:none;">      
+<video controls id="video3"><source src="/The_sea.mp4" type="video/mp4" /></video>
+</div>
+<div class="video2017_t" id="fullScreenBtn3">
+<i class="fa fa-play"></i><svg><rect></rect></svg>
+<img src="/skin/2010/images/mp3.jpg" alt="{$SiteName/}" />
+<h3>从江到海-智慧无穷 逐浪软件企业歌曲展</h3>
+</div>
+</div>
+
+<div class="container margin_top20 video2017_list">
+<div class="row">
+{ZL.Label id="输出指定节点视频列表_企业视频" ShowNum="100" TitleNum="100" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" /}
+</div>
+</div>
+<div class="video2017_footer margin_top20">
+<div class="container-fluid">
+<p class="text-center"> {$Copyright/} </p>
+</div>
+</div>
+</body>
+</html>
+<script>
+//手机下右侧导航菜单效果
+$(function () {
+    $('button.navbar-toggle').click(function () {
+        $('body').toggleClass('out');
+        $('nav.navbar-fixed-top').toggleClass('out');
+        if ($('body').hasClass('out')) {
+            $(this).focus();
+        }
+        else {
+            $(this).blur();
+        }
+    });
+});
+$(document).click(function (e) {
+    if (!$(e.target).closest('.navbar-collapse, button.navbar-toggle').length && $('body').hasClass('out')) {
+        e.preventDefault();
+        $('button.navbar-toggle').trigger('click');
+    }
+}).keyup(function (e) {
+    if (e.keyCode == 27 && $('body').hasClass('out')) {
+        $('button.navbar-toggle').trigger('click');
+    }
+});
+window_a();
+$(window).scroll(function(){
+	if($(window).scrollTop()>500){
+		$(".video2017_nav").css("background","rgba(0,0,0,0.7)");
+	}
+	else{
+		$(".video2017_nav").css("background","none");
+	}
+});
+/*
+$(".video2017_t video").mouseover(function(){
+	$(this).trigger('play');
+}).mouseout(function(){
+	$(this).trigger('pause');
+});
+$(".video2017_third").mouseover(function(){
+	$(this).find("video").trigger('play');
+}).mouseout(function(){
+	$(this).find("video").trigger('pause');
+});
+*/
+$(window).resize(function(){
+	window_a();
+});
+function window_a(){
+	var height=$(window).height(); //浏览器可见高度
+	var width=$(window).width(); //浏览器可见宽度
+	if(width<768){
+		$(".video2017_fifth img").css("height","18em").css("width",width);
+	}
+	else {
+		$(".video2017_fifth img").css("height",height).css("width",width);
+	}
+}
+</script>
+<script type="text/javascript">
+var fullInterval = null;
+//反射調用
+var invokeFieldOrMethod = function(element, method) 
+{
+   var usablePrefixMethod;
+   ["webkit", "moz", "ms", "o", ""].forEach(function(prefix) {
+       if (usablePrefixMethod) return;
+       if (prefix === "") {
+           // 无前缀，方法首字母小写
+           method = method.slice(0,1).toLowerCase() + method.slice(1);   
+       }
+       var typePrefixMethod = typeof element[prefix + method];
+       if (typePrefixMethod + "" !== "undefined") {
+           if (typePrefixMethod === "function") {
+               usablePrefixMethod = element[prefix + method]();
+           } else {
+               usablePrefixMethod = element[prefix + method];
+           }
+       }
+   });
+    
+       return usablePrefixMethod;
+};
+//入全屏
+function launchFullscreen(element) {
+    //此方法不可以在異步任務中執行，否則火狐無法全屏
+    if (element.requestFullscreen) {
+        element.requestFullscreen();
+    } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+    } else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+    } else if (element.oRequestFullscreen) {
+        element.oRequestFullscreen();
+    }
+    else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullScreen();
+    } else {
+        var docHtml = document.documentElement;
+        var docBody = document.body;
+        var videobox = document.getElementById('videobox');
+		var videobox2 = document.getElementById('videobox2');
+		var videobox3 = document.getElementById('videobox3');
+        var cssText = 'width:100%;height:100%;overflow:hidden;';
+        docHtml.style.cssText = cssText;
+        docBody.style.cssText = cssText;
+        videobox.style.cssText = cssText + ';' + 'margin:0px;padding:0px;';
+		videobox2.style.cssText = cssText + ';' + 'margin:0px;padding:0px;';
+		videobox3.style.cssText = cssText + ';' + 'margin:0px;padding:0px;';
+        document.IsFullScreen = true;
+    }
+}
+//退出全屏
+ function exitFullscreen() {
+     document.getElementById("videobox").style.display = "none";
+	 document.getElementById("videobox2").style.display = "none";
+	 document.getElementById("videobox3").style.display = "none";
+     document.getElementById("video").pause();
+     document.getElementById("video2").pause();
+     document.getElementById("video3").pause();
+     if (document.exitFullscreen) {
+         document.exitFullscreen();
+     } else if (document.msExitFullscreen) {
+         document.msExitFullscreen();
+     } else if (document.mozCancelFullScreen) {
+         document.mozCancelFullScreen();
+     } else if (document.oRequestFullscreen) {
+         document.oCancelFullScreen();
+     } else if (document.webkitExitFullscreen) {
+         document.webkitExitFullscreen();
+     } else {
+         var docHtml = document.documentElement;
+         var docBody = document.body;
+         var videobox = document.getElementById('videobox');
+         var videobox2 = document.getElementById('videobox2');
+         var videobox2 = document.getElementById('videobox3');
+         docHtml.style.cssText = "";
+         docBody.style.cssText = "";
+         videobox.style.cssText = "";
+		 videobox2.style.cssText = "";
+		 videobox3.style.cssText = "";
+         document.IsFullScreen = false;
+     }
+ }
+ document.addEventListener("FullscreenChange", function () {
+     if(document.fullscreen==false){exitFullscreen();}
+ }, false);
+
+ document.addEventListener("mozfullscreenchange", function () {
+     if(document.mozFullScreen==false){exitFullscreen();}
+ }, false);
+//chrome等
+ document.addEventListener("webkitfullscreenchange", function () {
+     if (document.webkitIsFullScreen == false) { exitFullscreen(); }
+ }, false);
+//IE等
+ document.addEventListener("MSFullscreenChange", function () {
+     if (document.msFullscreenElement != null) {
+     } else {
+         exitFullscreen();
+     }
+ }, false);
+
+
+var videoObj = document.getElementById("video");
+document.getElementById('fullScreenBtn').addEventListener('click',function(){
+    launchFullscreen(document.getElementById("video"));
+    document.getElementById("videobox").style.display = "";
+    videoObj.play();
+},false);
+var videoObj2 = document.getElementById("video2");
+document.getElementById('fullScreenBtn2').addEventListener('click',function(){
+    launchFullscreen(document.getElementById("video2"));
+    document.getElementById("videobox2").style.display = "";
+    videoObj2.play();
+},false);
+var videoObj3 = document.getElementById("video3");
+document.getElementById('fullScreenBtn3').addEventListener('click',function(){
+    launchFullscreen(document.getElementById("video3"));
+    document.getElementById("videobox3").style.display = "";
+    videoObj3.play();
+},false);
+</script>

@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>508</LabelID>
+    <LabelName>帮助中心首页输出指定节点文章列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>ShowNum,10,1,显示数|TitleNum,30,1,标题长|SysNum,200,1,简介数|NodeID,1,1,节点ID</LabelParam>
+    <LabelTable>ZL_CommonModel LEFT JOIN ZL_C_Article ON ZL_CommonModel.ItemID=ZL_C_Article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.CreateTime,ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.Title,ZL_C_Article.author,ZL_C_Article.synopsis</LabelField>
+    <LabelWhere>(NodeID=@NodeID or FirstNodeID=@NodeID or NodeID in (select NodeID from ZL_Node where ParentID=@NodeID)) And Status=99 And ModelID=1</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 helpCenter_doc_c"&gt;
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="{ZL:GetInfoOpen({Field="NodeID"/})/}" title="{Field="Title"/}"&gt;
+&lt;div class="helpCenter_doc_ct"&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/div&gt;
+&lt;div class="helpCenter_doc_cn"&gt;{Field="author"/}&lt;/div&gt;
+&lt;div class="helpCenter_doc_cm"&gt;{ZL:FormatDate({Field="CreateTime"/},yyyy-MM-dd)/}&lt;/div&gt;
+&lt;div class="helpCenter_doc_cp"&gt;{ZL:CutText({Field="synopsis"/},@SysNum,...)/}&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":"ZL_C_Article"}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

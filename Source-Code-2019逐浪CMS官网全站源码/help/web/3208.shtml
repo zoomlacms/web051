@@ -1,0 +1,763 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>使用Sass Maps 的技术普及知识_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="使用,普及,知识,技术,">
+<meta name="Description" content="使用Sass Maps 的技术普及知识">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20170901" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style//images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r"> <a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_2"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_45"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_9"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_24"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li id="menu_123"><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_44" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_20"><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/help/web/index.shtml">网页学园</a> / 
+</ol>
+   
+<div id="Content">
+<h1>使用Sass Maps 的技术普及知识</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2017-10-28  来源:佚名   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3208"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=使用Sass Maps 的技术普及知识-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3208.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p>Sass的第三个<a href="http://blog.sass-lang.com/posts/184094-sass-33-is-released" target="_blank">版本</a>给我们带来了新的数据类型，叫做<code>map</code>。虽然你可以不知道这个名称，但在其他的语言中我们使用过<code>map</code>，通常就是关联数组。换句话说，Sass的<code>map</code>就是用关键名匹配对应值的一个数组。</p><p>不清楚为什么在CSS中为什么要使用<code>map</code>(Sass也是CSS)，因此这篇文章将告诉你为什么？这个列表虽然不能面面俱到可以随意查找和分享其他用例。</p><p><br/></p><p></p><h2>Sass Maps的语法</h2><p>在开始之前，让大家在同一个水平上开始讨论这个话题。</p><p>Sass的<code>map</code>使用一个括号，并用冒号将键值与值分隔开来，并且使用逗号将一对键值/值隔开。下面是一个有效的Sass的<code>map</code>：</p><pre class="cs">$map:&nbsp;(
+&nbsp;&nbsp;key:&nbsp;value,
+&nbsp;&nbsp;other-key:&nbsp;other-value);</pre><p>你需要了解的一些事情：</p><ul class=" list-paddingleft-2"><li><p>		有很多<a href="http://sass-lang.com/documentation/Sass/Script/Functions.html#map-functions" target="_blank">功能可以让你操作Sass的<code>map</code></a></p></li><li><p><code>map</code>中的最后一对键值/值后面的逗号可以省略</p></li><li><p>		键值必须是唯一的</p></li><li><p>		键值/值可以是Sass的任何<a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#data_types" target="_blank">类型</a>，包括列表和其他的Sass map</p></li></ul><p>是的，键值不一定是字符串，他可以是任何类型。甚至是<code>null</code>，甚至是<code>map</code>。前段时间我和Chris Eppstein, Micah Godbolt, Jackie Balzer在Twitter上有一个<a href="https://twitter.com/jackiebackwards/status/464841567006502912" target="_blank">这方面的讨论</a>。在JavaScript中，不使用字符串做为键值，总感觉不舒服。但在Sass中，这是可以的。</p><p>好的，现在你应该准备好了继续往下阅读。</p><h2>	项目的配置</h2><p>让我们从一个常见的案例开始。当其用到项目的配置中时，Sass的<code>map</code>是非常完美的。这个想法非常简单，你准备好了键值/值，那么在项目的任何地方你可以通过<code>map-get($map, $key)</code>来获取他们。</p><p>我从我的《<a href="http://www.sitepoint.com/managing-responsive-breakpoints-sass/" target="_blank">Sass中管理响应式断点</a>》一文中取了一个示例:</p><pre class="php">//&nbsp;_config.scss$breakpoints:&nbsp;(
+&nbsp;&nbsp;small:&nbsp;767px,
+&nbsp;&nbsp;medium:&nbsp;992px,
+&nbsp;&nbsp;large:&nbsp;1200px
+);//&nbsp;_mixins.scss@mixin&nbsp;respond-to($breakpoint)&nbsp;{&nbsp;
+&nbsp;&nbsp;@if&nbsp;map-has-key($breakpoints,&nbsp;$breakpoint)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;@media&nbsp;(min-width:&nbsp;#{map-get($breakpoints,&nbsp;$breakpoint)})&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@content;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;@else&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;@warn&nbsp;&quot;Unfortunately,&nbsp;no&nbsp;value&nbsp;could&nbsp;be&nbsp;retrieved&nbsp;from&nbsp;`#[ERR:未定义的系统标签(breakpoint}`.&nbsp;&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&quot;Please&nbsp;make&nbsp;sure&nbsp;it&nbsp;is&nbsp;defined&nbsp;in&nbsp;`$breakpoints`&nbsp;map.&quot;;
+&nbsp;&nbsp;}
+}//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;color:&nbsp;hotpink;
+
+&nbsp;&nbsp;@include&nbsp;respond-to(small)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;tomato;
+&nbsp;&nbsp;}
+}</pre><p>编译出来的CSS:</p><pre class="css">.element&nbsp;{&nbsp;&nbsp;color:&nbsp;hotpink;}@media&nbsp;(min-width:&nbsp;767px)&nbsp;{&nbsp;&nbsp;.element&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;tomato;
+&nbsp;&nbsp;}}</pre><p>这样处理很酷。另一个典型的例子是用在颜色上的。对于不同的颜色设置不同的变量也是蛮好的，但当你有几十种颜色的时候，它可能会变得有些凌乱。如果你有一个管理颜色的<code>map</code>，在一个主题中使用这个<code>map</code>将是一个不错的选择：</p><pre class="php">//&nbsp;_config.scss$colors:&nbsp;(
+&nbsp;&nbsp;sexy:&nbsp;#FA6ACC,
+&nbsp;&nbsp;glamour:&nbsp;#F02A52,
+&nbsp;&nbsp;sky:&nbsp;#09A6E4);//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;background-color:&nbsp;map-get($colors,&nbsp;sky);
+}</pre><p>最终你会厌倦一遍又一遍使用<code>map-get($colors, ...)</code>来获取颜色，因此你可以写一个小函数来帮助你减少这样的痛苦：</p><pre class="php">//&nbsp;_functions.scss@function&nbsp;color($key)&nbsp;{
+&nbsp;&nbsp;@if&nbsp;map-has-key($colors,&nbsp;$key)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;@return&nbsp;map-get($colors,&nbsp;$key);
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;@warn&nbsp;&quot;Unknown&nbsp;`#key}`&nbsp;in&nbsp;$colors.&quot;;
+&nbsp;&nbsp;@return&nbsp;null;
+}//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;background-color:&nbsp;color(sky);&nbsp;//&nbsp;#09A6E4}</pre><p>有关于这方面的介绍，你可以阅读Erskine Design写的一篇文章《<a href="http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/" target="_blank">Friendlier colour names with Sass maps</a>》。</p><p>让我们来看最后一个关于Sass的<code>map</code>示例：用<code>map</code>来配置<code>z-index</code>。在Sass的项目如何管理<code>z-index</code>，我想相关介绍最早是来自于Chris Coyier写的一篇文章《<a href="http://css-tricks.com/handling-z-index/" target="_blank">如何管理z-index</a>》。你知道怎么写<code>z-index: 999999999;</code>？那么好，从此以后你不用这么痛苦：</p><pre class="php">//&nbsp;_config.scss$z-layers:&nbsp;(
+&nbsp;&nbsp;bottomless-pit:&nbsp;-9999,&nbsp;&nbsp;default:&nbsp;1,
+&nbsp;&nbsp;dropdown:&nbsp;3000,
+&nbsp;&nbsp;overlay:&nbsp;4000
+&nbsp;&nbsp;modal:&nbsp;4001);//&nbsp;_functions.scss@function&nbsp;z($key)&nbsp;{
+&nbsp;&nbsp;@if&nbsp;map-has-key($z-layers,&nbsp;$key)&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;@return&nbsp;map-get($z-layers,&nbsp;$key);
+&nbsp;&nbsp;}
+
+&nbsp;&nbsp;@warn&nbsp;&quot;Unknown&nbsp;`#key}`&nbsp;in&nbsp;$z-layers.&quot;;
+&nbsp;&nbsp;@return&nbsp;null;
+}//&nbsp;_component.scss.overlay&nbsp;{
+&nbsp;&nbsp;z-index:&nbsp;z(overlay);
+}
+
+.element&nbsp;{
+&nbsp;&nbsp;z-index:&nbsp;(z(default)&nbsp;+&nbsp;1);
+}</pre><p>鉴于如何搞定<code>z-index</code>就可以。我认为这是一件好事，你将所有的索引值放到一个<code>map</code>中，并慢慢的收集。那么你知道一个应用程序中会有多少个层需要使用，因此你会很容易明白这是怎么一回事。</p><h2>	模块配置</h2><p>我们继续来聊配置，但让我们聊得更深层次一点，有关于模块/组件的配置。我曾经写过一篇《[使用Sass的<code>map</code>来配置对象]](<a href="http://hugogiraudel.com/2014/05/05/bringing-configuration-objects-to-sass/" target="_blank">http://hugogiraudel.com/2014/05/05/bringing-configuration-objects-to-sass/</a>)》，为什么它会让人感兴趣，多个参数支持单个参数的<code>map</code>。快速了解一下这个概念：</p><pre class="php">//&nbsp;_mixins.scss@mixin&nbsp;module($options:&nbsp;())&nbsp;{&nbsp;&nbsp;$configuration:&nbsp;map-merge((
+&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;grey,
+&nbsp;&nbsp;&nbsp;&nbsp;duration:&nbsp;0s,
+&nbsp;&nbsp;&nbsp;&nbsp;border:&nbsp;null
+&nbsp;&nbsp;),&nbsp;$options);
+
+&nbsp;&nbsp;color:&nbsp;map-get($configuration,&nbsp;color);
+&nbsp;&nbsp;transition:&nbsp;map-get($configuration,&nbsp;duration);
+&nbsp;&nbsp;border:&nbsp;map-get($configuration,&nbsp;border);
+}//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;@include&nbsp;module((
+&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;pink,
+&nbsp;&nbsp;&nbsp;&nbsp;duration:&nbsp;.15s
+&nbsp;&nbsp;));
+}</pre><p>这种解决方案有一个问题是他引入了混合宏（mixin），这是一个可怕的事情。在现实生活中，一个标签可以用来识别一个人。当读取一个函数/混合宏的标签，我们应该要能确定哪些参数是预期的。通过这种方法，他不是的，因为你必须先阅读默认混合宏的默认参数，你才能知道发生了什么事情。</p><p>要解决这个问题，在混合宏中要有一个详细的参数（定义多个参数），然后使用<code>...</code>来配置一个单一的<code>map</code>，将前面的示例修改成：</p><pre class="php">//&nbsp;_mixins.scss@mixin&nbsp;module($color:&nbsp;grey,&nbsp;$duration:&nbsp;0s,&nbsp;$border:&nbsp;null)&nbsp;{
+&nbsp;&nbsp;color:&nbsp;$color;
+&nbsp;&nbsp;transition:&nbsp;$duration;
+&nbsp;&nbsp;border:&nbsp;$border;
+}//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;@include&nbsp;module((
+&nbsp;&nbsp;&nbsp;&nbsp;duration:&nbsp;.15s,
+&nbsp;&nbsp;&nbsp;&nbsp;color:&nbsp;pink
+&nbsp;&nbsp;)...);
+}</pre><p>在这个案例中，<code>...</code>扩展了<code>map</code>中每个键值对应的值。他不仅使混合宏参数更加明确，然而还将混合宏容入到<code>map</code>中。</p><p>这个介绍了如何让<code>map</code>映射的值插入到混合宏中变成其多个参数。如果我没记错，Python是为数不多的语言，允许你调用一个函数有多个数组。所以在Sass中能做到这一点，真的好强大。</p><h2>	重复的东西</h2><p>到现在，我们使用<code>map</code>可以获取关联的值。接下来再整整其他东西，使用Sass的<code>map</code>让我们不做重复的事情。CSS是一个非常WET(Write Everything Twice)的语言，代码重复是经常可见的。Sass中的的循环，列表和<code>map</code>非常有用，可以帮助大家不要做重复的事情。</p><p>想想字体图标库。字体图标通常是给伪元素<code>:before</code>的<code>content</code>传一个硬编码。<a href="https://github.com/FortAwesome/Font-Awesome/blob/master/css/font-awesome.css#L184" target="_blank">例如</a>:</p><pre class="css">.fa-glass:before&nbsp;{&nbsp;&nbsp;content:&nbsp;&quot;\f000&quot;;}.fa-music:before&nbsp;{&nbsp;&nbsp;content:&nbsp;&quot;\f001&quot;;}.fa-search:before&nbsp;{&nbsp;&nbsp;content:&nbsp;&quot;\f002&quot;;}.fa-envelope-o:before&nbsp;{&nbsp;&nbsp;content:&nbsp;&quot;\f003&quot;;}.fa-heart:before&nbsp;{&nbsp;&nbsp;content:&nbsp;&quot;\f004&quot;;}/*&nbsp;...&nbsp;*/</pre><p>哇，好烦，好多重复的。如果我们将这些硬编码和类名放到一个<code>map</code>中：</p><pre class="ruby">$icons:&nbsp;(&nbsp;&nbsp;glass:&nbsp;&quot;\f000&quot;,&nbsp;&nbsp;music:&nbsp;&quot;\f001&quot;,&nbsp;&nbsp;search:&nbsp;&quot;\f002&quot;,
+&nbsp;&nbsp;envelope-o:&nbsp;&quot;\f003&quot;,&nbsp;&nbsp;heart:&nbsp;&quot;\f004&quot;);@each&nbsp;$name,&nbsp;$icon&nbsp;in&nbsp;$icons&nbsp;{
+&nbsp;&nbsp;.fa-#name}:before&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;content:&nbsp;$icon;
+&nbsp;&nbsp;}
+}</pre><p>这样做，不是更好吗？尤其是当你有几十个或上百个字体图标的时候。如果你想了解更多这方面的东西，你可以看看Frédéric Perrin 在CodePen上创建的<a href="http://codepen.io/blustemy/pen/9a1593232ff8b3cf85dd08cc74a82dbd?editors=010" target="_blank">一个小示例</a>。<a href="http://thoughtbot.com/" target="_blank">Thoughtbot</a>写了一篇文章《<a href="http://robots.thoughtbot.com/removing-sass-duplication" target="_blank">Removing Sass Duplication Using Sass Maps</a>》，使用类似的方法用在背景图片处理上。</p><h2>CSS Dump</h2><p>下面是另一个用例（如果我没有记错，这个用例是<a href="http://www.phase2technology.com/blog/exploring-maps-in-sass-3-3/" target="_blank">Micah Godbolt</a>介绍的）。使用Sass的<code>map</code>来声明一个Sass的列表。你可以看到，使用新功能，Sass的维护者尽量将其往CSS官方的语法靠近。这就是我们为什么在媒体查询中使用一个空的<code>()</code>列表/<code>map</code>作为映射值。</p><p>因为Sass的<code>map</code>更像CSS规则的列表，你可能会有一个Sass的混合宏插入Sass的<code>map</code>中：</p><pre class="php">//&nbsp;_mixins.scss@mixin&nbsp;print($declarations)&nbsp;{
+&nbsp;&nbsp;@each&nbsp;$property,&nbsp;$value&nbsp;in&nbsp;$declarations&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;#property}:&nbsp;$value
+&nbsp;&nbsp;}
+}//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;@include&nbsp;print((
+&nbsp;&nbsp;&nbsp;&nbsp;margin:&nbsp;0&nbsp;auto,
+&nbsp;&nbsp;&nbsp;&nbsp;max-width:&nbsp;50%,
+&nbsp;&nbsp;&nbsp;&nbsp;overflow:&nbsp;hidden
+&nbsp;&nbsp;));
+}</pre><p>现在你可能会想这是为什么？为什么不一开始就直接用手编写CSS，而要通过一个混合宏呢？它是关于一个上下文的。当在一个模块中或者其他里面，你通常会设置用一个<code>map</code>储存一些变量，用来设置组件的默认表现形式，如：</p><pre class="php">//&nbsp;_component.scss$configuration:&nbsp;(
+&nbsp;&nbsp;padding:&nbsp;1em,
+&nbsp;&nbsp;margin:&nbsp;0&nbsp;1em,
+&nbsp;&nbsp;color:&nbsp;grey
+);
+
+.element&nbsp;{
+&nbsp;&nbsp;color:&nbsp;map-get($configuration,&nbsp;color);
+&nbsp;&nbsp;padding:&nbsp;map-get($configuration,&nbsp;padding);
+&nbsp;&nbsp;margin:&nbsp;map-get($configuration,&nbsp;margin);
+
+&nbsp;&nbsp;&amp;::before&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;background-color:&nbsp;map-get($configuration,&nbsp;color);
+&nbsp;&nbsp;}
+}</pre><p>而不是通过手动获取每个关键值映射的值，你可以简单的通过<code>css()</code>混合宏输出<code>map</code>:</p><pre class="php">//&nbsp;_component.scss.element&nbsp;{
+&nbsp;&nbsp;@include&nbsp;print($configuration);
+
+&nbsp;&nbsp;&amp;::before&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;background-color:&nbsp;map-get($configuration,&nbsp;color);
+&nbsp;&nbsp;}
+}</pre><p>编译出的CSS：</p><pre class="css">.element&nbsp;{&nbsp;&nbsp;padding:&nbsp;1em;
+&nbsp;&nbsp;margin:&nbsp;0&nbsp;1em;
+&nbsp;&nbsp;color:&nbsp;grey;}.element::before&nbsp;{&nbsp;&nbsp;background-color:&nbsp;grey;}</pre><h2>最后思考</h2><p>正如你所看到的，Sass的<code>map</code>是一个强大的工具。它不仅让你的代码更有条理，而且还可以帮助你避免代码的冗余和重复。你呢，是怎么使用Sass的<code>map</code>？</p><blockquote><p>Sass的<code>map</code>的确是一个强大的工具，但要彻底掌握和灵活的使用Sass的<code>map</code>功能，我们还需要了解更多相关知识。借此机会，将w3cplus有关于介绍Sass的<code>map</code>教程罗列在此，方便同学们更好的学习和掌握<code>map</code>的功能：</p><ul class=" list-paddingleft-2"><li><p><a href="http://www.w3cplus.com/preprocessor/exploring-maps-in-sass-3-3-part-1.html" target="_blank">探索Sass3.3中的Maps(一)</a></p></li><li><p><a href="http://www.w3cplus.com/preprocessor/sass-maps-memoization.html" target="_blank">探索Sass3.3中的Maps(二)：Sass Maps和Memoization</a></p></li></ul><p>如果你也是一个Sass爱好者，如果你也有相关的使用经验，欢迎在下面的评论中与我们一起分享。——@大漠</p></blockquote><p><strong>译者手语：</strong>整个翻译依照原文线路进行，并在翻译过程略加了个人对技术的理解。如果翻译有不对之处，还烦请同行朋友指点。谢谢！</p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='UploadDir)请检查标签名是否正确]"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3208" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3208" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">使用Sass Maps 的技术普及知识</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/web/3209.shtml" title="webpack 入门指南">webpack 入门指南</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/help/web/3209.shtml" title="webpack 入门指南">webpack 入门指南</a></div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+<h4 class="panel-title">解决方案</h4>
+</a>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+<li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+<li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+<li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+<li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+<li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+<li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+<li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+<li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+<li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+<li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+<li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/" target="_blank">+方案中心>></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<h4 class="panel-title">产品中心</h4>
+</a>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/pub/" target="_blank">免费下载</a></li>
+<li><a href="/mtv" target="_blank">在线视频</a></li>
+<li><a href="/help/" target="_blank">帮助中心</a></li>
+<li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+<li><a href="/updata/" target="_blank">更新历史</a></li>
+<li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+</ul>      </div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+<h4 class="panel-title">商业合作</h4>
+</a>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/shop/" target="_blank">在线购买</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+<li><a href="/article/join/">代理加盟</a></li>
+<li><a href="/biz/" target="_blank">正版查询</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+<h4 class="panel-title">关于公司</h4>
+</a>
+<div id="collapsefour" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/" target="_blank">企业介绍</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+<li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+<li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+<h4 class="panel-title">企业文化</h4>
+</a>
+<div id="collapsefive" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+<li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+<li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+<h4 class="panel-title">创新学院</h4>
+</a>
+<div id="collapsesix" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/video/1839.shtml">体感研究</a></li>
+<li><a href="/pub/1932.shtml">院校合作</a></li>
+<li><a href="/corp/about/472.shtml">电子杂志</a></li>
+<li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+</ul>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3205.shtml" style="color:" target="_blank">RSA加密安全</a><span class="">2017/10/25</span></li>
+
+<li><b>[新增]</b><a href="/updata/3204.shtml" style="color:" target="_blank">全面启用Bootstrap4.0框架</a><span class="">2017/10/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3192.shtml" style="color:" target="_blank">新固顶属性-更方便的固顶内容方法</a><span class="">2017/09/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:" target="_blank">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

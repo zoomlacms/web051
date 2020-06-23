@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <NodeID>88</NodeID>
+    <NodeName>社区沙龙</NodeName>
+    <NodeType>3</NodeType>
+    <NodeDir>SQSL</NodeDir>
+    <NodeUrl>http://bbs.zoomla.cn/showforum-30.aspx</NodeUrl>
+    <Tips />
+    <ParentID>31</ParentID>
+    <OrderID>10</OrderID>
+    <Child>0</Child>
+    <Depth>2</Depth>
+    <NodePicUrl />
+    <Description />
+    <Meta_Keywords />
+    <Meta_Description />
+    <OpenType>true</OpenType>
+    <PurviewType>true</PurviewType>
+    <CommentType>true</CommentType>
+    <HitsOfHot>0</HitsOfHot>
+    <ListTemplateFile />
+    <IndexTemplate />
+    <ContentModel />
+    <ItemOpenType>false</ItemOpenType>
+    <ContentHtmlRule>0</ContentHtmlRule>
+    <ListPageHtmlEx>0</ListPageHtmlEx>
+    <ContentFileEx>0</ContentFileEx>
+    <HtmlPosition>0</HtmlPosition>
+    <NodeListType>0</NodeListType>
+    <ConsumePoint>0</ConsumePoint>
+    <ConsumeType>0</ConsumeType>
+    <ConsumeTime>0</ConsumeTime>
+    <ConsumeCount>0</ConsumeCount>
+    <Shares>0</Shares>
+    <Custom />
+    <NodeListUrl />
+    <LastinfoTemplate />
+    <HotinfoTemplate />
+    <ProposeTemplate />
+    <OpenTypeTrue />
+    <ItemOpenTypeTrue />
+    <NodeBySite>0</NodeBySite>
+    <SiteConfige />
+    <SafeGuard>0</SafeGuard>
+    <Contribute>0</Contribute>
+    <SiteContentAudit>0</SiteContentAudit>
+    <AuditNodeList />
+    <AddPoint>0</AddPoint>
+    <AddMoney>0.0000</AddMoney>
+    <ClickTimeout>0</ClickTimeout>
+    <Purview />
+    <AddUserExp>0</AddUserExp>
+    <DeducUserExp>0</DeducUserExp>
+    <ListPageEx>0</ListPageEx>
+    <LastinfoPageEx>0</LastinfoPageEx>
+    <HotinfoPageEx>0</HotinfoPageEx>
+    <ProposePageEx>0</ProposePageEx>
+    <Viewinglimit xml:space="preserve">                                                                                                    </Viewinglimit>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,219 @@
+﻿{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}">
+{ZL:Boot()/}
+<link href="/skin/2010/css/global.css?id=170420" rel="stylesheet" type="text/css" />
+<script src="/js/scrolltopcontrol.js"></script>
+<script language="javascript"> 
+function fontZoom(size){ 
+document.getElementById('Content_txt').style.fontSize=size+'px'
+}
+var c1 = 1;
+var c2 = 9;
+var c3 = 0;
+var c4 = 0;
+var c5 = 0;
+</script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&s=1&ak=891134d8e2d66c2dd6b4b08da9555ca5"></script>
+<style>
+.cfoot{border-top:5px solid #AEAEAE;}
+.a3g{margin:auto;width:520px;font-size:2em;}
+.a3g a{cursor:pointer;}
+.a3g .bj a,.a3g .sh a,.a3g .nc a{display:block;cursor:pointer;padding-left:2.6em; height:50px;padding-right:2px;border:1px #ddd solid;}
+.a3g .bj a{background:url(/Template/office/style/images/gs.jpg) 0 0;cursor:pointer;}
+.a3g .sh a{background:url(/Template/office/style/images/gs.jpg) -160px 0;cursor:pointer;}
+.a3g .nc a{background:url(/Template/office/style/images/gs.jpg) -330px 0;cursor:pointer;}
+#allmap,#a2lmap,#map_bj,#map_sh,#map_jx{width:720px;height:380px; border:6px solid #ccc; margin:2px;}
+.anchorBL{display:none;}
+</style>
+</head>
+<body class="c_body">
+<div id="top">
+<div id="logo"><a href="/"><img src="/Template/office/style//images/logo.svg" /></a></div>
+<div id="c_logo"><img src="/skin/2009/images/c_i_logo.jpg" /></div>
+
+<div id="top_r">
+<div id="top_o"><a href="/vip/" target="_blank" title="高端计算专区"><img src="/skin/2009/oracle.gif" />高端计算专区由此进入>></a></div>
+<ul>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</div>
+</div><!--顶部结束 -->
+
+<div id="c_nav">
+<ul>
+    <li><a href="/corp/">首页</a></li>
+    <li><a href="/corp/about/630.shtml">公司介绍</a></li>
+    <li><a href="/corp/about/631.shtml">团队介绍</a></li>
+    <li><a href="/pub/">产品下载</a></li>
+    <li><a href="/corp/media/">媒体报道</a></li>
+    <li><a href="/corp/about/632.shtml">企业文化</a></li>
+    <li><a href="/corp/job/">招贤纳仕</a></li>
+    <li><a href="/photo/ltd/">企业图库</a></li>
+    <li><a href="/corp/about/83.shtml">联系我们</a></li>
+</ul>
+</div><!--主导航 -->
+
+<div id="bannerbg">
+<div id="bannerline">
+<div id="flash">
+<a style="display:block;" id="flash1" name="#ffffff"><img src="/skin/2009/images/c_ad1.jpg" /></a>
+<a id="flash2" name="#619AA1"><img src="/skin/2009/images/c_ad2.jpg" /></a>
+<a id="flash3" name="#198FFB"><img src="/skin/2009/images/c_ad3.jpg" /></a>
+<a id="flash4" name="#198FFB"><img src="/skin/2009/images/c_ad4.jpg" /></a>
+<div style="width:980px; margin:auto; position:relative;">
+<DIV class="flash_bar">
+<DIV id="f1" class="dq" onclick="changeflash(1)"><img src="/skin/2009/images/c_ad1_i.jpg" /></DIV>
+<DIV id="f2" class="no" onclick="changeflash(2)"><img src="/skin/2009/images/c_ad2_i.jpg" /></DIV>
+<DIV id="f3" class="no" onclick="changeflash(3)"><img src="/skin/2009/images/c_ad3_i.jpg"  /></DIV>
+<DIV id="f4" class="no" onclick="changeflash(4)"><img src="/skin/2009/images/c_ad4_i.jpg"  /></DIV>
+</DIV>
+</div>
+</div>
+</div>
+</div>
+
+<SCRIPT>
+var currentindex=1;
+$("#flashBg").css("background",$("#flash1").attr("name"));
+function changeflash(i) {	
+currentindex=i;for (j=1;j<=4;j++){
+if (j==i) 
+{
+$("#flash"+j).fadeIn("normal");
+$("#flash"+j).css("display","block");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("dq");
+$("#bannerbg").css("background-color",$("#flash"+j).attr("name"));
+}
+else
+{
+$("#flash"+j).css("display","none");
+$("#f"+j).removeClass();
+$("#f"+j).addClass("no");}
+}}
+function startAm(){
+timerID = setInterval("timer_tick()",5000);
+}
+function stopAm(){
+clearInterval(timerID);
+}
+function timer_tick() {
+currentindex=currentindex>=3?1:currentindex+1;
+changeflash(currentindex);}
+$(document).ready(function(){
+$(".flash_bar div").mouseover(function(){stopAm();}).mouseout(function(){startAm();});
+startAm();
+}); 
+//document.getElementById("p7ssm_fsc").style.width=document.body.width+"px";
+</SCRIPT>
+<!-- end .container -->
+
+
+
+<div class="company_box">
+<div id="Content">
+<div id="site"><a href="/">当前位置： 首页</a>  >  <a href="{ZL:GetNodeUrl({SField sid="文章模型数据源标签" FD="NodeID" page="0"/})/}">{ZL.Label id="根据ID输出节点名称" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</a> > {SField sid="文章模型数据源标签" FD="Title" page="0"/}</div>
+<h1>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+<div id="Content_Info">作者：{SField sid="文章模型数据源标签" FD="author" page="0"/} 发布时间：{ZL:FormatDate({SField sid="文章模型数据源标签" FD="UpDateTime" page="0"/},yyyy-MM-dd)/}  来源:{SField sid="文章模型数据源标签" FD="source" page="0"/}   字体大小：【<A target="_self" href="javascript:fontZoom(18)">大</A> <A target="_self" href="javascript:fontZoom(14)">中</A> <A target="_self" href="javascript:fontZoom(12)">小</A>】  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid=""文章模型数据源标签" FD="GeneralID"/}"></SCRIPT>
+
+<a href="http://demo.z01.com/Class_100/NodePage.aspx?t={SField sid="文章模型数据源标签" FD="Title" page="0"/}-来自{$SiteName/}&urls={$SiteURL/}/item/{SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a>
+
+</div>
+<div id="Content_txt">
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='{$UploadDir/}"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('{SField sid="文章模型数据源标签" FD="Defaultpic"/}');
+showimg('');
+</script>
+</div>
+<div id="T_page">{ZL.Page id="2009版内容分页" num="{SField sid="文章模型数据源标签" FD="F_page" page="0"/}"/}</div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：{ZL.Label id="编辑_信息中心通用"/} &nbsp;<a href="/user/content/addtofav.aspx?infoid={SField sid="文章模型数据源标签" FD="GENERALID"/}" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">{ZL.Label id="2012点击复制网址代码"/}</div>
+<div class="Contnet_old">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}     下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+
+</div>
+</div>
+
+<div id="c_bottom">
+<div id="c_copyright">
+<div id="copyright_logo"><a href="http://www.z01.com/" target="_blank"><img src="/skin/2009/images/c_logo_bottom.jpg" /></a></div>
+<p>{ZL.Label id="底部版权定义"/}</p>
+</div>
+</div>
+<!--底部版权结束 -->
+<nav class="navbar navbar-default navbar-fixed-bottom cfoot" role="navigation">
+<div class="container text-center">
+
+<div class="a3g">
+<ul class="nav nav-tabs " role="tablist">
+<li class="bj"><a href="#tobj">北京公司</a></li>
+<li class="sh"><a href="#tosh">上海公司</a></li>
+<li class="nc"><a href="#tonc">南昌公司</a></li>
+</ul>
+</div>
+
+</div>
+</nav>
+</body>
+</html>
+<script type="text/javascript">
+	// 北京逐浪地址
+	var map = new BMap.Map("map_bj");
+	var point = new BMap.Point(116.351721,40.015623);
+	map.centerAndZoom(point, 18);
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);              // 将标注添加到地图中
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.addControl(new BMap.NavigationControl());   //添加地图类型控件
+	var label = new BMap.Label("<strong>北京逐浪软件科技有限公司</strong><br/>ADD:北京市海淀区中关村东路18号1号楼1508<br/>TEL:85731423",{offset:new BMap.Size(20,-10)});
+	marker.setLabel(label);
+
+	// 上海逐浪地址
+	var map = new BMap.Map("map_sh");
+	var point = new BMap.Point(121.527138,31.234036);
+	map.centerAndZoom(point, 18);
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);              // 将标注添加到地图中
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.addControl(new BMap.NavigationControl());   //添加地图类型控件
+	var label = new BMap.Label("<strong>上海逐浪软件科技有限公司</strong><br/>ADD:上海市浦东新区中环以内张杨路628弄东明广场2号楼2003#<br/>TEL:021-50391046",{offset:new BMap.Size(20,-10)});
+	marker.setLabel(label);
+
+	// 江西逐浪地址
+	var map = new BMap.Map("map_jx");
+	var point = new BMap.Point(115.94383,28.683005);
+	map.centerAndZoom(point, 18);
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);              // 将标注添加到地图中
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.addControl(new BMap.NavigationControl());   //添加地图类型控件
+	var label = new BMap.Label("<strong>华夏互联|逐浪软件南昌研发中心</strong><br/>ADD:南昌市东大南路55号华成嘉园A701<br/>TEL:0791-86161700/86161900",{offset:new BMap.Size(20,-10)});
+	marker.setLabel(label);
+</script>

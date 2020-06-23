@@ -1,0 +1,105 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zoomla!CMS-China's best CMS</title>
+{$MetaKeywords/}
+{$MetaDescription/}
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+
+<div class="container">
+<div class="home_nav"  style=" margin-top:65px;">
+<div class="row">
+<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+<a href="/try/index.shtml" target="_blank">软件选型:如何选择合适的CMS系统</a>
+<a href="/try/cmsnews/" target="_blank">行业纵横:中国CMS行业动态及名单</a>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+<ul class="list-unstyled">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log">{ZL:Big5()/}</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!--小导航菜单结束 -->
+
+<div class="container">
+<div id="site"><span style="float:right; padding-right:50px;">E-mail：<a href="mailto:web@zoomla.cn">web@zoomla.cn</a></span>Site： > Zoomla!CMS  >  <a href="/">Home</a>  >  About Zoomla!CMS</div>
+<br>
+<br>
+<h2>About Zoomla!CMS-We have developed the best CMS in China!</h2>
+
+<p style="line-height:28px;">
+<br/>
+China's Internet development, and look forward to excellent CMS products.<br/>
+And Zoomla! CMS in 1998 began research and development, and integrate the experience of hx008.com such as IDC platform.<br/>
+Currently has ten function, the eight modules, and occupy the best CMS products in the Chinese field.<br/>
+<br/>
+We established in the Far East, the largest city in science and technology R & D center - Shanghai company, with nearly 500 square meters R & D center in Nanchang.<br/>
+The company is in the best spirit of research and development, to forge ahead.<br/>
+Positive R & D team exchanges with foreign countries, Hong Kong, Taiwan, Japan, Korea and other excellent software to open up overseas markets in Europe, America, Australia.
+<br/><br/>
+Zoomla! Waves CMS based dotNET + the MSSQL database architecture, not only excellent support for Chinese, and more how the language module.<br/>
+Service the local community, but forge ahead to pursue open.<br/>
+In China, but to get through the channel of China and the world.<br/>
+
+Welcome friends to contact us Click here for free download Zoomla! CMS:<br/>
+<strong><a href="http://www.z01.com/pub" target="_blank">www.z01.com/pub</a></strong>
+</p>
+
+</div>
+<!--中部主体结束 -->
+
+
+<!--中部主体结束 -->
+{ZL.Label id="响应式网站底部"/}
+
+
+{ZL.Label id="2012浮动客服代码"/}
+
+</body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+ 
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+
+
+</script>

@@ -1,0 +1,123 @@
+{ZL.Source id="文章模型数据源标签"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="文章模型数据源标签" FD="Title" page="0"/}_{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="文章模型数据源标签" FD="Tagkey" page="0"/}">
+<meta name="Description" content="{SField sid="文章模型数据源标签" FD="Title" page="0"/}">
+{ZL:Boot()/}
+<link href="/template/office/style/2014.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+ <script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+<script type="text/javascript" src="/template/office/style/js/openwin.js"></script> 
+<link href="/template/office/style/tinyScreen.css?version=V201312" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/2010/js/v4.js"></script>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+ <div class="container margintop10">
+<div class="row">
+{ZL.Label id="响应式首页左边区"/}
+
+<!--中左结束 -->
+
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+<ol class="breadcrumb">
+<li class="pull-right">   <a href="javascript:window.print();"><img src="/skin/2010/images/i_tool_print.gif" /></a>
+<a href="/corp/about/83.shtml" target="_blank"><img src="/skin/2010/images/i_tool_email.gif" /></a>
+<!-- Baidu Button BEGIN -->
+<!-- BaiduShare Button BEGIN -->
+<div class="bdsharebuttonbox"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a class="bds_more" href="#" data-cmd="more"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://dn-iyz-file.qbox.me/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<!-- Baidu Button END -->
+</li>
+ 当前位置： <li><a href="/">首页</a></li>
+  <li>{ZL.Label id="三级智能节点导航" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</li>
+  <li class="active"><a href="/pub/listpage.shtml">精彩功能推荐</a> </li>
+</ol>
+
+
+<div id="prj790">
+<div id="prj790_top"></div> 
+<div id="prj580">
+
+<div id="site">
+<div id="add">
+</div>
+</div>
+ 
+
+
+<h1>{SField sid="文章模型数据源标签" FD="Title" page="0"/}</h1>
+<abbr>关于本功能的简介:</abbr>
+<article>
+<span class="short" id="show_info_short">{ZL:CutText({SField sid="文章模型数据源标签" FD="synopsis" page="0"/},120,...)/}</span>
+<span class="long" id="show_info_long" style="display:none">{SField sid="文章模型数据源标签" FD="synopsis" page="0"/}</span> <span class="handle"><a charset="404-4-05-08" onclick="Display.toggleText('show_info_short', 'show_info_long', this)">+展开简介</a></span>
+</article>   
+
+<abbr>详细说明</abbr>
+<article>
+{SField sid="文章模型数据源标签" FD="content" page="{SField sid="文章模型数据源标签" FD="K_pages" page="0"/}"/}
+</article>
+
+<div id="T_page">{ZL.Page id="2009版内容分页" num="{SField sid="文章模型数据源标签" FD="F_page" page="0"/}"/}</div>
+
+<abbr>最佳配置应用</abbr>
+
+ {ZL.Label id="产品推介_最热信息_响应式" TitleNum="30" length="180" ShowNum="1" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}
+<abbr>最新模块播报</abbr>
+
+ {ZL.Label id="产品推介_最近一篇_响应式" TitleNum="30" length="180" ShowNum="1" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}
+<div class="clearfix"></div>
+<div id="edit"><img src="/skin/default/Comment.gif" />点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id={SField sid="文章模型数据源标签" FD="GeneralID"/}"></SCRIPT>  本文责任编辑：{ZL.Label id="编辑_信息中心通用"/} &nbsp;<a href="/user/content/addtofav.aspx?infoid={SField sid="文章模型数据源标签" FD="GENERALID"/}" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID={SField sid="文章模型数据源标签" FD="GeneralID" page="0"/}" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">{SField sid="文章模型数据源标签" FD="Title" page="0"/}</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">{ZL.Label id="响应式点击复制网址"/}</div>
+<div class="Contnet_old">上一篇文章：{ZL.Label id="上一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+<div class="Contnet_old">下一篇文章：{ZL.Label id="下一篇文章" NodeID="{SField sid="文章模型数据源标签" FD="NodeID" page="0"/}" /}</div>
+<div class="clear"></div>
+</div><!--中部结束 -->
+
+<div id="prj790_bottom"></div>
+</div>
+</div>
+</div>
+</div>
+<!--中部主体结束 -->
+ 
+
+ {ZL.Label id="响应式网站底部"/}
+ </body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+</script> 

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>5</ModelID>
+    <ModelName>产品模型</ModelName>
+    <Description />
+    <TableName>ZL_C_Product</TableName>
+    <ItemName>产品</ItemName>
+    <ItemUnit>件</ItemUnit>
+    <ItemIcon>glyphicon glyphicon-flag</ItemIcon>
+    <ModelType>1</ModelType>
+    <ContentModule>/内容页模板/产品推介_内容页.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>true</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

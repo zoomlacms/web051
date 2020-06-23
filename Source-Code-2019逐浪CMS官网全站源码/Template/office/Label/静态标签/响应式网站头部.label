@@ -1,0 +1,154 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>475</LabelID>
+    <LabelName>响应式网站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="top"&gt;
+&lt;script type="text/javascript" src="/AD/201205/14.js"&gt;&lt;/script&gt;
+&lt;h1&gt;&lt;a href=/&gt;&lt;img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='{$CssDir/}images/logo.svg'" /&gt;&lt;/a&gt; 
+    &lt;SCRIPT&gt;
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+&lt;/SCRIPT&gt; 
+&lt;/h1&gt;
+&lt;/div&gt;  
+ &lt;div class="header_r col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0"&gt; 
+&lt;form role="search" method="get" action="/Search/SearchList" target="_blank"&gt;
+&lt;div class="input-group pull-right" style="width:200px;"&gt;
+    &lt;input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" /&gt;
+&lt;span class="input-group-btn"&gt;
+	&lt;input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" /&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序"&gt;最新版本号&lt;script type="text/javascript" src="/AD/201003/8.js"&gt;&lt;/script&gt;[免费下载]&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class="navbar navbar-default"&gt;
+&lt;div class="navbar navbar-static-top" role="navigation" id="scolls"&gt;
+&lt;div class="container"&gt;
+&lt;div class="navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="menua"&gt;
+&lt;a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" &gt;↓开启WEB云计算之门:&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="navbar-collapse collapse"&gt;
+&lt;ul class="nav navbar-nav"&gt;
+        &lt;li&gt;&lt;a href="/index.shtml" target="_blank"&gt;网站首页&lt;/a&gt;&lt;/li&gt;
+        &lt;li id="menu_Product"&gt;&lt;a href="/product/" target="_blank"&gt;走进逐浪&lt;/a&gt;&lt;/li&gt;
+        &lt;li id="menu_shop"&gt;&lt;a href="/shop/" target="_blank"&gt;产品中心&lt;/a&gt;&lt;/li&gt;
+        &lt;li id="menu_case"&gt;&lt;a href="/case/" target="_blank"&gt;成功案例&lt;/a&gt;&lt;/li&gt;
+        &lt;li id="menu_Project"&gt;&lt;a href="/Project/" target="_blank"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="http://v.z01.com/mb/" target="_blank"&gt;模板中心&lt;/a&gt;&lt;/li&gt;
+        &lt;li id="menu_down" class="scuess"&gt;&lt;img src="/Template/office/style/images/hot.gif" class="hot"&gt;&lt;a href="/pub/" target="_blank"&gt;下载产品&lt;/a&gt;&lt;/li&gt;
+        &lt;li id="menu_demo"&gt;&lt;a href="/demo/" target="_blank"&gt;体验中心&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://bbs.z01.com" target="_blank"&gt;技术社区&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://v.z01.com/jz/" target="_blank"&gt;微建站&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="http://v.z01.com/H5" target="_blank"&gt;H5场景&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+ 
+      
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- 导航到此结束 --&gt;
+
+&lt;div class="menu"&gt;
+    &lt;div class="version"&gt;
+      &lt;div class="padder"&gt;
+          &lt;div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()"&gt;
+            &lt;a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&amp;#x56FA;&amp;#x5B9A;"&gt;&lt;/a&gt;
+            &lt;div class="banben"&gt;
+            &lt;h3&gt;网站内核产品线&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/142.shtml"&gt;Zoomla!逐浪CMS个人版&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/143.shtml"&gt;Zoomla!逐浪CMS企业版&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/144.shtml"&gt;Zoomla!逐浪CMS教育版&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/145.shtml"&gt;Zoomla!逐浪CMS政府版&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/146.shtml"&gt;Zoomla!逐浪CMS开发版&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/147.shtml"&gt;Zoomla!逐浪CMS订制版&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/Project/475.shtml"&gt;虚拟3D系统&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/591.shtml"&gt;在线试穿(戴)系统&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class="others"&gt;
+                &lt;div class="left"&gt;
+                    &lt;h3&gt;解决方案&lt;/h3&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank"&gt;面向个人&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank"&gt;面向企业&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank"&gt;面向政府&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank"&gt;面向教育&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a  href="/Article/Project/131.shtml" target="_blank"&gt;面向移动&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h3&gt;使用教程&lt;/h3&gt;
+                    &lt;ul class="last"&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank"&gt;使用手册&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank"&gt;数据字典&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank"&gt;DW插件&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/mtv/" target="_blank"&gt;视频教程&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class="right"&gt;
+                    &lt;h3&gt;官方推荐&lt;/h3&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/down/" target="_blank"&gt;最新下载&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/" target="_blank"&gt;发布中心&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank"&gt;产品特性&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="/Article/news/" target="_blank"&gt;官方动态&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="product/FuncList/"&gt;所有功能&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;h3&gt;论坛导航&lt;/h3&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank"&gt;程序发布&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank"&gt;技术讨论&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank"&gt;模板交流&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank"&gt;教程发布&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;!--伸缩图钉菜单到此结束 --&gt;
+</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

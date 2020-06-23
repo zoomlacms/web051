@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>42</LabelID>
+    <LabelName>转向链接数据源</LabelName>
+    <LabelType>3</LabelType>
+    <LabelCate>数据源标签</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,0,2,当前信息ID</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_RedirectLink on ZL_CommonModel.ItemID=ZL_C_RedirectLink.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.ModelID,ZL_CommonModel.ItemID,ZL_CommonModel.TableName,ZL_CommonModel.Title,ZL_CommonModel.Inputer,ZL_CommonModel.Hits,ZL_CommonModel.CreateTime,ZL_CommonModel.Status,ZL_CommonModel.EliteLevel,ZL_CommonModel.InfoID,ZL_CommonModel.SpecialID,ZL_CommonModel.IsCreate,ZL_CommonModel.HtmlLink,ZL_CommonModel.Template,ZL_C_RedirectLink.ID,ZL_C_RedirectLink.RedirectLink</LabelField>
+    <LabelWhere>ZL_CommonModel.GeneralID=@ItemID</LabelWhere>
+    <LabelOrder />
+    <LabelContent />
+    <LabelCount>10</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

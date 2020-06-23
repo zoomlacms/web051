@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>13</LabelID>
+    <LabelName>首页_客户感言</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>首页标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable>ZL_CommonModel</LabelTable>
+    <LabelField>GeneralID,NodeID,ModelID,ItemID,Title,Status</LabelField>
+    <LabelWhere>NodeID=8 and  Status=99</LabelWhere>
+    <LabelOrder>GeneralID DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" target="_blank"&gt;{ZL:CutText({Field="Title"/},30,...)/}&lt;/a&gt;&lt;/li&gt;
+{/Repeate}</LabelContent>
+    <LabelCount>6</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

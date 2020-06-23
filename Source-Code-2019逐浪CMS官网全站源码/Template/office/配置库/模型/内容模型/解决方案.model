@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>7</ModelID>
+    <ModelName>解决方案</ModelName>
+    <Description />
+    <TableName>ZL_C_prj</TableName>
+    <ItemName>方案</ItemName>
+    <ItemUnit>个</ItemUnit>
+    <ItemIcon>glyphicon glyphicon-pencil</ItemIcon>
+    <ModelType>1</ModelType>
+    <ContentModule>/解决方案/解决方案内容页.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>true</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

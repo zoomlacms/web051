@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>70</ModelID>
+    <ModelName>黄页_友情连接</ModelName>
+    <Description>友情连接</Description>
+    <TableName>ZL_Page_link</TableName>
+    <ItemName>连接</ItemName>
+    <ItemUnit>个</ItemUnit>
+    <ItemIcon>FriendSite.gif</ItemIcon>
+    <ModelType>4</ModelType>
+    <ContentModule>/内容页模板/默认友情链接内容页.htm</ContentModule>
+    <MultiFlag>false</MultiFlag>
+    <IsNull>false</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail />
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,650 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>京东上千页面搭建基石——CMS前后端分离演进史_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="搭建,MS,页面,前后,演进">
+<meta name="Description" content="京东上千页面搭建基石——CMS前后端分离演进史">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20170901" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style//images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r"> <a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_2"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_45"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_9"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_24"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li id="menu_123"><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_44" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_20"><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/Article/index.shtml">信息中心</a> / 
+<a href="/Article/news/index.shtml">公司新闻</a> / 
+</ol>
+   
+<div id="Content">
+<h1>京东上千页面搭建基石——CMS前后端分离演进史</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2016-05-25  来源:本站原创   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3037"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=京东上千页面搭建基石——CMS前后端分离演进史-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3037.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">编者按</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">有一个山西煤老板转型做网游，换了三个研发团队都没做好，这个故事广为人知，背后原因值得深思研究。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">京东作为国内技术派平台的代码，近年引领业界成长，可以想象并期待它成长为和亚马逊一样的伟大企业。<br/>由于京东创始人刘强东先生技术立身，因而对于软件并不是如一些平台只会喊去IOE或空泛的开源，最后闹出来一些低级笑话或反编译乌龙。从而，使京东平台本身的架构也有很多值得借鉴之处，并且其对语言平台技术的复合利用，其中包括微软云技术、.net平台技术以及ERP技术支持都足见老到熟练，值得借鉴。</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><br/></h3><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">京东CMS简介</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS即内容管理系统（ContentManagementSystem），目的是用于快速进行网站建设或者网页开发。对于京东网站部门来说，CMS核心目的是用来快速开发和上线各种页面，诸如各种垂直频道页，访问<a style="color: rgb(51, 122, 183); text-decoration: none; box-sizing: border-box; background-color: transparent;" href="http://www.jd.com/" target="_blank">www.jd.com</a>将看到如下页面，如点击“服装城”、“家用电器”等都会跳转到一个垂直频道页；这些页面中有许多页面风格是类似的，因此很适合使用CMS进行快速搭建。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><br/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="1.jpg" alt="1.jpg" src="/UploadFiles/Image/20160729/6360539571387595636602299.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">对于我们来说，CMS最核心的目的就是进行数据和模板的统一管理、页面的统一发布,从而减少之前的很多重复工作。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">京东CMS是2014年提出来的，经过两年多的完善，目前已经发展为一个集标准服务管理、标准组件服务和智能投放于一体的标准化导购运营系统。<strong style="font-weight: 700; box-sizing: border-box;">具有以下特点：</strong></p><ol class=" list-paddingleft-2" style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 0px; margin-bottom: 20px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><li><p>搭建快速，统一发布，统一架构；</p></li><li><p>前后端分离，后端不再负责页面渲染，只提供高性能、可复用的API；</p></li><li><p>移动端页面支持；</p></li><li><p>数据分析、智能投放的特点。</p></li></ol><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">业务支持场景：</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">首页、频道页、垂直页、活动页的搭建及单品页、列表页部分可维护的业务等。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="2.jpg" alt="2.jpg" src="/UploadFiles/Image/20160729/6360539571937234913549247.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">从基本功能及架构来看，<strong style="font-weight: 700; box-sizing: border-box;">可以分为三个阶段：</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS 1.0——虚拟分类系统<span class="Apple-converted-space">&nbsp;</span><br style="box-sizing: border-box;"/>CMS 2.0——CMS系统<span class="Apple-converted-space">&nbsp;</span><br style="box-sizing: border-box;"/>CMS 3.0——CMS-portal系统</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS 1.0—虚拟分类系统</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">虚拟分类系统是一个独立的促销商品、促销文字维护系统，与具体前端业务架构脱离，哪条线接入虚拟分类，需要根据自己的业务逻辑单独开发、维护、部署自己的架构。说白了，虚拟分类系统提供一些基础数据；然后比如我要搭建一个家电频道页，则需要开发一个Web项目，然后调用虚拟分类系统获取数据然后进行模板渲染处理处理。因此虚拟分类系统当时只是一个基础数据维护平台，无法实现信息的共享、复用和集约化管理。这就会存在各种各样的频道页系统，导致管理混乱，性能上各有差异，出现过很多次事故。而且各系统需要独立配置，导致工作量大，占用资源多，无法快速响应业务需求。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">下图是当时不同业务体系的架构：</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="3.jpg" alt="3.jpg" src="/UploadFiles/Image/20160729/6360539574654062155185341.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">可以看出部分频道页和活动页用的nginx+tomcat，部分频道及垂直站用的nginx+php-fpm，与虚拟分类联系不大，总体遵循各业务层获取虚拟分类的数据，分别独立上线、部署、维护，应用层直连mysql，mysql 抗不住，会增加一层 memcache。</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS 2.0—CMS系统</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">Cms2.0总结了1.0时的不足，从节省资源、控制成本的角度考虑，把导购类的个体页面业务进行了统一，模板能复用的复用，以前虚拟分类系统的频道也需要迁移到新的系统。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">我们做了以下改动：</strong></p><ol class=" list-paddingleft-2" style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 0px; margin-bottom: 20px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">CMS 2.0数据结构适合虚拟分类体系，方便新老数据兼容；</p></li><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">升级架构，统一配置、发布流程；去memcache为redis，做大量性能压测来调优php-fpm配置，单机TPS能达到3000+； 配置定时任务，保证redis数据实时性；</p></li><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">单点发布，一键预览增强采销维护数据的机动性；</p></li><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">单机闭环，单机闭环服务设计是CMS整体架构的核心部分，需要展示的内容在本机获取、封装、校验；</p></li><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">模块化、动态数据类型初期版本（CMS 3.0会细说）。</p></li></ol><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">架构图：</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="4.jpg" alt="4.jpg" src="/UploadFiles/Image/20160729/6360539575202870599659706.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">对比1.0，新的CMS可以让频道页的开发周期降低2~4周，大大提高了业务需求的响应速度；它看起来更独立，更像一个整体，在容灾、规避风险方面做了严谨的优化；同时让采销在维护数据时，更方便、更简单。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">后续由于个性化的需求越来越多，大量的频道业务需要开发人员一个一个套模板来实现，大大加大了开发人员的工作强度，之前的模板复用方式已经无法满足业务的需求，同时太简单的数据模块，需要手工来绑定数据类型也增加了开发成本，这时候需要我们必须做出改变。</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS 3.0—CMS-portal系统</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS 2.0后也存在很多痛点，因此我们也想在CMS3.0上<strong style="font-weight: 700; box-sizing: border-box;">解决这些问题：</strong></p><ol class=" list-paddingleft-2" style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 0px; margin-bottom: 20px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><li><p>本质问题就是要快：快速支持、响应业务越来越多的垂直化页面改版；</p></li><li><p>前后端分离，页面渲染让前端实现，解放后端让后端做高大上的事情；</p></li><li><p>减轻运营人员的工作量，系统简单好用，提高导购类商品的转化率；</p></li><li><p>其他系统的支撑，实现CMS的集约化管理；</p></li><li><p>兼容手机端；</p></li><li><p>站点管理、统一架构、容灾、高性能、水平扩容。</p></li></ol><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">通过两版CMS系统的开发，我们发现CMS无外乎管理的是数据和模板，另外需要好的预览、一键发布支持。而传统数据管理都是静态数据类型，而我们做了动态数据类型的设计；另外我们做了模板管理中心，并抽象了模板、楼层、元件、模块的概念，从而实现更好的复用性。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">统一架构</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="555.jpg" alt="555.jpg" src="/UploadFiles/Image/20160729/6360539583162496421375588.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">主要分为如下几部分</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">CMS系统：</strong>统一管理CMS相关数据，并进行页面的生成和发布；</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">数据Worker管理中心：</strong>调用第三方服务进行数据校验（如库存不足补货），并调用CMS系统进行页面生成和发布，发布到单点服务器上；</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">单点服务器：</strong>相关页面的单机闭环实现，即CMS发布的页面会存储在这些单点服务器上；每个机房会部署一台；</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">页面定时更新Worker：</strong>定期同步单点服务器内容到静态应用服务器集群，并保存历史版本，当出现问题时可以切换回上一个版本；</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">静态应用服务器集群：</strong>静态托底实现，会存储相关的静态页面文件，当单点服务器挂了时，降级到该集群；</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">异步加载的个性化服务：</strong>有些数据不能存储到静态页，如价格/库存/推荐等数据，此时通过异步加载这些数据，实现个性化服务；</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">接入层Nginx：</strong>接入层Nginx负责请求的路由和服务的降级。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">主要思路</strong></p><ol class=" list-paddingleft-2" style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 0px; margin-bottom: 20px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><li><p>引入动态数据类型；</p></li><li><p>页面模板管理中心，模板、楼层、元件、模块设计，实现可复用；</p></li><li><p>使用元件实现前后端分离；</p></li><li><p>动态服务和业务数据闭环；</p></li><li><p>预览、一键发布，单点管理；</p></li><li><p>H5版直接搭建，native版 API 支持；</p></li><li><p>大数据智能选品应用。</p></li></ol><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">动态数据类型</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">所谓的动态是指能灵活扩展的，不需要上线也不需要修改数据库字段，支持自由扩展；这样做的好处是能够快速响应电商网站的日益灵活多变的促销需求。比如促销语：</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="666.jpg" alt="666.jpg" src="/UploadFiles/Image/20160729/6360539583825773202238812.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">目前常用的数据类型为文字链、小图文、商品池等。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">操作界面：</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="777.jpg" alt="777.jpg" src="/UploadFiles/Image/20160729/6360539584412820827527741.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="8888.png" alt="8888.png" src="/UploadFiles/Image/20160729/6360539585094147959676579.png"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">动态数据类型数据结构：</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="999.png" alt="999.png" src="/UploadFiles/Image/20160729/6360539585622116211323821.png"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">fields是json串，用于动态定义字段。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">使用元件实现前后端分离</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="000.jpg" alt="000.jpg" src="/UploadFiles/Image/20160729/6360539586316787386514935.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">使用动态数据类型定义了数据之后，需要在模板中使用它。而在我们CMS系统中进行了页面、模板、楼层、元件、模块的划分。模块是某种数据类型的具体化，即有了数据的数据类型。元件是由模块和HTML代码段（根据模块数据进行渲染的一小段模板）组成；楼层通过一系列元件组成，而模板会引入多个楼层，当然也会引入一些JS、CSS等，最终通过模板渲染出相应页面。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="a.png" alt="a.png" src="/UploadFiles/Image/20160729/6360539589936685577540261.png"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">type是数据类型表，module是模块表，source是数据表，按照上面的逻辑我们是通过数据类型获取到数据模块，并同时能拿到该模块所对应的商品数据（商品池）。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">有了这个元件之后，就可以彻底解放后端，页面渲染工作完全交由前端来开发，实现了前后端的分离。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="b.jpg" alt="b.jpg" src="/UploadFiles/Image/20160729/6360539590386648778315036.jpg"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">即CMS研发只负责平台和基础数据（动态服务）的维护，业务人员进行模块的维护，而前端人员独立完成元件开发、模板设计、开发和发布。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">动态服务</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">跨线条业务间的资源复用、独立调用时需要提供相关的API，如三级地址服务，类目服务、动态加载的数据（如爆款特卖、今日推荐等）等。数据格式满足数据闭环原则。Lua+redis架构实现，单机（16U）QPS能达到20000+。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="c.png" alt="c.png" src="/UploadFiles/Image/20160729/6360539590902521522690756.png"/></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">频道业务数据闭环</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">数据闭环，即数据的自我管理，或者说数据都在自己系统维护，不依赖与其他任何系统，去依赖化，这样得到的好处是别人抖动与我没关系。因此我们先要数据异构。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">数据异构是数据闭环的第一步，将依赖系统的数据拿过来，按照自己的业务需求存储起来。频道业务需要异构的数据主要是三部分：商品基本信息、第三方数据、大数据。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">数据原子化处理，数据异构的数据是原子化数据，这样未来我们可以对这些数据再加工再处理而响应变化的需求。我们有了一份原子化异构数据虽然方便处理新需求，但恰恰因为第一份数据是原子化的，那么它会很分散，前端读取时mget的话 性能不是很好，因此我们又做了数据聚合。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">数据聚合，是将多个原子数据聚合为一个大JSON数据，这样前端展示只需要一次get，当然要考虑系统架构，比如我们使用的Redis改造，Redis又是单线程系统，我们需要部署更多的Redis来支持更高的并发，另外存储的值要尽可能的小。</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">容灾</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">应用层容灾</strong></p><ol class=" list-paddingleft-2" style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 0px; margin-bottom: 20px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><li><p>数据校验，CMS在页面预览有一层严格的数据校验逻辑，比如数据格式、数据大小、敏感词等，保证页面生成100%没有问题。</p></li></ol><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="d.png" alt="d.png" src="/UploadFiles/Image/20160729/6360539591385655259266004.png"/></p><ol class=" list-paddingleft-2" style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 0px; margin-bottom: 20px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">版本降级，静态页面出现问题，除了页面本身数据有问题外，潜入的js、css出现问题也会影响页面展示，这时候会版本降低为前一天的正确版本；</p></li><li><p style="margin: 0px 0px 20px; box-sizing: border-box;">异步服务，异步化数据容灾方面主要是监听服务的状态及响应时间；降级访问有隐藏该功能和切换服务器实现；</p></li></ol><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">服务器容灾</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">主要是通过多机房部署，监控80端口，出现问题可以自动把流量水平切走。</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">智能选品</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">智能选品，是服务于前台的流量运营，为采销及运营人员提供运营支持，为每一次访问提供最合适和匹配的商品、品牌以及促销活动。是根据用户的行为推荐出相关的商品及活动。可以分为群体特征和个体特征。群体特征分为两部分，数据部分及规则部分。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">数据部分是从大数据平台异构过来，当然这个数据是海量的，我们选择热点TOP 5000的数据来异构。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">规则部分是通过京智后台创建，在审核通过后，触发MQ，通过ES 跑出对应数据，然后由频道页动态服务系统对外提供json格式的http服务。前端业务以异步的方式传递相关规则参数进行调用。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">智能选品实现数据化、定制化、个性化、自动及半自动化内容运营。它可以模拟人脑选货逻辑，以运营指标为导向（GMV、订单转化率、点击量、毛利等），分区域、分用户选取最匹配的内容。目前应用于京东超市、行业频道以及618大促主会场，带来优于人工选品的转化效果，并解放采销运营人员日常繁琐的运营工作，提高了整体效率。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><img title="e.jpg" alt="e.jpg" src="/UploadFiles/Image/20160729/6360539592118578476271683.jpg"/></p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">遇到的坑</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">rsync文件同步</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">上面的介绍过，我们的静态页面为了保持数据的一致性由单点服务器通过rsync同步静态文件到其他服务器，有时候会发现服务器负载无端的被打满。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">分析问题发现如果定时任务脚本的同步未在规定时间内完成，crontab接下来的还会执行此脚本，这样就会产生相同的rsync的进程。按照这种状态，长时间就会衍生出很多个rsync进程，就会导致负载过高，甚至有些服务器会挂掉。这时候我们用到了rsync的进程锁，在目录下生成一个rsync.lock文件，当crontab执行时，rsync会判断锁文件是否存在，如果存在说明本次同步未完成，则不执行rsync。</p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;"><strong style="font-weight: 700; box-sizing: border-box;">数据一定要闭环</strong></p><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">别人的接口抖动以及返回数据的异常，影响到前端展示对我们来说说是不能容忍的，这就需要我们针对各种情况一一校验。</p><h3 style="font: 500 24px/1.1 &quot;microsoft yahei&quot;, arial; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; margin-top: 20px; margin-bottom: 10px; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">CMS总结</h3><p style="font: 16px/27.2px &quot;microsoft yahei&quot;, arial; margin: 0px 0px 20px; text-align: justify; color: rgb(51, 51, 51); text-transform: none; text-indent: 0px; letter-spacing: normal; word-spacing: 0px; white-space: normal; box-sizing: border-box; widows: 1; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -webkit-text-stroke-width: 0px;">目前通过CMS搭建、正在搭建以及使用CMS API支持的PC端、移动端页面约有上千个，这对CMS来说意义重大，随着业务需求量的越来越大，也给我们带来了新的期望。接下来，我们会从可视化编辑、数据统计分析、关键词管理、商品下架预警等方面进行相关的优化工作。</p><p>&nbsp;</p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3037" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3037" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">京东上千页面搭建基石——CMS前后端分离演进史</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/Article/news/3222.shtml" title="混合现实-微软Hololens高端硬件超越vr与ar的生产力平台研发">混合现实-微软Hololens高端硬件超越vr与ar的生产力平台研发</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/Article/news/3038.shtml" title="红八月逐浪CMS买商业授权有惊喜-Surface电脑等您拿">红八月逐浪CMS买商业授权有惊喜-Surface电脑等您拿</a></div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+<h4 class="panel-title">解决方案</h4>
+</a>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+<li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+<li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+<li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+<li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+<li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+<li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+<li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+<li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+<li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+<li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+<li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/" target="_blank">+方案中心>></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<h4 class="panel-title">产品中心</h4>
+</a>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/pub/" target="_blank">免费下载</a></li>
+<li><a href="/mtv" target="_blank">在线视频</a></li>
+<li><a href="/help/" target="_blank">帮助中心</a></li>
+<li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+<li><a href="/updata/" target="_blank">更新历史</a></li>
+<li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+</ul>      </div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+<h4 class="panel-title">商业合作</h4>
+</a>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/shop/" target="_blank">在线购买</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+<li><a href="/article/join/">代理加盟</a></li>
+<li><a href="/biz/" target="_blank">正版查询</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+<h4 class="panel-title">关于公司</h4>
+</a>
+<div id="collapsefour" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/" target="_blank">企业介绍</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+<li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+<li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+<h4 class="panel-title">企业文化</h4>
+</a>
+<div id="collapsefive" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+<li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+<li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+<h4 class="panel-title">创新学院</h4>
+</a>
+<div id="collapsesix" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/video/1839.shtml">体感研究</a></li>
+<li><a href="/pub/1932.shtml">院校合作</a></li>
+<li><a href="/corp/about/472.shtml">电子杂志</a></li>
+<li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+</ul>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3218.shtml" style="color:" target="_blank">全新检索表和数据方法提升标签（字段）开发效率</a><span class="">2017/11/20</span></li>
+
+<li><b>[新增]</b><a href="/updata/3205.shtml" style="color:" target="_blank">RSA加密安全</a><span class="">2017/10/25</span></li>
+
+<li><b>[新增]</b><a href="/updata/3204.shtml" style="color:" target="_blank">全面启用Bootstrap4.0框架</a><span class="">2017/10/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3192.shtml" style="color:" target="_blank">新固顶属性-更方便的固顶内容方法</a><span class="">2017/09/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

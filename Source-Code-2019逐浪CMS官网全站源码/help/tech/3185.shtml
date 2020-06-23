@@ -1,0 +1,652 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>IIS 7.0、IIS 7.5 和 IIS 8.0 中的 HTTP 状态代码_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="状态,代码,">
+<meta name="Description" content="IIS 7.0、IIS 7.5 和 IIS 8.0 中的 HTTP 状态代码">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20170702" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/pub.js"></script>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style//images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r"> <a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<form role="search" method="get" action="/Search/SearchList" target="_blank">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li id="menu_2"><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li id="menu_45"><a href="/shop/" target="_blank">产品中心</a></li>
+        <li id="menu_9"><a href="/case/" target="_blank">成功案例</a></li>
+        <li id="menu_24"><a href="/Project/" target="_blank">解决方案</a></li>
+        <li id="menu_123"><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li id="menu_44" class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li id="menu_20"><a href="/demo/" target="_blank">体验中心</a></li>
+        <li><a href="http://bbs.z01.com/" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/help/tech/index.shtml">高级进阶</a> / 
+</ol>
+   
+<div id="Content">
+<h1>IIS 7.0、IIS 7.5 和 IIS 8.0 中的 HTTP 状态代码</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2017-08-10  来源:佚名   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=3185"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=IIS 7.0、IIS 7.5 和 IIS 8.0 中的 HTTP 状态代码-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/3185.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p><p><section><h3 class="sbody-h3" style="outline: 0px; text-align: left; line-height: 1.1666; font-size: 1.5rem; font-weight: 300; margin-top: 24px; margin-bottom: 32px; box-sizing: border-box;">日志文件位置</h3><p>默认情况下，IIS 7.0、IIS 7.5 和 IIS 8.0 将日志文件放在以下文件夹中：</p><p>inetpub\logs\Logfiles</p><p>此文件夹包含每个万维网网站的单独目录。默认情况下，每天会在目录中创建日志文件，并且日志文件使用日期重命名。例如，可能按以下方式命名日志文件：</p><p>ex<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">YYMMDD</strong>.log</p><h3 class="sbody-h3" style="outline: 0px; text-align: left; line-height: 1.1666; font-size: 1.5rem; font-weight: 300; margin-top: 24px; margin-bottom: 32px; box-sizing: border-box;">HTTP 状态代码</h3><p>本部分描述 IIS 7.0、IIS 7.5 和 IIS 8.0 使用的 HTTP 状态代码。<br/><br/><span class="text-base" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 600; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;">注意</span>&nbsp;本文不会列出 HTTP 规范中所述的每个可能的 HTTP 状态代码。本文只包括 IIS 7.0、IIS 7.5 和 IIS 8.0 可以发送的 HTTP 状态代码。例如，自定义 Internet 服务器 API (ISAPI) 筛选器或自定义 HTTP 模块可以设置其自己的 HTTP 状态代码。</p><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;">1<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">xx</strong>&nbsp;- 信息</h4><p>这些 HTTP 状态代码表示临时响应。客户端在收到常规响应之前，应准备接收一个或多个 1<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">xx</strong>&nbsp;响应。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 使用以下信息 HTTP 状态代码：</p><ul class="sbody-free_list list-paddingleft-2" style="margin: 0px; padding: 0px 20px; box-sizing: border-box;"><li><p>100 - 继续。</p></li><li><p>101 - 切换协议。</p></li></ul><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;">2<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">xx</strong>&nbsp;- 成功</h4><p>这些 HTTP 状态代码表示服务器已成功接受请求。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 使用以下成功 HTTP 状态代码：</p><ul class="sbody-free_list list-paddingleft-2" style="margin: 0px; padding: 0px 20px; box-sizing: border-box;"><li><p>200 - 确定。客户端请求已成功。</p></li><li><p>201 - 已创建。</p></li><li><p>202 - 已接受。</p></li><li><p>203 - 非授权信息。</p></li><li><p>204 - 无内容。</p></li><li><p>205 - 重置内容。</p></li><li><p>206 - 部分内容。</p></li></ul><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;">3<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">xx</strong>&nbsp;- 重定向</h4><p>这些 HTTP 状态代码表示客户端浏览器必须采取更多操作来实现请求。例如，客户端浏览器可能必须请求服务器上的不同页。或者，客户端浏览器可能必须通过使用代理服务器重复请求。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 使用以下重定向 HTTP 状态代码：</p><ul class="sbody-free_list list-paddingleft-2" style="margin: 0px; padding: 0px 20px; box-sizing: border-box;"><li><p>301 - 已被永远移走。</p></li><li><p>302 - 对象已移动。</p></li><li><p>304 - 未修改。</p></li><li><p>307 - 临时重定向。</p></li></ul><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;">4<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">xx</strong>&nbsp;- 客户端错误</h4><p>这些 HTTP 状态代码表示发生错误，客户端浏览器似乎有问题。例如，客户端浏览器可能已请求不存在的页。或者，客户端未提供有效的身份验证信息。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 使用以下客户端错误 HTTP 状态代码：</p><ul class="sbody-free_list list-paddingleft-2" style="margin: 0px; padding: 0px 20px; box-sizing: border-box;"><li><p>400 - 错误的请求。由于语法格式不正确，服务器无法理解该请求。客户端不应在未经修改的情况下重复请求。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义以下 HTTP 状态代码，表示 400 错误更为具体的原因：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>400.1 - 无效的目的标头。</p></li><li><p>400.2 - 无效的深度标头。</p></li><li><p>400.3 - 无效的如果标头。</p></li><li><p>400.4 - 无效的覆盖标头。</p></li><li><p>400.5 - 无效的转换标头。</p></li><li><p>400.6 - 无效的请求正文。</p></li><li><p>400.7 - 无效的内容长度。</p></li><li><p><br/>400.8 - 无效的超时值。</p></li><li><p>400.9 - 无效的锁定令牌。</p></li></ul><li><p>401 - 访问被拒绝。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义多个 HTTP 状态代码，指明 401 错误更为具体的原因。以下特定的 HTTP 状态代码显示在客户端浏览器中，但是不会显示在 IIS 日志中：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>401.1 - 登录失败。</p></li><li><p>401.2 - 服务器配置导致登录失败。</p></li><li><p>401.3 - 由于 ACL 对资源的限制而未获得授权。</p></li><li><p>401.4 - 筛选器授权失败。</p></li><li><p>401.5 - ISAPI/CGI 应用程序授权失败。</p></li></ul><li><p>403 - 禁止访问：<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义以下 HTTP 状态代码，指明 403 错误更为具体的原因：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>403.1 - 执行访问被禁止。</p></li><li><p>403.2 - 读访问被禁止。</p></li><li><p>403.3 - 写访问被禁止。</p></li><li><p>403.4 - 要求 SSL。</p></li><li><p>403.5 - 要求 SSL 128。</p></li><li><p>403.6 - IP 地址被拒绝。</p></li><li><p>403.7 - 要求客户端证书。</p></li><li><p>403.8 - 站点访问被拒绝。</p></li><li><p>403.9 - 禁止：许多客户端尝试连接到 Web 服务器。</p></li><li><p>403.10 - 禁止访问：配置 Web 服务器为拒绝执行访问。</p></li><li><p>403.11 - 禁止访问：密码已更改。</p></li><li><p>403.12 - 拒绝访问映射表。</p></li><li><p>403.13 - 客户端证书被吊销。</p></li><li><p>403.14 - 拒绝目录列表。</p></li><li><p>403.15 - 禁止访问：客户端访问许可证已超出 Web 服务器上的限制。</p></li><li><p>403.16 - 客户端证书不受信任或无效。</p></li><li><p>403.17 - 客户端证书已过期或尚未生效。</p></li><li><p>403.18 - 在当前的应用程序池中不能执行所请求的 URL。</p></li><li><p>403.19 - 在此应用程序池中不能执行客户端的 CGI 应用程序。</p></li><li><p>403.20 - 禁止访问：护照登录失败。</p></li><li><p>403.21 - 禁止访问：拒绝源访问。</p></li><li><p>403.22 - 禁止访问：拒绝无限深度。</p></li><li><p>403.502 - 禁止访问：太多请求来自同一客户端 IP；已达到动态 IP 限制的限制。</p></li></ul><li><p>404 - 未找到。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义以下 HTTP 状态代码，指明 404 错误更为具体的原因：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>404.0 - 未找到。</p></li><li><p>404.1 - 站点未找到。</p></li><li><p>404.2 - ISAPI 或 CGI 限制。</p></li><li><p>404.3 - MIME 类型限制。</p></li><li><p>404.4 - 未配置处理程序。</p></li><li><p>404.5 - 被请求筛选器配置拒绝。</p></li><li><p>404.6 - 动词被拒绝。</p></li><li><p>404.7 - 文件扩展名被拒绝。</p></li><li><p>404.8 - 隐藏的命名空间。</p></li><li><p>404.9 - 文件属性被隐藏。</p></li><li><p>404.10 - 请求标头太长。</p></li><li><p>404.11 - 请求包含双转义序列。</p></li><li><p>404.12 - 请求包含高位字符。</p></li><li><p>404.13 - 内容长度太大。</p></li><li><p>404.14 - 请求 URL 太长。</p></li><li><p>404.15 - 查询字符串太长。</p></li><li><p>404.16 - 发送到静态文件处理程序的 DAV 请求。</p></li><li><p>404.17 - 动态内容通过通配符 MIME 映射映射到静态文件处理程序。</p></li><li><p>404.18 - 查询字符串序列被拒绝。</p></li><li><p>404.19 - 被筛选规则拒绝。</p></li><li><p>404.20 - URL 段太多</p></li></ul><li><p>405 - 不允许的方法。</p></li><li><p>406 - 客户端浏览器不接受所请求页面的 MIME 类型。</p></li><li><p>408 - 请求超时。</p></li><li><p>412 - 前提条件失败。</p></li></ul><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;">5<strong class="sbody-strong" style="font-weight: 700; box-sizing: border-box;">xx</strong>&nbsp;- 服务器错误</h4><p>这些 HTTP 状态代码表示由于服务器出错，无法完成请求。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 使用以下服务器错误 HTTP 状态代码：</p><ul class="sbody-free_list list-paddingleft-2" style="margin: 0px; padding: 0px 20px; box-sizing: border-box;"><li><p>500 - 内部服务器错误。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义以下 HTTP 状态代码，指明 500 错误更为具体的原因：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>500.0 - 发生模块或 ISAPI 错误。</p></li><li><p>500.11 - 正在 Web 服务器上关闭应用程序。</p></li><li><p>500.12 - 应用程序正忙于在 Web 服务器上重新启动。</p></li><li><p>500.13 - Web 服务器太忙。</p></li><li><p>500.15 - 不允许直接请求 Global.asax。</p></li><li><p>500.19 - 配置数据无效。</p></li><li><p>500.21 - 模块无法识别。</p></li><li><p>500.22 - 无法在托管管道模式下应用 ASP.NET httpModules 配置。</p></li><li><p>500.23 - 无法在托管管道模式下应用 ASP.NET httpHandlers 配置。</p></li><li><p>500.24 - 无法在托管管道模式下应用 ASP.NET impersonation 配置。</p></li><li><p>500.50 - RQ_BEGIN_REQUEST 通知处理期间，发生重写错误。发生配置或入站规则执行错误。</p><p><span class="text-base" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 600; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;">注意</span>此处是为入站和出站规则读取分布规则配置的地方。</p></li><li><p>500.51 - GL_PRE_BEGIN_REQUEST 通知处理期间，发生重写错误。发生全局配置或全局规则执行错误。</p><p><span class="text-base" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 600; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;">注意</span>此处是读取全局规则配置的地方。</p></li><li><p>500.52 - RQ_SEND_RESPONSE 通知处理期间，发生重写错误。发生出站规则执行。<br/><br/></p></li><li><p>500.53 - RQ_RELEASE_REQUEST_STATE 通知处理期间，发生重写错误。发生出站规则执行错误。此规则配置为在更新输出用户缓存之前执行。</p></li><li><p>500.100 - 内部 ASP 错误。</p></li></ul><li><p>501 - 页眉值指定了未实现的配置。</p></li><li><p>502 - Web 服务器用作网关或代理服务器时收到了无效响应。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义以下 HTTP 状态代码，指明 502 错误更为具体的原因：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>502.1 - CGI 应用程序超时。</p></li><li><p>502.2 - 网关错误：过早退出。</p></li><li><p>502.3 - 网关错误：转发器连接错误 (ARR)。</p></li><li><p>502.4 - 网关错误：无服务器 (ARR)。</p></li></ul><li><p>503 - 服务不可用。<br/><br/>IIS 7.0、IIS 7.5 和 IIS 8.0 定义以下 HTTP 状态代码，指明 503 错误更为具体的原因：</p></li><ul class="sbody-free_list list-paddingleft-2" style="list-style-type: square;"><li><p>503.0 - 应用程序池不可用。</p></li><li><p>503.2 - 超出并发请求限制。</p></li><li><p>503.3 - ASP.NET 队列已满</p></li></ul></ul><h3 class="sbody-h3" style="outline: 0px; text-align: left; line-height: 1.1666; font-size: 1.5rem; font-weight: 300; margin-top: 24px; margin-bottom: 32px; box-sizing: border-box;">常见的 HTTP 状态代码及原因</h3><p>下表介绍了某些常见 HTTP 状态代码的原因。</p><table width="964" class="sbody-table table" style="width: 683px;"><tbody style="box-sizing: border-box;"><tr class="sbody-tr firstRow" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: none !important; box-sizing: border-box;"><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">代码</th><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">说明</th><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">备注</th></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">200</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">确定</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">IIS 7.0、IIS 7.5 和 IIS 8.0 成功处理了请求。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">304</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">未修改</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端浏览器请求已处于缓存中的文档，并且自从该文档被缓存后，未修改此文档。客户端浏览器使用此文档的缓存副本而不是从服务器下载文档。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">错误请求</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于请求中存在问题，Http.sys 文件阻止 IIS 7.0、IIS 7.5 和 IIS 8.0 处理请求。通常，此 HTTP 状态代码表示请求包含无效的字符或序列或请求与 Http.sys 文件中的安全设置相矛盾。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">401.1</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">登录失败</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">登录尝试不成功，其可能的原因在于用户名或密码无效。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942044">942044&nbsp;</a>当您试图运行以 IIS 7.0 为宿主的 Web 应用程序时出现错误消息：“HTTP 错误 401.1 - 未找到”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">401.2</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">服务器配置导致登录失败</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">此 HTTP 状态代码表明服务器上身份验证配置设置中出现问题。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942043">942043&nbsp;</a>当您试图访问以 IIS 7.0 为宿主的网页时出现错误消息：“HTTP 错误 401.2 - 未授权”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">401.3</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于 ACL 对资源的限制而未获得授权。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">此 HTTP 状态代码表明 NTFS 文件系统权限中存在问题。即使您试图访问的文件权限正确，也可能会发生此问题。例如，如果 IUSR 帐户没有到 C:\Winnt\System32\Inetsrv 目录的访问权限，则会出现此问题。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942042">942042&nbsp;</a>当您试图浏览以运行 IIS 7.0 的服务器为宿主的网页时出现错误消息：“HTTP 错误 401.3 - 未授权”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">401.4</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">筛选器授权失败</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于授权问题，ISAPI 筛选器不允许处理请求。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942079">942079&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 401.4 - 筛选器授权失败”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">401.5</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">ISAPI/CGI 应用程序授权失败</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于授权问题，ISAPI 应用程序或通用网关接口 (CGI) 应用程序不允许处理请求。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942078">942078&nbsp;</a>当您访问以运行 IIS 7.0 的计算机为宿主的网站时出现错误消息：“HTTP 错误 401.5 - ISAPI/CGI 应用程序授权失败”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.1</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">执行访问被禁止</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">不会授予执行权限相应的级别。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942065">942065&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.1 - 禁止访问”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.2</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">读取访问被禁止</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">不会授予读取权限相应的级别。验证您是否已设置 IIS 7.0、IIS 7.5 和 IIS 8.0 以授予到目录的读取权限。此外，如果您使用默认的文档，则验证该默认文档是否存在。有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942036">942036&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.2 - 禁止访问”</p></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.3</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">写入访问被禁止</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">不会授予写入权限相应的级别。验证是否已设置 IIS 7.0、IIS 7.5 和 IIS 8.0 权限和 NTFS 文件系统权限以授予到目录的写入权限。<span style="box-sizing: border-box;">有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942035">942035&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.3 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.4</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">要求 SSL</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">通过一个不安全的通道进行请求，并且 Web 应用程序需要安全套接字层 (SSL) 连接。<span style="box-sizing: border-box;">有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942070">942070&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.4 - 禁止访问”。&nbsp;<br/></p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.5</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">要求 SSL 128</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">服务器配置为需要 128 位 SSL 连接。但是，请求不会使用 128 位加密进行发送。<span style="box-sizing: border-box;">有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942069">942069&nbsp;</a>当您试图浏览以 IIS 7.0 为宿主的网页时出现错误消息：“HTTP 错误 403.5 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.6</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">IP 地址被拒绝</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">服务器配置为拒绝到当前 IP 地址的访问。<span style="box-sizing: border-box;">有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942068">942068&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.6 - IP 地址被拒绝”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.7</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">需要客户端证书</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">服务器配置为需要证书进行客户端身份验证。但是，客户端浏览器未安装相应的客户端证书。<span style="box-sizing: border-box;">有关更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942067">942067&nbsp;</a>当您试图运行以运行 IIS 7.0 的服务器为宿主的 Web 应用程序时出现错误消息：“HTTP 错误 403.7 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.8</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">站点访问被拒绝</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">根据客户端计算机的域名系统 (DNS) 名称将服务器配置为拒绝请求。<span style="box-sizing: border-box;">有关如何解决此问题的更多信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942066">942066&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.8 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.12</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">拒绝访问映射表</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">您希望访问的页需要客户端证书。但是，拒绝映射到客户端证书的用户 ID 访问该文件。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942064">942064&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.12 - 拒绝客户端证书”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.13</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端证书被吊销</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端浏览器试图使用证书颁发机构吊销的客户端证书。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942063">942063&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.13 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.14</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">拒绝目录列表</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">该服务器配置为不显示内同目录列表，并且未设置默认文档。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942062">942062&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.14 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.16</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端证书不受信任或无效。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端浏览器尝试使用的客户端证书不受运行 IIS 7.0、IIS 7.5 或 IIS 8.0 的服务器信任或无效。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942061">942061&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.16 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.17</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端证书已过期或尚未生效。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端浏览器试图使用已过期或尚未生效的客户端证书。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942038">942038&nbsp;</a>当您试图访问以 Internet Information Services 7.0 为宿主的网页时出现错误消息：“HTTP 错误 403.17（未授权）- 客户端证书已过期”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.18</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">在当前的应用程序池中不能执行所请求的 URL。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">已配置自定义错误页，并且自定义错误页驻留在一个与所请求的 URL 的应用程序池不同的应用程序池中。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942037">942037&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.18 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">403.19</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">在此应用程序池中不能执行客户端浏览器的 CGI 应用程序。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">应用程序池的标识没有<span class="text-base" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 600; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;">替换进程级别令牌</span>用户权限。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942048">942048&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 403.19 - 禁止访问”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.0</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">未找到。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">您试图访问的文件已移动或不存在。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942041">942041&nbsp;</a>当您试图打开以 IIS 7.0 为宿主的网页时出现错误消息：“HTTP 错误 404.0 - 未找到”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.2</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">ISAPI 或 CGI 限制。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">所请求的 ISAPI 资源或所请求的 CGI 资源在计算机上收到了限制。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942040">942040&nbsp;</a>当您试图访问以运行 IIS 7.0 的计算机为宿主的网页时出现错误消息：“HTTP 错误 404.2 - 未授权”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.3</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">MIME 类型限制。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">所请求的扩展类型的当前 MIME 映射无效或未配置。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942032">942032&nbsp;</a>当用户访问以运行 Internet Information Services 7.0 的服务器为宿主的网站时出现错误消息：“HTTP 错误 404.3 - 未找到”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.4</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">未配置处理程序。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">所请求的 URL 的文件名扩展没有配置用于处理 Web 服务器上的请求的处理程序。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942052">942052&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.4 - 未找到”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.5</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">被请求筛选器配置拒绝。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">所请求的 URL 包含服务器阻止的字符序列。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942053">942053&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.5 - 拒绝 URL 序列”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.6</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">动词被拒绝。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">使用未配置的或无效的 HTTP 动词进行请求。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942046">942046&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.6 - VERB_DENIED”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.7</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">文件扩展名被拒绝。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">不允许资源文件名扩展。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942045">942045&nbsp;</a>当您试图浏览以 IIS 7.0 为宿主的网页时出现错误消息：“HTTP 错误 404.7 - FILE_EXTENSION_DENIED”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.8</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">隐藏的命名空间。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于目录被隐藏，因此所请求的 URL 被拒绝。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942047">942047&nbsp;</a>当您试图访问以 IIS 7.0 为宿主的网页时出现错误消息：“HTTP 错误 404.8 - HIDDEN_NAMESPACE”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.9</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">文件属性被隐藏。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">所请求的文件被隐藏。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942049">942049&nbsp;</a>当您试图访问以 IIS 7.0 为宿主的网页时出现错误消息：“HTTP 错误 404.9 - 文件属性被隐藏”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.10</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求标头太长。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于请求标头太长，请求被拒绝。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942077">942077&nbsp;</a>当您访问以运行 Internet Information Services 7.0 的服务器为宿主的网站时出现错误消息：“HTTP 错误 404.10 - REQUEST_HEADER_TOO_LONG”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.11</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求包含双转义序列。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求包含双转义序列。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942076">942076&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.11 - URL_DOUBLE_ESCAPE”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.12</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求包含高位字符。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求包含高位字符，但是服务器配置为不允许高位字符。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942075">942075&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.12 - URL_HAS_HIGH_BIT_CHARS”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.13</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">内容长度太大。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求包含内容长度标头。内容长度标头的值大于服务器允许的限制。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942074">942074&nbsp;</a>当您访问以运行 Internet Information Services 7.0 的服务器为宿主的网站时出现错误消息：“HTTP 错误 404.13 - CONTENT_LENGTH_TOO_LARGE”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.14</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求 URL 太长。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">所请求的 URL 超出服务器允许的限制。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942073">942073&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.14 - URL_TOO_LONG”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.15</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">查询字符串太长。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">请求包含长于服务器允许的限制的查询字符串。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942071">942071&nbsp;</a>当您访问以运行 IIS 7.0 的服务器为宿主的网站时出现错误消息：“HTTP 错误 404.15 - 未找到”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">404.17</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">映射到静态文件处理程序的动态内容。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;"><span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/2019689">2019689&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 404.17 - 未找到”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">405.0</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">不允许的方法。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">通过使用无效的 HTTP 方法进行该请求。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942051">942051&nbsp;</a>当用户访问以运行 Internet Information Services 7.0 的服务器为宿主的网站时出现错误消息：“HTTP 错误 405.0 - 不允许的方法”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">406.0</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">无效的 MIME 类型。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">通过使用包含无效的 MIME 值的接收标头进行该请求。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942050">942050&nbsp;</a>当您访问以运行 Internet Information Services 7.0 的服务器为宿主的网站时出现错误消息：“HTTP 错误 406 - 不接受”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">412.0</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">前提条件失败。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">通过使用包含无效值 If-Match 请求标头进行该请求。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942056">942056&nbsp;</a>当您访问以 Internet Information Services 7.0 为宿主的网站时出现错误消息：“HTTP 错误 412 - 前提条件失败”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">内部服务器错误。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于许多服务器端原因，此 HTTP 状态代码可能会发生。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942031">942031&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 500.0 - 内部服务器错误”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500.11</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">正在 Web 服务器上关闭应用程序。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于目标应用程序池已关闭，因此未处理请求。等待工作进程完成关闭，然后再次尝试请求。如果此问题持续存在，则 Web 应用程序可能会遇到阻止 Web 应用程序正常关闭的问题。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500.12</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">应用程序正忙于在 Web 服务器上重新启动。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于目标应用程序池正在重新启动，因此未处理请求。刷新页面时，此 HTTP 状态代码应当消失。刷新页面后，如果此 HTTP 状态代码再次出现，则扫描 Global.asa 文件的防病毒软件可能会导致此问题。如果此问题持续存在，则 Web 应用程序可能会遇到阻止 Web 应用程序正常重新启动的问题。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500.13</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">Web 服务器太忙。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于服务器太忙无法接收任何新的传入请求，因此不会处理请求。通常，此 HTTP 状态代码表示传入并发请求数超出 IIS 7.0、IIS 7.5 或 IIS 8.0 Web 应用程序可以处理的数目。由于将性能配置设置设置得太低、硬件不足或 IIS 7.0、IIS 7.5 或 IIS 8.0 Web 应用程序中出现瓶颈，因此可能会发生此问题。常规故障排除方法用于发生错误时生成 IIS 7.0、IIS 7.5 或 IIS 8.0 进程的内存转储文件，然后调试内存转储文件。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500.15</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">不允许直接请求 Global.asax。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">直接请求 Global.asa 文件或 Global.asax 文件。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942030">942030&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 500.15 - 不允许直接请求 Global.asa”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500.19</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">配置数据无效。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">由于相关联的 Applicationhost.config 文件或相关联的 Web.config 文件中出现此问题，因此会出现此 HTTP 状态代码。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942055">942055&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 500.19 - 内部服务器错误”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">500.100</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">内部 ASP 错误。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">在处理 Active Server Pages (ASP) 页期间发生错误。若要获取有关错误的具体信息，请禁用 Web 浏览器中的友好 HTTP 错误消息。此外，IIS 日志可能会显示与发生的错误相应的 ASP 错误号。<span style="box-sizing: border-box;">有关 ASP 错误消息和 ASP 错误消息意义的详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/294271">294271&nbsp;</a>ASP 错误代码</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">501.0</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">未实现。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">客户端浏览器发送 HTTP-Trace 动词，服务器未配置为处理 HTTP-Trace 动词。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942058">942058&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 501.0 - 未实现”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.1</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">CGI 应用程序超时。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">CGI 应用程序未返回配置的时间限制中有效的 HTTP 响应。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942059">942059&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 502.1 - 网关错误”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.2</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">网关错误：过早退出</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">CGI 应用程序返回对运行 IIS 7.0、IIS 7.5 或 IIS 8.0 的服务器无效的 HTTP 响应。<span style="box-sizing: border-box;">有关详细信息，请单击下面的文章编号，以查看 Microsoft 知识库中相应的文章：<p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="https://support.microsoft.com/zh-cn/help/942057">942057&nbsp;</a>当您访问以 IIS 7.0 为宿主的网站时出现错误消息：“HTTP 错误 502.2 - 网关错误”</p></span></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">503.0</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">服务不可用。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">将该请求发送到当前停止的或当前禁用的应用程序池。若要解决此问题，请确保已启动目标应用程序池。事件日志可能会提供应用程序池停止或禁用的原因的信息。</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">503.2</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">超出并发请求限制。</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;"><span class="text-base" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 600; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;">appConcurrentRequestLimit</span>&nbsp;属性设置为低于并发请求当前数的值。IIS 7.0、IIS 7.5 和 IIS 8.0 不允许高于&nbsp;<span class="text-base" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 600; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;">appConcurrentRequestLimit</span>&nbsp;属性值的并发请求数。</td></tr></tbody></table><p>IIS 8.0 中添加的</p><h3 class="sbody-h3" style="outline: 0px; text-align: left; line-height: 1.1666; font-size: 1.5rem; font-weight: 300; margin-top: 24px; margin-bottom: 32px; box-sizing: border-box;">HTTP 子状态代码</h3><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;"></h4><table width="964" class="sbody-table table" style="width: 683px;"><tbody style="box-sizing: border-box;"><tr class="sbody-tr firstRow" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: none !important; box-sizing: border-box;"><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">子代码</th><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">说明</th></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.10</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">无效的 XFF 标题</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.11</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">无效的 WebSocket 请求</td></tr></tbody></table><h4 class="sbody-h4" style="outline: 0px; line-height: 1.2; font-size: 1.25rem; font-weight: 300; margin-top: 16px; margin-bottom: 32px; box-sizing: border-box;">已在 ARR 3.0.1916 中添加&nbsp;<br/><br/></h4><table width="964" class="sbody-table table" style="width: 683px;"><tbody style="box-sizing: border-box;"><tr class="sbody-tr firstRow" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: none !important; box-sizing: border-box;"><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">子代码</th><th class="sbody-th" style="padding: 12px; text-align: left; color: rgba(0, 0, 0, 0.6); line-height: 1.2727; font-size: 0.68rem; font-weight: 400; vertical-align: top; box-sizing: border-box;">说明</th></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.601</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">错误的客户端请求 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.602</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">无效的时间格式 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.603</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">解析范围错误 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.604</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">发往客户端 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.605</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">最大转发数量 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">400.606</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">异步完成错误 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;"></td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;"></td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.2</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">映射请求失败 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.3</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">WinHTTP 异步完成失败 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.4</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">无服务器 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.5</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">WebSocket 失败 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.6</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">转发请求失败 (ARR)</td></tr><tr class="sbody-tr" style="border-width: 1px 2px 2px; border-color: rgb(208, 208, 208) rgb(187, 187, 187) rgb(187, 187, 187); padding: 4px; border-top-style: solid; box-sizing: border-box;"><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; border-left-style: none; box-sizing: border-box;">502.7</td><td class="sbody-td" style="border-width: 2px; border-color: rgb(187, 187, 187); padding: 12px; vertical-align: top; box-sizing: border-box;">执行请求失败 (ARR)</td></tr></tbody></table></section></p><p></p><p><p><section><header><h3 class="section-title ng-binding" style="outline: 0px; text-align: left; color: rgb(0, 0, 0); line-height: 1.1666; font-size: 1.5rem; font-weight: 300; margin-top: 0px; margin-bottom: 0px; display: block; box-sizing: border-box;">参考</h3></header><p>有关 HTTP 状态代码定义的更多信息，请访问下面的万维网联合会 (W3C) 网站：</p><p><a style="color: rgb(0, 108, 216); text-decoration: none; cursor: pointer; box-sizing: border-box; background-color: transparent;" href="http://www.w3.org/protocols/rfc2616/rfc2616-sec10.html#sec10" target="_self">http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10</a></p><p><span style="box-sizing: border-box;">Microsoft 提供了第三方联系信息以便于您寻求技术支持。这些联系信息如有更改，恕不另行通知。Microsoft 不保证这些第三方联系信息的准确性。<br/></span></p></section></p><p></p><p><p><header><h5 class="section-title ng-binding" style="outline: 0px; color: rgb(0, 0, 0); line-height: 1.1666; font-size: 1.5rem; font-weight: 300; margin-top: 0px; margin-bottom: 0px; display: block; box-sizing: border-box;">属性</h5></header></p><p></p><p class="ng-binding" style="outline: 0px; line-height: 1.3333; font-size: 0.93rem; font-weight: 400; margin-top: 0px; margin-bottom: 24px; box-sizing: border-box;">文章 ID：943891 - 上次审阅时间：2015年8月19日 - 修订版本： 1</p><p>这篇文章中的信息适用于:</p><p>Microsoft Internet Information Services 7.0, Microsoft Internet Information Services 7.5, Microsoft Internet Information Services 8.0</p><p><br/></p><p></p><p></p><p></p><p></p></p></p></p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=3185" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=3185" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">IIS 7.0、IIS 7.5 和 IIS 8.0 中的 HTTP 状态代码</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/tech/3181.shtml" title="http 301 和 302的区别">http 301 和 302的区别</a></div>
+<div class="Contnet_old">下一篇文章：</div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+<h4 class="panel-title">解决方案</h4>
+</a>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+<li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+<li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+<li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+<li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+<li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+<li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+<li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+<li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+<li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+<li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+<li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+<li><a href="/Project/" target="_blank">+方案中心>></a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<h4 class="panel-title">产品中心</h4>
+</a>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/pub/" target="_blank">免费下载</a></li>
+<li><a href="/mtv" target="_blank">在线视频</a></li>
+<li><a href="/help/" target="_blank">帮助中心</a></li>
+<li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+<li><a href="/updata/" target="_blank">更新历史</a></li>
+<li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+</ul>      </div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+<h4 class="panel-title">商业合作</h4>
+</a>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/shop/" target="_blank">在线购买</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+<li><a href="/article/join/">代理加盟</a></li>
+<li><a href="/biz/" target="_blank">正版查询</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">
+<h4 class="panel-title">关于公司</h4>
+</a>
+<div id="collapsefour" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/" target="_blank">企业介绍</a></li>
+<li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+<li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+<li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsefive">
+<h4 class="panel-title">企业文化</h4>
+</a>
+<div id="collapsefive" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+<li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+<li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<a class="panel-heading" data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+<h4 class="panel-title">创新学院</h4>
+</a>
+<div id="collapsesix" class="panel-collapse collapse">
+<div class="panel-body padding0">
+<ul class="panel_li">
+<li><a href="/corp/video/1839.shtml">体感研究</a></li>
+<li><a href="/pub/1932.shtml">院校合作</a></li>
+<li><a href="/corp/about/472.shtml">电子杂志</a></li>
+<li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+</ul>
+</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/down/3065.shtml" target="_blank">逐浪云管家(FileZilla Server智能助手）</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/HelpLabel.aspx" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+
+<div id="home_friendsite">
+<div class="container">
+<div class="row">
+<p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+<ul>
+  <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+  <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+  <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+  <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+  <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+  <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+  <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+  <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+  <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+  <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+        经营许可证号:工商3601002021063 沪ICP备09077823号  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"><img src="/uploadfiles/ga.png"/> 沪公网安备31011502000316号</a><br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p> 
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+</p>
+</div></div></div> </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3184.shtml" style="color:" target="_blank">智能硬件管理能力及在线监控器功能</a><span class="">2017/08/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/3188.shtml" style="color:" target="_blank">订单系统升级支持税号（纳税人识别号）</a><span class="">2017/08/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/3163.shtml" style="color:" target="_blank">Font Awesonme奥林图标升级为4.7.0版</a><span class="">2017/05/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3158.shtml" style="color:" target="_blank">插件功能</a><span class="">2017/04/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/3157.shtml" style="color:" target="_blank">增加微信大奖盘功能</a><span class="">2017/04/06</span></li>
+
+<li><b>[改进]</b><a href="/updata/3156.shtml" style="color:" target="_blank">后台右上角组件布局优化-更加简洁并符合移动浏览</a><span class="">2017/04/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3155.shtml" style="color:" target="_blank">提供新电子杂志模板</a><span class="">2017/04/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3148.shtml" style="color:" target="_blank">增加会员菜单后台可配置项-方便的决定前端会员功能</a><span class="">2017/03/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3103.shtml" style="color:" target="_blank">内容管理之版本功能展露头角</a><span class="">2017/01/16</span></li>
+
+<li><b>[新增]</b><a href="/updata/3102.shtml" style="color:" target="_blank">全新会员中心与简洁会员注册界面</a><span class="">2017/01/15</span></li>
+
+<li><b>[新增]</b><a href="/updata/3093.shtml" style="color:" target="_blank">头条号公众号接入功能助力中国站长流量变现</a><span class="">2017/01/03</span></li>
+
+<li><b>[新增]</b><a href="/updata/3059.shtml" style="color:" target="_blank">默认模板风格之全新的检索中心模块</a><span class="">2016/10/19</span></li>
+
+<li><b>[新增]</b><a href="/updata/3045.shtml" style="color:" target="_blank">微信打赏与在线捐赠功能发布</a><span class="">2016/08/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:" target="_blank">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:" target="_blank">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:" target="_blank">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:" target="_blank">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:" target="_blank">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:" target="_blank">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:" target="_blank">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

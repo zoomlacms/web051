@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>三星galaxy-s7手机镜头横扫仿真HTML特效</title>
+<style>
+figure { margin: 0 }
+section.m_content-kv { overflow: hidden; }
+section .f_container figure { line-height: 0; }
+.m_content-motion { }
+.m_content-motion .f_header-type1 { padding-top: 95px; width: 1060px; left: 0; right: 0; margin: 0 auto; text-align: center; position: relative; }
+.m_content-motion .f_header-type1 .small-text { margin-top: 43px; font-size: 16px; font-family: 'Microsoft YaHei', '微软雅黑', 'Simsun'; color: #999; }
+.m_content-motion .f_container .bottom { bottom: 150px; height: auto; }
+.m_content-motion .f_container .video-dragee { bottom: 55px; height: 937px; width: 1920px; left: 50%; margin-left: -960px; position: absolute; }
+.m_content-motion .f_container .video-dragee .phone { position: absolute; left: 50%; top: 83px; height: 100%; width: 406px; margin-left: -203px; cursor: col-resize; overflow: hidden; }
+.m_content-motion .f_container .video-dragee .phone .mobile > img { width: 100%; }
+.m_content-motion .f_container .video-dragee .phone .video_back { position: absolute; left: 0; top: 0px; width: 100%; margin-left: 0px; height: 100%; display: none; }
+.m_content-motion .f_container .video-dragee .phone .video_back img { width: 100%; }
+.m_content-motion .f_container .video-dragee .phone .video_back span { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.m_content-motion .f_container .video-dragee .phone > div { position: relative; width: 383px; height: 686px; left: 12px; top: 78px; overflow: hidden; display: block; background: #000; }
+.m_content-motion .f_container .video-dragee .phone > div > span { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }
+.m_content-motion .f_container .video-dragee .phone > div > span.view { left: 0 !important; }
+.m_content-motion .f_container .video-dragee .phone > div > .loading { position: absolute !important; left: 0; top: 0; width: 100%; height: 100%; background: #000; display: table-cell; text-align: center; vertical-align: middle; padding-top: 32%; }
+.m_content-motion .f_container .video-dragee .phone > div > .loading img { width: 45%; }
+.m_content-motion .f_container .video-dragee .phone > div > span img { width: 100%; }
+.m_content-motion .f_container .video-dragee .phone figure { position: relative; }
+.m_content-motion .f_container .video-dragee .phone figure.mobile { position: absolute; left: 0; top: 0px; }
+.m_content-motion .f_container .video-dragee .phone figure.mobile div { position: absolute; left: 50%; top: 550px; margin-left: -54px; transition: all 0.3s; }
+.m_content-motion .f_container .video-dragee .phone figure.mobile div.ani { transform: scale(1.2, 1.2); transition: all 0.5s; }
+.m_content-motion .f_container .video-dragee .phone figure.mobile div.notani { transform: scale(0.8, 0.8); transition: all 0.3s; }
+.m_content-motion .f_container .video-dragee .phone figure.mobile strong { font-family: 'Microsoft YaHei', '微软雅黑', 'Simsun'; font-size: 18px; color: #fff; position: absolute; left: 0; top: 695px; width: 100%; text-align: center; line-height: 1.2; }
+.m_content-motion .f_container .mobileAct { display: none; }
+
+.s2 .m_content-motion { }
+.s2 .m_content-motion .f_container .bottom { bottom: 130px; height: auto; width: 1346px; margin-left: -673px; }
+.s2 .m_content-motion .f_container .video-dragee { bottom: 130px; height: 477px; width: 1346px; left: 50%; margin-left: -673px; position: absolute; }
+.s2 .m_content-motion .f_container .video-dragee .phone { position: absolute; left: 50%; top: -56px; height: 100%; width: 285px; margin-left: -143px; cursor: col-resize; overflow: hidden; height: 669px; }
+.s2 .m_content-motion .f_container .video-dragee .phone > div { position: relative; width: 270px; height: 480px; left: 8px; top: 55px; overflow: hidden; display: block; }
+.s2 .m_content-motion .f_container .video-dragee .phone figure { position: relative; }
+.s2 .m_content-motion .f_container .video-dragee .phone figure.mobile { position: absolute; left: 0; top: 0px; }
+.s2 .m_content-motion .f_container .video-dragee .phone figure.mobile > img { height: auto; }
+.s2 .m_content-motion .f_container .video-dragee .phone figure.mobile div { position: absolute; left: 50%; top: 375px; margin-left: -43px; transition: all 0.3s; width: 86px; }
+.s2 .m_content-motion .f_container .video-dragee .phone figure.mobile div img { width: 100%; }
+.s2 .m_content-motion .f_container .video-dragee .phone figure.mobile strong { font-family: 'Microsoft YaHei', '微软雅黑', 'Simsun'; font-size: 14px; color: #fff; position: absolute; left: 0; top: 490px; width: 100%; text-align: center; line-height: 1.2; }
+
+.m_content-motion .f_container.rt_cont .video-dragee .phone { cursor: default; }
+.s2 .m_content-motion .f_container .video-dragee .phone { top: -425px; }
+footer{position:absolute; right:10px; bottom:10px;}
+</style>
+	</head>
+	<body  class="s2">
+    <section class="m_content-motion ani">
+      <article class="m_feature-mf1 show invisible">
+        <div class="f_header-type1">
+          <h2 class="c_tit-type9">动态全景拍摄</h2>
+          <p class="c_tit-type7"> 使用动态全景模式可以横扫宽广的长幅画面，最终拼接成一幅流畅清晰的全景照片。若要回顾精彩画面，只需左右滑动屏幕或倾斜盖乐世 S7 edge | S7 机身即可。 </p>
+          <p class="small-text">*使用盖乐世 S7 edge | S7 拍摄的屏幕图片。</p>
+        </div>
+        <div class="f_container">
+          <figure class="bottom"> <img alt="全景风光" width="1346px" style="position:absolute;left:0px;" src="./images/galaxy-s7_camera_motion_panorama_m.jpg" data-media-s1="./images/galaxy-s7_camera_motion_panorama_s.jpg" data-media-s2="./images/galaxy-s7_camera_motion_panorama_m.jpg" data-media-s3="./images/galaxy-s7_camera_motion_panorama_l.jpg" data-media-s4="./images/galaxy-s7_camera_motion_panorama.jpg"> </figure>
+          <div class="video-dragee viewAni"> <a href="#" class="phone" style="">
+            <div>
+            <figure class="loading" style="display: none;"><img alt="" src="./images/loading_icon_03.gif" data-media-s4="./images/loading_icon_03.gif"></figure>
+            <figure class="mobileAct"> <img src="./images/panorama/galaxy-s7_camera-panorama_stell.gif" data-media-s4="./images/panorama/galaxy-s7_camera-panorama_stell.gif" alt=""> <span> <img src="./images/panorama/galaxy-s7_camera-panorama_animate.gif" data-media-s4="./images/panorama/galaxy-s7_camera-panorama_animate.gif" alt=""> </span> </figure>
+          </div>
+            <figure class="mobile"> <img alt="使用 Galaxy S7 edge 拍摄动态全景" src="./images/galaxy-s7_camera_motion_panorama_phone.png" data-media-s4="./images/galaxy-s7_camera_motion_panorama_phone.png">
+            <div class="">
+                <figure> <img alt="" src="./images/galaxy-s7_camera_motion_panorama_phone_drag.png"> </figure>
+              </div>
+            <strong>拖动</strong> </figure>
+            </a> </div>
+        </div>
+      </article>
+    </section>
+    
+    
+    <footer>
+   <a href="galaxy-s7HTML.rar">下载脚本代码</a><br/>
+
+    <a href="http://www.z01.com" target="_blank">技术支持：Zoomla!逐浪CMS团队 / 完全免费|支持微信与APP和OA办公的大站群门户管理系统-->www.z01.com</a>
+    </footer>
+</body>
+<script src="jquery-1.11.1.min.js"></script>
+<script>	
+var __startMov = false;
+var __contx;
+var __mousex;
+var __movePoint;
+var __draginfo = '';
+var __anidragee;
+var __dragee = false;
+var __justAni = 0;
+var __imgCheck = 0;
+var $span = $('.phone .mobile div');
+
+
+$('.m_content-motion .phone').bind('mousedown touchstart', function (e) {
+        if (__dragee) {
+            e.preventDefault();
+            __contx = $(this).position().left;
+            __mousex = e.pageX;
+            if (e.type == 'touchstart') {
+                __mousex = e.originalEvent.touches[0].pageX;
+            }
+            $(this).find('a').blur();
+            if (!$('html').hasClass('s1')) {
+                __startMov = true;
+            }
+            clearInterval(__anidragee);
+            $span.removeClass().addClass('notani');
+        }
+    });
+    $('.m_content-motion .phone').on('click', function (e) {
+        return false;
+    });
+    $('.ie8 .m_content-motion .phone').bind('dragstart mousedown', function () {
+        $(this).blur();
+        return false;
+    });
+    $('.m_content-motion').bind('mousemove touchmove', function (e) {
+        var evType = e.pageX;
+        if (__startMov) {
+            if (e.type == 'touchmove') {
+                evType = e.originalEvent.touches[0].pageX;
+            }
+            __movePoint = evType - __mousex;
+            moveDrag();
+        }
+    });
+    $(document).bind('mouseup touchend', function (e) {
+        __startMov = false;
+        $span.removeClass('notani');
+    });
+    
+    $('.m_content-motion a').on('keydown', function (e) {
+        __contx = $('.m_content-motion .phone').position().left;
+        if (e.keyCode == '37') {
+            __movePoint = -20;
+            moveDrag();
+        } else if (e.keyCode == '39') {
+            __movePoint = 20;
+            moveDrag();
+        }
+    });
+    function moveDrag() {
+        var poinleft = __contx + __movePoint;
+        var sleFt = $('.m_content-motion .phone').width() / 2;
+        var max = $('.m_content-motion .f_container .bottom img').width();
+        var maxall = $('.m_content-motion .f_container .bottom img').width() - sleFt;
+        var aniX = $('.m_content-motion .phone').position().left;
+        var winSize = $(window).width();
+        var zero = 0;
+        var checkClear = false;
+        var $panorama = $('.phone > div');
+        var moveControl = function () {
+            var ratio = Math.floor((poinleft - sleFt) / (max) * 100);
+            var ratio02 = (aniX - sleFt) / (maxall);
+            var parcent = Math.floor(281 * ratio02);
+            if (!$panorama.children('span').eq(parcent).hasClass('view')) {
+                $panorama.children('span').removeClass();
+                $panorama.children('span').eq(parcent).addClass('view');
+            }
+            $('.m_content-motion .phone').css('left', poinleft);
+            if (ratio > 50) {
+                if ((__draginfo === '') || (__draginfo === 'right')) {
+                    GALAXY.omniture('drag_right');
+                    __draginfo = 'left';
+                }
+            } else if (ratio < 50){
+                if ((__draginfo === '') || (__draginfo === 'left')) {
+                    GALAXY.omniture('drag_left');
+                    __draginfo = 'right';
+                }
+            }
+        }
+        
+        if (winSize < max) {
+            zero = Math.ceil((max - winSize) / 2);
+            max = Math.ceil(max - (max - winSize) / 2);
+        }
+        zero = zero + sleFt;
+        max = max - sleFt;
+        if ((poinleft >= (zero)) && (poinleft <= max)) {
+            moveControl();
+        } else if (poinleft > max) {
+            poinleft = max;
+            moveControl();
+        } else if (poinleft < zero) {
+            poinleft = zero;
+            moveControl();
+        }
+    }
+
+
+$(function() {
+    if ($('.phone figure.mobile strong').get(0)) {
+        setTimeout(function () {
+            panoramaEvt();
+        }, 500);
+    } else {
+        $('.m_content-motion .f_container').addClass('rt_cont');
+    }
+//    checkAct();
+});
+$(($('html').attr('lang') == 'ja') ? 'body' : window).scroll(function (evt) {
+    checkAct();
+});
+
+function panoramaEvt() {
+    if (!$('html').hasClass('s1')) {
+        if ($('.phone > div > span').length <= 0) {
+            var appendText = '';
+            for (i=0;i<282;i++) {
+                var nweImg = ''+i;
+                while (nweImg.length<3) {
+                    nweImg = '0'+ nweImg;
+                }
+                appendText += "<span><img onload='loadimgCheck();' onerror='loadimgCheck();' src='https://www.z01.com/ipad/galaxy/pic/galaxy-s7_camera-panorama_00" + nweImg + ".jpg' alt=''/></span>";
+                
+            }
+            $('.phone > div').append(appendText);
+            __anidragee = setInterval(function () {
+                if ($span.hasClass('ani')) {
+                    $span.removeClass('ani');
+                } else {
+                    $span.addClass('ani');
+                }
+            }, 700);
+        }
+    }
+}
+
+window.loadimgCheck = function() {
+    __imgCheck++;
+    if (__imgCheck == 281) {
+        setTimeout(function () {
+            $('.phone > div').children('span').css({'left':'-100%', 'width':'100%', 'height':'100%', 'position':'absolute'});
+            $('.phone > div').children('span').eq('143').addClass('view');
+            $('.loading').fadeOut('200');
+            __dragee = true;
+        }, 100);
+    }
+};
+
+</script>
+</html>

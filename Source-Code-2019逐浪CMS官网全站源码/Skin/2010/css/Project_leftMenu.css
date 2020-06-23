@@ -1,0 +1,32 @@
+.menuTitle {
+	FONT-WEIGHT: bold
+}
+.rOver {
+	FONT-WEIGHT: bold; BACKGROUND: url(/skin/default/Project/menu_li_hover.gif) no-repeat; COLOR: #243563; TEXT-INDENT: 14px; HEIGHT: 28px
+}
+.rClicked {
+	FONT-WEIGHT: bold; BACKGROUND: url(/skin/default/Project/bt_bg_jb2_2.gif) no-repeat; COLOR: #243563; TEXT-INDENT: 14px; HEIGHT: 28px
+}
+.rOut {
+	FONT-WEIGHT: bold; BACKGROUND: #f6f7f8 url(/skin/default/Project/bt_bg_jb2.gif) no-repeat; COLOR: #000000; TEXT-INDENT: 14px; HEIGHT: 28px
+}
+.sOver {
+	FONT-SIZE: 12px; BACKGROUND: url(/skin/default/Project/bt_bg_jb2_4_1.gif) #fff no-repeat; COLOR: #243563; TEXT-INDENT: 14px; HEIGHT: 28px
+}
+.sClicked {
+	FONT-SIZE: 12px; BACKGROUND: url(/skin/default/Project/bt_bg_jb2_4_1.gif) #fff no-repeat; COLOR: #243563; TEXT-INDENT: 14px; HEIGHT: 28px
+}
+.sOut {
+	BACKGROUND: url(/skin/default/Project/bt_bg_jb2_4_1.gif) #ecf7ff no-repeat; COLOR: #243563; TEXT-INDENT: 14px; HEIGHT: 28px
+}
+A.curlink {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; COLOR: #ffffff; PADDING-TOP: 1px; BACKGROUND-COLOR: #243563
+}
+.textOver A:hover {PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-WEIGHT: bold; PADDING-BOTTOM: 1px; COLOR: #ffffff; PADDING-TOP: 1px; BACKGROUND-COLOR: #243563}
+.menu_top {FONT-WEIGHT: bold; BACKGROUND: url(/skin/default/Project/menu_top.jpg) no-repeat; WIDTH: 183px; COLOR: #ffffff; TEXT-INDENT: 15px; LINE-HEIGHT: 36px; HEIGHT: 36px}
+.menu-buttom {BACKGROUND: url(/skin/default/Project/bt_bg_jb-bottom.gif) no-repeat 50% bottom; CURSOR: default; HEIGHT: 5px}
+.sOver {HEIGHT: 25px}
+.menu A {COLOR: #243563}
+
+.menu {COLOR: #243563; BACKGROUND-COLOR: #EAEAE2;}
+.menu TD {FONT-SIZE: 12px; CURSOR: pointer}

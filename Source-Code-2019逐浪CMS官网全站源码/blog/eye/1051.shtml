@@ -1,0 +1,1080 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>拥抱未来:HTML5标准之魅力_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="HTML5|标准">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/Template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+</head>
+<body class="blog2015">
+<div class="relative">
+<div class="navbar navbar-default" role="navigation" id="home_scolls">
+<div class="container blog2015_nav">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img alt="逐浪CMS" src="/skin/2010/images/logo.jpg" /></a>
+</div>
+<div class="navbar-collapse collapse corop2015_top">
+<ul class="nav navbar-nav">
+<li class="active"><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/blog/products/">产品管锥</a></li>
+<li><a href="/blog/eye/">观点碰撞</a></li>
+<li><a href="/blog/techs/">技术问道</a></li>
+<li><a href="/blog/ren/">那人那事</a></li>
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav_user"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 官方导航 <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li><a href="/" target="_blank">官网主页</a></li>
+<li><a href="/corp/" target="_blank">公司介绍</a></li>
+<li><a href="/User/Register.aspx" target="_blank">用户注册</a></li>
+<li><a href="/User/" target="_blank">会员登陆</a></li>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="http://edu.z01.com" taget="_blank" title="逐浪软件支持的建站技术平台">建站学院</a></li>
+<li><a href="http://www.hx008.com/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help/" title="帮助中心">帮助中心</a></li>
+<li><a href="http://ad.z01.com" title="广告代码大全" target="_blank">广告源码</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+<DIV class="blog2015_banner2" style="background-image: url({SField sid="栏目信息数据源" FD="NodePicUrl" page="0"/});">
+<DIV class="container">
+<h2 class="ZoomlaXingtiJ3"><i class="fa  fa-slideshare"></i>观点碰撞<abbr>--Zoomla!逐浪CMS官方博客</abbr></h2>
+</div>
+</div>
+
+<div class="container margintop10">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/blog/index.shtml">官方博客</a> / 
+<a href="/Class_78/Default.aspx">观点碰撞</a> / 
+</ol>
+</div>
+
+<div class="container  blog2015_con">
+<div class="container" id="Content">
+<h1>拥抱未来:HTML5标准之魅力</h1>
+
+<div id="container paddin10">
+<p class="text-center">
+作者：发哥 发布时间：2010-09-14   来源:本站原创  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=1051"></SCRIPT>  <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=拥抱未来:HTML5标准之魅力-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/1051.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<h3><div class="pull-left"><a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5"><Img src="" alt="发哥" /></a></div>
+<p>
+<strong>博主：</span><a href="/NodeNews.aspx?NodeID=30&n=%e5%8f%91%e5%93%a5">发哥</a></strong><br />
+个人座右铭：</span>建网站，选逐浪。 易上手，功能棒。 质量好，服务善。 高性能，最划算。
+</p>
+</h3>
+<div id="Content_txt">
+<p>
+	细心的朋友已经发现，逐浪CMS官网的前端表现DTD定义已经有新变化，并悄然咨询其背后的意义。</p>
+<p>
+	没错，这就是HTML5！</p>
+<p>
+	首先要向大家汇报的是，Zoomla!逐浪CMS最新版本5的研发已经提上日程，同时我们将导入更加标准的HTML5标准设计，从而为构建全新坚强的WEB内核而大步向前。</p>
+<p>
+	目前国内以HTML5为标准进行网站设计的CMS，Zoomla!逐浪CMS走在了前面，而在商业网站应用上，国外Google大站不说，国内的百度、还有淘宝旗下的一些子站也开始尝试导入HTML5标准设计，足见大势之所趋。而Adobe公司最新发布的Adobe Dreamweaver CS5也已经开始支持HTML5标准，虽然有一些缺陷但已经是HTML5爱好者们的最佳设计工具所选。</p>
+<p>
+	在Zoomla!逐浪CMS的HTML5发展道路上，我们将分几步实施，首先是保证对其它浏览器的兼容性支持（目前已经对商业用户投递支持HTML5兼容歀 签的版本）；其次是引入较现有3D和全景更加专业的高级设计；最后我们将在浏览器广泛支持HTML5的基础上引入高端的交互性设计。</p>
+<p>
+	逐步推进、稳妥扎实将是我们的基本定位。</p>
+<p>
+	下面是进入HTML5技术之精彩体验：</p>
+<p>
+	相比HTML4，HTML5的DTD定义更加简洁：</p>
+<p>
+	&lt;!DOCTYPE HTML&gt;<br />
+	&lt;html&gt;<br />
+	&nbsp;</p>
+<p>
+	但其带来的变化绝不仅仅是这么简单，<a href="http://directguo.com/html5/">http://directguo.com/html5/</a>网上展示了HTML5的一些新变化，而<a href="http://html5gallery.com/">http://html5gallery.com/</a>上则展示了一些卓越的HTML5设计站点，如果您的电脑上安装了Firefox3.x或谷歌浏览器，则可以进行一番体验，而即使9月份布的IE9也将支持这些卓越性能！</p>
+<p>
+	HTML5草案的前身名为Web Applications 1.0。於2004年被WHATWG提出，於2007年被W3C接纳，并成立了新的HTML工作团队。在2008年1月22日，第一份正式草案已公布,预计将在2010年9月正式向公众推荐。WHATWG表示该规范是目前正在进行的工作，仍须多年的努力。</p>
+<p>
+	HTML 5是近十年来Web开发标准最巨大的飞跃。和以前的版本不同，HTML 5并非仅仅用来表示Web内容，它的新使命是将Web带入一个成熟的应用平台，在HTML 5平台上，视频，音频，图象，动画，以及同电脑的交互都被标准化<br />
+	微软曾在5月份宣布将把HTML 5作为IE9的核心，并将全力投入HTML 5。想必微软一定知道HTML 5是未来发展趋势，而IE9必须顺应这个潮流，否则会使自己的产品面临困境。而市面上火狐（Firefox）、谷歌浏览器早已支持HTML5，足见大势所趋。</p>
+<p>
+	在过去，Web设计师可以使用HTML4和CSS2.1完成一些很酷的东西。我们可以在不使用陈旧的基于table布局的基础上完成文档逻辑结构并创建内容丰富的网站。我们可以在不使用内联&lt;font&gt;和&lt;br&gt;标签的基础上对网站添加漂亮而细腻的风格样式。事实上，我们目前的设计能力已经让我们远离了那个可怕的浏览器战争时代、专有协议和那些充满闪动、滚动和闪烁的丑陋网页。<br />
+	　　虽然我们现在已经普遍使用了HTML4和CSS2.1，但是我们还可以做得更好！我们可以重组我们代码的结构并能让我们的页面代码更富有语义化特性。我们可以缩减带给页面美丽外观样式代码量并让他们有更高的可扩展性。现在，HTML5和CSS3正跃跃欲试的等待大家，下面让我们来看看他们是否真的能让我们的设计提升到下一个高度吧&hellip;<br />
+	&nbsp;</p>
+<p>
+	<img alt="" src="/UploadFiles/UserUpload/2010/8/201008252210118478.jpg" style="width: 350px; height: 218px" /></p>
+<h3>
+	跟&lt;div&gt;说再见,欢迎语义化标签</h3>
+<p>
+	　　曾经，设计师们经常会跟频繁使用基于table的没有任何语义的布局。不过最终还是要感谢像Jeffrey Zeldman和Eric Meyer这样的思想革新者，聪明的设计师们慢慢的接受了相对更语义化的&lt;div&gt;布局替代了table布局，并且开始调用外部样式表。但不幸的是，复杂的网页设计需要大量不同的标签结构代码，我们把它叫做&ldquo;&lt;div&gt;-soup&rdquo; 综合症。也许你很熟悉下面的代码:</p>
+<div class="codecolorer-container html4strict mac-classic" style="width: 500px; white-space: nowrap; height: 400px; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3<br />
+						4<br />
+						5<br />
+						6<br />
+						7<br />
+						8<br />
+						9<br />
+						10<br />
+						11<br />
+						12<br />
+						13<br />
+						14<br />
+						15<br />
+						16<br />
+						17<br />
+						18<br />
+						19<br />
+						20<br />
+						21<br />
+						22<br />
+						23<br />
+						24<br />
+						25<br />
+						26<br />
+						27<br />
+						28<br />
+						29<br />
+						30<br />
+						31</div>
+				</td>
+				<td>
+					<div class="html4strict codecolorer">
+						<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">id</span><span class="sy0">=</span><span class="st0">&quot;news&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;section&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;article&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;header&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">h1</span>&gt;</span>Div Soup Demonstration<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">h1</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Posted on July 11th, 2009<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;content&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;footer&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Tags: HMTL, code, demo<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;aside&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;header&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">h1</span>&gt;</span>Tangential Information<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">h1</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;content&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="kw2">div</span> <span class="kw3">class</span><span class="sy0">=</span><span class="st0">&quot;footer&quot;</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Tags: HMTL, code, demo<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						&nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span><br />
+						<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">div</span>&gt;</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	　　尽管这有些勉强，但上面这个实例还是可以说明使用HTML4对一个复杂的设计进行代码化后依然过于臃肿(其实xHTML1.1也不过如此)。不过值得激动的是，HTML5解决&ldquo;&lt;div&gt;-soup&rdquo; 综合症并带给我们一套新的结构化元素。这些新的HTML5元素富有更细致的语义从而代替了那些毫无语义的&lt;div&gt;标签，并同时为CSS的调用提供了&rdquo;自然&rdquo;的CSS钩子。下面是HTML5的解决方案实例:</p>
+<div class="codecolorer-container html4strict mac-classic" style="width: 500px; white-space: nowrap; height: 400px; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3<br />
+						4<br />
+						5<br />
+						6<br />
+						7<br />
+						8<br />
+						9<br />
+						10<br />
+						11<br />
+						12<br />
+						13<br />
+						14<br />
+						15<br />
+						16<br />
+						17<br />
+						18<br />
+						19<br />
+						20<br />
+						21<br />
+						22<br />
+						23<br />
+						24<br />
+						25<br />
+						26<br />
+						27<br />
+						28<br />
+						29<br />
+						30<br />
+						31</div>
+				</td>
+				<td>
+					<div class="html4strict codecolorer">
+						<span class="sc2">&lt;section&gt;</span><br />
+						&nbsp; &nbsp;<span class="sc2">&lt;section&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;article&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;header&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">h1</span>&gt;</span>Div Soup Demonstration<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">h1</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Posted on July 11th, 2009<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>header&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;section&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;footer&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Tags: HMTL, code, demo<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>footer&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="sy0">/</span>article&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;aside&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;header&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">h1</span>&gt;</span>Tangential Information<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">h1</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>header&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;section&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Lorem ipsum text blah blah blah.<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;footer&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="kw2">p</span>&gt;</span>Tags: HMTL, code, demo<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">p</span>&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>footer&gt;</span><br />
+						&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;<span class="sy0">/</span>aside&gt;</span><br />
+						&nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+						<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	　　正如我们所见，HTML5可以让我们用很多更语义化的结构化代码标签代替那些大量的无意义的&lt;div&gt;标签。这种语义化的特性不仅提升了我们网页的质量和语义，并且大量减少了曾经代码中用于CSS必须调用的class和id属性。事实上，CSS3也是可以然通过我们忽略掉所有class和id的。</p>
+<h3>
+	跟class属性说再见，欢迎整洁的标签</h3>
+<p>
+	　　结合了富有新的语义化标记的HTML5，CSS3为web设计师们的网页提供了神一般的力量。有了HTML5的能量，我们将得到更多的对文档代码的控制权，有了CSS3的能量，我们的控制权将趋于无穷大！</p>
+<p>
+	　　即使没有那些高级的CSS选择器，我们仍然可以通过强大的HTML5条调用不同的容器而不劳驾class和id这类属性。像以往的DIV布局，我们在css中可能要这样调用:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3<br />
+						4<br />
+						5<br />
+						6<br />
+						7</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						div<span class="re0">#news</span> &nbsp; &nbsp;<span class="br0">{</span><span class="br0">}</span><br />
+						div<span class="re1">.section</span> <span class="br0">{</span><span class="br0">}</span><br />
+						div<span class="re1">.article</span> <span class="br0">{</span><span class="br0">}</span><br />
+						div<span class="re1">.header</span> &nbsp;<span class="br0">{</span><span class="br0">}</span><br />
+						div.<span class="kw1">content</span> <span class="br0">{</span><span class="br0">}</span><br />
+						div<span class="re1">.footer</span> &nbsp;<span class="br0">{</span><span class="br0">}</span><br />
+						div<span class="re1">.aside</span> &nbsp; <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	我们再来看看基于HTML5的实例:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3<br />
+						4<br />
+						5</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						section <span class="br0">{</span><span class="br0">}</span><br />
+						article <span class="br0">{</span><span class="br0">}</span><br />
+						header &nbsp;<span class="br0">{</span><span class="br0">}</span><br />
+						footer &nbsp;<span class="br0">{</span><span class="br0">}</span><br />
+						aside &nbsp; <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	　　这是个进步，但仍有一些问题需要解决。在&lt;div&gt;实例中，我们需要通过class或id属性来调用页面中的元素。这种逻辑将允许我们将样式应用到文档中的任何一个元素上，无论是整体还是个体。例如在&lt;div&gt;实例中，.section 和 .content元素很容易定位。但是在HTML5实例中，实际文档中会有很多个section元素。其实我们可以添加一些特定的属性选择器来调用那些不同的section元素，不过谢天谢地，我没现在可以用少量的高级CSS选择器来定位不同的section元素。</p>
+<p>
+	下图：据传将更佳支持HTML5的IE9内测泄露图：</p>
+<p>
+	<img alt="" src="/UploadFiles/UserUpload/2010/8/201008261059516157.jpg" style="width: 500px; height: 373px" /></p>
+<p>
+	&nbsp;</p>
+<h3>
+	不使用class和id定位HTML-5元素</h3>
+<p>
+	　　下面让我们来看看如何在不使用class和id的情况下定位HTML5页面元素的一个实例，我们可以使用三种CSS选择器来定位和辨别实例中的元素。如下:</p>
+<ul>
+	<li>
+		后代选择器:[CSS 2.1]: <strong>E</strong> <strong>F</strong></li>
+	<li>
+		兄弟选择器:[CSS 2.1]: <strong>E</strong> + <strong>F</strong></li>
+	<li>
+		子元素选择器:[CSS 2.1]: <strong>E</strong> &gt; <strong>F</strong></li>
+</ul>
+<p>
+	下面让我们来看看如何不使用class和id而完成对文档中的那些section元素的定位吧:<br />
+	<br />
+	<strong>定位最外层的&lt;section&gt;元素</strong></p>
+<p>
+	　　考虑到我们的例子并不是一套完整的HTML5代码，所以我们假定在&lt;body&gt;元素下有个&lt;nav&gt;元素与&lt;section&gt;元素是兄弟元素。这样的话，我们就可以向下面代码那样定位最外层的&lt;section&gt;了:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						body nav<span class="sy0">+</span>section <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	<strong>定位下一个&lt;section&gt;元素</strong><br />
+	作为最外层&lt;section&gt;元素下的唯一直属子集元素，这个&lt;section&gt;元素也许可以这样定位:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						section<span class="sy0">&gt;</span>section <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	<strong>定位&lt;article&gt;元素</strong><br />
+	可以定位&lt;article&gt;元素的方法有很多，不过最简单的方法当然就是后代选择器了:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						section section article <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	<strong>定位&lt;header&gt;、&lt;section&gt;和&lt;footer&gt;元素</strong><br />
+	这三个元素分别在两个地方都出现过，一是在&lt;article&gt;元素中出现，另一是在&lt;aside&gt;元素中出现。这种差别能让我们轻松定位每个元素。</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						article header <span class="br0">{</span><span class="br0">}</span><br />
+						article section <span class="br0">{</span><span class="br0">}</span><br />
+						article footer <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	或者一起定义:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						section section header <span class="br0">{</span><span class="br0">}</span><br />
+						section section section <span class="br0">{</span><span class="br0">}</span><br />
+						section section footer <span class="br0">{</span><span class="br0">}</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	　　到目前为止，我们已经使用CSS2.1选择器排除掉了所有的class和id。那么我们为什么还需要使用CSS3呢？我很高兴你能这么问&hellip;</p>
+<h3>
+	使用CSS3对HTML5元素进行高级定位</h3>
+<p>
+	　　虽然我们已经使用CSS2.1选择器排除掉了所有的class和id，显然还会有很多更复杂的情况需要CSS3的高级选择器来解决。让我们通过完成一下的实例来了解一下如何在不使用无用的class和id属性的情况下利用CSS3定位页面元素。</p>
+<p>
+	<strong>使用一个唯一的日志(post)ID定位所有日志</strong></p>
+<p>
+	　　wordpress提供给我们一种包含了ID的每篇日志的源代码输出。这种信息通常用于导航和/或了解资料的意图，不过CSS3可以利用这些唯一的ID来定义这些日志的样式。当然，你还可以像往常那样为每篇日志添加class=&rdquo;post&rdquo;这样的属性，但这就与我们练习的意图相冲突了(再加上它没有一点乐趣所在)。使用&rdquo;子字符串匹配选择器&rdquo;，我们就可以像下面这样定位所有日志和它们的不同元素了。</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						article<span class="br0">[</span>id<span class="sy0">*=</span>post-<span class="br0">]</span> <span class="br0">{</span><span class="br0">}</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="coMULTI">/* 定位所有日志 */</span><br />
+						article<span class="br0">[</span>id<span class="sy0">*=</span>post-<span class="br0">]</span> header h1 <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 定位所有日志中的h1标签 */</span><br />
+						article<span class="br0">[</span>id<span class="sy0">*=</span>post-<span class="br0">]</span> section p <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 定位所有日志中的p标签 */</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	我们仍然可以使用同样的方式定位评论的元素和它们的子元素。</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						article<span class="br0">[</span>id<span class="sy0">*=</span>comment-<span class="br0">]</span> <span class="br0">{</span><span class="br0">}</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="coMULTI">/* 定位所有评论 */</span><br />
+						article<span class="br0">[</span>id<span class="sy0">*=</span>comment-<span class="br0">]</span> header h1 <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 定位所有评论中的h1标签 */</span><br />
+						article<span class="br0">[</span>id<span class="sy0">*=</span>comment-<span class="br0">]</span> section p <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 定位所有评论中的p标签 */</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	<strong>定位一些指定的区域(section)或文章(article)</strong><br />
+	　　有很多博客的日志量和评论量都相当大，HTML 5 会将它们由&lt;section&gt;或&lt;article&gt;元素组成。为了定位哪些指定的&lt;section&gt;或&lt;article&gt;元素，我们就要转而使用强大的&ldquo;:nth-child&rdquo;选择器了:</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3<br />
+						4<br />
+						5</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						section<span class="re2">:nth-</span>child<span class="br0">(</span><span class="nu0">1</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择第一个 &lt;section&gt; */</span><br />
+						article<span class="re2">:nth-</span>child<span class="br0">(</span><span class="nu0">1</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择第一个 &lt;article&gt; */</span><br />
+						<br />
+						section<span class="re2">:nth-</span>child<span class="br0">(</span><span class="nu0">2</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择第二个 &lt;section&gt; */</span><br />
+						article<span class="re2">:nth-</span>child<span class="br0">(</span><span class="nu0">2</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择第二个 &lt;article&gt; */</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	同样，我们可以使用&ldquo;:nth-last-child&rdquo;选择器定位反序的一些元素。</p>
+<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+	<table cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="line-numbers">
+					<div>
+						1<br />
+						2<br />
+						3<br />
+						4<br />
+						5</div>
+				</td>
+				<td>
+					<div class="css codecolorer">
+						section<span class="re2">:nth-last-</span>child<span class="br0">(</span><span class="nu0">1</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择最后一个 &lt;section&gt; */</span><br />
+						article<span class="re2">:nth-last-</span>child<span class="br0">(</span><span class="nu0">1</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择最后一个 &lt;article&gt; */</span><br />
+						<br />
+						section<span class="re2">:nth-last-</span>child<span class="br0">(</span><span class="nu0">2</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择倒数第二个 &lt;section&gt; */</span><br />
+						article<span class="re2">:nth-last-</span>child<span class="br0">(</span><span class="nu0">2</span><span class="br0">)</span> <span class="br0">{</span><span class="br0">}</span> <span class="coMULTI">/* 选择倒数第二个 &lt;article&gt; */</span></div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>
+	<strong>使用更多的方式选择指定元素</strong><br />
+	　　另一种选择HTML5中指定元素(如header、section和footer)的方法就是利用&rdquo;:only-of-type&rdquo;选择器的优势。由于这些HTML5元素通常会在很多地方出现不止一次，所以当我们想定位那种在父元素下仅出现过一次的标签时这种方法很方便。例如，我们要选择的是在某<section>元素中有切仅有的唯一一个<section>元素，如以下代码:</section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section></section></section></p>
+<p>
+	<section><section>
+	<div class="codecolorer-container html4strict mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+		<table cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td class="line-numbers">
+						<div>
+							1<br />
+							2<br />
+							3<br />
+							4<br />
+							5<br />
+							6<br />
+							7<br />
+							8<br />
+							9<br />
+							10<br />
+							11<br />
+							12<br />
+							13<br />
+							14</div>
+					</td>
+					<td>
+						<div class="html4strict codecolorer">
+							<span class="sc2">&lt;section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;section&gt;&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;section&gt;</span><br />
+							&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;section&gt;</span>定位这个section元素<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;section&gt;</span><br />
+							&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;section&gt;</span>定位这个section元素<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;section&gt;</span><br />
+							&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;section&gt;</span>但不定位这个section元素<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp; &nbsp; <span class="sc2">&lt;section&gt;</span>和这个section元素<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span><br />
+							&nbsp; &nbsp;<span class="sc2">&lt;section&gt;&lt;<span class="sy0">/</span>section&gt;</span><br />
+							<span class="sc2">&lt;<span class="sy0">/</span>section&gt;</span></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<p>
+		我们可以仅使用以下一行选择器:</p>
+	<div class="codecolorer-container css mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+		<table cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td class="line-numbers">
+						<div>
+							1</div>
+					</td>
+					<td>
+						<div class="css codecolorer">
+							section<span class="sy0">&gt;</span>section<span class="re2">:only-of-type </span><span class="br0">{</span><span class="br0">}</span></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<p>
+		　　再次唠叨，你可以固执的为每个元素添加ID属性，但你会失去代码的可扩展性、维护性和绝对简洁的结构与表现相分离。CSS3的确能让我们可快速更方便的定位几乎所有没有ID和class属性的页面元素。</p>
+	<p>
+		&nbsp;</p>
+	<p>
+		那么，我们有没有办法让所有的浏览器支持HTML5呢？</p>
+	<p>
+		自从HTML5能为我们的新网页带来更高效洁净的代码而得到更多的关注，然而唯一能让IE识别那些新元素(如&lt;article&gt;)的途径是使用HTML5 shiv,感谢remy sharp为我们提供了这个迷你脚本来解决IE支持HTML5的问题。<br />
+		　html5.js必须在页面head元素内调用(因为IE必须在元素解析前知道这个元素，所以这个js文件不能在页面底部调用。)<br />
+		　　作者已经把js文件放在Google code project上并允许大家直接调用，当然，前提是你不在意调用额外的文件。<br />
+		<a href="http://html5shiv.googlecode.com/svn/trunk/html5.js">http://html5shiv.googlecode.com/svn/trunk/html5.js</a><br />
+		你可以使用IE条件注释来调用这个js文件，这样像FireFox等非IE浏览器就会忽视这段代码，也就不会有无谓的http请求了。下面这段代码仅会在IE浏览器下运行:</p>
+	<div class="codecolorer-container html4strict mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+		<table cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td class="line-numbers">
+						<div>
+							1<br />
+							2<br />
+							3</div>
+					</td>
+					<td>
+						<div class="html4strict codecolorer">
+							<span class="sc-1">&lt;!--[if IE]&gt;</span><br />
+							<span class="sc-1">&nbsp; &nbsp;&lt;script src=&quot;http://html5shiv.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;</span><br />
+							<span class="sc-1">&lt;![endif]--&gt;</span></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<p>
+		当然如果你不喜欢调用外网文件，你也可以下载下来上传到自己的服务器单独调用(作者允许)。</p>
+	<p>
+		以下是js文件中的代码:</p>
+	<div class="codecolorer-container javascript mac-classic" style="width: 500px; white-space: nowrap; overflow: auto">
+		<table cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td class="line-numbers">
+						<div>
+							1</div>
+					</td>
+					<td>
+						<div class="javascript codecolorer">
+							<span class="br0">(</span><span class="kw2">function</span><span class="br0">(</span><span class="br0">)</span><span class="br0">{</span><span class="kw1">if</span><span class="br0">(</span><span class="sy0">!</span><span class="coMULTI">/*@cc_on!@*/</span><span class="nu0">0</span><span class="br0">)</span><span class="kw1">return</span><span class="sy0">;</span>var e <span class="sy0">=</span> <span class="st0">&quot;abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video&quot;</span>.<span class="me1">split</span><span class="br0">(</span><span class="st0">&#39;,&#39;</span><span class="br0">)</span><span class="sy0">,</span>i<span class="sy0">=</span>e.<span class="me1">length</span><span class="sy0">;</span>while<span class="br0">(</span>i<span class="sy0">--</span><span class="br0">)</span><span class="br0">{</span>document.<span class="me1">createElement</span><span class="br0">(</span>e<span class="br0">[</span>i<span class="br0">]</span><span class="br0">)</span><span class="br0">}</span><span class="br0">}</span><span class="br0">)</span><span class="br0">(</span><span class="br0">)</span></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<p>
+		英文原文:<a href="http://remysharp.com/2009/01/07/html5-enabling-script/" target="_blank" title="HTML5 enabling script">JavaScript and the DOM Series: Lesson 1</a></p>
+	</section></section></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('eye/jpg/2010/9/201009141514407972.jpg');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<br/><br/><br/>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=1051" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=1051" target="_blank">点此参与评论</a>>></div>
+<br/>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">拥抱未来:HTML5标准之魅力</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<br/><br/>
+<div class="artInfo"><p calss="pull-left">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" width=\"380\"  value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="pull-right"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址" class="img-responsive text-center" /></a></p></div>
+<br/>
+<div class="Contnet_old">上一篇文章：<a href="/blog/eye/965.shtml" title="浅谈正确理解数据库架构以及标准化操作之重要性">浅谈正确理解数据库架构以及标准化操作之重要性</a>     下一篇文章：<a href="/blog/eye/1142.shtml" title="两块路牌引申出来的软件需求">两块路牌引申出来的软件需求</a></div>
+<!-- 内容主体结束 --></div>
+
+
+
+</div>
+
+
+<!--中部主体结束 -->
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/2441.shtml" style="color:">访客行为跟踪与互动系统上线交付商用</a><span class="">2015/09/16</span></li>
+
+<li><b>[改进]</b><a href="/updata/2419.shtml" style="color:">更正后台Safri浏览器兼容性缺陷</a><span class="">2015/07/01</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+</body>
+</html>
+<script>
+//兼容wp8
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+  var msViewportStyle = document.createElement("style");
+  msViewportStyle.appendChild(
+    document.createTextNode(
+      "@-ms-viewport{width:auto!important}"
+    )
+  );
+  document.getElementsByTagName("head")[0].
+    appendChild(msViewportStyle);
+}
+
+//搜索关键字
+function setEmpty(obj) {
+	if (obj.value == "全站检索") {
+		obj.value = "";
+	}
+}
+function settxt(obj) {
+	if (obj.value == "") {
+		obj.value = "全站检索";
+	}
+}
+
+
+$(function () {
+	$("#tabs1 a").mouseover(function (e) {
+		$(this).tab('show');
+	});
+   
+});
+$ID = function(el){
+	return document.getElementById(el);
+};
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+
+
+</script>

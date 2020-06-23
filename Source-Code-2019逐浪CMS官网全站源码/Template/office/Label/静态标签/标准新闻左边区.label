@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>427</LabelID>
+    <LabelName>标准新闻左边区</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div id="main_l"&gt;
+&lt;div class="main_l_t"&gt;&lt;/div&gt;
+&lt;div class="main_l_m"&gt;
+&lt;div class="main_l_title"&gt;官方推荐&lt;/div&gt;
+&lt;div style=" margin-left:1px"&gt;&lt;script type="text/javascript" src="{$AdDir/}/201008/9.js"&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class="main_l_btitle"&gt;&lt;a href="{ZL:GetNodeUrl(5)/}" target="_blank"&gt;官方更新&lt;/a&gt;&lt;/div&gt;
+&lt;div class="main_l_news"&gt;
+&lt;ul&gt;
+{ZL.Label id="首页_官方动态" ShowNum="5" TitleNum="20" /}
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="main_l_btitle"&gt;&lt;a href="{ZL:GetNodeUrl(9)/}" target="_blank"&gt;最新案例&lt;/a&gt;&lt;/div&gt;
+&lt;div class="main_l_news"&gt;
+&lt;ul&gt;
+{ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="5" TitleNum="20" NodeID="9" /}
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="main_l_btitle"&gt;&lt;a href="{ZL:GetNodeUrl(21)/}" target="_blank"&gt;媒体报道&lt;/a&gt;&lt;/div&gt;
+&lt;div class="main_l_news"&gt;
+&lt;ul&gt;
+{ZL.Label id="查询指定节点ID下信息列表_不带时间" ShowNum="5" TitleNum="20" NodeID="21" /}
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="main_l_bottom"&gt;&lt;/div&gt;&lt;!--左边第一个环形 --&gt;
+
+&lt;div class="main_l_t"&gt;&lt;/div&gt;
+&lt;div class="main_l_m"&gt;
+&lt;div class="main_l_title"&gt;&lt;span&gt;&lt;a href="{ZL:GetNodeLinkUrl(24)/}"&gt;更多&gt;&gt;&lt;/a&gt;&lt;/span&gt;专业解决方案&lt;/div&gt;
+&lt;p&gt;Zoomla!逐浪CMS专业解决方案提供了丰富的案例信息和PDF文档下载，欢迎您点击访问&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="main_l_bottom"&gt;&lt;/div&gt;&lt;!--左边第二个环形 --&gt;
+
+&lt;div id="friendsite"&gt;
+&lt;Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" size=1 name=select8&gt;
+&lt;Option  selected&gt;友情链接站点&lt;/Option&gt;
+{ZL.Label id="首页友情链接"/}
+&lt;/Select&gt;
+&lt;/div&gt;
+&lt;div id="main_l_ad"&gt;
+&lt;script type="text/javascript" src="{$AdDir/}/201012/12.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="{$AdDir/}/201012/13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="{$AdDir/}/201009/10.js"&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!--中左结束 --&gt;
+</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+  </Table>
+</NewDataSet>

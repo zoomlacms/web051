@@ -1,0 +1,220 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>477</LabelID>
+    <LabelName>响应式网站底部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="foot"&gt;
+&lt;div class="container Home_server"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1"&gt;
+&lt;h3&gt;+什么是CMS&lt;/h3&gt;
+&lt;p&gt;
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+&lt;/p&gt;
+
+&lt;ul class=""&gt;
+&lt;li&gt;&lt;a href="#"&gt;CMS起源&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/try/cmsnews/" target="_blank"&gt;CMS行业动态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/try/" target="_blank"&gt;CMS选型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;CMS厂商榜单&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://gongyi.z01.com" target="_blank"&gt;东方红慈善基金&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/help/https/" target="_blank"&gt;SSL金融级研发支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/case/" target="_blank"&gt;案例中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/job/" target="_blank"&gt;求贤若渴&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="clearfix"&gt;&lt;/div&gt;
+&lt;ul class="Home_server_top2"&gt;
+&lt;h4&gt;我们的主力产品线&lt;/h4&gt;
+&lt;li&gt;&lt;a href="" target="_blank"&gt;CMS网站系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="" target="_blank"&gt;Z套件-OA办公产品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.z01.com" target="_blank"&gt;微建站产品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.z01.com/h5" target="_blank"&gt;H5场景产品&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/" target="_blank"&gt;电商系统&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/" target="_blank"&gt;政务门户集成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/" target="_blank"&gt;微信系统开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/" target="_blank"&gt;教育平台开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/shop/" target="_blank"&gt;军工门户产品线&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank"&gt;逐浪字库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="//www.73ic.com" target="_blank"&gt;73ic智能云&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/listpage.shtml" target="_blank"&gt;功能小报&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3"&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;使用导航&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/pub/" target="_blank"&gt;下载逐浪&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/listpage.shtml" target="_blank"&gt;购买指南&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/listpage.shtml" target="_blank"&gt;产品特色&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/help/Install/692.shtml" target="_blank"&gt;快速安装&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.z01.com/mb/" target="_blank"&gt;模板中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/help/Install/693.shtml" target="_blank"&gt;程序迁移&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/demo/" target="_blank"&gt;产品演示&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/product/pub/380.shtml" target="_blank"&gt;商城建设&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/yun/" target="_blank"&gt;云主机&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/1987.shtml" target="_blank"&gt;数据中心高端计算&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.z01.com" target="_blank"&gt;用户手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.z01.com/database/" target="_blank"&gt;数据字典&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/media/359.shtml" target="_blank"&gt;Oracle支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/learn/2342.shtml" target="_blank"&gt;桌面壁纸&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/phoneGap/" target="_blank"&gt;PhoneGap资源&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.1th.cn" target="_blank"&gt;一特网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3"&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;旗下矩阵&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/mtv/" target="_blank"&gt;视频教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Project/" target="_blank"&gt;解决方案&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bbs.z01.com" target="_blank"&gt;技术社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/biz/" target="_blank"&gt;商业认证&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/video" target="_blank"&gt;视频中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/server/1774.shtml" target="_blank"&gt;讲师计划&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/1932.shtml" target="_blank"&gt;院校合作&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;前瞻研发&lt;/h4&gt;
+&lt;li&gt;&lt;a href="http://pano.z01.com" target="_blank"&gt;VR与AR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/video/1839.shtml" target="_blank"&gt;体感研发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/pub/2986.shtml" target="_blank"&gt;智能硬件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="pub/2426.shtml" target="_blank"&gt;微信开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/updata/881.shtml" target="_blank"&gt;三维全景&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/m/" target="_blank"&gt;移动开发&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/sec/"&gt;SEC应急响应中心&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3"&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;开放平台&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/updata/" target="_blank"&gt;更新记录&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/try/kkzx/1021.shtml" target="_blank"&gt;API整合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/down/3065.shtml" target="_blank"&gt;逐浪云管家(FileZilla Server智能助手）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/learn/1246.shtml" target="_blank"&gt;云技术白皮书&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Article/news/526.shtml" target="_blank"&gt;永久免费声明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://help.z01.com/HelpLabel.aspx" target="_blnak"&gt;标签助手&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://code.z01.com/boot/" target="_blank"&gt;BootStrap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;配套服务&lt;/h4&gt;
+&lt;li&gt;&lt;a href="http://v.hx008.com/domain.php" target="_blank"&gt;域名注册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.hx008.com/web.php" target="_blank"&gt;主机服务&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hx008.com/idc/" target="_blank"&gt;租用托管&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://v.hx008.com/pro.php" target="_blank"&gt;优化推广&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hx008.com/Website/" target="_blank"&gt;网站建设&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ad.z01.com/" target="_blank"&gt;广告源码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/tool/"&gt;IIS站点智能工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3"&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;关于我们&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/y10/" target="_blank"&gt;10年华诞&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/" target="_blank"&gt;关于公司&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/photo/ltd/" target="_blank"&gt;参观公司&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/music" target="_blank"&gt;企业歌曲&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/83.shtml"&gt;联系地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/blog/" target="_blank"&gt;官方博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/server/" target="_blank"&gt;服务中心&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="Home_server_li"&gt;
+&lt;h4&gt;站内导航&lt;/h4&gt;
+&lt;li&gt;&lt;a href="/corp/media" target="_blank"&gt;媒体报道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/video" target="_blank"&gt;视频中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/map.html" target="_blank"&gt;网站地图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/article/join/" target="_blank"&gt;代理加盟&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/corp/about/95.shtml"&gt;版权申明&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/Friendsite/" target="_blank"&gt;友情链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/about.shtml"&gt;About Zoomla!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;!--整个表格 --&gt;
+
+&lt;div id="home_friendsite"&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;p&gt;&lt;a href="https://github.com/zoomla" target="_blank"&gt;&lt;i class="fa  fa-github"&gt;&lt;/i&gt;&lt;/a&gt;典型客户&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li id="home_friendsite_china"&gt;&lt;a href="#"&gt;中国政府网&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_dell"&gt;&lt;a href="#"&gt;DELL&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_fujitsu"&gt;&lt;a href="#"&gt;Fujitsu&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_hp"&gt;&lt;a href="/Template/office/style/images//HP.pdf" target="_blank"&gt;HP&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_whedu"&gt;&lt;a href="#"&gt;武汉大学&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_huawei"&gt;&lt;a href="#"&gt;深圳华为&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_cdc"&gt;&lt;a href="#"&gt;中国疾病预防控制中心&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_kingdee"&gt;&lt;a href="#"&gt;金蝶软件&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_chinaredstar"&gt;&lt;a href="#"&gt;红星美凯龙&lt;/a&gt;&lt;/li&gt;
+  &lt;li id="home_friendsite_jxrb"&gt;&lt;a href="#"&gt;江西日报&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="copyrights"&gt;
+                &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+7×24小时服务热线 021-50391046 技术支持：13177777714&lt;br/&gt;
+    &amp;copy;Copyright 2003-&lt;script LANGUAGE="JavaScript"&gt;
+&lt;!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear &gt; 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--&gt; 
+&lt;/script&gt; 逐浪软件z01.com版权所有 All rights reserved&lt;br/&gt;
+        经营许可证号:工商3601002021063 沪ICP备09077823号  &lt;a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502000316"&gt;&lt;img src="/uploadfiles/ga.png"/&gt; 沪公网安备31011502000316号&lt;/a&gt;&lt;br /&gt;
+    &lt;div class="mail"&gt;本网站基于&amp;reg;Zoomla!逐浪CMS内核开发&lt;/div&gt;
+&lt;p&gt; 
+&lt;SCRIPT&gt;document.writeln("&lt;a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=2012041112133385' target='_blank' &gt;&lt;img src='/Skin/2010/images/gs.gif' alt='工商认证'&gt;&lt;/a&gt;")&lt;/SCRIPT&gt; 
+&lt;a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"&gt;&lt;img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/&gt;&lt;/a&gt; &lt;a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"&gt;&lt;img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /&gt;&lt;/a&gt; &lt;a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"&gt;&lt;img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/&gt;&lt;/a&gt; &lt;a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"&gt;&lt;img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /&gt;&lt;/a&gt;
+&lt;a href="http://www.zx110.org/" target="_blank"&gt;&lt;img src="/img/zx110.png" alt="社会征信网" /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;/div&gt;
+&lt;div class="navbar navbar-fixed-bottom MYbottom"&gt;
+&lt;div class="container BottomLink" &gt;
+&lt;div class="row"&gt;
+&lt;div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq"&gt;
+&lt;a class="btn btn-danger  btn-sm pull-left" href="/updata/"&gt;&lt;i class="fa fa-refresh fa-lg"&gt;&lt;/i&gt; 更新记录&lt;/a&gt;
+&lt;ul&gt;
+{ZL.Label id="更新记录_非分页列表" NodeID="62" ShowNum="20" TitleNum="50" /}
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-lg-5 col-md-5  col-sm-5 col-xs-12"&gt;
+&lt;span&gt;
+&lt;div class="dl"&gt;&lt;a href="/pub/" target="_blank" title="Free Download"&gt;DownLoad&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="sp"&gt;&lt;a href="/shop/" target="_blank" title="Buy Now"&gt;Buy Now&lt;/a&gt;&lt;/div&gt;
+&lt;div class="ins"&gt;&lt;a href="/help/Install/692.shtml" target="_blank" title="快速安装"&gt;快速安装&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/span&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="container Mytel"&gt;
+&lt;div class="col-lg-12"&gt;
+&lt;span class="glyphicon glyphicon-earphone"&gt;&lt;a href="tel:021-50391046"&gt;联系官方服务热线&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

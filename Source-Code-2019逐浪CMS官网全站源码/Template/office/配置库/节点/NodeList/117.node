@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <NodeID>117</NodeID>
+    <NodeName>使用帮助</NodeName>
+    <NodeType>1</NodeType>
+    <NodeDir>sybz</NodeDir>
+    <NodeUrl />
+    <Tips>13</Tips>
+    <ParentID>113</ParentID>
+    <OrderID>37</OrderID>
+    <Child>0</Child>
+    <Depth>2</Depth>
+    <NodePicUrl />
+    <Description />
+    <Meta_Keywords>逐浪帮助,逐浪使用教程,逐浪用户,逐浪安装方法,逐浪CMS的部署方法</Meta_Keywords>
+    <Meta_Description>Zoomla!逐浪CMS官方帮助中心</Meta_Description>
+    <OpenType>false</OpenType>
+    <PurviewType>false</PurviewType>
+    <CommentType>false</CommentType>
+    <HitsOfHot>0</HitsOfHot>
+    <ListTemplateFile />
+    <IndexTemplate>栏目列表/Rss列表.html</IndexTemplate>
+    <ContentModel />
+    <ItemOpenType>false</ItemOpenType>
+    <ContentHtmlRule>2</ContentHtmlRule>
+    <ListPageHtmlEx>3</ListPageHtmlEx>
+    <ContentFileEx>3</ContentFileEx>
+    <HtmlPosition>1</HtmlPosition>
+    <NodeListType>0</NodeListType>
+    <ConsumePoint>0</ConsumePoint>
+    <ConsumeType>0</ConsumeType>
+    <ConsumeTime>0</ConsumeTime>
+    <ConsumeCount>0</ConsumeCount>
+    <Shares>0</Shares>
+    <Custom />
+    <NodeListUrl />
+    <LastinfoTemplate />
+    <HotinfoTemplate />
+    <ProposeTemplate />
+    <OpenTypeTrue>_self</OpenTypeTrue>
+    <ItemOpenTypeTrue>_self</ItemOpenTypeTrue>
+    <NodeBySite>0</NodeBySite>
+    <SiteConfige />
+    <SafeGuard>0</SafeGuard>
+    <Contribute>0</Contribute>
+    <SiteContentAudit>0</SiteContentAudit>
+    <AuditNodeList />
+    <AddPoint>0</AddPoint>
+    <AddMoney>0.0000</AddMoney>
+    <ClickTimeout>1</ClickTimeout>
+    <Purview>&lt;View&gt;allUser&lt;/View&gt;&lt;ViewGroup&gt;&lt;/ViewGroup&gt;&lt;ViewSunGroup&gt;&lt;/ViewSunGroup&gt;&lt;input&gt;&lt;/input&gt;&lt;forum&gt;1,2&lt;/forum&gt;</Purview>
+    <AddUserExp>0</AddUserExp>
+    <DeducUserExp>0</DeducUserExp>
+    <ListPageEx>3</ListPageEx>
+    <LastinfoPageEx>3</LastinfoPageEx>
+    <HotinfoPageEx>3</HotinfoPageEx>
+    <ProposePageEx>3</ProposePageEx>
+    <Viewinglimit>1=0|2=0                                                                                             </Viewinglimit>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,8 @@
+CACHE MANIFEST
+#v1.0.00 and counting!
+CACHE:
+assets/
+js/
+assets/images/
+NETWORK:
+*

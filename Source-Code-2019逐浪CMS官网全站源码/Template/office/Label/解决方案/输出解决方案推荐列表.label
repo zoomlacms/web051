@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>485</LabelID>
+    <LabelName>输出解决方案推荐列表</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>解决方案</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,,1,节点ID|ShowNum,10,1,显示数|TitleNum,30,1,标题长|SysNum,100,1,简介数</LabelParam>
+    <LabelTable>{table1}.dbo.ZL_CommonModel left join {table1}.dbo.ZL_C_prj on {table1}.dbo.ZL_CommonModel.ItemID={table1}.dbo.ZL_C_prj.ID</LabelTable>
+    <LabelField>{table1}.dbo.ZL_CommonModel.GeneralID,{table1}.dbo.ZL_CommonModel.Title,{table1}.dbo.ZL_C_prj.backdrop,{table1}.dbo.ZL_C_prj.synopsis,{table1}.dbo.ZL_C_prj.lite_pic</LabelField>
+    <LabelWhere>(NodeID=@NodeID or FirstNodeID=@NodeID) And Status=99 And {table1}.dbo.ZL_CommonModel.EliteLevel=1</LabelWhere>
+    <LabelOrder>{table1}.dbo.ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>{Repeate}
+&lt;li class="col-lg-4 col-md-4 col-sm-4 col-xs-12"&gt;
+&lt;div class="project_tl_t"&gt;
+&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}" title="{Field="Title"/}"&gt;
+&lt;h1&gt;{ZL:CutText({Field="Title"/},@TitleNum,)/}&lt;/h1&gt;
+&lt;p&gt;{ZL:CutText({Field="synopsis"/},@SysNum,...)/}&lt;/p&gt;
+&lt;img class="img-responsive center-block" alt="{Field="Title"/}" src="{ZL:GetPicUrl({Field="lite_pic"/})/}"&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="project_tl_b"&gt;&lt;a href="{ZL:GetInfoUrl({Field="GeneralID"/})/}"&gt;查看详情&lt;/a&gt;&lt;/div&gt;
+&lt;/li&gt;{/Repeate}</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>zoomla_cn</DataSourceType>
+    <ConnectString>DBO</ConnectString>
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

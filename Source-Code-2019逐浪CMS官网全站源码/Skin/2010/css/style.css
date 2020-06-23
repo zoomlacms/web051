@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* base yui reset.css, repair by haven long 090925*/
+.eachBox{
+overflow:hidden;
+clear:both;
+padding:15px 0; }
+
+.introArea{
+float:left; 
+margin-left:20px;
+display:inline;
+width:300px;
+line-height:1.7em; }
+
+.introArea h2{
+font-size:1.17em;
+padding:5px 0 10px;
+color:#CC0000;}
+
+.green{color:green;}
+.blue,code{
+font-size:1em;
+color:blue;
+font-family:Verdana;}
+
+
+
+
+
+/* changeBox_a1 */
+.changeBox_a1{
+float:left;
+width:650px;height:250px; 
+padding:2px;
+position:relative;
+border:1px solid #aaa; }
+
+.changeBox_a1 .a_bigImg img{
+position:absolute;
+top:2px;left:2px;
+display:none;}
+
+
+.changeDiv{
+position:absolute;
+top:2px;left:2px;
+display:none;}
+
+.changeDiv h3{
+position:absolute;
+left:0px;bottom:0;
+width:650px;
+height:30px;line-height:30px;
+background:#fff;
+filter:alpha(opacity=70);
+opacity:0.7;}
+
+.changeDiv h3 a{
+display:block;
+padding-left:15px; 
+color:#FF6600;}
+
+*{margin:0px; padding:0px;}
+img{border:0px}
+body{ font-size:12px;color:#687476}
+/* ul_change_a1 */
+.ul_change_a1{
+position:absolute;
+right:1px; bottom:6px;
+padding-left:19px;
+overflow:hidden;}
+
+.ul_change_a1 li{
+float:left;
+margin-right:7px; }
+.ul_change_a1 img{ border:1px solid #ddd;}
+.ul_change_a1 img.now{border:1px solid #FF6600;}
+.a_last,.a_next{
+position:absolute;
+top:10px;
+width:16px;height:16px;
+background:url(../images/bot.png) no-repeat;
+text-indent:-999em;overflow:hidden;}
+
+.a_last{right:30px;background-position:0 0;}
+.a_next{right:12px;background-position:100% 0;}
+
+
+

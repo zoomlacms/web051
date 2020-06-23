@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>511</LabelID>
+    <LabelName>2016新帮助中心多栏目嵌套基础类</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>帮助中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,1,节点ID|ShowNum,6,1,调用信息数|TitleNum,30,1,标题长度</LabelParam>
+    <LabelTable>ZL_Node</LabelTable>
+    <LabelField>NodeID,NodeName</LabelField>
+    <LabelWhere>NodeID=@NodeID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>&lt;div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 helpCenter_list_c"&gt;  
+&lt;h3&gt;&lt;a href="{ZL:GetNodeLinkUrl({Field="NodeID"/})/}"&gt;&lt;i class="fa fa-desktop"&gt;&lt;/i&gt;&lt;span&gt;{Field="NodeName"/}&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;  
+&lt;ul&gt;
+{ZL.Label id="简洁式输出指定节点下文章列表_帮助中心首页用" NodeID="{Field="NodeID"/}" TitleNum="@TitleNum" ShowNum="@ShowNum" /}
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;!--子栏目信息显示 --&gt;
+</LabelContent>
+    <LabelCount>10</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_Node","tb_s":""}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

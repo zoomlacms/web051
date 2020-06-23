@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>510</LabelID>
+    <LabelName>2016多栏目嵌套调用类</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>帮助中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>ParentID,13,1,父栏目ID|ShowNum,10,1,调用栏目数|TitleNum,60,1,标题长度|Nums,30,1,标题长度</LabelParam>
+    <LabelTable>ZL_Node</LabelTable>
+    <LabelField>NodeID</LabelField>
+    <LabelWhere>ParentID=@ParentID and NodeType=1</LabelWhere>
+    <LabelOrder>orderID asc</LabelOrder>
+    <LabelContent>{Repeate}
+{ZL.Label id="2016新帮助中心多栏目嵌套基础类" NodeID="{Field="NodeID"/}" ShowNum="@Nums" TitleNum="@TitleNum" /}
+{/Repeate}
+</LabelContent>
+    <LabelCount>@ShowNum</LabelCount>
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_Node","tb_s":""}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

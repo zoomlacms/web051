@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>24</LabelID>
+    <LabelName>来源_信息中心通用</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,0,2,当前信息ID</LabelParam>
+    <LabelTable>ZL_CommonModel left join ZL_C_article on ZL_CommonModel.ItemID=ZL_C_article.ID</LabelTable>
+    <LabelField>ZL_CommonModel.GeneralID,ZL_CommonModel.NodeID,ZL_CommonModel.ModelID,ZL_CommonModel.ItemID,ZL_C_article.ID,ZL_C_article.source</LabelField>
+    <LabelWhere>ZL_CommonModel.GeneralID=@ItemID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Repeate}{Field="source"/}{/Repeate}</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

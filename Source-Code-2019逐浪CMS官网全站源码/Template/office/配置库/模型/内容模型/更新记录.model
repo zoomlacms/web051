@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>82</ModelID>
+    <ModelName>更新记录</ModelName>
+    <Description>展示软件更新记录</Description>
+    <TableName>ZL_C_updata</TableName>
+    <ItemName>更新记录</ItemName>
+    <ItemUnit>条</ItemUnit>
+    <ItemIcon>glyphicon glyphicon-plus-sign</ItemIcon>
+    <ModelType>1</ModelType>
+    <ContentModule>/内容页模板/默认更新记录内容页.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>true</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>1</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

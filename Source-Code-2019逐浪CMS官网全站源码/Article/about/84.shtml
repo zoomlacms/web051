@@ -1,0 +1,536 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汇款方式_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="">
+<link href="/skin/global.css" rel="stylesheet" type="text/css" />
+<SCRIPT language=javascript src="/skin/ajax.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/js/tab.js"></SCRIPT>
+<SCRIPT language=javascript src="/js/pub.js"></SCRIPT>
+
+<script language="javascript"> 
+function fontZoom(size){ 
+document.getElementById('Content_txt').style.fontSize=size+'px'
+}
+var c1 = 1;
+var c2 = 9;
+var c3 = 0;
+var c4 = 0;
+var c5 = 0;
+</script>
+
+
+</head>
+<body>
+
+<div id="top">
+<div id="logo"><a href="/"><img src="/skin/2009/logo.gif" /></a></div>
+<div id="search">
+<span><iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="185px" height="25px"></iframe></span>
+<div id="top_bb">
+<p><a href="/pub" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号：<script type="text/javascript" src="/ad/201003/8.js"></script></a></p></div>
+</div>
+
+<div id="top_r">
+<div id="top_o"><a href="/vip/" target="_blank" title="高端计算专区"><img src="/skin/2009/oracle.gif" />高端计算专区由此进入>></a></div>
+<ul>
+<li><a href="/server" title="联系专业客服">客服中心</a></li>
+<li><a href="/shop/" title="在线购买">商业订购</a></li>
+<li><a href="/ColumnList.aspx?NodeID=33" title="获取优秀模板开发设计服务">模板开发</a></li>
+<li><a href="http://www.hx008.cn/" target="_blank" title="推荐主机域名服务">主机域名</a></li>
+<li><a href="/blog" title="官方团队的开发日志">官方博客</a></li>
+<li><a href="/demo" target="_blank" title="逐浪家族软件在线演示">演示中心</a></li>
+<li><a href="/help" title="帮助中心">帮助中心</a></li>
+</ul>
+</div>
+</div>
+<!--顶部结束 -->
+
+<div id="nav">
+<div id="nav_l"></div>
+<div id="nav_m">
+<div class="menu">
+	<div class="mainBg">
+	  <div class="part1">
+	    <div class="version">
+          <div class="padder">
+			<h2 onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" class="normal"><div><span><em>快速便捷导航</em></span></div></h2>
+              <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+              	<a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="固定"></a>
+                <div class="qq">
+           	    <h3>CMS网站内核产品线</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=142">Zoomla!逐浪CMS个人版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=143">Zoomla!逐浪CMS企业版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=144">Zoomla!逐浪CMS教育版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=145">Zoomla!逐浪CMS政府版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=146">Zoomla!逐浪CMS开发版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=147">Zoomla!逐浪CMS订制版</a></li>
+                    </ul>
+                </div>
+                <div class="others">
+                	<div class="left">
+						<h3>解决方案</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=213" target="_blank">面向个人</a></li>
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=133" target="_blank">面向企业</a></li>
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=136" target="_blank">面向政府</a></li>
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=131" target="_blank">面向教育</a></li>
+                        </ul>
+                        <h3>使用教程</h3>
+                        <ul class="last">
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=555" target="_blank">使用手册</a></li>
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=324" target="_blank">数据字典</a></li>
+                            <li><a onclick="hidingMenu()" href="/Content.aspx?ItemID=497" target="_blank">DW插件</a></li>
+                            <li><a onclick="hidingMenu()" href="/ColumnList.aspx?NodeID=16" target="_blank">视频教程</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                    	<h3>官方推荐</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        </ul>
+                        <h3>论坛导航</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-24.aspx" target="_blank">程序发布</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-25.aspx" target="_blank">技术讨论</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-26.aspx" target="_blank">模板交流</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-27.aspx" target="_blank">教程发布</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+		
+  </div>
+</div>
+<div id="nav_m_r">
+<ul>
+<li><a href="/" target="_blank">网站首页</a></li>
+<li class="on"><a href="/ColumnList.aspx?NodeID=3" target="_blank">走进逐浪</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2" target="_blank">产品中心</a></li>
+<li><a href="/ColumnList.aspx?NodeID=9" target="_blank">成功案例</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24" target="_blank">解决方案</a></li>
+<li><a href="/ColumnList.aspx?NodeID=25" target="_blank">模板中心</a></li>
+<li><a href="http://bbs.zoomla.cn/" target="_blank">技术社区</a></li>
+</ul>
+</div>
+
+</div>
+<div id="nav_r"></div>
+</div>
+<!--大导航菜单结束 -->
+
+<div id="i_nav">
+<ul>
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户登陆</a></li>
+<li class="login_log"><a href="/User/Register.aspx" target="_blank">会员注册</a></li>
+</ul>
+</div>
+<!--小导航菜单结束 -->
+
+<div id="banner"><script type="text/javascript" src="/IAA/200903/4.js"></script></div>
+
+<div id="main">
+<div id="main_l">
+<div class="main_l_t"></div>
+<div class="main_l_m">
+<div class="main_l_title">卓越功能演示</div>
+<ul>
+<li><a href="/Content.aspx?ItemID=396">无限节点生成</a></li>
+<li><a href="/Content.aspx?ItemID=398">自由模型</a></li>
+<li><a href="/Content.aspx?ItemID=417">可视化模板引擎</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2">独有中文名生成发布</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2">视频点播</a></li>
+<li><a href="/Content.aspx?ItemID=408">邮件订阅</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2">会员短信</a></li>
+<li><a href="/Content.aspx?ItemID=238">项目管理</a></li>
+<li><a href="/Content.aspx?ItemID=326">SNS社区化系统</a></li>
+</ul>
+</div>
+<div class="main_l_txt">
+<ul>
+<li class="teewew"><a href="/ColumnList.aspx?NodeID=2">独有中文名生成</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2">智能广告管理</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2">UTF8国际语言支持</a></li>
+<li><a href="/ColumnList.aspx?NodeID=2">基于W3C标准设计</a></li>
+</ul>
+</div>
+<div class="main_more"><a href="/NodePage.aspx?NodeID=2">更多>></a></div>
+<div class="main_l_bottom"></div><!--左边第一个环形 -->
+
+<div class="main_l_t"></div>
+<div class="main_l_m">
+<div class="main_l_title">专业解决方案</div>
+<ul>
+<li><a href="/Content.aspx?ItemID=213">面向站长</a></li>
+<li><a href="/Content.aspx?ItemID=136">面向政府</a></li>
+<li><a href="/Content.aspx?ItemID=133">面向企业</a></li>
+<li><a href="/Content.aspx?ItemID=131">面向学校</a></li>
+<li><a href="/Content.aspx?ItemID=137">面向教育机构</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">面向开发者</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">面向特殊行业</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">面向外贸企业</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">面向大型集团</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">面向公益机构</a></li>
+</ul>
+</div>
+<div class="main_l_txt">
+<ul>
+<li><a href="/ColumnList.aspx?NodeID=24">独有中文名生成</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">UTF8国际语言支持</a></li>
+<li><a href="/ColumnList.aspx?NodeID=24">基于W3C标准设计</a></li>
+</ul>
+</div>
+<div class="main_more"><a href="/ColumnList.aspx?NodeID=24">更多>></a></div>
+<div class="main_l_bottom"></div>
+
+<div class="main_l_t"></div>
+<div class="main_l_m">
+<div class="main_l_title">相关文章</div>
+</div>
+<div class="main_l_txt">
+<ul>
+
+<li><a href="http://www.zoomla.cn/blog/611.shtml" title="后4.1逐浪CMS的开发思路与预报" target="_self">后4.1逐浪CMS的开发思路</a></li>
+
+
+<li><a href="http://www.zoomla.cn/biz/610.shtml" title="沈阳长白华翰科技发展有限公司" target="_self">沈阳长白华翰科技发展有</a></li>
+
+
+<li><a href="http://www.zoomla.cn/Article/news/609.shtml" title="2010年元旦放假通知" target="_self">2010年元旦放假通知</a></li>
+
+
+<li><a href="/Content.aspx?ItemID=607" title="Zoomla！逐浪CMS入门系列教程32-互动模块的应用" target="">Zoomla！逐浪CMS入门系</a></li>
+
+
+<li><a href="/Content.aspx?ItemID=606" title="Zoomla！逐浪CMS入门系列教程31：数据库还原迁移" target="">Zoomla！逐浪CMS入门系</a></li>
+
+
+<li><a href="http://www.zoomla.cn/Article/news/605.shtml" title="商业授权认证中心正式开放" target="_self">商业授权认证中心正式开</a></li>
+
+
+<li><a href="/Content.aspx?ItemID=604" title="一一道来" target="_self">一一道来</a></li>
+
+
+<li><a href="/Content.aspx?ItemID=603" title="江西聚合实业有限公司" target="_self">江西聚合实业有限公司</a></li>
+
+
+<li><a href="/Content.aspx?ItemID=602" title="如何重装安装逐浪CMS" target="_self">如何重装安装逐浪CMS</a></li>
+
+
+<li><a href="/Content.aspx?ItemID=601" title="上海逐一软件科技有限公司" target="_self">上海逐一软件科技有限公</a></li>
+
+
+</ul>
+</div>
+<div class="main_more"><a href="/map.html">网站地图></a></div>
+<div class="main_l_bottom"></div>
+
+
+
+<!--左边第二个环形 -->
+
+<div id="friendsite">
+<Select onChange="javascript:if(this.options[this.selectedIndex].value) window.open(this.options[this.selectedIndex].value)" size=1 name=select8>
+<Option  selected>友情链接站点</Option>
+
+<Option value="http://www.hx008.com">→ 华夏营销网</Option>
+
+<Option value="http://www.hx008.cn">→ 华夏互联</Option>
+
+<Option value="http://www.ef900.com">→ 易房网</Option>
+
+<Option value="http://bbs.sec520.com">→ 安防快线</Option>
+
+<Option value="http://www.zgfsl.com/Index.html">→ 苏教版高中语文网</Option>
+
+<Option value="http://www.ppali.com">→ 阿里数据</Option>
+
+<Option value="http://www.jecat.cn/">→ JeCat Tec</Option>
+
+<Option value="http://www.wangren.net/">→ 网人科技</Option>
+
+<Option value="http://www.01551.com/">→ 0551网址大全</Option>
+
+<Option value="http://www.fendoujiaoyu.net/">→ 奋斗教育</Option>
+
+<Option value="http://www.jz1959.cn/">→ 江中学生社区</Option>
+
+<Option value="http://www.xinnong.com/">→ 新农网</Option>
+
+<Option value="http://www.automt.cn/">→ 江西第一汽车互动媒体</Option>
+
+<Option value="http://demo.2008.hx008.cn/">→ 东营车管所</Option>
+
+<Option value="http://www.saitseo.com/">→ 阳光安吉</Option>
+
+<Option value="http://www.fc3.cn">→ 黄山房地产网</Option>
+
+<Option value="http://www.iestore.cn/">→ IEStore网店系统</Option>
+
+<Option value="http://www.shangpinfushi.net/">→ 尚品服饰</Option>
+
+</Select>
+</div>
+<div id="main_l_ad">
+<a href="/ColumnList.aspx?NodeID=28" title="联系或加入逐浪软件代理" target="_blank"><img src="/skin/2009/l_ad.gif" /></a>
+
+<a href="http://www.zoomla.cn/Article/news/450.shtml" title="商业订购服务释疑" target="_blank" ><img src="/skin/2009/map_ad.gif" style="margin-top:5px; clear:both;" /></a>
+</div>
+</div><!--中左结束 -->
+
+<div id="Content">
+<div id="site"><a href="/">当前位置： 首页</a>  >  <a href="/ColumnList.aspx?NodeID=3">关于逐浪</a> > 汇款方式</div>
+<h1>汇款方式</h1>
+<div id="Content_Info">作者：佚名 发布时间：2009-12-09  来源:本站原创   字体大小：【<A target="_self" href="javascript:fontZoom(18)">大</A> <A target="_self" href="javascript:fontZoom(14)">中</A> <A target="_self" href="javascript:fontZoom(12)">小</A>】  点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=84"></SCRIPT></div>
+<div id="Content_txt"><table border="0" cellspacing="1" cellpadding="0" width="90%" style="width: 90%">
+    <tbody>
+        <tr>
+            <td style="border-bottom-color: #ece9d8; padding-bottom: 0.75pt; background-color: transparent; border-top-color: #ece9d8; padding-left: 0.75pt; padding-right: 0.75pt; border-right-color: #ece9d8; border-left-color: #ece9d8; padding-top: 0.75pt">
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ 银行汇款</font></span></span><span style="line-height: 150%; font-size: 9pt"> <br />
+            </span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><img border="0" alt="" width="160" height="33" src="/UserFiles/20090831/20071124083816916.gif" /><br />
+            一：收款人姓名：闫红菊</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">汇入城市名称：上海市</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">开户行名称：招商银行上海分行闵行支行（推荐）</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><strong>招商银行</strong>账号：</span><span style="line-height: 150%; font-size: 9pt">6225 8821&nbsp;1962 6718</span></div>
+            <div style="line-height: 150%" align="left">
+            <p><br />
+            <img border="0" alt="" width="160" height="33" src="/UserFiles/20090831/20071124083833389.gif" /><br />
+            <span style="font-size: 11px">二：收款人姓名：闫红菊<br />
+            </span><span style="font-size: 12px"><span style="line-height: 150%; font-family: 宋体; mso-ascii-font-family: ˎ̥; mso-hansi-font-family: ˎ̥; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">汇入城市名称：上海市</span><span lang="EN-US" style="line-height: 150%; font-family: ˎ̥; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><br />
+            </span><span style="line-height: 150%; font-family: 宋体; mso-ascii-font-family: ˎ̥; mso-hansi-font-family: ˎ̥; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">开户行名称：工商银行上海分行闵行支行</span></span><span lang="EN-US" style="line-height: 150%; font-family: ˎ̥; font-size: 9pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><br />
+            </span><span style="line-height: 150%; font-family: 宋体; font-size: 9pt; mso-ascii-font-family: ˎ̥; mso-hansi-font-family: ˎ̥; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><strong>工商银行</strong>账号：</span><span lang="EN-US" style="line-height: 150%; font-family: ˎ̥; font-size: 9pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><font face="宋体">622202 1001037951800</font><br />
+            </span></p>
+            <p>&nbsp;</p>
+            <p><span lang="EN-US" style="line-height: 150%; font-family: ˎ̥; font-size: 9pt; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><font face="宋体"><span style="line-height: 150%; font-size: 9pt"><img border="0" alt="" width="158" height="34" src="/UserFiles/20090831/20071124083851574.gif" /><br />
+            三：收款人姓名：闫红菊</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">汇入城市名称：上海市</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">开户行名称：中国建设银行上海分行闵行支行</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><strong>建设银行</strong>账号：</span><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt">4367 4212&nbsp;1841&nbsp;4417 533</span></span></font></span></p>
+            <p>&nbsp;</p>
+            </div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><img border="0" alt="" width="160" height="40" src="/UserFiles/20090831/20071124083909813.jpg" /><br />
+            四：收款人姓名：闫红菊<span style="line-height: 150%; font-size: 9pt"><br />
+            </span></span><span style="line-height: 150%; font-size: 9pt">汇入城市名称：上海市</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">开户行名称：中国农业银行上海市分行闵行支行</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><strong>农业银行</strong>帐号：622848 0030869158516</span></span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><img border="0" alt="" width="140" height="40" src="/UserFiles/20090831/20080302191154137.jpg" /><br />
+            五：收款人姓名：胡梅福<span style="line-height: 150%; font-size: 9pt"><br />
+            </span></span><span style="line-height: 150%; font-size: 9pt">汇入城市名称：南昌市</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">开户行名称：中国银行南昌市分行北京西路支行</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><strong>中国银行</strong>帐号：60138 21800 00549 0419</span></span></span><br />
+            </span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">六：企业帐户</span><span style="line-height: 150%; font-size: 9pt"> <br />
+            </span><span style="line-height: 150%; font-size: 9pt">汇入城市名称：上海市</span><span style="line-height: 150%; font-size: 9pt"><br />
+            </span><span style="line-height: 150%; font-size: 9pt">企业全称：上海逐一软件科技有限公司</span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt">[不同城市对公汇款详情咨询我们的销售工程师或财务部,<a onclick="window.open(this.href,'','resizable=no,location=no,menubar=no,scrollbars=no,status=no,toolbar=no,fullscreen=no,dependent=no,status'); return false" href="/Content.aspx?ItemID=83">点此查看联系方式</a>]</span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ 邮局汇款<br />
+            </font><img border="0" alt="" width="115" height="48" src="/UserFiles/20090831/20071124083927423.gif" />&nbsp;<br />
+            汇入地址：上海市闵行区水清路999弄香树丽舍78-201#<br />
+            邮政编码：201101<br />
+            收款人：闫红菊</span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt">电话：021-54173031 54173032</span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ 支付宝汇款</font></span></span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><a href="https://www.alipay.com/aip/aip_validate_list.htm?trust_id=AIP16034102"><img border="0" alt="" width="165" height="47" src="/UserFiles/20090831/20071124083941887.gif" /><img border="0" hspace="0" alt="" style="filter: ; width: 123px; height: 40px" src="/UserFiles/20090831/alipaylogo123x40.jpg" /></a></span></span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#000000">支付宝帐户：<a href="mailto:web@hx008.cn">web@hx008.cn</a><br />
+            帐户名：刘璐莹</font></span></span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt">
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ 财富通汇款</font></span></span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#000000"><img border="0" alt="" width="144" height="53" src="/UserFiles/20090831/20071103090807615.jpg" /></font></span></span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#000000">财富通帐户：69250566<br />
+            帐户名：胡梅福</font></span></span></div>
+            </span></span>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><img border="0" alt="" width="103" height="32" onmousewheel="return bbimg(this)" onload="javascript:resizepic(this)" src="/UserFiles/20090831/20070406233244869.gif" /><br />
+            如果您不能实时上网，可以使用支付宝&ldquo;邮政网汇E&rdquo;服务来支付；在所有的中国邮政柜台填写&ldquo;网汇E&rdquo;，然后将充款帐号与密码交付我们，即可完成付款。</span></span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ 国外汇款<br />
+            <img border="0" alt="" width="144" height="33" src="/UserFiles/20090831/20071124084000517.gif" /><br />
+            </font>国外用户请用西联国际汇款，详情请查阅<a target="_blank" href="http://www.westernunion.com/"><u><font color="#0000ff">www.westernunion.com</font></u></a><br />
+            收 &nbsp;款 人：闫红菊（姓:Liu&nbsp; 名:luying）<br />
+            联系电话：86.021-54173031<br />
+            地　　址：中国上海（Shanghai,China）<br />
+            汇款方法：<br />
+            　　1. 汇款人前往就近的西联汇款代办网点，认明西联汇款标识，填写汇款单。<br />
+            　　2. 将填妥的表格及款项递交操作人员，并收妥收条及记录监控号码。<br />
+            　　3. 通知收款人监控号码。<br />
+            　　这样，只需几分钟，您指定的收款人就可在全球任何一家西联汇款代理网点领取该笔汇款。</span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt">&nbsp;</span></span></span>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ 在线支付：</font></span></span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><a href="http://www.v.hx008.cn/member.php?module=myaccount_onlinepayment&amp;provider=capital&amp;amount=">华夏互联采用安全高效的快钱在线支付平台，您可以快速高效的进行在线购买支付，系统支付成功实时入帐，实时购买开通产品与服务，<strong><font color="#0000ff">付款手续费用由华夏互联支出,最方便快捷,省钱实惠的支付方式</font></strong>，如果您已经是会员点击这里立即支付</a>&gt;&gt;</span></div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt">当然，时间宝贵的您还可以点击这里进行直接支付<a href="https://www.99bill.com/pay:wwwwzf@21cn.com"><img border="0" alt="" width="107" height="22" src="/UserFiles/20090831/20071124084022258.gif" /></a>（无须注册|免手续费|实时到帐|快捷方便）</span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt">申明:预付款是用户自愿预存在华夏互联hx008.cn的消费款项，属用户自愿存入，款项不能退回,此提示在多个页面有显示。</span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt">[关于快钱：快钱已同国内19家银行结成战略合作并推出网上交易的收付费服务，并且开通国际Visa卡在线交易功能，服务覆盖国内外27亿张银行卡,同时支持邮政汇款、银行汇款和跨国结算，华夏互联作为快钱合作伙伴能够为广大客户提供高效优质的支付服务，如果您的银行卡没有开通在线支付业务，需要在银行申办网络支付功能。]<br />
+            </span>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><a href="http://www.v.hx008.cn/member.php?module=myaccount_onlinepayment&amp;provider=capital&amp;amount="><img border="0" hspace="0" alt="点击支付" style="filter: ; width: 120px; height: 60px" src="/UserFiles/20090831/20070130175459893.gif" /></a></span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><font color="#000000">其它信息：<br />
+            &rarr;</font><a href="http://2009.hx008.cn/Article/class6/200601/441.shtml"><font color="#000000">关于欠费客户处理的通知</font></a><br />
+            <font color="#000000">&rarr;</font><a href="http://2009.hx008.cn/Article/class6/200501/366.shtml"><font color="#000000">关于发票申领规定</font></a></span></div>
+            </div>
+            </div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#0000ff">○ paypal(贝宝)汇款</font></span></span></div>
+            <div style="line-height: 150%" align="left">&nbsp;</div>
+            <div style="line-height: 150%" align="left"><span style="line-height: 150%; font-size: 9pt"><span style="line-height: 150%; font-size: 9pt"><font color="#000000"><img border="0" alt="" width="118" height="48" src="/UserFiles/20090831/20071123173241832.gif" /><br />
+            华夏互联paypal帐户受理国际与国内汇款(支付美元汇款)<br />
+            帐户：server@hx008.cn</font></span></span></div>
+            </td>
+        </tr>
+    </tbody>
+</table></div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles/"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="edit"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=84" target="_blank">加入收藏</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=84" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">汇款方式</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+  </script><br />
+
+<input type="button" name="Submit" onClick='copyToClipBoard()' value="复制当前网址，传给QQ/MSN上的好友">
+<script language="javascript">
+    function copyToClipBoard(){
+     var clipBoardContent="";
+       clipBoardContent+=this.location.href;
+     window.clipboardData.setData("Text",clipBoardContent);
+     alert("Zoomla!逐浪CMS官网恭喜您:网址复制成功，请使用CTRL+V粘贴到你的QQ/MSN上推荐给你的好友!");
+   }
+</script>
+
+
+</div>
+<div id="Contnet_old">上一篇文章：<a href="http://www.zoomla.cn/Article/about/83.shtml" title="联系我们">联系我们</a><br />
+下一篇文章：<a href="http://www.zoomla.cn/pub/85.shtml" title="逐浪CMS系统">逐浪CMS系统</a></div>
+
+
+
+
+</div>
+<!--中右结束 -->
+
+<div id="main_call_w">
+<div id="main_call">
+<div id="down"><a href="http://www.zoomla.cn/ColumnList.aspx?NodeID=44" title="免费下载快速通道" target="_balnk">下载逐浪程序</a></div>
+<div id="server"><a href="/Content.aspx?ItemID=83" title="我们准备好了为您服务！" target="_balnk">在线客服</a></div>
+<div id="help"><a href="/help" title="快速获取Zoomla!使用帮助" target="_balnk">软件帮助</a></div>
+<div id="buy"><a href="/Content.aspx?ItemID=151" target="_balnk">商业订购</a></div>
+<div id="go_top"><a href="#top" title="返回顶部">TOP</a></div>
+</div>
+</div>
+<!--最右联系浮动结束 -->
+</div>
+
+</div>
+<!--中部主体结束 -->
+<div id="bottom_line"></div>
+<div id="bottom">
+<ul>
+<li><a href="/NodePage.aspx?NodeID=3">关于我们</a></li>
+<li><a href="/Content.aspx?ItemID=94">合同文档</a></li>
+<li><a href="/Content.aspx?ItemID=84">汇款方式</a></li>
+<li><a href="/Content.aspx?ItemID=83">联系我们</a></li>
+<li><a href="/ColumnList.aspx?NodeID=27">工作机会</a></li>
+<li><a href="http://www.hx008.cn/magazine/" target="_blank">电子会刊</a></li>
+<li><a href="/Content.aspx?ItemID=95">版权申明</a></li>
+<li><a href="/NodePage.aspx?NodeID=26">慈善公益</a></li>
+<li><a href="/ColumnList.aspx?NodeID=18">参观公司</a></li>
+</ul>
+<div class="bottom_r"><a href="/ColumnList.aspx?NodeID=21" target="_blank">媒体报道</a></div>
+<div class="bottom_r"><a href="/Content.aspx?ItemID=93" target="_blank">公司资质</a></div>
+<div class="bottom_r"><a href="/Content.aspx?ItemID=94" target="_blank">法律文档</a></div>
+</div>
+<!--底部导航结束 -->
+
+<div id="copyright">
+<div id="copyright_logo"><a href="http://www.zoomla.cn/" target="_blank"><img src="/skin/2009/copyright_logo.gif" /></a></div>
+<p> &copy; Corpright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script>All rights reserved 逐浪软件zoomla.cn版权所有<br />
+中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 
+总机电话：021-50391046(18路) 沪ICP备09077823号
+<script src='/CounterLink.aspx?style=none'></script>
+</p>
+<div id="copyright_r">
+<span>7×24小时服务热线：<b>021-50391046</b></span>
+<span>技术支持：<b>13177777714</b></span>
+<ul>
+<li><a href="#"><img src="/skin/2009/b_p.gif" /></a></li>
+<li><a href="#"><img src="/skin/2009/b_p.gif" /></a></li>
+<li><a href="#"><img src="/skin/2009/b_p.gif" /></a></li>
+<li><a href="http://www.zoomla.cn/Article/about/472.shtml" target="_blank" title="欣赏电子杂志"><img src="/skin/2009/magazine.gif" /></a></li>
+<li><a href="/Content.aspx?ItemID=83" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2009/724.gif" /></a></li>
+<li><a href="/Content.aspx?ItemID=476" title="鉴赏MTV电广视告片"><img src="/skin/2009/mtv.gif" /></a></li>
+<li><a href="/Content.aspx?ItemID=455" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2009/iso.jpg" /></a></li>
+<li><a href="/Content.aspx?ItemID=93" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2009/csdn8A.gif" /></a></li>
+</ul>
+</div>
+
+
+</div>
+<!--底部版权结束 -->
+
+<div id="end">
+<div id="end_l"></div>
+<div id="end_m">
+<p>本网站基于&reg;Zoomla!逐浪CMS内核开发</p>
+<div id="end_m_mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script></div>
+<ul>
+<li><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn');" href="#">设为首页</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="javascript:CorrectReport();">纠错报告</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/manage/login.aspx" target="_blank">后台管理</a></li>
+</ul>
+</div>
+<div id="end_r"></div>
+</div>
+<!--最下方导航结束 -->
+
+</body>
+</html>

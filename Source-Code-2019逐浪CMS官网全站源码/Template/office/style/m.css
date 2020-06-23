@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+/* 全局样式定义 Powered by zoomla.cn */
+*{margin:0px; padding:0px;}
+body{font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#333; background:#0B5AA5;}
+img{border:none;}
+ul,li{list-style-type:none;}
+a{color:#333; text-decoration:none;}
+a:hover{text-decoration:underline;}
+li{height:26px; line-height:26px;}
+.red{ color:#F00; font-weight:bold;}
+.clear{clear:both;}
+
+#wrap{background:url(Images/wrap_bg.jpg) left -5px repeat-x; padding-top:20px; height:480px;}
+#top,#nav_zzjs,#phone,#web_service,#footer{width:980px;margin:auto; clear:both;}
+#logo{ float:left;  width:210px;}
+#top_r{  float:left;width:400px;font-size:16px; padding-top:30px;}
+
+#nav_zzjs {color:#fff;text-align:center;list-style:none; padding-top:10px;}
+#nav_zzjs a{color:#fff;}
+#nav_zzjs li{width:160px;float:left;position:relative;z-index:1;height:30px;line-height:30px; font-size:14px; font-family:"微软雅黑"}
+#nav_zzjs li .title{display:block; line-height:35px; margin-top:-5px;_margin-top:-2px;}
+#nav_zzjs li .title:hover{ text-decoration:none}
+#nav_zzjs li .submenu_zzjs{width:160px;margin:0 auto;background:#193D5D url(Images/nav_bg1.jpg) no-repeat;position:absolute;left:0;top:0px;display:none;z-index:-1 }
+#nav_zzjs li .submenu_zzjs dd{color:#fff; height:30px;}
+#abouts img{ margin-top:8px;}
+#nav_zzjs #abouts{width:132px; float:right}
+#nav_zzjs #abouts .submenu_zzjs{background-image:none; top:25px;width:132px;}
+#phone{ margin-top:20px;}
+#phone_l{float:left; width:620px; }
+
+#phone_ad{}
+#phone_ad ul{}
+#phone_ad h1{ font-size:42px;  color:#0B59A5; font-weight:normal; padding:80px 0px 20px 0px;font-family:"微软雅黑";}
+#phone_ad li{ float:left; width:280px; background:url(Images/dian.jpg) 10px no-repeat; padding-left:20px;color:#0B59A5; height:30px; line-height:30px; font-size:13px; font-family:"微软雅黑"}
+
+#download {}
+#download a:hover{text-decoration:none;}
+#download .load{ display:block;float:left; width:225px; height:102px;background:url(Images/btn_d0.png)  no-repeat;}/*下载软件*/
+#download .load:hover{background:url(Images/btn_d1.png) no-repeat;}
+#download .load:active{background:url(Images/btn_d2.png) no-repeat;}
+#download .load span{ position:absolute; margin-left:54px; top:360px;_top:378px; text-align:center; color:#9ab187;}
+
+#download .lun{ display:block; float:left; width:225px; height:102px;  margin-left:70px;  background:url(Images/btn_b0.png) no-repeat; }/*进入论坛*/
+#download .lun:hover{background:url(Images/btn_b1.png) no-repeat;}
+#download .lun:active{background:url(Images/btn_b2.png) no-repeat;}
+#download .lun span{ position:absolute; margin-left:28px;top:360px; _top:378px; text-align:center; color:#99a4ba;}
+
+.news{background:url(Images/arrow-right.gif) left center no-repeat;  height:36px; line-height:36px;}
+.news li{ float:left; margin-left:30px; height:36px; line-height:36px; }
+
+#phone_R{ width:350px; float:right; height:355px;}
+.home-slider { width:350px; height:348px; float:right; position:relative; overflow:hidden; }
+.home-slider img{ width:350px; height:348px;}
+.home-slider li { position:absolute; top:0; left:0; } 
+.home-slider-next { display:block; position:relative; width:22px; height:122px;right:-380px; top:-240px; background:url(Images/home-slider-next.gif) no-repeat 0 0; }
+
+#web_service{height:180px;}
+#web_service h1{ font-size:16px; color:#CCCCCC; font-family:"微软雅黑"; height:68px; line-height:68px; margin-top:10px;}
+#web_service li{float:left; width:325px; height:70px; background:url(Images/pro.gif) left  no-repeat;}
+#web_service li img{ margin-top:2px;padding-left:3px;}
+
+#footer { margin-top:80px; margin-bottom:20px; }
+#footer ul{height:32px; border-bottom:1px solid #ccc;}
+#footer li{ float:left;  width:70px; }
+#footer li a{ color:#ccc}
+#footer  p{ color:#ccc}
+.right_bot{ position:absolute;}

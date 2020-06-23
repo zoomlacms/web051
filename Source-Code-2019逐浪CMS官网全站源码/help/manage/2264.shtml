@@ -1,0 +1,674 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>你所不知道的比尔.盖茨#硅谷说#_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="">
+<meta name="Description" content="你所不知道的比尔.盖茨#硅谷说#">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style/images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0"> 
+<form action="/search/SearchList.aspx" method="get">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li class="active"><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li><a href="/shop/" target="_blank">产品中心</a></li>
+        <li><a href="/case/" target="_blank">成功案例</a></li>
+        <li><a href="/Project/" target="_blank">解决方案</a></li>
+        <li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li><a href="/demo/" target="_blank">体验中心</a></li>
+	<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/Class_37/Default.aspx">管理学院</a> / 
+</ol>
+   
+<div id="Content">
+<h1>你所不知道的比尔.盖茨#硅谷说#</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2014-10-13  来源:本站原创   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=2264"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=你所不知道的比尔.盖茨#硅谷说#-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/2264.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p class="text"><img title="1.jpg" alt="1.jpg" src="/UploadFiles/Image/20141013/6354875710530280896832159.jpg"/></p><p class="text">比尔.盖茨最近又成美媒舆论主角，原因是微软新任 CEO 萨提亚.纳德拉唤起了大家对他的大规模研究。据说两人都属迈尔斯.布里格斯人格测试中的 NT 型，通常这份测试用于衡量人的世界观和决策方式，而 NT 意味他们都是高度理性的求知者。</p><p class="text">不仅如此，盖茨还打算将其人生的 30% 时间重放回微软。</p><p class="text">大前天，我在回湾区飞机上读完沃尔特.艾萨克森刚刚出版的《创造者》一书。乔布斯找他写传记或许是个错误，我从不觉得那是本好书，它的溢价完全来自乔布斯本人。这或许与沃尔特以写政治人物成名有关，对科技也不过分狂热。当然，<a href="http://www.guifabu.com/archives/10168" target="_blank">我更喜欢迈尔克.刘易斯</a>，他天赋横溢，并在人物把握上总能剑走偏锋，让人惊奇。</p><p class="text">不过，沃尔特打开了我们了解盖茨心理逻辑的一扇门。除家里养有一条鲨鱼的传闻，国内读者尤其年轻一代对盖茨 Personality 了解不多。以下“硅谷说”来自《创造者》第六章，我对其做了部分删减。</p><p class="text">“每个人小的时候都很有能力，但人会长大，对这个世界也会越来越好奇，在寻找答案时无论是否得到过建设性反馈，人所具有的巨大潜力都会受挫。”看到盖茨的话，我想，极其聪明的人。Enjoy Who is Bill Gates。</p><p class="image"><img src="/UploadFiles/Image/20141013/6354875710639481082228147.jpg"/></p><p class="text"><strong>探寻真正的比尔.盖茨</strong></p><p class="text">所谓怪才，就是一帮热情洋溢、思维敏捷的数据控，数字革命极大提高了他们地位。这类人具有一些共同特征：分析能力超强，却未必具有高情商，比如处世技巧、同理心和人际交往能力，这些说法有点道理。</p><p class="text">举个例子，比尔.克林顿有超乎寻常的情感沟通能力：我曾见他神奇地与一屋子男男女女接连建立亲密关系。他总能（好像是用些小把戏）记得你之前对他说的话，并让你相信他原来就想过这个问题。相反，我初次了解的比尔.盖茨则是另一种人。谈话中，他喜欢分析并深入探讨任何一个话题，但在情感上似乎与对方很疏远。</p><p class="text">我在这篇 1997 年写的文章中开始探寻真正的比尔.盖茨，发现他的人格魅力远超出我预期；我觉得他在后来十几年中更是魅力四射。我在《时代周刊》任编辑时撰写了本文，部分原因是我想通过亲自写一篇高度个人化的叙述性传记，来说明这种题材应成为《时代周刊》主流。</p><p class="text">回过头再读，我惊异于他曾在采访快结束时说希望接下来 10 年继续经营微软，并承诺积极致力慈善事业。盖茨没有食言，而且继续拓宽视野，并意识到分析能力并不是人思维中最重要部分。</p><p class="text">正如他当日所说，“我不像过去那样认为智商是够用的。要想成功，你还得知道如何决策，还有如何全面思考。”接下来几年，盖茨充分展现了这方面能力。</p><p class="text"><strong>盖茨与父母</strong></p><p class="text">比尔.盖茨六年级时，父母断定他需要接受心理咨询。他与母亲玛丽总有冲突。母亲是一个外向的女人，认为儿子应该照她说的做。盖茨卧室在地下室，那里一团糟，她几次让他打扫未果，最后放弃这徒劳的要求。每次母亲叫他上来吃饭，盖茨都置之不理。“你在做什么呢？”她有一次冲着电话分机喊道。</p><p class="text">“我在思考。”他喊着回话。“在思考？”“是的，妈妈，我在思考。”他狠狠地说，“你从来没有思考过吗？”</p><p class="text">据盖茨回忆，父母给他请的心理医生是“一个很冷静的人”。“他每次和我聊完都会给我弗洛伊德的书看，我那时的确开始对心理学着迷了。”</p><p class="text">一年的治疗加上一系列测试后，那位咨询师得出结论。他告诉玛丽说，“你的目标无法达成，你最好适应比尔的状态，因为就算你打他也没用。”据盖茨父亲回忆，妻子玛丽很固执也很聪明：“但她还是转变了态度，接受了与盖茨较真是徒劳这一现实。”</p><p class="text">盖茨的成功源于他的个性：才华横溢（虽然有时会惊世骇俗）、动力十足、好胜心强、热情四射。微软公司也有这样的特点。“盖茨个性决定了微软的文化。”他的智力搭档内森.麦沃尔德说。尽管盖茨已成为世界最知名的商业名流，但他个人对所有人（除了亲密朋友们）而言，仍然难以捉摸。</p><p class="text">盖茨之所以如此神秘莫测，有部分是天性使然。打开微软界面，在对话框中输入“比尔”，看计算机用语怎么描述它：他有“不可思议的操作能力”和“无线的带宽”，善于“平行操作”和“多任务处理”。</p><p class="text">看看他的办公桌，就知道是怎么回事了。他用两台电脑工作，其中一台有 4 个用于排列来自互联网的大数据窗口，另一台用于处理上百封电子邮件，将他的思路整理成网的备忘录。他处理数据时极为严谨，会让人觉得他的大脑是数字化的：没有人的粗心和计算机的模糊，数兆二进制脉冲的脑力将输入的数据瞬间转化为正确答案。</p><p class="text">“我认为人的智商没什么特别的。”盖茨在他办公室附近的一个冷清印度餐馆吃晚饭时说。他似乎连吃饭时也在做着多项工作；双手灵活，一顿饭中来回换着手拿叉子，无论用哪只手都能轻松比划或记笔记。</p><p class="text">“所有构成认知和情感的脑神经都是以二进制运作，”他解释道，“总有一天，我们可以在机器上复制大脑模式。”现实生活是以碳为基础的，电脑是以硅为基础的，但两者有天壤之别。“最终我们能编码人类基因，在碳基础系统里复制自然界创造智慧的方法，”他承认这个概念有点惊世骇俗，不过他开玩笑说这也有可能只是骗人的，“就好比把别人产品逆向加工以应对挑战一样。”</p><p class="text">盖茨对整个宇宙的意义会更大吗？无论是忙碌还是谈笑着，他都口若悬河。他挥舞着手，餐馆中回荡他洪亮的声音。</p><p class="text">“也许宇宙只是为我而存在呢？这点你也说不准。”这种说法颇具法国哲学家笛卡尔的形而上学理论和英国剧作家汤姆.斯托帕德式的幽默嫁接而成的风范。盖茨开玩笑说；“如果真是这样，我必须承认我太走运了。”他开怀大笑，眼睛闪烁着光芒。这可是机器做不到的：对其处境自娱自乐、放声大笑，乐在其中。</p><p class="text">真的吗？难道人的灵魂真没什么特别吗？盖茨突然面无表情，声音戛然而止，双手交叉置于腹前，习惯性地前后摇晃起来。</p><p class="text">他这个怪癖在微软被竞相模仿，开会时会议室就好像围坐着一圈欣喜若狂的不倒翁。最后，盖茨好像是从机器人状态回过神来，回答说：“我没有依据，”他继续摇啊摇，“我没有依据。”</p><p class="text"><strong>盖茨与好友</strong></p><p class="text"><strong>&nbsp;</strong>盖茨最好的朋友是坎特.埃文斯，他是一位论派牧师的儿子。“我们一起读《财富》杂志，说好将来一起征服世界，”盖茨说，“我仍记得他的电话号码。”</p><p class="text">他与保罗.艾伦一起组建了听着很官方的湖畔程序设计者集团，并受雇为当地一家公司编写一个工资管理程序。紧接着，艾伦想独自承揽任务，他们之间发生了第一次激烈争吵。但很快艾伦发现，他需要请回孜孜不倦的盖茨去编程。</p><p class="text">“好吧。但是我要做负责人。”盖茨对艾伦说，“不仅这一次，以后也是我负责，否则我就撂挑子不干了。”事实证明他是对的。</p><p class="text">为缓解编程压力，埃文斯开始爬山。有一天，盖茨接到校长电话：埃文斯坠崖而死。“我从没想过人会死。”盖茨说。说到这，他哽咽了一会，“告别会上，我应该说点什么的，但是我站不起来。有两个星期，我什么都做不了。”</p><p class="text">自那后，盖茨与保罗.艾伦更亲近了。他们一起学习人工智能语言，接需要程序员的散活。“我们是真正的合作伙伴，”盖茨说，“我们每天交谈数小时。”盖茨去哈佛读书后，艾伦驾驶着他那辆破克莱斯勒横穿美国去找盖茨合作。</p><p class="text">最后，他说服盖茨成为哈佛现代最有名的辍学学生，辍学目的是开办微软，业务是为第一批个人电脑编写计算机语言。二人有着亲密关系：盖茨是玩命工作的编程员和竞争者，艾伦则是个沉思的梦想家。</p><p class="text">两人争吵了很多年。艾伦因罹患霍奇金氏病而辞去微软职务后，两个人疏远了。但盖茨努力修复两人关系，最终打动了艾伦。现在，艾伦是微软最大高科技风险投资者之一，他还拥有波特兰开拓者篮球队，并重返微软董事会。</p><p class="text">“我们喜欢谈论儿时梦想是怎么成真的。”盖茨说。现在正对着他们在湖滨中学上学时的教室的是：现代砖楼艾伦——盖茨科技馆（盖茨在掷硬币决定名字顺序时输了）。</p><p class="text">史蒂夫.鲍尔默身材高大，早年谢顶，他凭着一股担任哈佛足球队队长时的激情活跃于微软会议室。“比尔在大二时住的地方和我隔着一条走廊。”他说，“那时，他玩纸牌玩到早上 6 点，然后我在早饭时冲向他，与他讨论应用数学题。”</p><p class="text">他们一起学习研究生阶段的数学和经济课程，但盖茨对待自己本科课程却与众不同：他会翘掉自己该上的课，而去旁听别的课，然后在每次考试前突击。“他是我见过的最聪明的人。”鲍尔默说，这句话在以前访谈里经常听别人提起。</p><p class="text">鲍尔默丰富了盖茨的社会生活，他带盖茨参加大学一个饮食俱乐部、在汉堡店玩电子游戏乒乓球。后来在纽约时，他与盖茨去诸如老 54 俱乐部的地方闲逛。“他很古怪，但魅力十足。”鲍尔默说。</p><p class="text">1980 年，微软开始壮大，盖茨需要一个精明的非技术人员帮忙管理事务，他邀请鲍尔默到西雅图出任股东。</p><p class="text">鲍尔默此前供职于宝洁。尽管盖茨在做商业决策时不近人情，但他对一些故友忠诚。他说：“我一直知道我会有像鲍尔默和微软其他几个高层人物一样的亲密商业伙伴，无论发生什么，我们都会齐心协力，共同成长。我并不是经过一番分析才知道这一点的，而是很早前就十分笃定知道：我命里会有这些人、这些事。”</p><p class="text">就像与艾伦吵架一样，盖茨与鲍尔默关系有时也会变得很紧张。</p><p class="text">“我们第一次大争吵是我坚持该再雇 70 多个人，”鲍尔默回忆道，“他却说我是想搞垮他。”盖茨有个原则，即万一没有盈利，微软必须有足够的银行资金（不对外负债）供公司运作一年。</p><p class="text">当时微软现金账户有 8 亿美元，没有长期债务。“我当时与他合住，但因为这件事气坏了，就搬了出去。”年纪稍长的盖茨最终平息了这件事，不久新员工就到位了。</p><p class="text">“比尔带给公司一个理念，即冲突未必是坏事。”鲍尔默说，“微软与宝洁差异太悬殊。在宝洁，礼貌是第一位的，比尔却认为省掉那些让你无法直奔主题的温文尔雅的礼节很重要。他喜欢任何人，哪怕是一个小职员——挑战他，他会冲对方吼，但他是尊重对方的。”</p><p class="text">在微软，数学组的人都很有想法：很多自信的怪才喜欢摆手表示不满，大声叫嚣，深信所有问题都有一个正确答案。盖茨最喜欢说的一句话是，“这是我听过的最愚蠢的事。”“被骂的人”听到这句话就像戴上了荣誉勋章，可向别人吹嘘自己是如何使得盖茨大半夜给自己发邮件的。</p><p class="text">可以随意争论的氛围增加了灵活性。微软开始像 CompuServe （当时世界最大互联网服务提供商）和美国在线一样拥有在线系统。当互联网开放标准改变竞争局面时，起初微软陷入被动无措的境地，随之而来的是：内部激烈的讨论。</p><p class="text">很快，微软明确了是时候尝试新战略、下一次赌注了。盖茨在仅仅一年时间内就让微软翻了身，打破了一种固有说法：上一次革命的领袖，会被下次革命甩在后面。</p><p class="text"><strong>&nbsp;盖茨的与众不同处</strong></p><p class="text">盖茨的才智有一个特点，按他自己说法，就是具备“深入研究”的能力。有一次去参观时代公司的新媒体设备，对一圈杂志记者提出的问题，他似乎都在机械作答；但在出来的路上，他要求去看看网络服务器，然后花了 45 分钟与凑在跟前的对他充满敬畏的工程师讨论。</p><p class="text">他厌烦泛泛的讨论，对别人也不感兴趣；当有人与他寒暄想要建立亲密关系时，他显得毫不在意。即便和他在一起待了很长时间，你会发现他对你的想法或者他关心的东西很了解，但对你住在哪，或你是否已成家之类的事情却一无所知。</p><p class="text">就这一点而言，他与出生在“婴儿潮”初期的比尔.克林顿恰好相反：盖茨思维缜密、感情内敛；总统与盖茨同样聪明，而且容易亲近，但缺乏理性。有一次，他们在美国马萨诸塞州东南海岸附近的马撒葡萄园岛打高尔夫球，总统像往常一样，努力建立情感纽带，表现得充满魅力且具有亲和力。</p><p class="text">他表达了对盖茨母亲逝世的悲痛之情，并与盖茨说到自己母亲近期去世后的痛苦，还教导梅琳达打球的窍门。但盖茨注意到克林顿从不探讨科技话题，也没有对科技话题表示好奇。</p><p class="text">所以尽管盖茨一直含糊地认为自己是一个民主党人，但在总统大选时，他保持了中立。</p><p class="text"><strong>&nbsp;盖茨的日程表</strong></p><p class="text">盖茨办公室的电话几乎从来不响，他主要通过 3 种方法经营公司：</p><p class="text">每天（白天和晚上）要匆匆写 100 多封邮件；一个月左右举行一次高管见面会；更重要的是（大概占他 70% 工作量），每天会与一批负责公司不同产品的小组开两三次工作总结会。</p><p class="text">网络 DVD（WebDVD）组的 7 个年轻主管统一着冬季工装（卡其裤和法兰绒衬衣），在盖茨办公室附近的无窗会议室开会时，气氛轻松，没有等级之分。他们已为一个将为电视机提供网络浏览内容的数字影碟努力了近一年，盖茨想在去日本与该领域的潜在合作伙伴（比如东芝）见面前回顾一下他们的工作进度。</p><p class="text">克瑞格.蒙迪是负责所有非计算机消费品的执行主管、微软元老级人物。他让更年轻成员主持讨论。盖茨飞快翻看文件夹，几分钟就抓住报告要点。他开始摇晃，提出一系列关于潜在合作伙伴的方针策略、技术细节、潜在竞争及宏观战略的问题。</p><p class="text">员工的回答总是很干脆，甚至当盖茨深入谈到晦涩细节时也是这样。没人像在炫耀或争抢注意力，但每个人都会毫不犹豫地说出看法或挑战盖茨。对一个男人来说，他们都是实打实的男人，思考时总会来回摇晃。</p><p class="text">“这个项目能用 HTML （超文本标记语言）编写吗？”盖茨问道。HTML 是建立网站时用的程序编写语言。他们介绍了怎么使用 HTML。盖茨质疑为什么数字影碟需要 4 兆（字节）内存。</p><p class="text">他们解释了；他又继续深入询问；最终他们赢了。他们激烈讨论了菜单、区段、模式、纠错和 MPEG–2 视讯压缩标准。“我们的根本战略是：必须抱着对处理器一无所知的心态。”盖茨命令道。</p><p class="text">每个人都点头称是。然后他一刻不停转向公司战术讨论，“我们要让飞利浦和其他制造商，还有电影制作人统一一个标准吗？”有人说，我们必须尽快统一。盖茨想现在就统一。他们很快讨论了飞利浦、索尼、时代华纳（《时代周刊》母公司）、松下、东芝，连同它们各自的好莱坞合作伙伴的内部方针。</p><p class="text">盖茨从不称呼别人名字，也不表扬或打击人心。但他悉心倾听、尊重民意。检查工作时最能看出他的脾气，他不同意某人对 DVD 分层性能的分析，于是便质疑道：“你给我讲讲。”几分钟后他会打断讨论，说：“把说明书给我。”</p><p class="text">盖茨从不掩饰自己竞争的本性。“这个领域的竞争局面是奇异的，对手从 Navio（一个消费性软件集成产品）甚至到网络电视机（WebTV）。”他说。他尤其关注 Navio——近期美国网景公司与他人合作推出，意在阻止 Windows（视窗）和 Windows CE（ Windows 电子消费品姐妹版）操作系统成为交互式电视和游戏机的旗帜。</p><p class="text">“我想在我们产品中加入一些 Navio 难以实现的东西。他们计划是什么？”该小组承认他们对 Navio 知之甚少。盖茨摇晃幅度变大了。“你必须从你的队伍里选一个人，”盖茨告诉蒙迪，“他的任务是全程追踪 Navio。Navio 是我担心的对手。日本世嘉是投资者，它们可能愿意向我们透露信息。”然后，他又谈起其他竞争对手，“星球卫视呢？”</p><p class="text">蒙迪解释说他们是专做视频游戏的，“我们不擅长的领域。”盖茨回应说：“我们现在能和它们合作，但是它们还有其他野心。因此我们未来会与它们彻底对立。”</p><p class="text">尽管影碟不是微软核心业务，但这是盖茨准备打赢的战争。小组称每张影碟 10 美元的专利税太低了。“为什么要多收？”盖茨问。他们解释说考虑到成本，每张 10 美元太难盈利了。盖茨则非常坚决。</p><p class="text">组员们只见树木不见森林。“我们与做电子消费品的那些人正在互相较劲，彼此不相上下，”他断言，“我们很可能被踢出市场。”只有偏执狂才能生存，“我们现在的战略目标就是把 Windows CE 做成我们所有产品的标杆。我们不是一定要在接下来几年盈利。我们在 MS–DOS 操作系统首发时就没赚到钱。如果能以 10 美元价格打入该市场，那么就放手干吧。”他们都点头。</p><p class="text">盖茨办公室非常朴素，装饰很少，家具也很普通。最大一件艺术品就是奔腾处理器芯片的巨幅照了。还有爱因斯坦、达.芬奇和福特公司创始人亨利.福特的肖像，不过他说他并不崇拜福特。</p><p class="text">鲜有的人物照包括一张 12 位微软元老的合影（除盖茨外，多数人都蓄着邋遢的胡须），一张安.温布莱德去德国的照片，还有一张 1995 年与梅琳达和 9 个朋友去印度尼西亚度假的合影。屋里没有摆詹妮弗照片，但他从桌子里拿出一张自己得意地抱着女儿的快照。</p><p class="text">盖茨说他希望再经营微软 10 年，然后承诺致力慈善事业。他说计划留给每个孩子 1000 万美元。“将来某刻，他会花时间想想自己慈善事业的影响，他太有创造力，做的慈善也与众不同。” 巴菲特说。</p><p class="text">他已经捐助华盛顿大学 3400 万美元，其中一部分是资助研究员莱诺伊.胡德担任人类基因组计划的主席；他资助哈佛大学 1500 万美元建立新的计算机中心；还资助了斯坦福大学 600 万美元。</p><p class="text">另有 2 亿美元属于他父亲管理的基金会，他还谈及要以个人名义接管微软项目基金会，为城市图书馆提供计算机。此前，他已向城市图书馆资助 300 万美元用于支付图书版税。“我已经和气劝说过他多想想慈善的事，”盖茨父亲说，“我觉得他的慈善基金将来（就像现在一样）会投在学校和图书馆上。”</p><p class="text"><strong>不再认为智商不可替代</strong></p><p class="text">让盖茨更多投入个人事务太难了。但朋友们说自从詹妮弗出生后，盖茨开始更关注自己生活，更关心能给孩子带来什么。他谈到计算机使用的前景，不仅仅是商业用途，还包括社会用途。</p><p class="text">他说：“每个人小的时候都很有能力，但人会长大，对这个世界也会越来越好奇，在寻找答案时无论是否得到过建设性的反馈，人所具有的巨大潜力都会受挫。我是幸运的，我的家庭和各种资源总能为我提供越来越多的答案。数字工具使得更多人可以更上一层楼，而不是碰壁，不会遭遇人们不再为他们提供信息或让他们闭嘴别再问问题的情况了。”</p><p class="text">盖茨也没有以前那么看重智商了，“我不像以前那样认为智商是不可替代的了，”他说，“要想成功，你还必须知道如何决策以及如何从大处着眼。”</p><p class="text">那么家庭生活削弱他对事业的执着态度了吗？</p><p class="text">“其实他很兴奋，对詹妮弗投入了很多，”鲍尔默说，“他在我们上次销售会上给我看了詹妮弗照片，开玩笑说，除网景公司外还有其他事物能让他晚上睡不着，就是这个小家伙。他可能没以前那么玩命工作了，更生活化了一点。但是他依然会挥师奋进，依然会斩获成功。”</p><p class="text">盖茨喜欢重复迈克尔.乔丹的咒语：“他们觉得我完蛋了，他们觉得我完蛋了”，还有英特尔首席执行官安德鲁.格鲁夫引用为其书名的一句话，“只有偏执狂才能生存。”正如鲍尔默所说：“他仍然觉得自己必须谨慎行动。”盖茨又添了一句：“我仍然觉得自己所做的事是极大的快乐。”</p><p class="text">那么，他原来那种认为人类思维没什么特别之处，终有一天会被二进制代码复制的想法呢？看着女儿学会冲着父亲的脸微笑，有没彻底改变他这种看法？我们上次会面时，我问了他这些问题，但是盖茨似乎对此不感兴趣。</p><p class="text">当我走出他办公室时，他也没有遵从日常生活中正常的告别礼节，但同意我可以随时给他发邮件。几天后，我给他发了邮件，再次提出了那些问题，还有一些生活中的技术问题。我很快收到关于技术问题的回复，但是他忽略了我提出的哲学问题。</p><p class="text">最终，数周后我意外发现邮箱里多了一封发件人为 billg@microsoft.com 的邮件：</p><p class="text">“理论上讲，我得说抚养孩子的乐趣多于痛苦，这是大自然的杰作，也是物种生存的需要。但是经验往往要超越理论。就创造复杂程序而言，自然进化要比人类现有的能力强很多倍。</p><p class="text">我觉得‘我们有一天会弄清人类思维并用软件语言解释它’的说法，和‘人类思维是软件无法媲美的天赐神作’的说法并不矛盾。宗教认为，能被科学解释的事物可以有一层超越科学的潜在含义。即便我不信仰宗教，我对人类思维的惊叹和好奇更接近对宗教的敬畏，而不是冷静客观的分析。”</p><p></p>
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=2264" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=2264" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">你所不知道的比尔.盖茨#硅谷说#</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/manage/582.shtml" title="Java的辉煌还能延续多久？">Java的辉煌还能延续多久？</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/help/manage/2084.shtml" title="“为了做一个系统，而先做一个系统”-软件架构的艺术">“为了做一个系统，而先做一个系统”-软件架构的艺术</a></div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+         解决方案
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+     <div class="panel-body padding0">
+ <ul class="panel_li">
+    <li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+  <li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+  <li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+  <li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+  <li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+  <li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+  <li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+  <li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+  <li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+  <li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+  <li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+  <li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+  <li><a href="/Project/" target="_blank">+方案中心>></a></li>
+  
+  </ul>
+       </div>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        产品中心
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/pub/" target="_blank">免费下载</a></li>
+  <li><a href="/mtv" target="_blank">在线视频</a></li>
+  <li><a href="/help/" target="_blank">帮助中心</a></li>
+  <li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+  <li><a href="/updata/" target="_blank">更新历史</a></li>
+  <li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+  </ul>      </div>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapseThree">
+          商业合作
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/shop/" target="_blank">在线购买</a></li>
+  <li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+  <li><a href="/article/join/">代理加盟</a></li>
+  <li><a href="/biz/" target="_blank">正版查询</a></li>
+  <li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsefour">
+         关于公司
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefour" class="panel-collapse collapse">
+     <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/" target="_blank">企业介绍</a></li>
+  <li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+  <li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+  <li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+  <li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+  <li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsefive">
+      企业文化
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefive" class="panel-collapse collapse">
+        <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+  <li><a href="/blog/" target="_blank">官方博客</a></li>
+  <li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+  <li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+  <li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+    创新学院
+        </a>
+      </h4>
+    </div>
+    <div id="collapsesix" class="panel-collapse collapse">
+    <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/video/1839.shtml">体感研究</a></li>
+  <li><a href="/pub/1932.shtml">院校合作</a></li>
+  <li><a href="/corp/about/472.shtml">电子杂志</a></li>
+  <li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+  <li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/2441.shtml" style="color:">访客行为跟踪与互动系统上线交付商用</a><span class="">2015/09/16</span></li>
+
+<li><b>[改进]</b><a href="/updata/2419.shtml" style="color:">更正后台Safri浏览器兼容性缺陷</a><span class="">2015/07/01</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

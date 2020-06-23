@@ -1,0 +1,901 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>逐浪CMS4.6精彩预告之二：智能采集仙女拈花_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="采集|智能|预告|逐浪CMS">
+<meta name="Description" content="逐浪CMS4.6精彩预告之二：智能采集仙女拈花">
+
+<link href="/skin/2010/css/global.css" rel="stylesheet" type="text/css" />
+<link href="/template/office/style/2012.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/template/office/style/js/prototype.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+<link href="/template/office/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/template/office/style/js/openwin.js"></script> 
+<link href="/template/office/style/tinyScreen.css?version=V201312" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/2010/js/v4.js"></script>
+<SCRIPT language=javascript src="/js/pub.js"></SCRIPT>
+<!--[if IE]>
+   <script src="/js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="header_x">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href="/"><img src="/skin/2010/images/logo.jpg" alt="Zoomla!逐浪CMS官网" /></a></h1>
+</div>
+<p>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号：<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+<iframe src="/Search/indexSearch.aspx" marginwidth="1" marginheight="1" scrolling="no" border="0" frameborder="0" width="186px" height="24px"></iframe>
+</p>
+</div>
+</div>
+</div>
+<!--header_x end -->
+
+<div class="naver">
+<div id="nav_x">
+<div id="menus">
+<div id="menuNav">
+<ul>
+<strong>开启WEB云计算内核之门：</strong>
+<li class="on"><a href="/" target="_blank">网站首页</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">走进逐浪</a></li>
+<li><a href="/product/" target="_blank">产品中心</a></li>
+<li class="scuess"><img src="/template/office/style/images/hot.gif" class="hot"><a href="/case/" target="_blank">成功案例</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/templet/" target="_blank">模板中心</a></li>
+<li><a href="/pub/" target="_blank">下载产品</a></li>
+<li><a href="/demo/" target="_blank">体验中心</a></li>
+<li><a href="http://bbs.zoomla.cn/" target="_blank">技术社区</a></li>
+</ul>
+</div>
+<div class="menu">
+	<div class="mainBg">
+	  <div class="part1">
+	    <div class="version">
+          <div class="padder">
+			<h2 onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" class="normal"><div><span><em>快速便捷导航</em></span></div></h2>
+              <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+              	<a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+                <div class="qq">
+           	    <h3>网站内核产品线</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                    </ul>
+                </div>
+                <div class="others">
+                	<div class="left">
+						<h3>解决方案</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        </ul>
+                        <h3>使用教程</h3>
+                        <ul class="last">
+                            <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                            <li><a onclick="hidingMenu()" href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+                            <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                            <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                    	<h3>官方推荐</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                            <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                            <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        </ul>
+                        <h3>论坛导航</h3>
+                        <ul>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-24.aspx" target="_blank">程序发布</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-25.aspx" target="_blank">技术讨论</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-26.aspx" target="_blank">模板交流</a></li>
+                            <li><a onclick="hidingMenu()" href="http://bbs.zoomla.cn/showforum-27.aspx" target="_blank">教程发布</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+		
+  </div>
+</div>
+
+</div>
+</div>
+<!--nav_x end -->
+
+</div>
+
+
+<div id="banner2014" style=""><img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" /></div>
+
+
+<div id="main">
+<div id="main_l">
+<div class="main_l_t"></div>
+<div class="main_l_m">
+<div class="main_l_title"><span><a  id="oncitydiv" href="javascript:goreg('/product/FuncList/')">More..</a></span>系列CMS子产品</div>
+
+<div id="home_s">
+<ul>
+<li><a href="/pub/396.shtml" target="_blank" class="sp"><span><img src="/skin/2010/images/icon_index.png" /></span>文章系统</a></li>
+<li><a href="/blog/product/626.shtml" target="_blank"><span><img src="/skin/2010/images/icon_shop.png" /></span>企业门户系统</a></li>
+<li><a href="/pub/1092.shtml" target="_blank"><span><img src="/skin/2010/images/icon_chanpin.png" /></span>OA办公系统</a></li>
+<li><a href="/pub/380.shtml" target="_blank"><span><img src="/skin/2010/images/icon_market.png" /></span>网店系统</a></li>
+<li><a href="/pub/1093.shtml" target="_blank"><span><img src="/skin/2010/images/icon_service.png" /></span>站群管理</a></li>
+<li><a href="/pub/732.shtml" target="_blank"><span><img src="/skin/2010/images/icon_bbs.png" /></span>考试系统</a></li>
+<li><a href="/pub/591.shtml" target="_blank"><span><img src="/skin/2010/images/icon_glass.png" /></span>试戴系统</a></li>
+<li><a href="/pub/870.shtml" target="_blank"><span><img src="/skin/2010/images/icon_aboutus.png" /></span>三维全景</a></li>
+<li><a href="/pub/1094.shtml" target="_blank"><span><img src="/skin/2010/images/icon_office.png" /></span>百科问答</a></li>
+<li><a href="/pub/1095.shtml" target="_blank"><span><img src="/skin/2010/images/icon_exam.png" /></span>黄页与SNS社区</a></li>
+<li><a href="/pub/655.shtml" target="_blank"><span><img src="/skin/2010/images/icon_project.png" /></span>项目管理系统</a></li>
+</ul>
+</div>
+<div class="main_l_m  mian_else" >
+<ul class="home_prj">
+<div class="main_l_title"><span><a href="/Project">More..</a></span>专业解决方案</div>
+<div class="clear"></div>
+<li><a href="/Article/Project/213.shtml">面向站长</a></li>
+<li><a href="/Article/Project/136.shtml">面向政府</a></li>
+<li><a href="/Article/Project/133.shtml">面向企业</a></li>
+<li><a href="/Article/Project/131.shtml">面向学校</a></li>
+<li><a href="/Article/Project/137.shtml">面向教育</a></li>
+<li><a href="/Project">面向开发</a></li>
+<li><a href="/Project">面向特殊</a></li>
+<li><a href="/Project">面向外企</a></li>
+<li><a href="/Project">面向集团</a></li>
+<li><a href="/Project">面向公益</a></li>
+<div class="clear"></div>
+</ul>
+</div>
+</div>
+<div class="main_l_bottom"></div><!--左边第一个环形 -->
+</div>
+<!--中左结束 -->
+
+<div id="prj790">
+<div id="prj790_top"></div> 
+<div id="prj580">
+
+<div id="site">
+<div id="add">
+<a href="javascript:window.print();"><img src="/skin/2010/images/i_tool_print.gif" /></a>
+<a href="/corp/about/83.shtml" target="_blank"><img src="/skin/2010/images/i_tool_email.gif" /></a>
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_b" style=" width:220px;line-height: 12px;">
+<img src="http://bdimg.share.baidu.com/static/images/type-button-1.jpg?cdnversion=20120831" />
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=button&amp;uid=6550456" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END --></div>
+
+当前位置： <a href="/">首页</a> / 
+<a href="/product/index.shtml">产品中心</a> / 
+<a href="/pub/index.shtml">产品特性与逐浪程序发布</a> /   <a href="/pub/listpage.shtml">精彩功能推荐</a>
+
+</div>
+
+<h1>逐浪CMS4.6精彩预告之二：智能采集仙女拈花</h1>
+<abbr>关于本功能的简介:</abbr>
+<article style="text-decoration:underline;">
+<span class="short" id="show_info_short">众人期待、群星捧月的Zoomla!逐浪CMS4.6版已经进入了严密的后期开发阶段。据了解，此次版本的更新是最近间隔时间最长的一个发布...</span>
+<span class="long" id="show_info_long">众人期待、群星捧月的Zoomla!逐浪CMS4.6版已经进入了严密的后期开发阶段。据了解，此次版本的更新是最近间隔时间最长的一个发布，也是2010年上半年最重要的发布里程碑。
+
+本着“专注核心功能、超越应用需求”的理念，Zoomla!逐浪CMS4.6版将朝更易用、易敏捷、更智能的方向发展，本期开始，我们将逐期进行预告，以展期新版的核心功能。
+
+ 所周知，卓越的Zoomla!逐浪CMS产品的定位始终是：功能性、易用性、面向开发、面向商业智能展开。给客户带来功能强大，使用简捷方便的体验始终是我们的追求。
+
+大家知道在Zoomla!逐浪CMS历代版本中都有信息采集功能，极大的方便了广大站长和普通用户的网页信息的采集需求。运用此功能可以很轻松的从网页上抓取文字、图片、文件等任何资源，支持从任何类型的网站采集获取您所需要的信息，如各种新闻类网站、论坛、电子商务网站、求职招聘网站等，将非结构化的信息从网页中抽取出来保存到结构化的数据库中，为我所用！
+
+Zoomla！逐浪CMS4.6不仅将采集功能进一步强化，更是添加了网址补算法和当前网址获取两大功能。
+
+</span> <span class="handle"><a charset="404-4-05-08" onclick="Display.toggleText('show_info_short', 'show_info_long', this)">展开简介</a></span>
+</article>   
+
+<abbr>详细说明</abbr>
+<article>
+<link href="file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml" rel="File-List" />
+<link href="file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_editdata.mso" rel="Edit-Time-Data" />
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><link href="file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx" rel="themeData" />
+<link href="file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping" />
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:DoNotShowComments/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><style type="text/css">
+<!--{cke_protected}{C}%3C!%2D%2D%0A%20%2F*%20Font%20Definitions%20*%2F%0A%20%40font-face%0A%09%7Bfont-family%3A%E5%AE%8B%E4%BD%93%3B%0A%09panose-1%3A2%201%206%200%203%201%201%201%201%201%3B%0A%09mso-font-alt%3ASimSun%3B%0A%09mso-font-charset%3A134%3B%0A%09mso-generic-font-family%3Aauto%3B%0A%09mso-font-pitch%3Avariable%3B%0A%09mso-font-signature%3A3%20135135232%2016%200%20262145%200%3B%7D%0A%40font-face%0A%09%7Bfont-family%3A%22Cambria%20Math%22%3B%0A%09panose-1%3A2%204%205%203%205%204%206%203%202%204%3B%0A%09mso-font-charset%3A1%3B%0A%09mso-generic-font-family%3Aroman%3B%0A%09mso-font-format%3Aother%3B%0A%09mso-font-pitch%3Avariable%3B%0A%09mso-font-signature%3A0%200%200%200%200%200%3B%7D%0A%40font-face%0A%09%7Bfont-family%3ACalibri%3B%0A%09panose-1%3A2%2015%205%202%202%202%204%203%202%204%3B%0A%09mso-font-charset%3A0%3B%0A%09mso-generic-font-family%3Aswiss%3B%0A%09mso-font-pitch%3Avariable%3B%0A%09mso-font-signature%3A-1610611985%201073750139%200%200%20159%200%3B%7D%0A%40font-face%0A%09%7Bfont-family%3A%22%5C%40%E5%AE%8B%E4%BD%93%22%3B%0A%09panose-1%3A2%201%206%200%203%201%201%201%201%201%3B%0A%09mso-font-charset%3A134%3B%0A%09mso-generic-font-family%3Aauto%3B%0A%09mso-font-pitch%3Avariable%3B%0A%09mso-font-signature%3A3%20135135232%2016%200%20262145%200%3B%7D%0A%20%2F*%20Style%20Definitions%20*%2F%0A%20p.MsoNormal%2C%20li.MsoNormal%2C%20div.MsoNormal%0A%09%7Bmso-style-unhide%3Ano%3B%0A%09mso-style-qformat%3Ayes%3B%0A%09mso-style-parent%3A%22%22%3B%0A%09margin%3A0cm%3B%0A%09margin-bottom%3A.0001pt%3B%0A%09text-align%3Ajustify%3B%0A%09text-justify%3Ainter-ideograph%3B%0A%09mso-pagination%3Anone%3B%0A%09font-size%3A10.5pt%3B%0A%09mso-bidi-font-size%3A11.0pt%3B%0A%09font-family%3A%22Calibri%22%2C%22sans-serif%22%3B%0A%09mso-ascii-font-family%3ACalibri%3B%0A%09mso-ascii-theme-font%3Aminor-latin%3B%0A%09mso-fareast-font-family%3A%E5%AE%8B%E4%BD%93%3B%0A%09mso-fareast-theme-font%3Aminor-fareast%3B%0A%09mso-hansi-font-family%3ACalibri%3B%0A%09mso-hansi-theme-font%3Aminor-latin%3B%0A%09mso-bidi-font-family%3A%22Times%20New%20Roman%22%3B%0A%09mso-bidi-theme-font%3Aminor-bidi%3B%0A%09mso-font-kerning%3A1.0pt%3B%7D%0Aa%3Alink%2C%20span.MsoHyperlink%0A%09%7Bmso-style-priority%3A99%3B%0A%09color%3A%233366CC%3B%0A%09text-decoration%3Aunderline%3B%0A%09text-underline%3Asingle%3B%7D%0Aa%3Avisited%2C%20span.MsoHyperlinkFollowed%0A%09%7Bmso-style-noshow%3Ayes%3B%0A%09mso-style-priority%3A99%3B%0A%09color%3Apurple%3B%0A%09mso-themecolor%3Afollowedhyperlink%3B%0A%09text-decoration%3Aunderline%3B%0A%09text-underline%3Asingle%3B%7D%0A.MsoChpDefault%0A%09%7Bmso-style-type%3Aexport-only%3B%0A%09mso-default-props%3Ayes%3B%0A%09mso-bidi-font-family%3A%22Times%20New%20Roman%22%3B%0A%09mso-bidi-theme-font%3Aminor-bidi%3B%7D%0A%20%2F*%20Page%20Definitions%20*%2F%0A%20%40page%0A%09%7Bmso-page-border-surround-header%3Ano%3B%0A%09mso-page-border-surround-footer%3Ano%3B%7D%0A%40page%20Section1%0A%09%7Bsize%3A595.3pt%20841.9pt%3B%0A%09margin%3A72.0pt%2090.0pt%2072.0pt%2090.0pt%3B%0A%09mso-header-margin%3A42.55pt%3B%0A%09mso-footer-margin%3A49.6pt%3B%0A%09mso-paper-source%3A0%3B%0A%09layout-grid%3A15.6pt%3B%7D%0Adiv.Section1%0A%09%7Bpage%3ASection1%3B%7D%0A%2D%2D%3E--><br /></style>
+<p>
+	<span style="font-family: 宋体; color: silver">编者按：</span><span lang="EN-US" style="font-family: 宋体"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span style="font-family: 宋体; color: silver">众人期待、群星捧月的<span lang="EN-US">Zoomla!</span></span><span style="font-family: 宋体; color: silver">逐浪<span lang="EN-US">CMS4.6</span></span><span style="font-family: 宋体; color: silver">版已经进入了严密的后期</span><span style="font-family: 宋体; color: silver">开发</span><span style="font-family: 宋体; color: silver">阶段。据了解，此次版本的更新是最近间隔时间最长的一个发布，也是<span lang="EN-US">2010</span>年上半年最重要的发布里程碑。</span><span lang="EN-US" style="font-family: 宋体"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span style="font-family: 宋体; color: silver">本着<span lang="EN-US">&ldquo;</span>专注核心功能、超越应用需求<span lang="EN-US">&rdquo;</span>的理念，<span lang="EN-US">Zoomla!</span></span><span style="font-family: 宋体; color: silver">逐浪</span><span lang="EN-US" style="font-family: 宋体; color: silver">CMS4.6</span><span style="font-family: 宋体; color: silver">版将朝更易用、易敏捷、更智能的方向发展，本期开始，我们将逐期进行</span><span style="font-family: 宋体; color: silver">预告</span><span style="font-family: 宋体; color: silver">，以展期新版的核心功能。</span><span lang="EN-US" style="font-family: 宋体"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left; text-indent: 15.75pt">
+	<span lang="EN-US" style="color: black"><span>&nbsp;</span></span><span style="font-family: 宋体; color: black">所周知，卓越的</span><span lang="EN-US" style="color: black">Zoomla!</span><span style="font-family: 宋体; color: black">逐浪</span><span lang="EN-US" style="color: black">CMS</span><span style="font-family: 宋体; color: black">产品的定位始终是：功能性、易用性、面向开发、面向商业智能展开。给客户带来功能强大，使用简捷方便的体验始终是我们的追求。</span><span lang="EN-US" style="color: black"><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent: 21pt">
+	<span style="font-family: 宋体; color: black">大家知道在</span><span lang="EN-US" style="color: black">Zoomla!</span><span style="font-family: 宋体; color: black">逐浪</span><span lang="EN-US" style="color: black">CMS</span><span style="font-family: 宋体; color: black">历代版本中都有信息采集功能，极大的方便了广大站长和普通用户的网页信息的采集需求。运用此功能可以很轻松的从网页上抓取文字、图片、文件等任何资源，支持从任何类型的网站采集获取您所需要的信息，如各种新闻类网站、论坛、电子商务网站、求职招聘网站等，将非结构化的信息从网页中抽取出来保存到结构化的数据库中，为我所用！</span><span lang="EN-US" style="color: black"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left; text-indent: 15.75pt">
+	<span lang="EN-US" style="font-family: 宋体">Zoomla</span><span style="font-family: 宋体">！逐浪<span lang="EN-US">CMS4.6</span>不仅将采集功能进一步强化，更是添加了网址补算法和当前网址获取两大功能。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体"><v:shapetype coordsize="21600,21600" filled="f" id="_x0000_t75" o:preferrelative="t" o:spt="75" path="m@4@5l@4@11@9@11@9@5xe" stroked="f"><v:stroke joinstyle="miter"><v:formulas><v:f eqn="if lineDrawn pixelLineWidth 0"><v:f eqn="sum @0 1 0"><v:f eqn="sum 0 0 @1"><v:f eqn="prod @2 1 2"><v:f eqn="prod @3 21600 pixelWidth"><v:f eqn="prod @3 21600 pixelHeight"><v:f eqn="sum @0 0 1"><v:f eqn="prod @6 1 2"><v:f eqn="prod @7 21600 pixelWidth"><v:f eqn="sum @8 21600 0"><v:f eqn="prod @7 21600 pixelHeight"><v:f eqn="sum @10 21600 0"></v:f><v:path gradientshapeok="t" o:connecttype="rect" o:extrusionok="f"><o:lock aspectratio="t" v:ext="edit"></o:lock><v:shape id="图片_x0020_31" o:spid="_x0000_i1027" style="width: 415.5pt; height: 230.25pt; visibility: visible" type="#_x0000_t75"><v:imagedata o:title="2" src="file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_image001.jpg"></v:imagedata></v:shape></v:path></v:f></v:f></v:f></v:f></v:f></v:f></v:f></v:f></v:f></v:f></v:f></v:formulas></v:stroke></v:shapetype></span><span lang="EN-US" style="font-family: 宋体"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left; text-indent: 21pt">
+	<span style="font-family: 宋体">在进行特殊的采集时，方便对网址进行特殊的补前、补后（如用于<span lang="EN-US">CPS</span>型站点构建），还能根据用户需求获取当前采集内容页的网址参数：<span lang="EN-US">{geturl}</span>。<img alt="" src="/UploadFiles/UserUpload/2010/6/201006011943331651.jpg" style="width: 697px; height: 407px" /><br />
+	<br />
+	<br />
+	<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">漂亮简捷而功能强劲的采集项目添加界面，方便的&ldquo;下一步&rdquo;引导操作：<span lang="EN-US"><o:p></o:p></span><v:shape id="图片_x0020_33" o:spid="_x0000_i1026" style="width: 415.5pt; height: 231.75pt; visibility: visible" type="#_x0000_t75"><v:imagedata o:title="4" src="file:///C:%5CDOCUME%7E1%5CADMINI%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_image002.jpg"></v:imagedata></v:shape></span><span lang="EN-US" style="font-family: 宋体"><o:p>&nbsp; </o:p><img alt="" src="/UploadFiles/UserUpload/2010/6/201006011949063934.jpg" style="width: 650px; height: 368px" /><br />
+	<br />
+	<br />
+	<br />
+	<br />
+	完善的内容采集设置界面：<img alt="" src="/UploadFiles/UserUpload/2010/6/201006011949374320.jpg" style="width: 650px; height: 375px" /></span><br />
+	<br />
+	<br />
+	<br />
+	<span lang="EN-US" style="font-family: 宋体">Zoomla</span><span style="font-family: 宋体">！逐浪<span lang="EN-US">CMS4.6</span>采集功能的主要特点：<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">1.</span><span style="font-family: 宋体">内容页采集设置&mdash;&mdash;通过采集规则的定义，可以搜索所有网站采集几乎任何类型的信息。<span lang="EN-US"><span>&nbsp;&nbsp; </span><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">2.</span><span style="font-family: 宋体">多线程模式&mdash;&mdash;将信息进行多个线程采集，高效快捷，并且在采集过程中可以离开采集页面，采集任务也可自动完成。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">3.</span><span style="font-family: 宋体">数据保存&mdash;&mdash; 可以通过设置入库节点或添加入库节点，将数据自动保存到关系数据库中，并且数据结构能够自动适应。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">4.</span><span style="font-family: 宋体">采集范围限制&mdash;&mdash;以根据采集的采集<span lang="EN-US">URL</span>的标识来限制采集的范围。 <span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">5.</span><span style="font-family: 宋体">对于有账户和密码的站点，<span lang="EN-US">Zoomla</span>！逐浪<span lang="EN-US">CMS4.6</span>设有相对应的密码参数栏，用户通过此处可以输入用户名和密码，方便采集。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">6.</span><span lang="EN-US"> </span><span style="font-family: 宋体">编码选择&mdash;&mdash;提供<span lang="EN-US">GB2312 </span>、<span lang="EN-US">UTF-8 </span>、<span lang="EN-US">Big5</span>三种编码进行选择，支持不同编码的网站，不放过任何网页信息。<span lang="EN-US"><o:p></o:p></span></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体"><o:p>&nbsp;</o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体">Zoomla</span><span style="font-family: 宋体">！逐浪<span lang="EN-US">CMS4.6</span>采集功能秉承稳定、快速、高效的原则，让用户能方便够采集任何通过浏览器看得到的信息。</span><span style="font-family: 宋体">仙女拈花，为我所用！</span><span lang="EN-US"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span style="font-family: 宋体">更多精彩就在即将发布的</span><span lang="EN-US">Zoomla!</span><span style="font-family: 宋体">逐浪</span><span lang="EN-US">CMS4.6</span><span style="font-family: 宋体">，精彩值得期待！</span><!--[if !supportLineBreakNewLine]--><!--[endif]--><br />
+	<span lang="EN-US"><o:p></o:p></span></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US">PS</span><span style="font-family: 宋体">：下期将为您带来《逐浪</span><span lang="EN-US">CMS4.6</span><span style="font-family: 宋体">精彩预告之三:全新会员中心炫目登场》！</span><br />
+	<span lang="EN-US">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
+	<span style="font-family: 宋体">查看此功能更新说明：</span><span lang="EN-US"><a href="../../updata/760.shtml"><span>http://www.zoomla.cn/updata/760.shtml</span></a></span><span lang="EN-US" style="font-family: 宋体"><o:p></o:p></span><br />
+	<font face="宋体">论坛讨论：</font><a href="http://bbs.zoomla.cn/showtopic-6855-1.aspx###">http://bbs.zoomla.cn/showtopic-6855-1.aspx###</a></p>
+<p align="left" class="MsoNormal" style="text-align: left">
+	<span lang="EN-US" style="font-family: 宋体"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal">
+	<span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+
+</article>
+
+<div id="T_page"></div>
+
+
+<div class="myabbr">最佳配置应用</div>
+
+<div class="article">
+<a href="/pub/833.shtml"><img src="/UploadFiles//nopic.gif" alt="逐浪CMS4.6精彩预告之二：智能采集仙女拈花"></a>
+<strong><a href="/pub/833.shtml">逐浪CMS4.6精彩预告之二：智能采</a>:</strong>
+众人期待、群星捧月的Zoomla!逐浪CMS4.6版已经进入了严密的后期开发阶段。据了解，此次版本的更新是最近间隔时间最长的一个发布，也是2010年上半年最重要的发布里程碑。
+
+本着“专注核心功能...<a href="/pub/833.shtml">[+More]</a>
+</div>
+
+
+<div class="myabbr">最新模块播报</div>
+
+<div class="article">
+<a href="/pub/833.shtml"><img src="/UploadFiles//nopic.gif" alt="逐浪CMS4.6精彩预告之二：智能采集仙女拈花"></a>
+<strong><a href="/pub/833.shtml">逐浪CMS4.6精彩预告之二：智能采</a>:</strong>
+众人期待、群星捧月的Zoomla!逐浪CMS4.6版已经进入了严密的后期开发阶段。据了解，此次版本的更新是最近间隔时间最长的一个发布，也是2010年上半年最重要的发布里程碑。
+
+本着“专注核心功能...<a href="/pub/833.shtml">[+More]</a>
+</div>
+
+
+<div id="edit"><img src="/skin/default/Comment.gif" />点击数：<SCRIPT language=javascript src="/Common/GetHits.aspx?id=833"></SCRIPT>  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=833" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=833" target="_blank">点此参与评论</a>>></div>
+<div class="artInfo"><a href="/Content.aspx?ItemID=83" target="_blank"><img src="/skin/default/post.gif" />对[<span style="color:red">逐浪CMS4.6精彩预告之二：智能采集仙女拈花</span>]这条信息感兴趣吗？您还可以点击联系我们以确定进一步意向。</a></div>
+<div class="artInfo">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" size=\"78\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+<br/>
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()"><img src="/Skin/2010/images/tofriend.gif" alt="复制网址"></a></div>
+<div class="Contnet_old">上一篇文章：<a href="/pub/825.shtml" title="逐浪CMS4.6精彩预告之一：百变桌面随心所欲！">逐浪CMS4.6精彩预告之一：百变桌面随心所欲！</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/pub/840.shtml" title="逐浪CMS4.6精彩预告之三：全新会员中心炫目登场">逐浪CMS4.6精彩预告之三：全新会员中心炫目登场</a></div>
+<div class="clear"></div>
+</div><!--中部结束 -->
+
+<div id="prj790_bottom"></div>
+</div>
+</div>
+<!--中部主体结束 -->
+
+
+<div id="bottom_line"></div>
+
+111
+
+<div id="foot_x">
+<div id="Home_server">
+<div id="Home_server_l">
+<strong>什么是CMS软件？</strong>
+<p>
+CMS（Content Management System）是网站内容管理系统的统称，
+互联网上每个网站后台都是专业内容管理系统支撑-无论多大网站都不离开CMS作用。
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范，专注底层内核心技术研发，以云技术、创新精神构建行业新成就！
+</p>
+<ul class="Home_server_li">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/Class_91/Default.aspx" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.zoomla.cn" target="_blank">东方红慈善基金</a></li>
+<li><a href="http://www.zoomla.cn/demo/" target="_blank">产品演示</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/about/151.shtml" target="_blank">购买指南</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/about.shtml">About Zoomla!</a>
+</ul>
+</div><!--left end -->
+<div id="Home_server_r">
+<ul class="Home_server_li">
+<h4>产品导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="">模板设计</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="">门户优化</a></li>
+<li><a href="">商城建设</a></li>
+<li><a href="">数据中心与高端计算</a></li>
+<li><a href="">云台计算</a></li>
+<li><a href="">整合优化</a></li>
+<li><a href="">订制中心</a></li>
+<li><a href="http://help.zoomla.cn" target="_blank">用户手册</a></li>
+<li><a href="http://help.zoomla.cn/data" target="_blank">数据字典</a></li>
+<li><a href="/Search/vSearch.aspx" target="_blank">全站搜索</a></li>
+<li><a href="">Oracle支持</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="/templet/" target="_blank">模板中心</a></li>
+<li><a href="http://bbs.zoomla.cn" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/mtv/" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/down/note.pdf" target="_blank">员工手册</a></li>
+<li><a href="#">接入申请</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://tgceo.zoomla.cn" target="_blank">TgCEO</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/about/93.shtml" target="_blank">资质证件</a></li>
+<li><a href="/corp/about/84.shtml" target="_blank">汇款方式</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>研发计划</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/Article/news/1902.shtml" target="_blank">豚计划</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="">教育研发</a></li>
+<li><a href="/m" target="_blank">移动开发</a></li>
+<li><a href="">RIA客户端体验</a></li>
+  <li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://www.020data.com/" target="_blank">数据修复</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="">大数据存储及修复</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.zoomla.cn');" href="#">设为首页</a></li>
+<li><a href="javascript:window.external.addFavorite('http://www.zoomla.cn/','Zoomla!逐浪CMS官网');">加入收藏</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/Article/join/106.shtml" target="_blank">加盟代理</a></li>
+<li><a href="#">订阅本站</a></li>
+<li><a href="#">纠错报告</a></li>
+<li><a href="/Friendsite/">友情链接</a></li>
+</ul>
+</div><!--right end -->
+<div class="clear"></div>
+</div>
+
+
+<div id="home_friendsite">
+<p>典型客户：</p>
+<ul>
+    <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+    <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+    <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+    <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+    <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+    <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+    <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+    <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+    <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+</ul><div class="clear"></div>
+</div>
+
+<div id="copyrights">
+7×24小时服务热线：021-50391046 技术支持：13177777714<br/>
+&copy;Corpright 2003-2013 All rights reserved 逐浪软件zoomla.cn版权所有<br/>
+中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+<div class="mail"><script src='/Qmail/SubscribeMail.aspx?type=1'></script>本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+<p>
+<SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank' ><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT>
+<a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a>
+<a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a>
+<a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告片"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告片" /></a>
+<a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a>
+<a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a>
+<a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a>
+</p>
+</div>
+</div>
+<!--foot_x end -->
+
+<div id="dashboardContainer">
+<div id="dashboardLinks">
+<div id="dashboardLink_txt">
+<ul>
+<li><a href="pub/listpage.shtml">Zoomla!逐浪CMS内核</a></li>
+<li><a href="m">Z-Mobile智能移动手机应用开发</a></li>
+<li><a href="#" Onclick="javaScript:alert('抱歉当前仅对商业用户开放')">RIA交互体验与桌面智能软件</a></li>
+</ul>
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now></a></div>
+</span>
+</div>
+</div>
+</div>
+
+
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A>
+ <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+  <DIV id=divFloatToolsView class=floatR style="display:none;">
+    <DIV class=tp></DIV>
+    <DIV class=cn>
+      <UL>
+        <LI class=top>
+          <H3 class=titZx>QQ咨询</H3>
+        </LI>
+        <!--<LI><SPAN class=icoZx>在线咨询</SPAN> </LI>-->
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=69250566&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+        <LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=228388629&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+        <LI class=bot><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1579153275&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+      </UL>
+      <UL class=webZx>
+        <LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+      </UL>
+      <UL>
+        <LI>
+          <H3 class=titDh>电话咨询</H3>
+        </LI>
+        <LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+        <LI class=bot>
+          <H3 class=titDc><A href="/pub/" target="_blank">免费下载逐浪CMS</A></H3>
+        </LI>
+      </UL>
+    </DIV>
+  </DIV>
+</DIV>
+<div class="Micro">
+  <div class="Micro_r"> <img src="/Template/office/style/images/Micro.gif"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+  <div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+    <div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+    <div class="Mic_r">
+      <ul>
+        <li>打开微信:</li>
+        <li>1.或选择魔术棒,扫一扫</li>
+        <li>2.或选择"朋友们",扫一扫</li>
+        <li>3.或查找微信号:逐浪CMS</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="/Template/office/style/js/jquery.bi.js"></script> 
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+$ID = function(el){
+	return document.getElementById(el);
+};
+
+function Show_Ser_Node(objStr,NowNum,MaxNum){
+var obj;
+	for(var i=0;i<=MaxNum;i++){
+		obj = $ID(objStr + i);
+		if(obj!=null){
+			if($(obj).css("display")=='none' && NowNum==i){
+				$(obj).slideDown("slow");
+			}
+			if($(obj).css("display")!='none' && NowNum!=i){
+				$(obj).slideUp("slow");
+			}
+		}
+	}
+}
+</script> 

@@ -1,0 +1,6 @@
+document.cookie = "options=11111; path=/"
+document.cookie = "encrypt=283c3a39253925273c283a263a3a3c273b3b28272d2d4935494135353535; path=/"
+document.cookie = "maxAnswers=444444444444444444441111111111; path=/"
+document.cookie = "instruction=010000001010011110100000000000; path=/"
+document.cookie = "explain=000000000000000000000000000000; path=/"
+document.cookie = "choice=999999999999999999999999999999; path=/"

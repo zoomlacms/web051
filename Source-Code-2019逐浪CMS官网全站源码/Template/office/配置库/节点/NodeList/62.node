@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <NodeID>62</NodeID>
+    <NodeName>更新记录</NodeName>
+    <NodeType>1</NodeType>
+    <NodeDir>updata</NodeDir>
+    <NodeUrl>/updata/index.shtml</NodeUrl>
+    <Tips />
+    <ParentID>22</ParentID>
+    <OrderID>5</OrderID>
+    <Child>0</Child>
+    <Depth>2</Depth>
+    <NodePicUrl />
+    <Description />
+    <Meta_Keywords>更新,发布,说明,介绍,推送,逐浪最新,最新功能</Meta_Keywords>
+    <Meta_Description>Zoomla!逐浪CMS最新功能发布与研发动态更新</Meta_Description>
+    <OpenType>false</OpenType>
+    <PurviewType>false</PurviewType>
+    <CommentType>false</CommentType>
+    <HitsOfHot>0</HitsOfHot>
+    <ListTemplateFile />
+    <IndexTemplate>频道首页/更新记录_主页.html</IndexTemplate>
+    <ContentModel>82</ContentModel>
+    <ItemOpenType>false</ItemOpenType>
+    <ContentHtmlRule>2</ContentHtmlRule>
+    <ListPageHtmlEx>2</ListPageHtmlEx>
+    <ContentFileEx>2</ContentFileEx>
+    <HtmlPosition>0</HtmlPosition>
+    <NodeListType>1</NodeListType>
+    <ConsumePoint>0</ConsumePoint>
+    <ConsumeType>0</ConsumeType>
+    <ConsumeTime>0</ConsumeTime>
+    <ConsumeCount>0</ConsumeCount>
+    <Shares>0</Shares>
+    <Custom />
+    <NodeListUrl />
+    <LastinfoTemplate />
+    <HotinfoTemplate />
+    <ProposeTemplate />
+    <OpenTypeTrue>_blank</OpenTypeTrue>
+    <ItemOpenTypeTrue>_blank</ItemOpenTypeTrue>
+    <NodeBySite>0</NodeBySite>
+    <SiteConfige />
+    <SafeGuard>0</SafeGuard>
+    <Contribute>0</Contribute>
+    <SiteContentAudit>0</SiteContentAudit>
+    <AuditNodeList />
+    <AddPoint>0</AddPoint>
+    <AddMoney>0.0000</AddMoney>
+    <ClickTimeout>1</ClickTimeout>
+    <Purview>&lt;View&gt;allUser&lt;/View&gt;&lt;ViewGroup&gt;&lt;/ViewGroup&gt;&lt;ViewSunGroup&gt;&lt;/ViewSunGroup&gt;&lt;input&gt;&lt;/input&gt;&lt;forum&gt;1,2&lt;/forum&gt;</Purview>
+    <AddUserExp>0</AddUserExp>
+    <DeducUserExp>0</DeducUserExp>
+    <ListPageEx>2</ListPageEx>
+    <LastinfoPageEx>2</LastinfoPageEx>
+    <HotinfoPageEx>2</HotinfoPageEx>
+    <ProposePageEx>2</ProposePageEx>
+    <Viewinglimit>1=0|2=0                                                                                             </Viewinglimit>
+  </Table>
+</NewDataSet>

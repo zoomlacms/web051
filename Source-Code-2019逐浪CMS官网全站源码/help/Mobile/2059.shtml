@@ -1,0 +1,796 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>二维码知识-如何在QR二维码中插入图片_Zoomla!逐浪CMS官网</title>
+<meta name="Keywords" content="图片|知识|如何">
+<meta name="Description" content="二维码知识-如何在QR二维码中插入图片">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<link href="/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/JS/jquery-1.11.1.min.js" ></script>
+<script src="/dist/js/bootstrap.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/template/office/style/2014.css?Version=20150917" rel="stylesheet" />
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+<script type="text/javascript" src="/Template/office/style/js/server.js"></SCRIPT>
+</head>
+<body>
+<div class="top">
+<script type="text/javascript" src="/AD/201205/14.js"></script>
+<h1><a href=/><img alt='Zoomla!逐浪CMS官网' id='logos' onerror="this.onerror=null;this.src='/Template/office/style/images/logo.svg'" /></a> 
+    <SCRIPT>
+   today = new Date();//取当前日�?
+   date1 = ''  + (today.getMonth() + 1 ) +  today.getDate() +  '';
+document.getElementById("logos").src="/logo/"+date1+".jpg";
+  // document.write(date1);//能显示出时间
+</SCRIPT> 
+</h1>
+</div>  
+ <div class="header_r col-lg-6 col-md-6 col-sm-6 col-xs-12 padding0"> 
+<form action="/search/SearchList.aspx" method="get">
+<div class="input-group pull-right" style="width:200px;">
+    <input name="keyword" type="text" value="全站检索" id="TxtKeyword" class="form-control" onclick="setEmpty(this)" onblur="settxt(this)" style="width:150px;" />
+<span class="input-group-btn">
+	<input type="submit" name="ButtonSo" value="搜  索" id="ButtonSo" class="btn btn-default" />
+</span>
+</div>
+</form>
+<a href="/pub/" target="_blank" title="下载最新Zoomla!逐浪CMS程序">最新版本号<script type="text/javascript" src="/AD/201003/8.js"></script>[免费下载]</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation" id="scolls">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="menua">
+<a class="navbar-brand normal" href="#"  onmouseover="showMoreSoftware(this,'softList')" onmouseout="hideMoreSoftware()" >↓开启WEB云计算之门:</a></div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav">
+        <li class="active"><a href="/index.shtml" target="_blank">网站首页</a></li>
+        <li><a href="/product/" target="_blank">走进逐浪</a></li>
+        <li><a href="/shop/" target="_blank">产品中心</a></li>
+        <li><a href="/case/" target="_blank">成功案例</a></li>
+        <li><a href="/Project/" target="_blank">解决方案</a></li>
+        <li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+        <li class="scuess"><img src="/Template/office/style/images/hot.gif" class="hot"><a href="/pub/" target="_blank">下载产品</a></li>
+        <li><a href="/demo/" target="_blank">体验中心</a></li>
+	<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+	<li><a href="http://v.z01.com" target="_blank">微建站</a></li>
+	<li><a href="http://v.z01.com/H5" target="_blank">H5场景</a></li>
+</ul>
+</div>
+
+ 
+      
+</div>
+</div>
+</div>
+</div>
+<!-- 导航到此结束 -->
+
+
+
+
+<div class="menu">
+    <div class="version">
+      <div class="padder">
+          <div class="softList" id="softList" onmouseover="showMoreSoftware()" onmouseout="hideMoreSoftware()">
+            <a class="drawingPin" href="javascript:void(0);" onclick="lockMenu()" id="lockBtn" title="&#x56FA;&#x5B9A;"></a>
+            <div class="banben">
+            <h3>网站内核产品线</h3>
+                <ul>
+                    <li><a onclick="hidingMenu()" href="/pub/142.shtml">Zoomla!逐浪CMS个人版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/143.shtml">Zoomla!逐浪CMS企业版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/144.shtml">Zoomla!逐浪CMS教育版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/145.shtml">Zoomla!逐浪CMS政府版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/146.shtml">Zoomla!逐浪CMS开发版</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/147.shtml">Zoomla!逐浪CMS订制版</a></li>
+                    <li><a onclick="hidingMenu()" href="/Article/Project/475.shtml">虚拟3D系统</a></li>
+                    <li><a onclick="hidingMenu()" href="/pub/591.shtml">在线试穿(戴)系统</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <div class="left">
+                    <h3>解决方案</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/213.shtml" target="_blank">面向个人</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/133.shtml" target="_blank">面向企业</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/136.shtml" target="_blank">面向政府</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/Project/131.shtml" target="_blank">面向教育</a></li>
+                        <li><a  href="/Article/Project/131.shtml" target="_blank">面向移动</a></li>
+                    </ul>
+                    <h3>使用教程</h3>
+                    <ul class="last">
+                        <li><a onclick="hidingMenu()" href="/learn/555.shtml" target="_blank">使用手册</a></li>
+                        <li><a onclick="hidingMenu()" href="http://help.z01.com/data" target="_blank">数据字典</a></li>
+                        <li><a onclick="hidingMenu()" href="/soft/other/497.shtml" target="_blank">DW插件</a></li>
+                        <li><a onclick="hidingMenu()" href="/mtv/" target="_blank">视频教程</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <h3>官方推荐</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="/down/" target="_blank">最新下载</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/" target="_blank">发布中心</a></li>
+                        <li><a onclick="hidingMenu()" href="/pub/listpage.shtml" target="_blank">产品特性</a></li>
+                        <li><a onclick="hidingMenu()" href="/Article/news/" target="_blank">官方动态</a></li>
+                        <li><a href="product/FuncList/">所有功能</a></li>
+                    </ul>
+                    <h3>论坛导航</h3>
+                    <ul>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=4" target="_blank">程序发布</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=5" target="_blank">技术讨论</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=6" target="_blank">模板交流</a></li>
+                        <li><a onclick="hidingMenu()" href="http://bbs.z01.com/PClass?id=7" target="_blank">教程发布</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--伸缩图钉菜单到此结束 -->
+
+<div id="banner2014">
+<img src="/Template/office/style/images/2013banner.jpg" alt="逐浪软件" class="img-responsive" />
+<div class="clearfix"></div>
+</div>
+ 
+<div class="container margintop10">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<ol class="breadcrumb">
+<ul class="pull-right mysite">
+<li class="biz_log"><a href="/biz/" target="_blank">授权验证</a></li>
+<li class="wap_log"><a href="/wap/Default.aspx" target="_blank">手机访问</a></li>
+<li class="rss_log"><a href="/rss/Default.aspx" target="_blank">RSS聚合</a></li>
+<li class="reg_log"><a href="/user/" target="_blank">用户中心</a></li>
+<li class="login_log"><A class=Channel href="javascript:void(0)" name="StranLink" id="StranLink">繁体中文</A> <SCRIPT language=javascript src="/js/gb_big5.js"></SCRIPT></li>
+</ul>
+<a href="/">逐浪软件</a> / 
+<a href="/help/index.shtml">帮助中心</a> / 
+<a href="/Class_120/Default.aspx">移动应用</a> / 
+</ol>
+   
+<div id="Content">
+<h1>二维码知识-如何在QR二维码中插入图片</h1>
+<hr/>
+
+<div id="Content_Info">
+<p class="text-center">作者:本站编辑 发布时间:2013-05-16  来源:本站原创   点击数:<SCRIPT language=javascript src="/Common/GetHits.aspx?id=2059"></SCRIPT> <a href="http://demo.z01.com/Class_100/NodePage.aspx?t=二维码知识-如何在QR二维码中插入图片-来自Zoomla!逐浪CMS官网&urls=https://www.z01.com/item/2059.aspx" target="_blank"><i class="fa  fa-share-alt-square"></i> 分享网址</a></p>
+</div>
+<div class="clearfix"></div>
+<div id="Content_txt">
+<p>
+	大家都知道现在<span>QR码</span>越来越好看了，可以给里面加入各种图案和图像，而网站开发也与二维码结合越来越频繁，最新版的Zoomla!逐浪CMS就可以在线生成各种QR二维码，并且可以给里面加入自定义的图像等，并集成微信等应用，深得广大用户的认同。</p>
+<p>
+	<img alt="" src="/UploadFiles/images/code2.jpg" style="border-top: 1px solid; height: 630px; border-right: 1px solid; border-bottom: 1px solid; border-left: 1px solid; width: 674px" /></p>
+<p>
+	上图就是逐浪CMSX1.1中的二维码功能（目前只对商业和VIP推送，用户可以访问<a href="http://www.zoomla.cn/pub">www.zoomla.cn/pub</a>下载程序进行更新），显然让微门户和APP联系更加紧密了。</p>
+<p>
+	试试下面的二维码：（扫描后可以访问到Zoomla!逐浪CMS程序员一个博客）</p>
+<p sizcache01257431029264271="1" sizset="0">
+	<img alt="" src="/UploadFiles/images/code.jpg" style="height: 367px; width: 358px" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	QRcode采用里德-所罗门码来进行编码，里德-所罗门码是一种带有容错机制的编码方法，采用这种机制扫描的时候并不需要读取所有的比特位，因此也使得简单的在QRcode中少量的更改信息，比如加入小型的<span><a href="http://www.bfcat.com/index.php/tag/%e5%9b%be%e7%89%87/" target="_blank">图片</a></span>等等，成为了可能。举个例子，2008年的时候Duncan&nbsp;Robertson为BBC电视台制作了一幅QRcode图片，就是用到了其强大的容错能力。</p>
+<p sizcache01257431029264271="1" sizset="1">
+	<img height="215" src="/UploadFiles/Mobile/jpg/576038590877177779.jpg" title="qr-bbc" width="446" /></p>
+<p>
+	这是一种很简单但又非常实用的技巧，但是，站在技术的角度来看会感到很乏味。尽管上面的BBC三个大字看起来是很像一个QRcode里的字节符，但它对于QRcode的解码所带来的，仅仅是错误信息的冗余而已。我们可以把BBC三个字符处换成任何字符甚至图片，他们之间的唯一区别仅仅是带来的不同噪声而已。</p>
+<p sizcache01257431029264271="1" sizset="2">
+	<img height="215" src="/UploadFiles/Mobile/jpg/910767765460704725.jpg" title="qr-bbc1" width="446" /></p>
+<p>
+	在这个BBC&nbsp;QR&nbsp;Logo出来之后，网上出现了相当多的模仿者，大部分和上面一样，只是把中间的字符换成自己所喜爱的噪声信号。比如这幅迪斯尼海报就是代表。</p>
+<p sizcache01257431029264271="1" sizset="3">
+	<img height="285" src="/UploadFiles/Mobile/jpg/419022898938494092.jpg" width="380" /></p>
+<p>
+	其实要说的是，对于我们技术工作者来说，有其他更好的方法来制作包含自己图像的QRcode，而不是仅仅添加一些无聊的噪声，和依靠QRcode的容错率来得到一个相对稳定的二维码。就比如下面这些：</p>
+<p sizcache01257431029264271="1" sizset="4">
+	<img height="196" src="/UploadFiles/Mobile/jpg/712280216092120351.jpg" title="qart1" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/2662706767972785.jpg" title="qart2" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/154989972025352168.jpg" title="qart3" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/708978762700204604.jpg" title="qart4" width="196" /></p>
+<p>
+	这篇文章所要解释的就是制作这种二维码背后所包含的数学原理，也包括其简单的制作方法。文中所用到的源码发布在<a href="http://code.google.com/p/rsc/source/browse/qr" target="_blank">code.google.com/p/rsc</a>上，并且还制作了一个<a href="http://research.swtch.com/qr/draw" target="_blank">在线的转换网站</a>。</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>背景知识</strong></p>
+<p>
+	QRcode使用里德-所罗门码来进行错误修正。对于我们来说，里德-所罗门编码有两个非常重要的特性。第一，它是一种显式系统码，也就是说，你可以在最终的编码中直接看到原有的信息。就好比我们对&rdquo;hello&nbsp;world&rdquo;进行编码，最终看到的是&rdquo;hello&nbsp;world&rdquo;以及其后面跟随的几个容错码。第二点，里德-所罗门编码是可以被&rdquo;异或&rdquo;的，将两个不同里德-所罗门编码得到的结果异或运算后会得到一个新的里德-所罗门码，并且这个新码的原码即是原来两个原码的异或。如果你想知道为什么这两个特性会成立，请看<a href="http://research.swtch.com/field" target="_blank">Finite&nbsp;Field&nbsp;Arithmetic&nbsp;and&nbsp;Reed-Solomon&nbsp;Coding</a>.</p>
+<p>
+	<strong>QRcode</strong></p>
+<p>
+	一副QRcode图像会定义一些独特的描述符来帮助人们或者电脑识别出自己是一张QRcode。这种描述符随着QRcode的大小不同而略有区别&mdash;&mdash;越大的QRcode图像拥有越多的描述符。但是对于人的识别来说，特征最明显的还是图片的四个角的符号是固定的，看到这样的四个角人类就本能的反应：这是一个QRcode。下面就是一些示例描述符。</p>
+<p sizcache01257431029264271="1" sizset="8">
+	<img height="966" src="/UploadFiles/Mobile/jpg/207328536005246730.jpg" title="qart16" width="548" /></p>
+<p>
+	上图中彩色部分就是编好的里德-所罗门码。对于每一副图像来说，可能含有一块或者多块里德-所罗门编码块，这个是由图像大小以及设定的纠错能力来决定的。对于下图来说，不同的编码块对应不同的颜色，L编码方式对应最小的错误冗余，为20%，其余的三种则分别增加冗余码，对应的百分比为38%，55%，和65%。</p>
+<p sizcache01257431029264271="1" sizset="9">
+	<img height="360" src="/UploadFiles/Mobile/jpg/20402682614330983.jpg" title="qart17" width="316" /></p>
+<p>
+	（实际上，我们可以通过读取图像最左上角的两个象素点来判断编码的冗余程度。定义黑色为0，白色为1，那么如果看到00则是L级别的冗余，01是M，10是Q，11则是最高的H级别冗余。</p>
+<p>
+	正如我上面所提到的一样，原码信息是被显式的包含在被编码的图像中的，这样，原码信息中的每一个比特就与QR图像中的每一个像素所对应。这些像素在上面的图像中对应非灰色的色彩部分，灰色部分则是用于纠错的冗余信息码。编码好的比特是按照Z字形的结构连续排列在图像中的每一个像素上，从左下角开始并在右下角结束，如下图：</p>
+<p sizcache01257431029264271="1" sizset="10">
+	<img height="372" src="/UploadFiles/Mobile/jpg/594395274568668238.jpg" title="qart18" width="348" /></p>
+<p>
+	有了上面的这些工作，我们可以非常容易的知道原码信息在图像中的位置。然后通过改变自己的原码信息，就可以改变图像中的像素以至于可以在里面作图了。虽说如此，下面的一些情形可以让事情变得更有趣。</p>
+<p>
+	<strong>QR&nbsp;Masks</strong></p>
+<p>
+	第一个难点就是编码完成的数据会按照下面的几个模板来异或运算进行混淆，混淆过后才是最终得到的图像。这样的模板有8个</p>
+<p sizcache01257431029264271="1" sizset="11">
+	<img height="274" src="/UploadFiles/Mobile/jpg/507190759941704481.jpg" title="qart19" width="494" /></p>
+<p>
+	对于一个QR编码器来说，它会根据输入的数据情况来选择最合适的模板来进行混淆，使得原本的数据隐藏起来。但在我们的这个编码器中，我们可以先选择好模板，然后再决定设计输入的数据。虽然说与原本的设计模式相违背，但依然可以产生合法的代码。</p>
+<p>
+	<strong>QR&nbsp;Code编码</strong></p>
+<p>
+	第二个难点就是我们想要制作的是含有容易理解的信息的QRcode。简单来说你可以随意的按照自己设计的图片来生成QRcode，但这样解码出来的数据就完全是杂乱无章的乱码，作为一副QR图像来说就毫无意义了。因此我们需要约束自己的图案，以求产生包含能理解的内容的QRcode。幸运的是，QRcode允许原码信息以一些符号来表示，其中一种是一个8比特的数据，它需要引入一些垃圾数据来生成一副图像。另一种则是数值数据，这种格式中每10个比特表示3个十进制字符。到这里，制作特定图像中的限制已经很明显了，我们不能生成值超过999的10比特数据（注：10比特二进制最大值为1023）。尽管不能完全按照我们想要的来，但其灵活性已经很高了，能使用的比特串达到所有比特串的99.6%。因此，在生成自己想要的图片后，如果发现解码错误，我们随机选5个最具代表性的值为1的比特位&mdash;&mdash;只有1才能产生错误的比特码&mdash;&mdash;然后直接改写成0，重复扫描和以上的步骤。</p>
+<p>
+	但是仅仅有数字数据并不是一件有趣的事，我们扫描QR码只能得到一个毫无意义的巨大的十进制数值。又一次幸运的是，QRcode允许在一条信息中采用多种不同的编码类型。因此我就制作了这样的一条信息，前面一部分是自己的网址信息，然后再在一个#符号后面插入用来作图的数值数据。</p>
+<p>
+	http://swtch.com/pjw/#123456789&hellip;</p>
+<p>
+	数据前面的URL最先被编码，它在QR图像中占据最左边的部分，然后整个数据的冗余被加到编码数据的尾部，它占据了QR图像最右边的部分。中间的部分就是我们自己预先设定好的图像比特数据。</p>
+<p>
+	当使用手机扫描这幅QR图像的时候，解码器识别出URL并在浏览器中打开这个地址，然后根据其后#处的数值跳到页面相应的游标处。当然，这样的游标是不存在的，即便这样浏览器也不会发出任何抱怨。</p>
+<p>
+	使用这样的方法产生的图像如下：</p>
+<p sizcache01257431029264271="1" sizset="12">
+	<img height="196" src="/UploadFiles/Mobile/jpg/89755995189541737.jpg" title="qart5" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/451549742570894172.jpg" title="qart6" width="196" /></p>
+<p>
+	后面的那张图将我们所不能控制的象素点用灰色表现了出来：左边的URL数据信息和右边的冗余码信息。我很欣赏这种人物的一部分融入噪声状冗余信号所产生出来的终结者（斯瓦辛格电影中的未来机器人）效果，但如果进一步扩大目前的视野会更好。</p>
+<p>
+	<strong>高斯-约旦消元</strong></p>
+<p>
+	制作过程的第三个难点是，如何才能将想要的图像均匀的平铺在QRcode中，而不是前面的那种仅仅显示在中间的一小块。再次幸运的是，这一点我们仍然可以做到。</p>
+<p>
+	我之前提到过里德-所罗门码是一种可以被异或的编码方法：如果两个不同的里德-所罗门码块b1和b2，它们的原码信息分别为m1和m2，那么b1&oplus;b2依然是里德-所罗门码，并且这个合成码的原码会变为m1&oplus;m2（原因在我前面的这篇文章[<a href="http://research.swtch.com/field" target="_blank">link</a>]中有解释）。这个特性让我们可以从一个合法的QRcode中产生另一个合法的QRcode。特别的，我们构建以下比特序列b0，b1，b2&hellip;，其中的bi就是指一个除开第i位之外其它位置都是0的比特块，然后尾部跟上冗余码以构成一个合法的里德-所罗门编码。这一组序列就是整个里德-所罗门码空间的一组基向量。下图所示矩阵就是2数据位2冗余位的基向量序列</p>
+<p sizcache01257431029264271="1" sizset="14">
+	<img height="283" src="/UploadFiles/Mobile/jpg/949897515874936299.jpg" title="111" width="550" /></p>
+<p>
+	没有填写的部分都代表比特位为0。灰色部分就是我们可以自己完全控制的比特部分，白色部分则是尾随后面的纠错冗余码。由上面的异或特性我们知道，我们可以将编完码的结果和上面的这组基进行异或，而不改变其他的控制位，并且保持冗余码的更新。</p>
+<p>
+	可能你又要抱怨了，这种做法其实无所事事，我们的图像位置该在哪儿还是在哪儿，没起到作用。</p>
+<p>
+	请等我慢慢说完，在有了上面知识的基础上，我们可以通过把多个基组合起来，以达到将自己的数据和容错码中的数据交换的目的。虽然说在根本上我们不能增加可以自由控制的点的数目，但却可以移动可以自由控制的点的位置&mdash;&mdash;也就是说达到将不可控点空间分散化的效果，将这些不合作的控制点对图像整体的影响降低。这其实就是小标题中高斯-约旦消元法的基本思想，从原矩阵中产生一个简化的行列式。</p>
+<p sizcache01257431029264271="1" sizset="15">
+	<img height="281" src="/UploadFiles/Mobile/jpg/89442594481794617.jpg" title="222" width="550" /></p>
+<p>
+	上面的这个矩阵给了我们一个重要提示，即是没法做到完全一般化。尽管这些比特串是完全相互独立的，但是由于同时还需要照顾不守规矩的错误冗余码，我们没法做到QR图像中的每一个像素都是我们想要的值。在这里例子中，比特串最后的四个比特是不可控的，我们所做的操作就是通过上述基来对比特位置重构，分散不可控的点，使最终画面更协调。</p>
+<p>
+	在实际的程序里，采用这种思想的一个做法便是对里德-所罗门码块中的每一个比特，根据其在图像中的重要性进行打分与排序（图像中高对比区域像素的得分小于低对比区域像素），然后遍历图像中每一个像素，如果我们的基允许对其的改变并且改变后的得分更高的话，那么用相应的基对他进行异或，否则继续处理下一个像素。</p>
+<p>
+	使用这种方法，我们可以得到更宽但噪声更多的QR图像</p>
+<p sizcache01257431029264271="1" sizset="16">
+	<img height="196" src="/UploadFiles/Mobile/jpg/751411966506351925.jpg" title="qart7" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/305401757181204360.jpg" title="qart8" width="196" /></p>
+<p>
+	图片里所示人物的前额以及右半部分的脸就为得到更宽的脑袋而牺牲了。</p>
+<p>
+	我们还可以随机决定可控点的位置，然后产生一种雾化的图片效果。</p>
+<p sizcache01257431029264271="1" sizset="18">
+	<img height="196" src="/UploadFiles/Mobile/jpg/336966254438357808.jpg" title="qart9" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/249760739810394051.jpg" title="qart10" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/803750530485246487.jpg" title="qart11" width="196" /></p>
+<p>
+	<strong>旋转</strong></p>
+<p>
+	好了，以上方法介绍完毕之后大家都可以制作差不多凑合的QR图像了。我这里还剩下处理的最后一招，就是QR图像的旋转。在上面的图像里所有没法控制的冗余点部分都存在于存在于QR图像的右侧，但由于QRcode对于图像的旋转没有任何要求，因此其实可以把这部分移动到别的什么地方。</p>
+<p sizcache01257431029264271="1" sizset="21">
+	<img height="196" src="/UploadFiles/Mobile/jpg/389304818416252370.jpg" title="qart12" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/943294609092104806.jpg" title="qart13" width="196" /></p>
+<p sizcache01257431029264271="1" sizset="23">
+	<img height="196" src="/UploadFiles/Mobile/jpg/497284399767957240.jpg" title="qart14" width="196" /><img height="196" src="/UploadFiles/Mobile/jpg/51274190442809676.jpg" title="qart15" width="196" /></p>
+<p sizcache01257431029264271="1" sizset="23">
+	&nbsp;</p>
+<p sizcache01257431029264271="1" sizset="23">
+	提示：想获得更好的移动门户请访问<a href="http://www.zoomla.cn/login7.html">http://www.zoomla.cn/login7.html</a>获得功能强大、完全免费的Zoomla!逐浪CMS，并与微信等应用紧密结合，完胜WEB2.0营销！</p>
+
+</div>
+<div>
+<script>
+function showimg(txt)
+{
+if(txt!="")
+{
+document.write("<img src='/UploadFiles//"+txt+"' />");
+}
+}
+</script>
+
+<script>
+showimg('');
+showimg('');
+</script>
+</div>
+<div id="T_page"></div>
+<div id="CopyRight"></div>
+<div class="panel"><img src="/skin/default/Comment.gif" />  本文责任编辑：
+本站编辑
+ &nbsp;<a href="/user/content/addtofav.aspx?infoid=2059" target="_blank">加入会员收藏夹</a>&nbsp;<a href="/Comments/CommentFor.aspx?ID=2059" target="_blank">点此参与评论</a>>></div>
+<div class="panel text-center"><a href="/corp/about/83.shtml" target="_blank"><img src="/skin/default/post.gif" alt="进一步意向" />对[<span style="color:red">二维码知识-如何在QR二维码中插入图片</span>]这条信息感兴趣吗？您还可以点此联系我们以确定进一步意向。</a></div>
+<div class="">当前网址：
+<script language="javascript" type="text/javascript">
+  document.writeln ("<input id=\"thisweburl\" type=\"text\" class=\"form-control\" value=\"" + location + "\" onmouseover=\"this.select()\"/>")
+</script>
+
+<script>
+function copyToClipBoard()
+{
+ var clipBoardContent=window.document.title;
+ clipBoardContent+='\r\n'+"[来自Zoomla!逐浪CMS官网]" + '\r\n' + "文章地址:" + window.document.location.href;
+ window.clipboardData.setData("Text",clipBoardContent);
+ alert("复制成功，请粘贴到你的QQ/TM/MSN上推荐给你的同行或其他朋友！\r\n\r\n内容如下：\r\n" + clipBoardContent);
+}
+</script>
+<a onClick="copyToClipBoard()" class="btn btn-primary btn-sm">复制本网址，发给QQ/TM/MSN上的同行或其他朋友</a></div>
+<div class="Contnet_old">上一篇文章：<a href="/help/Mobile/2052.shtml" title="如何通过逐浪CMS微信模块审核微信公众帐号">如何通过逐浪CMS微信模块审核微信公众帐号</a></div>
+<div class="Contnet_old">下一篇文章：<a href="/help/Mobile/2059.shtml" title="二维码知识-如何在QR二维码中插入图片">二维码知识-如何在QR二维码中插入图片</a></div>
+</div>
+<!--中右结束 -->
+</div>
+<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapseOne">
+         解决方案
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+     <div class="panel-body padding0">
+ <ul class="panel_li">
+    <li><a href="/Article/Project/136.shtml" target="_blank">政府门户解决方案</a></li>
+  <li><a href="/Article/Project/133.shtml" target="_blank">企业门户解决方案</a></li>
+  <li><a href="/Article/Project/166.shtml" target="_blank">网上商城解决方案</a></li>
+  <li><a href="/Article/Project/137.shtml" target="_blank">文献网站解决方案</a></li>
+  <li><a href="/Article/Project/131.shtml" target="_blank">教育门户解决方案</a></li>
+  <li><a href="/Article/Project/399.shtml" target="_blank">门户站群解决方案</a></li>
+  <li><a href="/Article/Project/138.shtml" target="_blank">行业门户解决方案</a></li>
+  <li><a href="/Article/Project/213.shtml" target="_blank">个人门户解决方案</a></li>
+  <li><a href="/Article/Project/135.shtml" target="_blank">无线门户解决方案</a></li>
+  <li><a href="/Article/Project/132.shtml" target="_blank">交友门户解决方案</a></li>
+  <li><a href="/Article/Project/134.shtml" target="_blank">社区门户解决方案</a></li>
+  <li><a href="/Article/Project/475.shtml" target="_blank">FLEX及3D综合解决方案</a></li>
+  <li><a href="/Project/" target="_blank">+方案中心>></a></li>
+  
+  </ul>
+       </div>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        产品中心
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/pub/" target="_blank">免费下载</a></li>
+  <li><a href="/mtv" target="_blank">在线视频</a></li>
+  <li><a href="/help/" target="_blank">帮助中心</a></li>
+  <li><a href="http://edu.z01.com" target="_blank">建站学院</a></li>
+  <li><a href="/updata/" target="_blank">更新历史</a></li>
+  <li><a href="/product/FuncList/" target="_blank">家族软件</a></li>
+  </ul>      </div>
+    </div>
+  </div>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapseThree">
+          商业合作
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/shop/" target="_blank">在线购买</a></li>
+  <li><a href="/corp/about/151.shtml" target="_blank">版本对比</a></li>
+  <li><a href="/article/join/">代理加盟</a></li>
+  <li><a href="/biz/" target="_blank">正版查询</a></li>
+  <li><a href="/corp/about/94.shtml" target="_blank">合同文档</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsefour">
+         关于公司
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefour" class="panel-collapse collapse">
+     <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/" target="_blank">企业介绍</a></li>
+  <li><a href="/corp/about/631.shtml" target="_blank">管理团队</a></li>
+  <li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+  <li><a href="/corp/about/93.shtml" traget="_blank">资质证件</a></li>
+  <li><a href="/corp/about/83.shtml" traget="_blank">联系我们</a></li>
+  <li><a href="/about.shtml" traget="_blank">About Zoomla!</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsefive">
+      企业文化
+        </a>
+      </h4>
+    </div>
+    <div id="collapsefive" class="panel-collapse collapse">
+        <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/music/" target="_blank">企业歌曲</a></li>
+  <li><a href="/blog/" target="_blank">官方博客</a></li>
+  <li><a href="/corp/job/" target="_blank">招贤纳士</a></li>
+  <li><a href="/corp/media/" target="_blank">媒体报道</a></li>
+  <li><a href="http://gongyi.z01.com/" target="_blank">慈善公益</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse"   data-parent="#accordion" href="#collapsesix">
+    创新学院
+        </a>
+      </h4>
+    </div>
+    <div id="collapsesix" class="panel-collapse collapse">
+    <div class="panel-body padding0">
+ <ul class="panel_li">
+  <li><a href="/corp/video/1839.shtml">体感研究</a></li>
+  <li><a href="/pub/1932.shtml">院校合作</a></li>
+  <li><a href="/corp/about/472.shtml">电子杂志</a></li>
+  <li><a href="/corp/about/476.shtml" target="_blank">WEB新动力</a></li>
+  <li><a href="/corp/about/93.shtml" target="_blank">CSDN金牌伙伴</a></li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+<!--中部主体结束 -->
+</div>
+</div>
+<div class="foot">
+<div class="container Home_server">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 Home_server_top1">
+<h3>+什么是CMS</h3>
+<p>
+CMS(Content Management System)是网站内容管理系统简称,
+互联网上每个网站(无论大小门户)其后台都由专业CMS系统支撑-
+Zoomla!逐浪CMS作为国内高端CMS与WEB应用典范,首创第3代CMS理念,专注底层核心技术研发,以云技术、创新精神构建行业新成就，提供从网站内核到电商、办公、移动一体化的开发体验！
+</p>
+
+<ul class="">
+<li><a href="#">CMS起源</a></li>
+<li><a href="/try/cmsnews/" target="_blank">CMS行业动态</a></li>
+<li><a href="/try/" target="_blank">CMS选型</a></li>
+<li><a href="#">CMS厂商榜单</a></li>
+<li><a href="http://gongyi.z01.com" target="_blank">东方红慈善基金</a></li>
+<li><a href="/help/https/" target="_blank">SSL金融级研发支持</a></li>
+<li><a href="/case/" target="_blank">案例中心</a></li>
+<li><a href="/corp/job/" target="_blank">求贤若渴</a></li>
+</ul>
+<div class="clearfix"></div>
+<ul class="Home_server_top2">
+<h4>我们的主力产品线</h4>
+<li><a href="" target="_blank">CMS网站系统</a></li>
+<li><a href="" target="_blank">Z套件-OA办公产品</a></li>
+<li><a href="http://v.z01.com" target="_blank">微建站产品</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5场景产品</a></li>
+<li><a href="/shop/" target="_blank">电商系统</a></li>
+<li><a href="/shop/" target="_blank">政务门户集成</a></li>
+<li><a href="/shop/" target="_blank">微信系统开发</a></li>
+<li><a href="/shop/" target="_blank">教育平台开发</a></li>
+<li><a href="/shop/" target="_blank">军工门户产品线</a></li>
+<li><a href="http://www.ziti163.com/Class_23/Default.aspx" target="_blank">逐浪字库</a></li>
+<li><a href="#" target="_blank">APP接口通</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">功能小报</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>使用导航</h4>
+<li><a href="/pub/" target="_blank">下载逐浪</a></li>
+<li><a href="/corp/about/listpage.shtml" target="_blank">购买指南</a></li>
+<li><a href="/pub/listpage.shtml" target="_blank">产品特色</a></li>
+<li><a href="/help/Install/692.shtml" target="_blank">快速安装</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></li>
+<li><a href="/help/Install/693.shtml" target="_blank">程序迁移</a></li>
+<li><a href="/demo/" target="_blank">产品演示</a></li>
+<li><a href="/product/pub/380.shtml" target="_blank">商城建设</a></li>
+<li><a href="/yun/" target="_blank">云主机</a></li>
+<li><a href="/pub/1987.shtml" target="_blank">数据中心高端计算</a></li>
+<li><a href="http://help.z01.com" target="_blank">用户手册</a></li>
+<li><a href="http://help.z01.com/database/" target="_blank">数据字典</a></li>
+<li><a href="/corp/media/359.shtml" target="_blank">Oracle支持</a></li>
+<li><a href="/learn/2342.shtml" target="_blank">桌面壁纸</a></li>
+<li><a href="/phoneGap/" target="_blank">PhoneGap资源</a></li>
+<li><a href="http://www.1th.cn" target="_blank">一特网</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>旗下矩阵</h4>
+<li><a href="/mtv/" target="_blank">视频教程</a></li>
+<li><a href="/Project/" target="_blank">解决方案</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术社区</a></li>
+<li><a href="/biz/" target="_blank">商业认证</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/corp/about/472.shtml" target="_blank">电子杂志</a>
+<li><a href="/pub/1932.shtml" target="_blank">院校合作</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>前瞻研发</h4>
+<li><a href="http://pano.z01.com" target="_blank">VR与AR</a></li>
+<li><a href="/corp/video/1839.shtml" target="_blank">体感研发</a></li>
+<li><a href="/pub/2986.shtml" target="_blank">智能硬件</a></li>
+<li><a href="pub/2426.shtml" target="_blank">微信开发</a></li>
+<li><a href="/updata/881.shtml" target="_blank">三维全景</a></li>
+<li><a href="/m/" target="_blank">移动开发</a></li>
+<li><a href="/sec/">SEC应急响应中心</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>开放平台</h4>
+<li><a href="/updata/" target="_blank">更新记录</a></li>
+<li><a href="/try/kkzx/1021.shtml" target="_blank">API整合</a></li>
+<li><a href="/Article/server/1774.shtml" target="_blank">讲师计划</a></li>
+<li><a href="/learn/1246.shtml" target="_blank">云技术白皮书</a></li>
+<li><a href="/Article/news/526.shtml" target="_blank">永久免费声明</a></li>
+<li><a href="http://help.z01.com/label.htm" target="_blnak">标签助手</a></li>
+<li><a href="http://code.z01.com/boot/" target="_blank">BootStrap</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>配套服务</h4>
+<li><a href="http://v.hx008.com/domain.php" target="_blank">域名注册</a></li>
+<li><a href="http://v.hx008.com/web.php" target="_blank">主机服务</a></li>
+<li><a href="http://www.hx008.com/idc/" target="_blank">租用托管</a></li>
+<li><a href="http://v.hx008.com/pro.php" target="_blank">优化推广</a></li>
+<li><a href="http://www.hx008.com/Website/" target="_blank">网站建设</a></li>
+<li><a href="http://ad.z01.com/" target="_blank">广告源码</a></li>
+<li><a href="/tool/">IIS站点智能工具</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 Home_server_top3">
+<ul class="Home_server_li">
+<h4>关于我们</h4>
+<li><a href="/y10/" target="_blank">10年华诞</a></li>
+<li><a href="/corp/" target="_blank">关于公司</a></li>
+<li><a href="/photo/ltd/" target="_blank">参观公司</a></li>
+<li><a href="/corp/music" target="_blank">企业歌曲</a></li>
+<li><a href="/corp/about/83.shtml">联系地址</a></li>
+<li><a href="/blog/" target="_blank">官方博客</a></li>
+<li><a href="/server/" target="_blank">服务中心</a></li>
+</ul>
+<ul class="Home_server_li">
+<h4>站内导航</h4>
+<li><a href="/corp/media" target="_blank">媒体报道</a></li>
+<li><a href="/corp/video" target="_blank">视频中心</a></li>
+<li><a href="/map.html" target="_blank">网站地图</a></li>
+<li><a href="/article/join/" target="_blank">代理加盟</a></li>
+<li><a href="/corp/about/95.shtml">版权申明</a></li>
+<li><a href="/Friendsite/" target="_blank">友情链接</a></li>
+<li><a href="/about.shtml">About Zoomla!</a></li>
+</ul>
+</div>
+</div>
+
+</div><!--整个表格 -->
+  
+<div id="home_friendsite">
+      <div class="container">
+      <div class="row">
+        <p><a href="https://github.com/zoomla" target="_blank"><i class="fa  fa-github"></i></a>典型客户</p>
+    <ul>
+              <li id="home_friendsite_china"><a href="#">中国政府网</a></li>
+              <li id="home_friendsite_dell"><a href="#">DELL</a></li>
+              <li id="home_friendsite_fujitsu"><a href="#">Fujitsu</a></li>
+              <li id="home_friendsite_hp"><a href="/Template/office/style/images//HP.pdf" target="_blank">HP</a></li>
+              <li id="home_friendsite_whedu"><a href="#">武汉大学</a></li>
+              <li id="home_friendsite_huawei"><a href="#">深圳华为</a></li>
+              <li id="home_friendsite_cdc"><a href="#">中国疾病预防控制中心</a></li>
+              <li id="home_friendsite_kingdee"><a href="#">金蝶软件</a></li>
+              <li id="home_friendsite_chinaredstar"><a href="#">红星美凯龙</a></li>
+              <li id="home_friendsite_jxrb"><a href="#">江西日报</a></li>
+            </ul>
+            </div>
+         </div>
+  </div>
+<div id="copyrights">
+                <div class="container">
+      <div class="row">
+7×24小时服务热线 021-50391046 技术支持：13177777714<br/>
+    &copy;Copyright 2003-<script LANGUAGE="JavaScript">
+<!-- 
+var year="";
+mydate=new Date();
+myyear=mydate.getYear();
+year=(myyear > 200) ? myyear : 1900 + myyear;
+document.write(year); 
+--> 
+</script> 逐浪软件z01.com版权所有 All rights reserved<br/>
+    中华人民共和国网警备案号:3601040103 经营许可证号:工商3601002021063 沪ICP备09077823号<br />
+    <div class="mail">本网站基于&reg;Zoomla!逐浪CMS内核开发</div>
+    <p> 
+              <SCRIPT>document.writeln("<a href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2012041112133385' target='_blank'><img src='/Skin/2010/images/gs.gif' alt='工商认证'></a>")</SCRIPT> 
+              <a href="/Article/news/455.shtml" target="_blank" title="ISO9001国际认证企业"><img src="/skin/2010/images/iso.gif" alt="ISO9001国际认证企业"/></a> <a href="/corp/about/93.shtml" target="_blank" title="CSDN外包TOP资质"><img src="/skin/2010/images/top.gif" alt="CSDN外包TOP资质" /></a> <a href="/corp/about/476.shtml" target="_blank" title="鉴赏MTV电广视告"><img src="/skin/2010/images/mtv.gif" alt="鉴赏MTV电广视告"/></a> <a href="/corp/about/83.shtml" target="_blank" title="7×24小时全天候贴心服务"><img src="/skin/2010/images/server.gif" alt="7×24小时全天候贴心服务" /></a> <a href="http://www.zx110.org/" target="_blank"><img src="/img/zx110.png" alt="社会征信网" /></a> <a href="http://sh.cyberpolice.cn/" target="_blank"><img src="/img/police.png" alt="网络110" /></a></p>
+  </div></div></div>
+
+ </div>
+<div class="navbar navbar-fixed-bottom MYbottom">
+<div class="container BottomLink" >
+<div class="row">
+<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12" id="dvmq">
+<a class="btn btn-danger  btn-sm pull-left" href="/updata/"><i class="fa fa-refresh fa-lg"></i> 更新记录</a>
+<ul>
+
+<li><b>[新增]</b><a href="/updata/3044.shtml" style="color:">动力逐浪发布测试-面向移动和微信的全新建站（H5）生...</a><span class="">2016/08/18</span></li>
+
+<li><b>[改进]</b><a href="/updata/3036.shtml" style="color:">在线聊天功能大升级-支持直播、腾讯云IM及诸多体验</a><span class="">2016/07/28</span></li>
+
+<li><b>[新增]</b><a href="/updata/3035.shtml" style="color:">IDC模块大幅更新-支持订单联想、业务管理、续费等业务</a><span class="">2016/07/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3027.shtml" style="color:">内容管理-审核增加审核时间（AuditTime）字段</a><span class="">2016/07/04</span></li>
+
+<li><b>[新增]</b><a href="/updata/3024.shtml" style="color:">关站首页不关-其它页面提示欠费功能</a><span class="">2016/06/22</span></li>
+
+<li><b>[新增]</b><a href="/updata/3013.shtml" style="color:">Supper gavel超级锤子维护工具</a><span class="">2016/05/27</span></li>
+
+<li><b>[新增]</b><a href="/updata/3003.shtml" style="color:">智能硬件管理</a><span class="">2016/05/05</span></li>
+
+<li><b>[新增]</b><a href="/updata/2990.shtml" style="color:">统一域名归集访问新功能及SSL加密访问设置的优化</a><span class="">2016/02/01</span></li>
+
+<li><b>[新增]</b><a href="/updata/2989.shtml" style="color:">3.1版欢迎界面统计报表服务于生产力软件</a><span class="">2016/01/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2988.shtml" style="color:">全新后台进程管理与预加载-精美动画相伴</a><span class="">2016/01/14</span></li>
+
+<li><b>[新增]</b><a href="/updata/2980.shtml" style="color:">增加一款webfont-逐浪官方图形ZoomlaICO</a><span class="">2016/01/02</span></li>
+
+<li><b>[新增]</b><a href="/updata/2979.shtml" style="color:">剔除配置项中banner图片字段改为官方二维码字段</a><span class="">2016/01/01</span></li>
+
+<li><b>[改进]</b><a href="/updata/2976.shtml" style="color:">能力中心办公模块与社区互动打通更好的交流协同</a><span class="">2015/12/18</span></li>
+
+<li><b>[新增]</b><a href="/updata/2972.shtml" style="color:">3.1商业内测-全新的模型与节点读取方式性能提升达五倍...</a><span class="">2015/12/13</span></li>
+
+<li><b>[新增]</b><a href="/updata/2971.shtml" style="color:">模板方案切换更方便-数据元模式全面上线</a><span class="">2015/12/10</span></li>
+
+<li><b>[新增]</b><a href="/updata/2970.shtml" style="color:">节点编辑支持图标显示与选择啦~</a><span class="">2015/12/09</span></li>
+
+<li><b>[新增]</b><a href="/updata/2969.shtml" style="color:">v3.css更新</a><span class="">2015/12/07</span></li>
+
+<li><b>[新增]</b><a href="/updata/2442.shtml" style="color:">后台界面全新优化</a><span class="">2015/09/23</span></li>
+
+<li><b>[新增]</b><a href="/updata/2441.shtml" style="color:">访客行为跟踪与互动系统上线交付商用</a><span class="">2015/09/16</span></li>
+
+<li><b>[改进]</b><a href="/updata/2419.shtml" style="color:">更正后台Safri浏览器兼容性缺陷</a><span class="">2015/07/01</span></li>
+
+
+</ul>
+</div>
+<div class="col-lg-5 col-md-5  col-sm-5 col-xs-12">
+<span>
+<div class="dl"><a href="/pub/" target="_blank" title="Free Download">DownLoad></a></div>
+<div class="sp"><a href="/shop/" target="_blank" title="Buy Now">Buy Now</a></div>
+<div class="ins"><a href="/help/Install/692.shtml" target="_blank" title="快速安装">快速安装></a></div>
+</span>
+</div></div>
+</div>
+<div class="container Mytel">
+<div class="col-lg-12">
+<span class="glyphicon glyphicon-earphone"><a href="tel:021-50391046">联系官方服务热线</a></span>
+</div></div>
+</div>
+
+<!--客服代码开始 -->
+<DIV id=floatTools class=float0831>
+<DIV class=floatL><A id=aFloatTools_Show class=btnOpen title=查看在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" 
+href="javascript:void(0);">展开</A> <A  style="DISPLAY: none" id=aFloatTools_Hide class=btnCtn title=关闭在线客服 onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.zoomla.cn'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" 
+href="javascript:void(0);">收缩</A> </DIV>
+<DIV id=divFloatToolsView class=floatR style="display:none;">
+<DIV class=tp></DIV>
+<DIV class=cn>
+<UL>
+<LI class=top></LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=184886758&amp;site=qq&amp;menu=yes">京沪苏粤售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=1799661890&amp;site=qq&amp;menu=yes">软件授权售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=524979923&amp;site=qq&amp;menu=yes">高端订制售前</A> </LI>
+<LI><A class=icoTc href="http://wpa.qq.com/msgrd?v=3&amp;uin=745151353&amp;site=qq&amp;menu=yes">教育系统集成</A> </LI>
+</UL>
+<UL class=webZx>
+<LI class=webZx-in><A href="/corp/about/83.shtml" target="_blank" style="FLOAT: left" title="查看更多联系方式"><IMG src="/Template/office/style/images/right_float_web.png" alt="网页咨询"></A> </LI>
+</UL>
+<UL>
+<a href="/pub/" target="_blank"><LI class=bot></LI></a><LI><SPAN class=icoTl>13177777714</SPAN> </LI>
+
+</DIV>
+</DIV>
+</DIV>
+        
+<div class="Micro">
+<div class="Micro_r"> <img src="/Template/office/style/images/webchat_ico32.png"   class="tigger" id="Micro1" alt="微信" onMouseMove="Micro()" /> </div>
+<div id="Micro_l" style="display:none;"   onMouseMove="Micro()" onMouseout="Micro_none()" >
+<div class="Mic_l"> <img src="/Template/office/style/images/Big_Micro.jpg" /></div>
+<div class="Mic_r">
+<ul>
+<li>打开微信:</li>
+<li>1.或选择魔术棒,扫一扫</li>
+<li>2.或选择"朋友们",扫一扫</li>
+<li>3.或查找微信号:逐浪CMS</li>
+</ul>
+</div>
+</div>
+</div>
+<!--客服代码结束 -->
+</body>
+</html>
+<script type="text/javascript" src="/skin/2010/js/ajax.js"></SCRIPT>
+<script type="text/javascript">
+//检测固顶事件
+var IO=document.getElementById('scolls'),Y=IO,H=0,IE6;
+IE6=window.ActiveXObject&&!window.XMLHttpRequest;
+while(Y){H+=Y.offsetTop;Y=Y.offsetParent};
+if(IE6)
+    IO.style.cssText="position:absolute;top:expression(this.fix?(document"+
+        ".documentElement.scrollTop-(this.javascript||"+H+")):0)";
+window.onscroll=function (){
+    var d=document,s=Math.max(d.documentElement.scrollTop,document.body.scrollTop);
+     if(s>H&&IO.fix||s<=H&&!IO.fix)return;
+    if(!IE6)IO.style.position=IO.fix?"":"fixed";        
+    IO.fix=!IO.fix;
+};
+try{document.execCommand("BackgroundImageCache",false,true)}catch(e){};
+ //]]>
+
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()', 3000);
+</script> 

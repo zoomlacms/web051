@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>522</LabelID>
+    <LabelName>输出指定字体认证字体信息</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>内容页</LabelCate>
+    <LabelDesc />
+    <LabelParam>GeneralID,0,1,内容ID|NodeID,1,1,节点ID</LabelParam>
+    <LabelTable>ZL_CommonModel LEFT JOIN ZL_C_biz ON ZL_CommonModel.ItemID=ZL_C_biz.ID</LabelTable>
+    <LabelField>ZL_C_biz.Fonts,ZL_C_biz.Scode</LabelField>
+    <LabelWhere>(NodeID=@NodeID or FirstNodeID=@NodeID) And Status=99 And ModelID=83 And GeneralID='@GeneralID'</LabelWhere>
+    <LabelOrder>ZL_CommonModel.CreateTime DESC</LabelOrder>
+    <LabelContent>&lt;td width="50%"&gt;字库名称：{Field="Fonts"/}&lt;/td&gt;&lt;td width="50%"&gt;字库编码：{Field="Scode"/}&lt;/td&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType>{"ds_m":"main","ds_s":"main","tb_m":"ZL_CommonModel","tb_s":"ZL_C_biz"}</DataSourceType>
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>

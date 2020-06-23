@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>6</LabelID>
+    <LabelName>当前文章模型标题</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>文章中心</LabelCate>
+    <LabelDesc />
+    <LabelParam>ItemID,0,2,当前信息ID</LabelParam>
+    <LabelTable>ZL_CommonModel</LabelTable>
+    <LabelField>GeneralID,Title</LabelField>
+    <LabelWhere>GeneralID=@ItemID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Repeate}
+{Field="Title"/}
+{/Repeate}</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>25</LabelID>
+    <LabelName>当前节点名称</LabelName>
+    <LabelType>2</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam>NodeID,0,2,当前节点ID</LabelParam>
+    <LabelTable>ZL_Node</LabelTable>
+    <LabelField>*</LabelField>
+    <LabelWhere>NodeID=@NodeID</LabelWhere>
+    <LabelOrder />
+    <LabelContent>{Field="NodeName"/}</LabelContent>
+    <LabelCount>0</LabelCount>
+    <LabelIdentity />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,458 @@
+﻿{ZL.Source id="栏目信息数据源"/}<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}_{$SiteTitle/}</title>
+<meta name="Keywords" content="{SField sid="栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="/dist/css/ZLico.css" rel="stylesheet" />
+<link href="{$CssDir/}global.css?Versio={ZL.Label id="前端样式版本号"/}" rel="stylesheet" />
+<style>
+.list17_banner { position:relative; background:url(/Template/office/style/images/list17_banner1.jpg) center no-repeat; background-size:cover; height:62em; }
+.list17_banner_c { position:absolute; top:50%; width:100%; text-align:center; transform:translateY(-50%); -webkit-transform:translateY(-50%); }
+.list17_banner_c h3 { margin-top:0; color:rgba(255,255,255,1.00); font-size:3em; font-weight:100; }
+.list17_banner_c p { margin-bottom:0; color:rgba(255,255,255,1.00);}
+.home17_nav .navbar-brand span { margin-left:0.5em; font-size:1.5em; font-weight:bold; color:rgba(119,119,119,1.00); }
+.pinto_list { margin-left:-10px; margin-right:-10px; }
+.pinto_list_c { position:relative; overflow:hidden; border:1px solid rgba(199, 199, 199, 1); box-shadow:0 0 8px #ccc; }
+.pinto_list_c a { text-decoration:none; }
+.pinto_list_c:hover { border:1px solid rgba(102, 153, 153, 0.5); box-shadow: 0 0 5px rgba(0,0,0,0.7);}
+.pinto_list_cm img { width:100%;}
+.pinto_list_cp { padding:20px; }
+.pinto_list_cp span{color:#cff;}
+.pinto_list_cp h3 { margin-top:0; margin-bottom:15px; font-size:1.562em; line-height:1.5em; color:rgba(50,50,50,1.00);}
+.pinto_list_cp p { margin-bottom:0; color:rgba(102,102,102,1.00); line-height:2em; }
+.pinto_list_cp p:nth-child(2) { margin-bottom:15px; color:rgba(174, 174, 174, 1); font-size:0.857em; line-height:1.5em; }
+.pinto_list_cpbg .pinto_list_cm { display:none; }
+.pinto_list_cpbg .pinto_list_cp { background:rgba(83, 170, 247, 0.6); }
+.pinto_list_cpbg .pinto_list_cp h3 { color:rgba(255,255,255,1.00); }
+.pinto_list_cpbg .pinto_list_cp p:nth-child(3) { color:rgba(255,255,255,0.8); }
+.home17_footer { background:rgba(250, 250, 250,1.00); border-top:5px solid rgba(221,221,221,1.00); }
+.list17_container { margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:1430px; }
+
+@media (min-width:1200px) and (max-width:1600px){
+.list17_container { width:1170px; }
+}
+@media (min-width:992px) and (max-width:1199px){
+.list17_container { width:970px; }
+}
+@media (min-width:768px) and (max-width:991px){
+.list17_container { width:750px; }
+}
+@media (max-width:767px){
+.list17_container { width:100%; }
+.list17_banner { height:20em; }
+}
+</style>
+<script>
+(function($) {
+	'use strict';
+	var defaultOptions = {
+		itemSelector: '> div',
+		itemWidth: 300,
+		marginX: 20,
+		marginY: 20,
+		align: 'left',
+		fitWidth: true,
+		animate: true,
+		autoResize: true,
+		resizeDelay: 50
+	};
+	$.fn.pinto = function(options) {
+		var $this = $(this),
+			settings = $.extend(defaultOptions, options);
+		$this.css('position', 'relative');
+		var getSmallestIndex = function(a) {
+				var index = 0;
+				for (var i = 1, len = a.length; i < len; i++) {
+					if (a[i] < a[index]) index = i
+				}
+				return index
+			};
+		var doLayout = function() {
+				if (!$this.is(":visible")) {
+					return
+				}
+				var trans = (settings.animate ? 'top 0.5s, left 0.5s' : 'none'),
+					items = $this.find(settings.itemSelector),
+					width = $this.innerWidth(),
+					marginX = parseInt(settings.marginX || 0),
+					marginY = parseInt(settings.marginY || 0),
+					itemWidth = settings.itemWidth,
+					colsCount = Math.max(Math.floor(width / (itemWidth + marginX)), 1),
+					cols = [];
+				var i = colsCount;
+				while (i--) cols.push(0);
+				var offset = 0;
+				if (settings.fitWidth) {
+					itemWidth += Math.floor(0.5 + (width - (colsCount * (itemWidth + marginX))) / colsCount)
+				} else {
+					if (settings.align === 'center') {
+						offset += Math.floor(0.5 + (width - (colsCount * (itemWidth + marginX))) >> 1)
+					} else if (settings.align === 'right') {
+						offset += Math.floor(0.5 + width - (colsCount * (itemWidth + marginX)))
+					}
+				};
+				items.each(function(index, item) {
+					var $item = $(item),
+						i = getSmallestIndex(cols);
+					$item.css({
+						position: 'absolute',
+						top: cols[i] + marginY / 2 + 'px',
+						left: (itemWidth + marginX) * i + offset + 'px',
+						width: itemWidth,
+						margin: marginY / 2 + 'px ' + marginX / 2 + 'px',
+						transition: trans
+					});
+					cols[i] += $item.innerHeight() + marginY
+				});
+				var height = 0;
+				i = colsCount;
+				while (i--) if (cols[i] > height) height = cols[i];
+				$this.css({
+					height: height
+				})
+			};
+		var onResizeTimer = null;
+		var onResize = function() {
+				clearTimeout(onResizeTimer);
+				onResizeTimer = setTimeout(doLayout, settings.resizeDelay)
+			};
+		doLayout();
+		if (settings.autoResize) {
+			var resize = $(window).on("resize", onResize);
+			$this.on('remove', resize.unbind)
+		}
+	}
+})(window.jQuery);
+
+function PinToFun(){
+	$("#pinto_list").pinto();
+}
+</script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top home17_nav" id="home17_nav">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">智能切换导航</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a href="javascript:;" onClick="ShowSearch();" class="pull-right visible-xs"><i class="fa fa-search"></i></a>
+<h1 class="navbar-brand"><a href="/"><img src="{$LogoUrl/}" alt="{$SiteName/}" /></a></h1>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="/">首页</a></li>
+<li><a href="/product/">关于</a></li>
+<li><a href="/shop/">产品</a></li>
+<li><a href="/case/">案例</a></li>
+<li><a href="/Project/">方案</a></li>
+<li><a href="http://v.z01.com/mb/">模板</a></li>
+<li><a href="/demo/">体验</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">社区</a></li>
+<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5</a></li>
+<li class="home17_nav_s"><a href="/pub/" target="_blank">下载逐浪CMS</a></li>
+<li class="home17_nav_u">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul class="dropdown-menu" role="menu"></ul>
+</li>
+<li><a href="javascript:;" onClick="ShowSearch();"><i class="fa fa-search"></i></a></li>
+<li><a href="javascript:;" onClick="ShowMobileMenu();"><i class="fa z01-icon106"></i></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="home17_search" style="display:none;">
+<div id="morphsearch" class="morphsearch">
+<form class="morphsearch-form" action="/Search/SearchList" method="get">
+<input class="morphsearch-input" type="search" placeholder="Search..." name="keyword" />
+<button class="morphsearch-submit" type="submit">Search</button>
+</form>
+<div class="morphsearch-content">
+<div class="dummy-column">
+<h4>快速上手</h4>
+<a class="dummy-media-object" target="_blank" href="/mtv/high/2337.shtml">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-desktop fa-stack-1x fa-inverse"></i></span>
+<span>环境部署</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/mtv/cms2/2353.shtml">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cogs fa-stack-1x fa-inverse"></i></span>
+<span>安装配置</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/help/new/1076.shtml">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
+<span>密码修改</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/help/Install/693.shtml">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-exchange fa-stack-1x fa-inverse"></i></span>
+<span>程序迁移</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/help/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-info fa-stack-1x fa-inverse"></i></span>
+<span>帮助中心</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="http://help.z01.com/" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-book fa-stack-1x fa-inverse"></i></span>
+<span>使用手册</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="http://v.z01.com/" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-html5 fa-stack-2x"></i><i class="fa fa-book fa-stack-1x fa-inverse"></i></span>
+<span>免费建站做H5</span>
+</a>
+</div>
+<div class="dummy-column">
+<h4>软件产品</h4>
+<a class="dummy-media-object" target="_blank" href="/product/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-inbox fa-stack-1x fa-inverse"></i></span>
+<span>CMS产品线</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/OAS/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
+<span>OA产品线</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/m/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-mobile fa-stack-1x fa-inverse"></i></span>
+<span>移动产品线</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="http://www.ziti163.com/" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-font fa-stack-1x fa-inverse"></i></span>
+<span>字库产品线</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/yun/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cloud fa-stack-1x fa-inverse"></i></span>
+<span>逐浪云</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/down/3065.shtml">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cloud-download fa-stack-1x fa-inverse"></i></span>
+<span>逐浪云管家</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="http://pano.z01.com">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-street-view fa-stack-1x fa-inverse"></i></span>
+<span>全景平台</span>
+</a>
+</div>
+<div class="dummy-column">
+<h4>开发资源</h4>
+<a class="dummy-media-object" href="http://help.z01.com/HelpLabel.aspx" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-tags fa-stack-1x fa-inverse"></i></span>
+<span>标签获取</span>
+</a>
+<a class="dummy-media-object"href="http://help.z01.com/decry.aspx" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-key fa-stack-1x fa-inverse"></i></span>
+<span>解密工具</span>
+</a>
+<a class="dummy-media-object" href="http://v.z01.com/mb/" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-modx fa-stack-1x fa-inverse"></i></span>
+<span>模板资源</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/tool/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-windows fa-stack-1x fa-inverse"></i></span>
+<span>IIS工具</span>
+</a>
+<a class="dummy-media-object" thref="http://ad.z01.com/" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-globe fa-stack-1x fa-inverse"></i></span>
+<span>广告源码</span>
+</a>
+<a class="dummy-media-object" href="http://code.z01.com/" target="_blank">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span>
+<span>BootStrap</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/mtv/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-film fa-stack-1x fa-inverse"></i></span>
+<span>视频教程</span>
+</a>
+<!--<a class="dummy-media-object" target="_blank" href="/updata/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i></span>
+<span>更新记录</span>
+</a>
+--></div>
+<div class="dummy-column">
+<h4>商务服务</h4>
+<a class="dummy-media-object" target="_blank" href="/biz/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-legal fa-stack-1x fa-inverse"></i></span>
+<span>正版验证</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/shop/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+<span>在线购买</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/corp/about/listpage.shtml">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-rmb fa-stack-1x fa-inverse"></i></span>
+<span>价格清单</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/server/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-headphones fa-stack-1x fa-inverse"></i></span>
+<span>客服中心</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/map.html">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-sitemap fa-stack-1x fa-inverse"></i></span>
+<span>网站地图</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/case/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-hand-peace-o fa-stack-1x fa-inverse"></i></span>
+<span>案例中心</span>
+</a>
+<a class="dummy-media-object" target="_blank" href="/Project/">
+<span class="fa-stack fa-lg" aria-hidden="true"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-briefcase fa-stack-1x fa-inverse"></i></span>
+<span>解决方案</span>
+</a>
+</div>
+</div><!-- /morphsearch-content -->
+<span class="morphsearch-close" onClick="HideSearch();"></span>
+</div><!-- /morphsearch -->
+<div class="overlay"></div>
+</div>
+<div class="home17_mobilemenu_bg" style="display:none;"></div>
+<div class="home17_mobilemenu">
+<div class="home17_mobilemenu_close"><a href="javascript:;" onClick="HideMobileMenu();"><i class="fa z01-icon107"></i></a></div>
+<div class="home17_mobilemenu_c">
+<ul>
+<li class="active"><a href="/">首页</a></li>
+<li><a href="/product/">关于</a></li>
+<li><a href="/shop/">产品</a></li>
+<li><a href="/case/">案例</a></li>
+<li><a href="/Project/">方案</a></li>
+<li><a href="http://v.z01.com/mb/">模板</a></li>
+<li><a href="/demo/">体验</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">社区</a></li>
+<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+<li><a href="http://v.z01.com/h5" target="_blank">H5</a></li>
+<li><a href="/login9.html"><i class="fa fa-cloud-download"></i> 下载逐浪CMS</a></li>
+<li><a href="/corp/about/listpage.shtml">价格清单</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(160)/}">传统版主页</a></li>
+</ul>
+</div>
+<script src="{$AdDir/}/201704/18.js"></script><!--随机出现10个案例-->
+</div>
+<!--导航结束-->
+
+<div class="list17_banner">
+<div class="list17_banner_c">
+<h3>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}</h3>
+<p>专注基础研发，做有鲁棒性和符合大众市场的软件！</p>
+</div>
+</div>
+
+
+
+<div class="list17_container margin_top20">
+<div class="mySite">
+<ol class="breadcrumb" style="margin-bottom:0;">
+<li><a href="/">首页</a></li>
+{ZL.Label id="输出多级节点导航_V3" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" ShowNum="30" /}
+</ol>
+</div>
+
+{ZL.Label id="2017块状新闻列表_分页" NodeID="{SField sid="栏目信息数据源" FD="NodeID" page="0"/}" ShowNum="30" /}
+
+</div>
+
+{ZL.Label id="2017新版全站底部"/}
+{ZL.Label id="2017在线客服"/}
+</body>
+</html>
+<script src="{$CssDir/}js/server.js"></script>
+<script src="/JS/Controls/B_User.js"></script>
+<script>
+var buser = new B_User();//会员ajax登录状态需要结合JS/Controls/B_User.js引用同步生效
+buser.IsLogged(function(data,flag){
+	if(flag){
+		data=JSON.parse(data);
+		$(".home17_nav_u ul").html('<div class="arrow"></div><li><a href="/User/Info/UserInfo">注册信息</a></li><li><a href="javascript:;" onclick="LogoutFun();">安全退出</a></li>');
+	}
+	else{
+		$(".home17_nav_u ul").html('<div class="arrow"></div><li><a href="/User/Login">用户登录</a></li><li><a href="/User/Register">用户注册</a></li>');
+	}
+});
+function LogoutFun(){
+	buser.Logout(function(){location=location;});
+}
+$().ready(function(e) {
+    $("#pinto_list").pinto();
+});
+
+//手机下菜单效果
+$(function() {
+	$('.home17_nav button.navbar-toggle').click(function(){
+		$('body').toggleClass('out');
+		$('nav.navbar-fixed-top').toggleClass('out');
+		if ($('body').hasClass('out')) {
+			$(this).focus();
+		}
+		else{
+			$(this).blur();
+		}
+	});
+});
+$(document).click(function(e) {
+	if (!$(e.target).closest('.navbar-collapse, button.navbar-toggle').length && $('body').hasClass('out')) {
+		e.preventDefault();
+		$('.home17_nav button.navbar-toggle').trigger('click');
+	}
+}).keyup(function(e) {
+	if (e.keyCode == 27 && $('body').hasClass('out')) {
+		$('.home17_nav button.navbar-toggle').trigger('click');
+	} 
+});
+
+$(window).scroll(function(){
+	if($(window).scrollTop()>0){
+		$(".home17_nav").addClass("active")
+	}
+	else{
+		$(".home17_nav").removeClass("active");
+	}
+});
+function ShowMobileMenu(){
+	$(".home17_mobilemenu_bg").fadeIn();;
+	$(".home17_mobilemenu").addClass("active");
+	$(".home17_mobilemenu_bg").click(function(){
+		$(".home17_mobilemenu_bg").fadeOut();
+		$(".home17_mobilemenu").removeClass("active");
+	});
+}
+function HideMobileMenu(){
+	$(".home17_mobilemenu_bg").fadeOut();
+	$(".home17_mobilemenu").removeClass("active");
+}
+function ShowSearch(){
+	$(".home17_search").fadeIn();
+	$(".morphsearch").addClass("open");
+	$(".home17_search_b").click(function(){
+		$(".home17_search").fadeOut();
+	});
+}
+function HideSearch(){
+	$(".morphsearch").removeClass("open");
+	$(".home17_search").fadeOut();
+}
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()',3000);
+//在线客服
+$(".home17_kefu li").mouseover(function(){
+	$(this).siblings("li").removeClass("active");
+	$(this).addClass("active");
+}).mouseout(function(){
+	$(this).removeClass("active");
+});
+$(".home17_kefu_ct i").click(function(){
+	$(this).parent().parent().parent().removeClass("active");
+});
+$(".home17_kefu li:nth-child(4) a").click(function(){
+	$body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
+	$body.animate({scrollTop:0},1000);
+});
+</script>

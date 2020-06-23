@@ -1,0 +1,275 @@
+﻿{ZL.Source id="栏目信息数据源"/}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{SField sid="栏目信息数据源" FD="NodeName" page="0"/}-{$SiteName/}</title>
+<meta name="Keywords" content="{SField sid="节点栏目信息数据源" FD="Meta_Keywords" page="0"/}">
+<meta name="Description" content="{SField sid="节点栏目信息数据源" FD="Meta_Description" page="0"/}">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css" rel="stylesheet" />
+<style>
+.helpCent_foot { margin-top:0;}
+@media screen and (max-width:768px){
+.navbar-toggle { margin-top:15px; margin-bottom:15px; background:none; border:none;}/*手机菜单极简风格*/
+.navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background:none; border:none;}
+.navbar-toggle .icon-bar { background:#FFF;}
+body { position:absolute; left:0; right:0; overflow-x:hidden; backface-visibility:hidden; transition:all .3s ease-in-out; transition-delay:0s;}
+body.out { left:-200px; right:200px; overflow:hidden;}
+body.off-canvas-nav-left.out { left:200px; right:-200px;}
+.container-fluid>.navbar-collapse,.container>.navbar-collapse { margin-left:0; margin-right:0;}
+nav.navbar-fixed-top { transition:all .3s ease-in-out; transition-delay:0s;}
+nav.navbar-fixed-top.out { transform:translate3d(-200px,0,0);}
+body.off-canvas-nav-left nav.navbar-fixed-top.out { transform:translate3d(200px,0,0); transition-delay:.3s;}
+nav .navbar-nav { margin:0 -15px 7.5px -15px;}
+nav .navbar-toggle { transition:all .5s ease-in-out;}
+body.off-canvas-nav-left nav .navbar-toggle { float:left; margin-left:15px; margin-right:0;}
+nav .navbar-toggle .icon-bar { transition:all .5s ease-in-out;}
+body.out nav .navbar-toggle .icon-bar:nth-of-type(2) { transform:translate3d(0,6px,0) rotate(45deg);}
+body.out nav .navbar-toggle .icon-bar:nth-of-type(3) { opacity:0;}
+body.out nav .navbar-toggle .icon-bar:nth-of-type(4) { transform:translate3d(0,-6px,0) rotate(-45deg);}
+nav .navbar-collapse { display:block!important; position:fixed; top:0; right:-200px; bottom:0; z-index:100000; width:200px; height:100vh!important; margin:0; background-color:inherit; border:none; box-shadow:none; border-left:1px solid #e7e7e7; transition:all .3s ease-in-out;}
+body.out nav .navbar-collapse { box-shadow:-10px 0 50px 0 rgba(0,0,0,.75); transform:translate3d(-200px,0,0);}
+nav.navbar-fixed-top .navbar-collapse { right:-200px!important; max-height:none;}
+body.out nav.navbar-fixed-top .navbar-collapse { box-shadow:-10px 0 50px 0 rgba(0,0,0,.75);}
+body.off-canvas-nav-left nav .navbar-collapse { left:-200px; right:auto; border:none; border-right:1px solid #e7e7e7;}
+body.off-canvas-nav-left.out nav .navbar-collapse { box-shadow:10px 0 50px 0 rgba(0,0,0,.75); transform:translate3d(200px,0,0);}
+body.off-canvas-nav-left.out nav.navbar-fixed-top .navbar-collapse { box-shadow:10px 0 50px 0 rgba(0,0,0,.75); transform:none;}
+.navbar-fixed-top, .navbar-fixed-bottom { position:fixed;}
+.biz_banner { height:40vh;}
+.biz_search { width:90%;}
+.biz_search h3,.biz_search h2 { display:none;}
+.biz_search input { margin-top:0.5em; height:3.5em;}
+.biz_search p { display:none; font-size:0.8em; line-height:1.5em;}
+.biz_first { padding-top:3em; padding-bottom:3em;}
+.biz_banner form>a { font-size:1em;}
+.MYbottom { min-height:0;}
+.BottomLink { display:none;}
+.biz_second .biz_second_list .biz_second_list1 i { font-size:4em;}
+.biz_second .biz_second_list .biz_second_list1 h3 a { font-size:0.7em;}
+.biz_second .biz_second_list { height:90vh;}
+.biz_nav .navbar-right { margin-top:0;}
+.biz_nav .navbar-nav li { padding-left:15px; padding-right:15px;}
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default biz_nav" role="navigation">
+<div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/"><img src="{$CssDir/}images/logo.svg" alt="{$SiteName/}" /></a>
+<h1><a href="/biz/">认证中心</a></h1>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="/">首页</a></li>
+<li><a href="/product/" target="_blank">纵览</a></li>
+<li><a href="/shop/" target="_blank">产品</a></li>
+<li><a href="/case/" target="_blank">案例</a></li>
+<li><a href="/Project/" target="_blank">方案</a></li>
+<li><a href="http://v.z01.com/mb/" target="_blank">模板</a></li>
+<li><a href="/demo/" target="_blank">体验</a></li>
+<li><a href="http://bbs.z01.com" target="_blank">技术</a></li>
+<li><a href="http://v.z01.com/h5/" target="_blank">H5</a></li>
+<li><a href="http://v.z01.com/jz/" target="_blank">微建站</a></li>
+<li><a href="/pub/" target="_blank">下载逐浪CMS</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<div class="biz_banner">
+<div class="biz_a"></div>
+<div class="biz_search">
+<h3>诚信构筑繁荣  正直创造辉煌 </h3>
+<h2>逐浪&reg;软件与字库授权认证中心</h2>
+<form role="search" method="get" action="/Class_58/NodePage.aspx" class="form_c" onSubmit="return Vail()">
+<a href="javascript:;" class="yuming active"><i class="fa fa-internet-explorer"></i> 采用域名检索</a>
+<a href="javascript:;" class="bianma"><i class="fa fa-barcode"></i> 采用授权编码查询</a>
+<input type="text" class="form-control input_c"  placeholder="请输入域名 如：z01.com" name="ym"/>
+<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+</form>
+<div class="biz_search_about">
+<p>
+检索提示：<br/>
+1、域名不需要带[www.]，如[www.z01.com]，只要键入[z01.com]检索即可(除非集团大企业客户购买绑定授权即为二级域名）；<br/>
+2、请输入授权版本IP和域名，点击[验证检索]或回车键即可查询；<br/>
+3、一套软件对应一个授权，只有唯一IP或域名与之对应，不限制前台绑定数(如z01.com即指www.z01.com不代表无限子域名同时授权）；<br/>
+4、由于数据更新延迟，如您购买的商业版本未能在此查询，请联系官方客服为您更新；<br/>
+5、出于商业保密需要，官方不保证全部更新披露授权情况并保留最终解释权。
+</p>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="biz_first">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="biz_first_list">
+<i class="fa fa-flag"></i>
+<h4>12年专业软件研发经验</h4>
+<p>以技术为口碑稳居国内CMS网站WEB内核与H5移动技术业前茅，服务于大型门户与企业级应用，做中国互联网的鲁班。</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="biz_first_list">
+<i class="fa fa-thumbs-o-up"></i>
+<h4>世界五百强服务经验</h4>
+<p>动力版、云模板、OA协同、能力办公、MIS接入、APP生成、公众号接入、SSL一体，技术壁垒结合高效更新，可靠可信。</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="biz_first_list">
+<i class="fa fa-users"></i>
+<h4>海内外驰名高校PhD团队</h4>
+<p>秉承探索创新精神，汇集大数据、云计算、企业软件、人工智能等领域学术菁英，做务实严谨的科技派。</p>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+<div class="biz_first_list">
+<i class="fa fa-laptop"></i>
+<h4>用智慧引领未来</h4>
+<p>突破想象边界，我们只专注于软件与文字呈现技术，贡献毕生智慧，为客户创造无限可能，开启人类智能技术新时代。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="biz_second">
+<div class="biz_second_list">
+<div class="container">
+<div class="row">
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+<div class="biz_u1">
+<a href="/pub" target="_blank"><i class="fa fa-cloud-download"></i></a>
+<h3><a href="/pub" target="_blank">下载逐浪</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+<div class="biz_u1">
+<a href="http://v.z01.com/jz/" target="_blank"><i class="fa fa-television"></i></a>
+<h3><a href="http://v.z01.com/jz/" target="_blank">免费建站</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+<div class="biz_u1">
+<a href="http://v.z01.com/h5/" target="_blank"><i class="fa fa-tablet"></i></a>
+<h3><a href="http://v.z01.com/h5/" target="_blank">H5场景开发</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+<div class="biz_u1">
+<a href="http://v.z01.com/mb/" target="_blank"><i class="fa fa-bookmark"></i></a>
+<h3><a href="http://v.z01.com/mb/" target="_blank">模板中心</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+<div class="biz_u1">
+<a href="/shop" target="_blank"><i class="fa fa-shopping-cart"></i></a>
+<h3><a href="/shop" target="_blank">购买授权</a></h3>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+<div class="biz_u1">
+<a href="http://www.ziti163.com/" target="_blank" style="background:#a00;"><i class="fa fa-font"></i></a>
+<h3><a href="http://www.ziti163.com/" target="_blank">逐浪字库</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="helpCent_foot">
+{ZL.Label id="响应式网站底部"/}
+</div>
+</body>
+</html>
+<script>
+//手机下右侧导航菜单效果
+$(function () {
+    $('button.navbar-toggle').click(function () {
+        $('body').toggleClass('out');
+        $('nav.navbar-fixed-top').toggleClass('out');
+        if ($('body').hasClass('out')) {
+            $(this).focus();
+        }
+        else {
+            $(this).blur();
+        }
+    });
+});
+$(document).click(function (e) {
+    if (!$(e.target).closest('.navbar-collapse, button.navbar-toggle').length && $('body').hasClass('out')) {
+        e.preventDefault();
+        $('button.navbar-toggle').trigger('click');
+    }
+}).keyup(function (e) {
+    if (e.keyCode == 27 && $('body').hasClass('out')) {
+        $('button.navbar-toggle').trigger('click');
+    }
+});
+$(window).scroll(function(){
+	if($(window).scrollTop()>0){
+		$(".biz_nav").css("background","rgba(144,21,82,0.8)");
+	}
+	else{
+		$(".biz_nav").css("background","none");
+	}
+});
+$(".yuming").click(function(){
+	$(".input_c").attr("placeholder","请输入域名 如：z01.com");
+	$(".input_c").attr("name","ym");
+	$(".input_c").attr("maxlength","100");
+	$(this).addClass("active").siblings("a").removeClass("active");
+});
+$(".bianma").click(function(){
+	$(".input_c").attr("placeholder","请输入授权编码(8位英文或字母组合不分大小写)");
+	$(".input_c").attr("name","bm");
+	$(".input_c").attr("maxlength","8");
+	$(this).addClass("active").siblings("a").removeClass("active");
+});
+function Vail(){
+	if($(".input_c").attr("name") == "bm"){
+		var bm = $(".input_c").val().toLowerCase();
+		var filter  = /^[a-zA-Z0-9]{8}$/;
+		if(!filter.test(bm)){
+			$(".input_c").popover({
+				animation: true,
+				placement: 'bottom',
+				content: '<span style="color:red;"><span class="fa fa-info-circle"></span> 请输入8位由英文与数字组合的编码!</span>',
+				html:true,
+				trigger:'manual',
+				delay: { show:10000, hide:1000 }
+			});
+			$(".input_c").popover('show');
+			$(".popover").click(function () {
+				$(".input_c").popover('destroy');
+				event.preventDefault();
+			});
+			setTimeout(function () { $(".input_c").popover('destroy'); }, 2000);
+			return false;
+		}
+	}else{ return true;}
+}
+function scroll_news()//滚动updata
+{
+	$(function () {
+		$('#dvmq li').eq(0).fadeOut('slow', function () {
+			$(this).clone().appendTo($(this).parent()).fadeIn('slow');
+			$(this).remove();
+		});
+	});
+}
+setInterval('scroll_news()',3000);
+</script>

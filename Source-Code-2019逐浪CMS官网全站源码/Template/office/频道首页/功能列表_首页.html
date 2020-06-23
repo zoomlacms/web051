@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>选择您感兴趣的子产品_逐浪CMS官网</title>
+<meta charset="utf-8">
+<meta name="Keywords" content="功能,列表,清单">
+<meta name="Description" content="Zoomla!逐浪CMS系统功能清单">
+{ZL:Boot()/}
+<link href="{$CssDir/}2014.css" rel="stylesheet" />
+<link href="/template/office/style/style.css" rel="stylesheet" type="text/css" />
+<script src="{$CssDir/}/js/slide_box.js"></script>
+<script type="text/javascript" src="{$CssDir/}/js/prototype.js"></script>
+<script type="text/javascript" src="/js/pub.js"></script>
+<script type="text/javascript" src="/js/scrolltopcontrol.js"></script>
+</head>
+<body>
+{ZL.Label id="响应式网站头部"/}
+
+
+<div class="FuncList_banner text-center">
+<h1>深耕本土-做中国最优秀的网站与WEB应用系统</h1>
+<a href="/pub/" class="btn btn-success btn-lg" target="_blank"><span class="glyphicon glyphicon-plus-sign"></span>免费下载</a>
+<a href="/mtv/" class="btn btn-success btn-lg" target="_blank"><span class="glyphicon glyphicon-question-sign"></span>使用教程</a>
+</div>
+<!--pro2015_banner end-->
+
+<div class="citytit"><div class="container"><strong>选择您感兴趣的子产品：</strong></div></div>
+<div id="axin_r" class="container">
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul>
+<li><strong>网站构建类</strong></li>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间顺序" ShowNum="10" TitleNum="30" NodeID="102" /}
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul>
+<li><strong>电子商务类</strong></li>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间顺序" ShowNum="10" TitleNum="30" NodeID="103" /}
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul>
+<li><strong>智能管理类</strong></li>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间顺序" ShowNum="10" TitleNum="30" NodeID="104" /}
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul>
+<li><strong>三维全景及虚拟仿生应用</strong></li>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间顺序" ShowNum="10" TitleNum="30" NodeID="105" /}
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul>
+<li><strong>移动开发</strong></li>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间顺序" ShowNum="10" TitleNum="30" NodeID="106" /}
+</ul>
+</div>
+<div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+<ul>
+<li><strong>高端云计算</strong></li>
+{ZL.Label id="查询指定节点ID下信息列表_不带时间顺序" ShowNum="10" TitleNum="30" NodeID="107" /}
+</ul>
+</div>
+<div class="axin_more"><a href="/updata/" target="_blank">[更新记录]</a>  <a href="/pub/listpage.shtml" target="_blank">更多产品介绍点此进入>></a></div>
+</div> 
+{ZL.Label id="响应式网站底部"/}
+</body>
+</html>
+<script>
+$().ready(function(e) {
+	if(document.body.offsetWidth<=980)
+	{
+		$(".top").remove();
+		$("#scolls").parent().remove();
+		$(".menu").remove();
+		$(".citytit").remove();
+		$(".foot").remove();
+		$(".MYbottom").remove();
+	}		
+});
+</script>

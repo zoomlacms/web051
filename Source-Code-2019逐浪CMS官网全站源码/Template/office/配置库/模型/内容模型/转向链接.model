@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>6</ModelID>
+    <ModelName>转向链接</ModelName>
+    <Description>跳转到第三方站点</Description>
+    <TableName>ZL_C_RedirectLink</TableName>
+    <ItemName>转向链接</ItemName>
+    <ItemUnit>个</ItemUnit>
+    <ItemIcon>glyphicon glyphicon-new-window</ItemIcon>
+    <ModelType>1</ModelType>
+    <ContentModule>/内容页模板/默认转向链接模板.html</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>true</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>

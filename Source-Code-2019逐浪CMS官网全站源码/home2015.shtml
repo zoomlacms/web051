@@ -1,0 +1,189 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<!--
+--------------------------------------------------------------------------------------------------------------------
+     ___          _____         _____          ____      _____             ______  
+    /  /\        /  /::\       /  /::\        /  /\:\    | : |            /  /: :\ 
+   /  /::|      /  /:/\:\     /  /:/\:\      /  /\ \:\   | : |           /  /:/ : \
+  /  /:/:|     /  /:/  \:\   /  /:/  \:\    /  /_ \ \ \  | : | ___      /  /:/| : |
+ /  /:/|:|__  /__/:/    \:| /__/:/    \:|  /__/\ \:\ \ \ | : |:  /\    /  /:/_| : |
+/__/:/ |:| /\ \  \:\    /:/ \  \:\    /:/  \  \:\ \:\ \/ | : |  /  /  /  / /..| : |
+\__\/  |:|/:/  \  \:\  /:/   \  \:\  /:/    \  \:\ \:\   | : | /  /  /  / /___| : |
+    |  |:/:/    \  \:\/:/     \  \:\/:/      \  \:\ \/   | : |/  /  /  / /    | : |
+    |  |::/      \  \::/       \  \::/        \  \:\     | : |  /  /  / /     | : |
+    |__|:/        \__\/         \__\/          \__\/     |_:_|_/  /__/_/      |_ /  2015.Shanghai.Zoomla!CMS.Corp    
+ -----------------------------------------------------------------------------------©--------------------------------
+ -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/style/images/win8_symbol_140x140.png" />
+<link rel="apple-touch-icon" href="/Template/office/style/images/IOS-Iphone-ICO.png" sizes="114x114"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Zoomla!逐浪CMS-中国最大的高端CMS+移动互联网+智慧云软件研发厂商、上海-南昌两大研发中心、门户站群|商城系统|同步支持MSSQL与Oracle优质CMS解决方案服务商</title>
+<meta name="Keywords" content="站群,移动app,web应用,cms,ecms,cmis,wcms,逐浪,zoomla,表单王,cms,投票,问券,调查,内容管理,程序,oa,商城,内容内核,网店,dotNET开发,全景展示,云技术,云模板">
+<meta name="Description" content="Zoomla!逐浪CMS是国内最大的高端CMS网站内核与管理系统研发厂商,集成内容管理、商城、OA、SNS、项目管理、采集、邮件订阅百项功能,基于.net平台并支持跨平台与移动开发,同时支持MSSQL与Oracle两大数据库,用于快速构建门户网站,提供门户站群与云计算支持">
+<link rel="prefetch" href="Template/office/style/images/2015home1.jpg" />  
+<link rel="prefetch" href="Template/office/style/images/2015home2.jpg" />  
+<link rel="prefetch" href="down/2015niba.mp4" />  
+<link rel="prefetch" href="index.shtml" />  
+<link rel="prefetch" href="login8.html" />  
+<link href="dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js"></script>
+<link href="/dist/css/font-awesome.min.css" rel="stylesheet"/>
+<style>
+body{background:#000;}
+.login{ text-align:center;}
+.login img{margin:auto;}
+.down{ height:15vh;}
+div.videobox video.video{width: 100%;    height: 100%;}
+ :-webkit-full-screen {}
+ :-moz-full-screen {}
+ :-ms-fullscreen {}
+ :-o-fullscreen {}
+ :full-screen {  }
+ :fullscreen {  }
+ :-webkit-full-screen video { width: 100%;  height: 100%;}
+:-moz-full-screen video{    width: 100%;    height: 100%;}
+@media screen and (max-width:600px){ /*小于600px私有*/
+.home2015bg{height:100vh;background:url(/Template/office/style/images/2015home.jpg) center bottom no-repeat;background-size:contain;} 
+.down a{margin-top:0.5em;}
+}
+</style>
+<script src="/ad/201511/17.js"></script>
+</head>
+<body>
+<div class="container-fulid  text-center login">
+<div class="row">
+<div class="col-lg-6 col-md-10 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-1 home2015bg">
+<div class="text-center  navbar-fixed-bottom down">
+<a class="btn btn-default" href="javascript:;" id="fullScreenBtn"><i class="fa fa-play-circle fa-lg"></i> 《泥巴》-发哥10周年感言MV</a>
+<a class="btn btn-default" href="/login8.html" target="_blank"><i class="fa fa-cloud-download fa-lg"></i> 下载Zoomla!逐浪CMS2 x3.0</a>
+<a class="" href="index.shtml"><i class="glyphicon glyphicon-home"></i> 进入主站+</a>
+</div>
+
+</div>
+</div>
+</div>
+
+ 
+<div id="videobox" style="display:none;">      
+    <video controls preload="preload" id="video" poster="" >
+      <source src="/down/2015niba.mp4" type="video/mp4" />
+      <object data="/down/2015niba.mp4" width="100%" height="100%">
+      </object>
+ 
+    </video>
+ </div>
+
+<script type="text/javascript">
+    var fullInterval = null;
+//反射調用
+var invokeFieldOrMethod = function(element, method) 
+{
+   var usablePrefixMethod;
+   ["webkit", "moz", "ms", "o", ""].forEach(function(prefix) {
+       if (usablePrefixMethod) return;
+       if (prefix === "") {
+           // 无前缀，方法首字母小写
+           method = method.slice(0,1).toLowerCase() + method.slice(1);   
+       }
+       var typePrefixMethod = typeof element[prefix + method];
+       if (typePrefixMethod + "" !== "undefined") {
+           if (typePrefixMethod === "function") {
+               usablePrefixMethod = element[prefix + method]();
+           } else {
+               usablePrefixMethod = element[prefix + method];
+           }
+       }
+   });
+    
+       return usablePrefixMethod;
+};
+//進入全屏
+function launchFullscreen(element) {
+    //此方法不可以在異步任務中執行，否則火狐無法全屏
+    if (element.requestFullscreen) {
+        element.requestFullscreen();
+    } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+    } else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+    } else if (element.oRequestFullscreen) {
+        element.oRequestFullscreen();
+    }
+    else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullScreen();
+    } else {
+        var docHtml = document.documentElement;
+        var docBody = document.body;
+        var videobox = document.getElementById('videobox');
+        var cssText = 'width:100%;height:100%;overflow:hidden;';
+        docHtml.style.cssText = cssText;
+        docBody.style.cssText = cssText;
+        videobox.style.cssText = cssText + ';' + 'margin:0px;padding:0px;';
+        document.IsFullScreen = true;
+    }
+}
+//退出全屏
+ function exitFullscreen() {
+     document.getElementById("videobox").style.display = "none";
+     document.getElementById("video").pause();
+     if (document.exitFullscreen) {
+         document.exitFullscreen();
+     } else if (document.msExitFullscreen) {
+         document.msExitFullscreen();
+     } else if (document.mozCancelFullScreen) {
+         document.mozCancelFullScreen();
+     } else if (document.oRequestFullscreen) {
+         document.oCancelFullScreen();
+     } else if (document.webkitExitFullscreen) {
+         document.webkitExitFullscreen();
+     } else {
+         var docHtml = document.documentElement;
+         var docBody = document.body;
+         var videobox = document.getElementById('videobox');
+         docHtml.style.cssText = "";
+         docBody.style.cssText = "";
+         videobox.style.cssText = "";
+         document.IsFullScreen = false;
+     }
+ }
+ document.addEventListener("FullscreenChange", function () {
+     if(document.fullscreen==false){exitFullscreen();}
+ }, false);
+
+ document.addEventListener("mozfullscreenchange", function () {
+     if(document.mozFullScreen==false){exitFullscreen();}
+ }, false);
+//chrome等
+ document.addEventListener("webkitfullscreenchange", function () {
+     if (document.webkitIsFullScreen == false) { exitFullscreen(); }
+ }, false);
+//IE等
+ document.addEventListener("MSFullscreenChange", function () {
+     if (document.msFullscreenElement != null) {
+     } else {
+         exitFullscreen();
+     }
+ }, false);
+
+
+var videoObj = document.getElementById("video");
+document.getElementById('fullScreenBtn').addEventListener('click',function(){
+    launchFullscreen(document.getElementById("video"));
+    document.getElementById("videobox").style.display = "";
+    videoObj.play();
+   
+},false);
+ 
+</script>
+
+
+
+
+</body>
+</html>

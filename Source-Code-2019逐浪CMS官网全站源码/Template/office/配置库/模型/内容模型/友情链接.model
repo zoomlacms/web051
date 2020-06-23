@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <ModelID>4</ModelID>
+    <ModelName>友情链接</ModelName>
+    <Description />
+    <TableName>ZL_C_Friendsite</TableName>
+    <ItemName>站点</ItemName>
+    <ItemUnit>个</ItemUnit>
+    <ItemIcon>glyphicon glyphicon-paperclip</ItemIcon>
+    <ModelType>1</ModelType>
+    <ContentModule>/内容页模板/默认友情链接内容页.htm</ContentModule>
+    <MultiFlag>true</MultiFlag>
+    <IsNull>true</IsNull>
+    <NodeID>0</NodeID>
+    <SysModel>0</SysModel>
+    <FromModel>0</FromModel>
+    <Thumbnail>0</Thumbnail>
+    <Islotsize>false</Islotsize>
+  </Table>
+</NewDataSet>
