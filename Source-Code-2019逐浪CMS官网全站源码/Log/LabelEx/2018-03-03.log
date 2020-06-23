@@ -1,0 +1,10 @@
+﻿操作人：(用户名:,管理员名:,IP:)
+时间：(2018/3/3 1:10:12),操作：(labelex),来源：()
+详情：(来源：B_CreateHtml,方法名：ContentLabelProc1,标签：{ZL.Label id="博客列表分页_根据时间GET值输出" NodeID="30" ShowNum="10" TitleNum="80" length="440" data=""  /},报错：SelByLabel:CreateTime DESC,报错:Message:从字符串转换日期和/或时间时，转换失败。,SQL:SELECT COUNT(*) FROM ZL_CommonModel ZL_CommonModel LEFT JOIN ZL_C_Article ZL_C_Article ON  ZL_CommonModel.ItemID=ZL_C_Article.ID WHERE  (FirstNodeID=30 or NodeID=30) and Status=99 and (CONVERT(varchar(100),CreateTime,23)=CONVERT(varchar(100),CONVERT(datetime,'0'),23)),SP:,备注：)
+/*-----------------------------------------------------------------------------------*/ 
+ 
+操作人：(用户名:,管理员名:,IP:)
+时间：(2018/3/3 1:10:51),操作：(labelex),来源：()
+详情：(来源：B_CreateHtml,方法名：ContentLabelProc1,标签：{ZL.Label id="博客列表分页_根据时间GET值输出" NodeID="30" ShowNum="10" TitleNum="80" length="440" data=""  /},报错：SelByLabel:CreateTime DESC,报错:Message:从字符串转换日期和/或时间时，转换失败。,SQL:SELECT COUNT(*) FROM ZL_CommonModel ZL_CommonModel LEFT JOIN ZL_C_Article ZL_C_Article ON  ZL_CommonModel.ItemID=ZL_C_Article.ID WHERE  (FirstNodeID=30 or NodeID=30) and Status=99 and (CONVERT(varchar(100),CreateTime,23)=CONVERT(varchar(100),CONVERT(datetime,'0'),23)),SP:,备注：)
+/*-----------------------------------------------------------------------------------*/ 
+ 
